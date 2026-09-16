@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "conflict-split.props.schema.json",
+  "title": "ConflictSplit Props",
+  "type": "object",
+  "required": ["headline", "topic", "left", "right"],
+  "properties": {
+    "headline": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80
+    },
+    "topic": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 40
+    },
+    "left": {"$ref": "#/$defs/side"},
+    "right": {"$ref": "#/$defs/side"},
+    "center_label": {
+      "type": ["string", "null"],
+      "maxLength": 24
+    },
+    "takeaway": {
+      "type": ["string", "null"],
+      "maxLength": 100
+    },
+    "variant": {
+      "enum": ["balanced", "metric-led", "quote-led"]
+    }
+  },
+  "$defs": {
+    "metric": {
+      "type": "object",
+      "required": ["value", "kind", "label"],
+      "properties": {
+        "value": {"type": "number"},
+        "kind": {
+          "enum": ["count", "share", "score", "measurement"]
+        },
+        "label": {"type": "string", "maxLength": 24},
+        "unit": {"type": ["string", "null"], "maxLength": 12},
+        "basis": {"type": ["string", "null"], "maxLength": 60}
+      },
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["text", "source_id", "source_tier"],
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 160
+        },
+        "source_id": {"type": "string", "minLength": 1},
+        "source_tier": {
+          "enum": ["official", "expert", "user"]
+        },
+        "source_label": {
+          "type": ["string", "null"],
+          "maxLength": 36
+        }
+      },
+      "additionalProperties": false
+    },
+    "side": {
+      "type": "object",
+      "required": ["label", "summary", "evidence"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 24
+        },
+        "summary": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 80
+        },
+        "metric": {
+          "oneOf": [
+            {"$ref": "#/$defs/metric"},
+            {"type": "null"}
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 3,
+          "items": {"$ref": "#/$defs/evidence"}
+        },
+        "condition_tags": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "maxLength": 20
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
