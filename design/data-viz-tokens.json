@@ -1,0 +1,26 @@
+{
+  "chart": {
+    "maxBars": 7,
+    "maxLineSeries": 3,
+    "maxDonutSegments": 4,
+    "maxCompareColumns": 4,
+    "primaryEmphasisCount": 1
+  },
+  "axis": {
+    "barStartsAtZero": true,
+    "gridlineOpacity": 0.16,
+    "axisOpacity": 0.42
+  },
+  "labels": {
+    "preferDirectLabels": true,
+    "valueWeight": 600,
+    "labelWeight": 500
+  },
+  "animationOrder": [
+    "axis",
+    "marks",
+    "values",
+    "highlight",
+    "conclusion"
+  ]
+}
