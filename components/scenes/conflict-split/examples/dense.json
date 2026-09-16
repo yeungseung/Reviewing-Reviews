@@ -1,0 +1,71 @@
+{
+  "headline": "耐久性の評価は二つに割れました",
+  "topic": "長期耐久性",
+  "left": {
+    "label": "問題なし",
+    "summary": "1年以上使っても大きな不具合なし",
+    "metric": {
+      "value": 62,
+      "kind": "count",
+      "label": "independent claims",
+      "unit": null,
+      "basis": "12+ month user-review subset"
+    },
+    "evidence": [
+      {
+        "text": "14か月使っていますが今のところ故障はありません",
+        "source_id": "S_USER_201",
+        "source_tier": "user",
+        "source_label": "14か月使用"
+      },
+      {
+        "text": "フィルター交換以外は特にトラブルなしです",
+        "source_id": "S_USER_207",
+        "source_tier": "user",
+        "source_label": "18か月使用"
+      },
+      {
+        "text": "連続運転テストでは異常停止は確認されませんでした",
+        "source_id": "S_EXPERT_021",
+        "source_tier": "expert",
+        "source_label": "耐久テスト"
+      }
+    ],
+    "condition_tags": ["12m_plus"]
+  },
+  "right": {
+    "label": "不具合あり",
+    "summary": "モーターとセンサー周辺の報告が繰り返される",
+    "metric": {
+      "value": 19,
+      "kind": "count",
+      "label": "independent claims",
+      "unit": null,
+      "basis": "12+ month user-review subset"
+    },
+    "evidence": [
+      {
+        "text": "11か月ごろからモーター音が急に大きくなりました",
+        "source_id": "S_USER_240",
+        "source_tier": "user",
+        "source_label": "11か月使用"
+      },
+      {
+        "text": "センサー表示が不安定になり再起動が必要でした",
+        "source_id": "S_USER_246",
+        "source_tier": "user",
+        "source_label": "16か月使用"
+      },
+      {
+        "text": "同じ症状の報告がサポート掲示板でも複数確認できます",
+        "source_id": "S_EXPERT_030",
+        "source_tier": "expert",
+        "source_label": "フォーラム調査"
+      }
+    ],
+    "condition_tags": ["12m_plus"]
+  },
+  "center_label": "長期評価が分裂",
+  "takeaway": "件数だけではなく故障条件を分けて確認する必要があります",
+  "variant": "metric-led"
+}
