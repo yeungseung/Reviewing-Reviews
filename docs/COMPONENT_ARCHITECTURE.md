@@ -234,6 +234,7 @@ Vendor code를 REVIEW² core와 직접 섞지 않는다.
 
 ```text
 identity
+lifecycle
 selection
 input
 slots
@@ -257,6 +258,31 @@ provenance
 - description
 - category
 - tags
+
+### Lifecycle
+
+Registry item은 구현 가능 여부를 명시한다.
+
+```text
+draft
+→ 아이디어 / contract 미완성
+
+specified
+→ SPEC / schema / fixture 완료, 구현 전
+
+implemented
+→ 코드 구현 완료, validation 전
+
+validated
+→ schema / fixture / visual / deterministic test 통과
+
+deprecated
+→ 신규 사용 금지, migration 대상
+```
+
+Resolver는 기본적으로 `validated`만 production render 후보로 사용한다.
+
+개발/preview 모드에서는 `implemented`를 opt-in으로 사용할 수 있다.
 
 ### Selection
 
@@ -413,6 +439,17 @@ components/scenes/conflict-split/
 
 AI가 component 이름을 직접 생성하지 않는다.
 
+### Phase 0 — Lifecycle gate
+
+Production mode:
+- validated only
+
+Development mode:
+- validated
+- implemented (explicit opt-in)
+
+draft / specified는 선택 후보가 아니라 설계·개발 대상이다.
+
 ### Phase 1 — Hard filter
 
 다음이 맞지 않으면 후보에서 제거한다.
@@ -542,18 +579,6 @@ duration / easing / stagger.
 
 해당 component의 고정 choreography.
 
-예:
-
-```text
-ConflictSplit
-reviews enter
-→ separate
-→ sides settle
-→ condition appears
-→ resolution highlight
-→ hold
-```
-
 ### Category modifier
 
 TECH / KITCHEN / CLEANING 등의 personality.
@@ -566,26 +591,13 @@ Category modifier는 core timing을 크게 깨지 않는다.
 
 Component는 named slot과 requirement만 선언한다.
 
-예:
-
-```json
-{
-  "slot": "left_media",
-  "role": "EVIDENCE",
-  "accepts": ["video", "image"],
-  "required": false
-}
-```
-
 AI:
-
 - candidate 찾기
 - timestamp 후보
 - source 연결
 - quality metadata
 
 Human:
-
 - approve
 - replace
 - trim
@@ -623,7 +635,6 @@ REVIEW² FX Component
 ```
 
 Renderer adapter가 담당:
-
 - local source path
 - HyperFrames registry dependencies
 - data-variable-values
@@ -642,7 +653,6 @@ ScenePlan은 이를 모른다.
 같은 RenderPlan은 같은 결과를 내야 한다.
 
 원칙:
-
 - render 중 network fetch 금지
 - current time 사용 금지
 - unseeded randomness 금지
@@ -658,27 +668,13 @@ ScenePlan은 이를 모른다.
 새 Scene Block은 motion부터 만들지 않는다.
 
 ### Pass 1 — Hero frame
-
 가장 중요한 hold frame을 먼저 구현한다.
 
-검증:
-
-- hierarchy
-- Japanese readability
-- overflow
-- asset crop
-- evidence visibility
-- category mood
-
 ### Pass 2 — Motion
-
 hold frame이 승인된 뒤 choreography를 추가한다.
 
 ### Pass 3 — Seek / timing test
-
 임의 frame에서도 deterministic한지 확인한다.
-
-이 방식은 visual QA와 motion QA를 분리한다.
 
 ---
 
@@ -691,14 +687,6 @@ default
 long-ja
 dense
 missing-optional
-```
-
-Scene Block은 추가로 category fixture를 갖는 것을 권장한다.
-
-```text
-tech
-kitchen
-cleaning
 ```
 
 Preview renderer는 fixture를 이용해 정지 프레임 또는 짧은 loop를 만든다.
@@ -741,15 +729,11 @@ design_system_version
 ```
 
 RenderPlan에는 가능하면:
-
 - component versions
 - design token revision
 - git commit SHA
 
 를 기록한다.
-
-나중에 영상 재렌더 시
-"왜 예전 영상과 모양이 달라졌는가"를 추적할 수 있다.
 
 ---
 
@@ -762,7 +746,6 @@ components/vendor/<source>/<item>/
 ```
 
 manifest에:
-
 - upstream URL
 - upstream commit/tag
 - license
@@ -770,14 +753,11 @@ manifest에:
 
 를 남긴다.
 
-REVIEW² component는 vendor source를 직접 노출하기보다 wrapper를 통해 사용한다.
-
 ---
 
 ## 19. v1 component set
 
 ### Patterns
-
 - MetricCard
 - ReviewCard
 - QuoteCard
@@ -787,7 +767,6 @@ REVIEW² component는 vendor source를 직접 노출하기보다 wrapper를 통�
 - ProductStage
 
 ### Scene Blocks
-
 - ProductHero
 - BigNumberFocus
 - ReviewWall
@@ -834,28 +813,23 @@ Prototype #001 이후 실제로 반복되는 component만 확장한다.
 금지:
 
 ### Raw design instructions in ScenePlan
-
 ```json
 {"x": 120, "fontSize": 74, "color": "#0047FF"}
 ```
 
 ### Giant god component
-
 ```text
 UniversalReviewScene
 with 47 flags
 ```
 
 ### Scene type = fixed visual
-
 review_conflict가 항상 같은 화면일 필요는 없다.
 
 ### Asset auto-selection without human approval
-
 final visual asset은 Human Gate를 통과한다.
 
 ### Renderer lock-in
-
 HyperFrames는 v1 main renderer지만
 semantic layer가 HyperFrames API 자체가 되어서는 안 된다.
 
