@@ -403,3 +403,49 @@ HOOK
 ```
 
 이 자산이 누적되면 같은 제품 재활용, 카테고리 비교, 후속 영상, 세대별 비교가 쉬워진다.
+
+
+---
+
+## 15. Source Acquisition Engine
+
+REVIEW²의 앞단 trust layer는 별도 Source Acquisition Architecture를 사용한다.
+
+상세:
+- `docs/SOURCE_ACQUISITION_ARCHITECTURE.md`
+- `docs/SOURCE_ACQUISITION_RESEARCH.md`
+- `docs/SOURCE_DESK.md`
+
+Canonical evidence path:
+
+```text
+Query Plan
+→ Search Run
+→ Source Candidate
+→ Human Source Gate
+→ Source
+→ Source Relation
+→ Snapshot
+→ Locator
+→ Evidence Packet
+→ Claim
+→ Finding
+```
+
+Source URL에서 Claim으로 바로 점프하지 않는다.
+
+Production Finding은 원칙적으로
+human-verified Evidence Packet을 사용한다.
+
+Long-term asset은 다음을 포함한다.
+
+```text
+Search Ledger
++ Source Graph
++ Snapshot Vault
++ Evidence Packets
++ Claims
++ Findings
++ Scene Component Library
++ Performance Data
+```
