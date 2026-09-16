@@ -21,67 +21,17 @@ mechanic: reveal-conflict
 
 ## 1. ScenePlan
 
-```json
-{
-  "schema_version": "1.0.0",
-  "scene_id": "S14",
-  "type": "review_conflict",
-  "intent": {
-    "mechanic": "reveal-conflict",
-    "importance": "high",
-    "density": "standard"
-  },
-  "duration_hint": 6.5,
-  "narration": "ところが 音についての評価はきれいに二つに分かれました",
-  "data": {
-    "headline": "同じ製品なのに 音の評価が真っ二つでした",
-    "topic": "運転音",
-    "left": {
-      "label": "気にならない",
-      "summary": "リビングでは十分静かという声",
-      "evidence": [
-        {
-          "text": "テレビを見ていてもほとんど気になりません",
-          "source_id": "S_USER_014",
-          "source_tier": "user"
-        }
-      ]
-    },
-    "right": {
-      "label": "気になる",
-      "summary": "寝室では低い音が気になるという声",
-      "evidence": [
-        {
-          "text": "夜は低いモーター音が思ったより耳に残ります",
-          "source_id": "S_USER_031",
-          "source_tier": "user"
-        }
-      ]
-    }
-  },
-  "finding_ids": ["F018"],
-  "claim_ids": ["C114", "C172"],
-  "source_ids": ["S_USER_014", "S_USER_031"],
-  "asset_requirements": [],
-  "presentation_constraints": {
-    "preferred_component": null,
-    "forbidden_components": [],
-    "preferred_theme": "AIR_CARE"
-  },
-  "human_notes": ""
-}
-```
+Result: PASS.
 
-Result:
-PASS.
+No visual coordinates or renderer code leak into ScenePlan.
 
-No visual coordinates or renderer code leaked into ScenePlan.
+The semantic payload is sufficient to route the scene.
 
 ---
 
 ## 2. Resolver
 
-Hard filter:
+Hard-filter result:
 
 ```text
 scene type     review_conflict     PASS
@@ -92,51 +42,19 @@ duration       6.5s                PASS
 assets         no required media   PASS
 ```
 
-Candidate score:
+ConflictSplit is a valid semantic match.
 
-```text
-scene type match        35/35
-mechanic match          25/25
-data shape fit          15/15
-asset compatibility     10/10
-duration fit             5/5
-density fit              5/5
-category affinity        5/5
-────────────────────────────
-TOTAL                  100/100
-```
-
-Resolution:
-
-```json
-{
-  "schema_version": "1.0.0",
-  "scene_id": "S14",
-  "component": "conflict-split",
-  "component_version": "0.1.0",
-  "variant": "balanced",
-  "theme": "AIR_CARE",
-  "motion_profile": "conflict-separate",
-  "score": 100,
-  "reason": [
-    "exact scene type match",
-    "exact mechanic match",
-    "both sides contain traceable evidence",
-    "no required media slots"
-  ],
-  "fallback_chain": ["comparison-bar", "quote-card"],
-  "status": "validated"
-}
-```
-
-Result:
-PASS.
+Important:
+the component lifecycle is currently `specified`,
+so it is a development target, not a production-render candidate.
 
 ---
 
 ## 3. Human Asset Gate
 
-No media is required.
+Media slots are optional.
+
+A valid approval may contain:
 
 ```json
 {
@@ -148,12 +66,9 @@ No media is required.
 }
 ```
 
-Result:
-PASS.
+Result: PASS.
 
-Important finding:
-Human Asset Gate can legitimately approve an empty binding.
-This proves the architecture does not force decorative media into evidence scenes.
+The architecture does not force decorative media into evidence scenes.
 
 ---
 
@@ -161,134 +76,93 @@ This proves the architecture does not force decorative media into evidence scene
 
 Compiler responsibilities:
 
-- validate props against props.schema.json
-- resolve AIR_CARE theme tokens
+- validate props
+- resolve category theme
 - resolve typography / spacing
 - resolve motion profile
-- convert source tier to SourceBadge
-- build HyperFrames variables
-- assign start/duration/track
+- map source tier to source badge
+- assign render variables / timing
 
-The compiler does NOT rewrite story evidence.
+The compiler does not rewrite story evidence.
 
-Result:
-PASS.
+Result: PASS.
 
 ---
 
 ## 5. RenderPlan
 
-Expected shape:
+The semantic contract maps cleanly to a renderer execution plan.
 
-```json
-{
-  "schema_version": "1.0.0",
-  "renderer": "hyperframes",
-  "canvas": {
-    "width": 1920,
-    "height": 1080
-  },
-  "fps": 30,
-  "scenes": [
-    {
-      "scene_id": "S14",
-      "component": "conflict-split",
-      "component_version": "0.1.0",
-      "adapter": "components/scenes/conflict-split/adapters/hyperframes",
-      "start": 41.2,
-      "duration": 6.5,
-      "track": 1,
-      "variables": {},
-      "assets": {},
-      "cues": [0.6, 1.3, 2.0, 2.7, 3.1],
-      "source_ids": ["S_USER_014", "S_USER_031"]
-    }
-  ],
-  "provenance": {
-    "git_commit": "<resolved-at-build>",
-    "design_system_version": "v1",
-    "token_revision": "<resolved-at-build>"
-  }
-}
-```
+Result: PASS.
 
-Result:
+---
+
+# Fixture stress tests
+
+## default.json
+
+Balanced qualitative conflict.
+
+PASS.
+
+## long-ja.json
+
+Tests long Japanese wrapping and mixed expert/user evidence.
+
+Expected fallback behavior:
+- reduce simultaneously visible evidence count
+- prefer quote-led layout
+- split scene before violating minimum text size
+
+PASS at contract level.
+
+## dense.json
+
+Three evidence items per side plus metrics.
+
+Expected behavior:
+- input may retain three items
+- visible frame normally shows at most two per side
+- remaining evidence supports context rather than becoming dashboard clutter
+
+PASS.
+
+## no-media.json
+
+No visual asset supplied.
+
+Expected:
+layout remains complete and intentional.
+
 PASS.
 
 ---
 
-# Stress tests
+# Machine contract validation
 
-## Long Japanese copy
+2026-09-16 validation pass:
 
-Fixture:
-`long-ja.json`
-
-Risk:
-quote card height and line wrapping.
-
-Expected response:
-- reduce visible evidence count before reducing font below minimum
-- switch to quote-led variant
-- if still overflow: split scene
-
-PASS as architecture:
-the component has a defined failure strategy.
-
-## Dense evidence
-
-Fixture:
-`dense.json`
-
-Risk:
-three evidence items on each side create dashboard-like clutter.
-
-Expected response:
-- data may contain 3 items
-- visible scene uses max 2 per side
-- remaining evidence contributes to metric/context but is not simultaneously displayed
-
-PASS.
-
-## No media
-
-Fixture:
-`no-media.json`
-
-Expected:
-layout remains intentional,
-not empty.
-
-PASS.
-
-## Known cause of conflict
-
-Input:
 ```text
-living room users are positive
-bedside users are negative
-cause is already strongly evidenced
+Contract checks   94 PASS
+Errors             0
+Warnings           1
+Fixtures           4
 ```
 
-Resolver result:
-REJECT ConflictSplit via `avoid_when`.
-Prefer `ConditionSplit`.
+Warning:
 
-PASS.
+```text
+specified component has unresolved internal dependencies:
+text
+number
+divider
+media-frame
+review-card
+source-badge
+```
 
-## Weak right-side evidence
-
-Input:
-left = 18 independent claims
-right = 1 ambiguous comment
-
-Resolver result:
-REJECT because evidence does not deserve balanced conflict framing.
-
-Fallback:
-QuoteCard or another asymmetric evidence scene.
-
-PASS.
+This warning is expected because ConflictSplit is currently a specification,
+not an implemented production component.
 
 ---
 
@@ -296,51 +170,58 @@ PASS.
 
 ## Finding 1 — taxonomy works
 
-Primitive → Pattern → Scene Block → FX maps cleanly to the real ConflictSplit need.
+Primitive → Pattern → Scene Block → FX maps cleanly to the real ConflictSplit requirement.
 
 ## Finding 2 — Scene / Mechanic separation is necessary
 
-`review_conflict` alone is not enough.
+`review_conflict` alone is insufficient.
 
-When the cause is known,
-same story domain should resolve to ConditionSplit instead.
+When the cause is already known,
+the resolver should route to `ConditionSplit`.
 
-## Finding 3 — optional Human Asset Gate works
+## Finding 3 — Human Asset Gate can be empty
 
-AssetBindings can be empty and still approved.
+This is useful and intentional.
 
-This is important for evidence-first scenes.
+Evidence scenes do not require visual filler.
 
-## Finding 4 — visual symmetry needs semantic guardrails
+## Finding 4 — visual symmetry needs a semantic guardrail
 
-Equal 6+6 layout can accidentally imply 50:50 evidence.
+Equal 6+6 columns can accidentally look like statistical 50:50.
 
-Therefore the SPEC explicitly states:
-symmetry = two positions exist,
-not equal prevalence or credibility.
+Rule:
+
+```text
+visual symmetry
+= both positions deserve representation
+
+NOT
+= equal frequency
+= equal credibility
+= equal sample size
+```
 
 ## Finding 5 — upstream reuse is viable
 
-HyperFrames already has testimonial and comparison mechanics.
+HyperFrames already provides useful quote/comparison mechanics.
 
-REVIEW² should own:
+REVIEW² owns:
 - evidence semantics
 - source traceability
-- resolver rules
+- selection rules
+- visual meaning
 
-and reuse/adapt:
-- quote rendering
+Existing libraries may provide:
+- quote rendering mechanics
+- entry motion
 - split staging
-- timing mechanics
+- typography effects
 
-## Finding 6 — one schema improvement is needed
+## Finding 6 — lifecycle status was required
 
-Current component manifest has no lifecycle field.
-
-Recommended addition:
+Added:
 
 ```text
-status:
 draft
 specified
 implemented
@@ -348,23 +229,74 @@ validated
 deprecated
 ```
 
-Without this,
-a registry cannot distinguish a spec-only component from production-ready code.
+Production resolver uses `validated` components only.
+
+## Finding 7 — dependency and provenance must remain separate
+
+A runtime/build dependency is not the same as a design reference.
+
+Therefore:
+
+```text
+dependencies
+= code/build items actually required
+
+provenance / adapted_from
+= reference, inspiration, copied/adapted origin
+```
+
+For ConflictSplit,
+HyperFrames comparison/testimonial patterns are currently provenance references,
+not declared runtime dependencies.
+
+## Finding 8 — dependency maturity needs a gate
+
+Recommended rule:
+
+```text
+draft / specified
+→ unresolved internal dependencies allowed
+
+implemented
+→ every required internal dependency must exist and be at least implemented
+
+validated
+→ every required internal dependency must be validated
+
+deprecated
+→ may depend on deprecated items only for legacy reproducibility
+```
+
+Cycles in required internal dependencies are forbidden.
 
 ---
 
 # Verdict
 
-Architecture is implementable without forcing renderer details into semantic data.
+No fundamental redesign was required.
 
-No structural redesign is required after this dry run.
+The architecture successfully separates:
 
-One immediate schema change is recommended:
-**component lifecycle status**.
+```text
+semantic story
+component selection
+human asset judgment
+presentation compile
+renderer execution
+```
 
-Next useful validation target:
-`ConditionSplit`
+The first real component test produced two useful architecture improvements:
 
-Why:
-it tests whether one scene can consume the output of conflict analysis
-and whether semantic routing between two similar components remains clean.
+1. component lifecycle state
+2. dependency-vs-provenance separation + dependency maturity gate
+
+ConflictSplit remains:
+
+```text
+status: specified
+```
+
+until code, static preview, motion, deterministic rendering and visual QA are completed.
+
+Next high-value architecture test:
+`ConditionSplit`.
