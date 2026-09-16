@@ -1,0 +1,47 @@
+{
+  "headline": "同じ製品なのに 音の評価が真っ二つでした",
+  "topic": "運転音",
+  "left": {
+    "label": "気にならない",
+    "summary": "リビングでは十分静かという声",
+    "metric": {
+      "value": 38,
+      "kind": "count",
+      "label": "mentions",
+      "unit": null,
+      "basis": "independent user claims in current evidence set"
+    },
+    "evidence": [
+      {
+        "text": "テレビを見ていてもほとんど気になりません",
+        "source_id": "S_USER_014",
+        "source_tier": "user",
+        "source_label": "購入者レビュー"
+      }
+    ],
+    "condition_tags": ["living_room", "daytime"]
+  },
+  "right": {
+    "label": "気になる",
+    "summary": "寝室では低い音が気になるという声",
+    "metric": {
+      "value": 21,
+      "kind": "count",
+      "label": "mentions",
+      "unit": null,
+      "basis": "independent user claims in current evidence set"
+    },
+    "evidence": [
+      {
+        "text": "夜は低いモーター音が思ったより耳に残ります",
+        "source_id": "S_USER_031",
+        "source_tier": "user",
+        "source_label": "長期使用レビュー"
+      }
+    ],
+    "condition_tags": ["bedroom", "night"]
+  },
+  "center_label": "評価が分かれる",
+  "takeaway": "問題は単純な音量だけではなさそうです",
+  "variant": "balanced"
+}
