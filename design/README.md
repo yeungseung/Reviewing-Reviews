@@ -15,6 +15,7 @@
 
 - [LAYOUT_GRAMMAR.md](LAYOUT_GRAMMAR.md) — scene layout patterns
 - [DATA_VISUALIZATION.md](DATA_VISUALIZATION.md) — chart rules + REVIEW² custom visualizations
+- [ASSET_TREATMENT.md](ASSET_TREATMENT.md) — Human Editorial Layer / asset selection rules
 
 ## Tokens
 
@@ -34,7 +35,19 @@ Brand structure
 + Quiet UI
 + Evidence-first data visualization
 + Controlled motion
++ Human visual judgment
 = REVIEW²
+```
+
+## Automation boundary
+
+AI는 asset을 찾고, 분류하고, 후보를 좁히고, scene 요구사항과 연결할 수 있다.
+
+하지만 최종 clip / crop / framing / rhythm / visual emphasis는 사람이 결정한다.
+
+```text
+AI = assistant
+Human = editor
 ```
 
 ## Status
@@ -50,3 +63,4 @@ v1은 Prototype 제작을 위한 기준안이다.
 - chart label size
 - safe area
 - card radius / padding
+- human asset selection workflow
