@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "search-run.schema.json",
+  "title": "REVIEW2 Search Run",
+  "type": "object",
+  "required": ["search_run_id", "search_plan_id", "query", "provider", "executed_at", "results"],
+  "properties": {
+    "search_run_id": {"type": "string"},
+    "search_plan_id": {"type": "string"},
+    "query_family": {"type": ["string", "null"]},
+    "query": {"type": "string"},
+    "provider": {"type": "string"},
+    "executed_at": {"type": "string", "format": "date-time"},
+    "locale": {"type": ["string", "null"]},
+    "region": {"type": ["string", "null"]},
+    "requested_depth": {"type": ["integer", "null"], "minimum": 1},
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rank", "url"],
+        "properties": {
+          "rank": {"type": "integer", "minimum": 1},
+          "url": {"type": "string"},
+          "title": {"type": ["string", "null"]},
+          "snippet": {"type": ["string", "null"]},
+          "candidate_id": {"type": ["string", "null"]},
+          "decision": {
+            "enum": ["unreviewed", "candidate", "rejected", "duplicate", "wrong_product", "inaccessible"]
+          },
+          "reason": {"type": ["string", "null"]}
+        },
+        "additionalProperties": false
+      }
+    },
+    "gaps": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
