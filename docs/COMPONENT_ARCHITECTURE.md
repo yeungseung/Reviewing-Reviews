@@ -847,3 +847,44 @@ RENDERER decides how pixels are produced.
 ```
 
 이 경계를 깨지 않는 것이 REVIEW² Component Architecture의 핵심이다.
+
+
+---
+
+## 23. Dependency maturity gate
+
+Dependencies mean code/build requirements only.
+
+Do not put inspiration or design references into dependency lists.
+
+```text
+dependencies
+= implementation requirement
+
+provenance / adapted_from
+= design/source lineage
+```
+
+Lifecycle dependency rules:
+
+```text
+draft / specified
+→ unresolved internal dependencies are allowed
+
+implemented
+→ every required internal dependency must exist
+→ every required internal dependency must be implemented or validated
+
+validated
+→ every required internal dependency must also be validated
+
+deprecated
+→ legacy dependency chains may be retained for reproducibility
+```
+
+Required internal dependency cycles are forbidden.
+
+Vendor code becomes a dependency only when the implementation actually imports,
+installs or requires it at build/render time.
+
+A visual reference alone belongs in provenance.
