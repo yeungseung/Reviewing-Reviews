@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source-candidate.schema.json",
+  "title": "REVIEW2 Source Candidate",
+  "type": "object",
+  "required": ["candidate_id", "discovered_url", "discovered_at", "status"],
+  "properties": {
+    "candidate_id": {"type": "string"},
+    "search_run_ids": {"type": "array", "items": {"type": "string"}},
+    "discovered_url": {"type": "string"},
+    "canonical_url_suggestion": {"type": ["string", "null"]},
+    "title_suggestion": {"type": ["string", "null"]},
+    "tier_suggestion": {
+      "type": ["string", "null"],
+      "enum": ["official", "expert", "user", null]
+    },
+    "kind_suggestion": {"type": ["string", "null"]},
+    "publication_role_suggestion": {
+      "type": ["string", "null"],
+      "enum": ["ORIGINAL", "DERIVED", "SYNDICATED", "AGGREGATOR", "MIRROR", "UNKNOWN", null]
+    },
+    "product_match_suggestion": {
+      "type": ["string", "null"],
+      "enum": ["EXACT", "COMPATIBLE_VARIANT", "RELATED_MODEL", "AMBIGUOUS", "MISMATCH", null]
+    },
+    "duplicate_of_candidate_id": {"type": ["string", "null"]},
+    "origin_candidate_id": {"type": ["string", "null"]},
+    "discovered_at": {"type": "string", "format": "date-time"},
+    "status": {
+      "enum": ["new", "triaged", "needs_human", "accepted", "rejected", "duplicate", "wrong_product", "inaccessible"]
+    },
+    "human_decision": {
+      "type": ["object", "null"],
+      "properties": {
+        "decision": {
+          "enum": ["ACCEPT", "REJECT", "DUPLICATE", "WRONG_PRODUCT", "MARK_DERIVED", "NEEDS_MORE_RESEARCH"]
+        },
+        "decided_at": {"type": "string", "format": "date-time"},
+        "notes": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
