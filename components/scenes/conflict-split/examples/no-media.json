@@ -1,0 +1,35 @@
+{
+  "headline": "手入れは簡単という声と 面倒という声が両方あります",
+  "topic": "メンテナンス",
+  "left": {
+    "label": "簡単",
+    "summary": "日常の掃除は短時間で終わる",
+    "metric": null,
+    "evidence": [
+      {
+        "text": "普段はカバーを外して軽く掃除するだけなので楽です",
+        "source_id": "S_USER_301",
+        "source_tier": "user",
+        "source_label": null
+      }
+    ],
+    "condition_tags": []
+  },
+  "right": {
+    "label": "面倒",
+    "summary": "奥の部品まで掃除すると手間がかかる",
+    "metric": null,
+    "evidence": [
+      {
+        "text": "細かい部分まできれいにしようとすると意外と時間がかかります",
+        "source_id": "S_USER_315",
+        "source_tier": "user",
+        "source_label": null
+      }
+    ],
+    "condition_tags": []
+  },
+  "center_label": null,
+  "takeaway": null,
+  "variant": "balanced"
+}
