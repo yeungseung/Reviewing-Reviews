@@ -2,6 +2,7 @@
   "$schema": "../../../schemas/component-manifest.schema.json",
   "name": "conflict-split",
   "version": "0.1.0",
+  "status": "specified",
   "kind": "review2:scene",
   "title": "Conflict Split",
   "description": "Two materially different review positions are shown with equal visual weight before any explanation of the cause.",
