@@ -1,0 +1,66 @@
+{
+  "brand": {
+    "background": "#090909",
+    "surface": "#171717",
+    "surfaceRaised": "#242424",
+    "textPrimary": "#F5F5F2",
+    "textSecondary": "#A8A8A3",
+    "divider": "#343434"
+  },
+  "semantic": {
+    "positive": "#52C878",
+    "negative": "#FF5C5C",
+    "warning": "#F5B942",
+    "conflict": "#8E6CFF",
+    "official": "#4F8CFF",
+    "expert": "#45C6D8",
+    "user": "#D8D8D8"
+  },
+  "domains": {
+    "TECH": {
+      "primary": "#0047FF",
+      "secondary": "#F8F7F4",
+      "surface": "#141414"
+    },
+    "KITCHEN": {
+      "primary": "#D86B42",
+      "secondary": "#F3E7D2",
+      "surface": "#1B1714"
+    },
+    "CLEANING": {
+      "primary": "#27C7B8",
+      "secondary": "#E8F3F0",
+      "surface": "#131A19"
+    },
+    "AIR_CARE": {
+      "primary": "#75C9E8",
+      "secondary": "#EFF8FA",
+      "surface": "#12191D"
+    },
+    "LAUNDRY": {
+      "primary": "#8BB8D8",
+      "secondary": "#DDF3EA",
+      "surface": "#14191C"
+    },
+    "ENTERTAINMENT": {
+      "primary": "#40204F",
+      "secondary": "#B8FF00",
+      "surface": "#111111"
+    },
+    "FOOD": {
+      "primary": "#31523B",
+      "secondary": "#DDF58B",
+      "surface": "#161B16"
+    },
+    "BEAUTY": {
+      "primary": "#C9847A",
+      "secondary": "#F5E9E5",
+      "surface": "#1A1617"
+    },
+    "SPORT": {
+      "primary": "#FF4A16",
+      "secondary": "#071E2A",
+      "surface": "#101417"
+    }
+  }
+}
