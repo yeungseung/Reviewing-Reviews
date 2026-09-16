@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "locator.schema.json",
+  "title": "REVIEW2 Evidence Locator",
+  "type": "object",
+  "required": ["locator_id", "source_id", "snapshot_id", "type"],
+  "properties": {
+    "locator_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "snapshot_id": {"type": "string"},
+    "type": {
+      "enum": [
+        "text_quote",
+        "text_position",
+        "css",
+        "xpath",
+        "pdf_page",
+        "pdf_region",
+        "media_time",
+        "image_region",
+        "table_cell",
+        "manual_note"
+      ]
+    },
+    "text_quote": {
+      "type": ["object", "null"],
+      "properties": {
+        "exact": {"type": "string"},
+        "prefix": {"type": ["string", "null"]},
+        "suffix": {"type": ["string", "null"]}
+      },
+      "required": ["exact"],
+      "additionalProperties": false
+    },
+    "text_position": {
+      "type": ["object", "null"],
+      "properties": {
+        "start": {"type": "integer", "minimum": 0},
+        "end": {"type": "integer", "minimum": 0}
+      },
+      "required": ["start", "end"],
+      "additionalProperties": false
+    },
+    "selector": {"type": ["string", "null"]},
+    "page": {"type": ["integer", "null"], "minimum": 1},
+    "region": {
+      "type": ["object", "null"],
+      "properties": {
+        "x": {"type": "number"},
+        "y": {"type": "number"},
+        "width": {"type": "number"},
+        "height": {"type": "number"}
+      },
+      "additionalProperties": false
+    },
+    "media_time": {
+      "type": ["object", "null"],
+      "properties": {
+        "start": {"type": "number", "minimum": 0},
+        "end": {"type": "number", "minimum": 0}
+      },
+      "required": ["start", "end"],
+      "additionalProperties": false
+    },
+    "table": {
+      "type": ["object", "null"],
+      "properties": {
+        "row": {"type": ["integer", "string", "null"]},
+        "column": {"type": ["integer", "string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "human_verified": {"type": "boolean"},
+    "notes": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
