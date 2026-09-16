@@ -1,0 +1,46 @@
+{
+  "themes": {
+    "tech-computing": {
+      "domain": "TECH",
+      "geometry": "precise-grid",
+      "motion": ["snap", "scan", "dock"],
+      "ambient": ["grid", "technical-labels"],
+      "dataStyle": ["spec-matrix", "benchmark-bar", "line-chart"]
+    },
+    "kitchen-rice-cooker": {
+      "domain": "KITCHEN",
+      "geometry": "soft-rounded",
+      "motion": ["soft-rise", "steam-reveal", "fill"],
+      "ambient": ["steam-arc", "warm-glow", "soft-grain"],
+      "dataStyle": ["ring-gauge", "heat-map", "comfort-matrix"]
+    },
+    "home-cleaning": {
+      "domain": "CLEANING",
+      "geometry": "radial-clean",
+      "motion": ["sweep", "wipe", "particle-remove"],
+      "ambient": ["sparkle", "suction-line", "clean-scan"],
+      "dataStyle": ["coverage-map", "path-trace", "removal-bar"]
+    },
+    "home-air-care": {
+      "domain": "AIR_CARE",
+      "geometry": "airflow-curve",
+      "motion": ["breathing", "float", "fade"],
+      "ambient": ["particle-field", "air-stream"],
+      "dataStyle": ["aqi-ring", "particle-density", "noise-chart"]
+    },
+    "home-laundry": {
+      "domain": "LAUNDRY",
+      "geometry": "soft-rotation",
+      "motion": ["rotate", "tumble", "wave"],
+      "ambient": ["fabric-fold", "water-ring"],
+      "dataStyle": ["cycle-timeline", "resource-bar", "fabric-matrix"]
+    },
+    "entertainment-audio": {
+      "domain": "ENTERTAINMENT",
+      "geometry": "wave-spatial",
+      "motion": ["pulse", "wave-grow", "spatial-expand"],
+      "ambient": ["waveform", "concentric-ring"],
+      "dataStyle": ["frequency-chart", "anc-comparison", "battery-timeline"]
+    }
+  }
+}
