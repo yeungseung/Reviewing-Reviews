@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "evidence-packet.schema.json",
+  "title": "REVIEW2 Evidence Packet",
+  "type": "object",
+  "required": [
+    "evidence_packet_id",
+    "source_id",
+    "snapshot_id",
+    "locator_ids",
+    "evidence_type",
+    "product_match",
+    "verification_status",
+    "usable_for_claim",
+    "usable_for_video"
+  ],
+  "properties": {
+    "evidence_packet_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "snapshot_id": {"type": "string"},
+    "locator_ids": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "evidence_type": {
+      "enum": ["quote", "measurement", "observation", "specification", "image", "video", "table", "other"]
+    },
+    "exact_text": {"type": ["string", "null"]},
+    "observed_value": {
+      "type": ["object", "null"],
+      "properties": {
+        "value": {},
+        "unit": {"type": ["string", "null"]},
+        "condition": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "context_text": {"type": ["string", "null"]},
+    "product_match": {
+      "enum": ["EXACT", "COMPATIBLE_VARIANT", "RELATED_MODEL", "AMBIGUOUS", "MISMATCH"]
+    },
+    "independence_group_id": {"type": ["string", "null"]},
+    "origin_type": {
+      "enum": ["MARKETING_ORIGIN", "EXPERT_ORIGIN", "USER_ORIGIN", "MIXED", "UNKNOWN"]
+    },
+    "verification_status": {"enum": ["draft", "human_verified", "rejected", "superseded"]},
+    "verification_notes": {"type": ["string", "null"]},
+    "usable_for_claim": {"type": "boolean"},
+    "usable_for_video": {"type": "boolean"},
+    "video_treatment": {
+      "type": ["string", "null"],
+      "enum": ["original_capture", "quote_card", "chart_reconstruction", "paraphrase_only", "not_usable", null]
+    },
+    "created_at": {"type": ["string", "null"], "format": "date-time"},
+    "verified_at": {"type": ["string", "null"], "format": "date-time"}
+  },
+  "additionalProperties": false
+}
