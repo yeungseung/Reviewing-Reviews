@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "finding.schema.json",
+  "title": "Finding",
+  "type": "object",
+  "required": ["finding_id", "type", "summary", "claim_ids"],
+  "properties": {
+    "finding_id": {"type": "string"},
+    "type": {
+      "enum": ["consensus", "recurring_complaint", "conflict", "conditional", "insufficient_evidence"]
+    },
+    "summary": {"type": "string"},
+    "claim_ids": {"type": "array", "items": {"type": "string"}},
+    "conditions": {"type": "object"},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "buyer_relevance": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}
