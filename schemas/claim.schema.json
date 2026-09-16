@@ -7,6 +7,7 @@
   "properties": {
     "claim_id": {"type": "string"},
     "source_id": {"type": "string"},
+    "evidence_packet_ids": {"type": "array", "items": {"type": "string"}},
     "claim": {"type": "string"},
     "topic": {"type": "string"},
     "stance": {"enum": ["positive", "negative", "neutral", "mixed"]},
