@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scene-plan.schema.json",
+  "title": "REVIEW2 ScenePlan",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "scene_id",
+    "type",
+    "intent",
+    "duration_hint",
+    "narration"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "scene_id": {"type": "string"},
+    "type": {
+      "enum": [
+        "hook",
+        "product_intro",
+        "review_wall",
+        "consensus",
+        "complaint_cluster",
+        "review_conflict",
+        "condition_split",
+        "expert_test",
+        "spec_vs_reality",
+        "price_compare",
+        "timeline",
+        "who_fits",
+        "who_avoids",
+        "final_check"
+      ]
+    },
+    "intent": {
+      "type": "object",
+      "required": ["mechanic", "importance", "density"],
+      "properties": {
+        "mechanic": {"type": "string"},
+        "importance": {"enum": ["low", "medium", "high", "hero"]},
+        "density": {"enum": ["focus", "standard", "dense"]}
+      },
+      "additionalProperties": false
+    },
+    "duration_hint": {"type": "number", "exclusiveMinimum": 0},
+    "narration": {"type": "string"},
+    "data": {"type": "object"},
+    "finding_ids": {"type": "array", "items": {"type": "string"}},
+    "claim_ids": {"type": "array", "items": {"type": "string"}},
+    "source_ids": {"type": "array", "items": {"type": "string"}},
+    "asset_requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slot", "role", "required"],
+        "properties": {
+          "slot": {"type": "string"},
+          "role": {
+            "enum": ["HERO", "EVIDENCE", "CONTEXT", "DETAIL", "COMPARISON", "SOURCE", "MOOD"]
+          },
+          "required": {"type": "boolean"},
+          "preferred_type": {
+            "enum": ["video", "image", "capture", "text", "chart", "html"]
+          },
+          "subject": {"type": "string"},
+          "duration_hint": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "presentation_constraints": {
+      "type": "object",
+      "properties": {
+        "preferred_component": {"type": ["string", "null"]},
+        "forbidden_components": {"type": "array", "items": {"type": "string"}},
+        "preferred_theme": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "human_notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}
