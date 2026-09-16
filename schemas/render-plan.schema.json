@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "render-plan.schema.json",
+  "title": "REVIEW2 RenderPlan",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "renderer",
+    "canvas",
+    "fps",
+    "scenes",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "renderer": {"type": "string"},
+    "canvas": {
+      "type": "object",
+      "required": ["width", "height"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1}
+      },
+      "additionalProperties": false
+    },
+    "fps": {"type": "number", "exclusiveMinimum": 0},
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "scene_id",
+          "component",
+          "component_version",
+          "start",
+          "duration",
+          "variables",
+          "assets"
+        ],
+        "properties": {
+          "scene_id": {"type": "string"},
+          "component": {"type": "string"},
+          "component_version": {"type": "string"},
+          "adapter": {"type": "string"},
+          "start": {"type": "number", "minimum": 0},
+          "duration": {"type": "number", "exclusiveMinimum": 0},
+          "track": {"type": "integer"},
+          "variables": {"type": "object"},
+          "assets": {"type": "object"},
+          "cues": {"type": "array", "items": {"type": "number", "minimum": 0}},
+          "source_ids": {"type": "array", "items": {"type": "string"}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["git_commit", "design_system_version"],
+      "properties": {
+        "git_commit": {"type": "string"},
+        "design_system_version": {"type": "string"},
+        "token_revision": {"type": "string"},
+        "generated_at": {"type": "string"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
