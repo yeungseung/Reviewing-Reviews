@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scene-resolution.schema.json",
+  "title": "REVIEW2 SceneResolution",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "scene_id",
+    "component",
+    "component_version",
+    "theme",
+    "motion_profile",
+    "score"
+  ],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "scene_id": {"type": "string"},
+    "component": {"type": "string"},
+    "component_version": {"type": "string"},
+    "variant": {"type": ["string", "null"]},
+    "theme": {"type": "string"},
+    "motion_profile": {"type": "string"},
+    "score": {"type": "number", "minimum": 0, "maximum": 100},
+    "reason": {"type": "array", "items": {"type": "string"}},
+    "fallback_chain": {"type": "array", "items": {"type": "string"}},
+    "status": {
+      "enum": ["proposed", "validated", "needs_assets", "rejected", "approved"]
+    }
+  },
+  "additionalProperties": false
+}
