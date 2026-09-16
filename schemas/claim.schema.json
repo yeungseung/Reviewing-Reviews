@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "claim.schema.json",
+  "title": "Claim",
+  "type": "object",
+  "required": ["claim_id", "source_id", "claim", "topic", "stance"],
+  "properties": {
+    "claim_id": {"type": "string"},
+    "source_id": {"type": "string"},
+    "claim": {"type": "string"},
+    "topic": {"type": "string"},
+    "stance": {"enum": ["positive", "negative", "neutral", "mixed"]},
+    "usage_context": {"type": ["string", "null"]},
+    "usage_duration": {"type": ["string", "null"]},
+    "product_model": {"type": ["string", "null"]},
+    "evidence_text": {"type": ["string", "null"]},
+    "origin_type": {
+      "enum": ["MARKETING_ORIGIN", "EXPERT_ORIGIN", "USER_ORIGIN", "MIXED", "UNKNOWN"]
+    },
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1}
+  },
+  "additionalProperties": false
+}
