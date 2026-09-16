@@ -51,5 +51,74 @@
     "created_at": {"type": ["string", "null"], "format": "date-time"},
     "verified_at": {"type": ["string", "null"], "format": "date-time"}
   },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"evidence_type": {"const": "quote"}},
+        "required": ["evidence_type"]
+      },
+      "then": {
+        "properties": {"exact_text": {"type": "string", "minLength": 1}},
+        "required": ["exact_text"]
+      }
+    },
+    {
+      "if": {
+        "properties": {"evidence_type": {"const": "measurement"}},
+        "required": ["evidence_type"]
+      },
+      "then": {
+        "properties": {"observed_value": {"type": "object"}},
+        "required": ["observed_value"]
+      }
+    },
+    {
+      "if": {
+        "properties": {"verification_status": {"const": "human_verified"}},
+        "required": ["verification_status"]
+      },
+      "then": {
+        "properties": {"verified_at": {"type": "string", "format": "date-time"}},
+        "required": ["verified_at"]
+      }
+    },
+    {
+      "if": {
+        "properties": {"usable_for_claim": {"const": true}},
+        "required": ["usable_for_claim"]
+      },
+      "then": {
+        "properties": {
+          "verification_status": {"const": "human_verified"},
+          "product_match": {
+            "enum": ["EXACT", "COMPATIBLE_VARIANT", "RELATED_MODEL"]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {"usable_for_video": {"const": true}},
+        "required": ["usable_for_video"]
+      },
+      "then": {
+        "properties": {
+          "verification_status": {"const": "human_verified"}
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {"product_match": {"const": "MISMATCH"}},
+        "required": ["product_match"]
+      },
+      "then": {
+        "properties": {
+          "usable_for_claim": {"const": false},
+          "usable_for_video": {"const": false}
+        }
+      }
+    }
+  ],
   "additionalProperties": false
 }
