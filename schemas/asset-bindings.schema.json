@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "asset-bindings.schema.json",
+  "title": "REVIEW2 AssetBindings",
+  "type": "object",
+  "required": ["schema_version", "scene_id", "status", "bindings"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "scene_id": {"type": "string"},
+    "status": {"enum": ["pending", "approved", "needs_revision"]},
+    "bindings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["asset_id"],
+        "properties": {
+          "asset_id": {"type": "string"},
+          "trim": {
+            "type": "object",
+            "required": ["in", "out"],
+            "properties": {
+              "in": {"type": "number", "minimum": 0},
+              "out": {"type": "number", "exclusiveMinimum": 0}
+            },
+            "additionalProperties": false
+          },
+          "fit": {"enum": ["contain", "cover", "native"]},
+          "crop": {
+            "type": "object",
+            "properties": {
+              "x": {"type": "number"},
+              "y": {"type": "number"},
+              "width": {"type": "number"},
+              "height": {"type": "number"}
+            },
+            "additionalProperties": false
+          },
+          "notes": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    },
+    "approved_by": {"type": "string"},
+    "approved_at": {"type": "string"}
+  },
+  "additionalProperties": false
+}
