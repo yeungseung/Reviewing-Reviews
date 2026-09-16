@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scene.schema.json",
+  "title": "Scene",
+  "type": "object",
+  "required": ["scene_id", "type", "duration", "narration"],
+  "properties": {
+    "scene_id": {"type": "string"},
+    "type": {
+      "enum": [
+        "hook",
+        "product_intro",
+        "review_wall",
+        "consensus",
+        "complaint_cluster",
+        "review_conflict",
+        "condition_split",
+        "expert_test",
+        "spec_vs_reality",
+        "price_compare",
+        "timeline",
+        "who_fits",
+        "who_avoids",
+        "final_check"
+      ]
+    },
+    "duration": {"type": "number", "exclusiveMinimum": 0},
+    "narration": {"type": "string"},
+    "data": {"type": "object"},
+    "visual": {"type": "object"},
+    "source_ids": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
