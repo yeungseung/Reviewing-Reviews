@@ -6,6 +6,7 @@
   "required": [
     "name",
     "version",
+    "status",
     "kind",
     "title",
     "description",
@@ -22,6 +23,9 @@
     "$schema": {"type": "string"},
     "name": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
     "version": {"type": "string"},
+    "status": {
+      "enum": ["draft", "specified", "implemented", "validated", "deprecated"]
+    },
     "kind": {
       "enum": [
         "review2:primitive",
