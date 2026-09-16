@@ -1,19 +1,84 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "source.schema.json",
-  "title": "Source",
+  "title": "REVIEW2 Source",
   "type": "object",
-  "required": ["source_id", "source_type", "title", "url"],
+  "required": [
+    "source_id",
+    "source_type",
+    "source_kind",
+    "title",
+    "url",
+    "publication_role",
+    "product_match",
+    "verification_status"
+  ],
   "properties": {
     "source_id": {"type": "string"},
     "source_type": {"enum": ["official", "expert", "user"]},
+    "source_kind": {
+      "enum": [
+        "manufacturer_product_page",
+        "manual",
+        "support_document",
+        "press_release",
+        "regulatory_document",
+        "expert_review",
+        "lab_test",
+        "comparison_article",
+        "news_article",
+        "retailer_listing",
+        "retailer_review",
+        "marketplace_review",
+        "forum_post",
+        "community_thread",
+        "youtube_video",
+        "social_post",
+        "blog_post",
+        "price_tracker",
+        "other"
+      ]
+    },
     "title": {"type": "string"},
     "url": {"type": "string", "format": "uri"},
+    "discovered_url": {"type": ["string", "null"]},
+    "platform": {"type": ["string", "null"]},
     "publisher": {"type": ["string", "null"]},
-    "published_at": {"type": ["string", "null"], "format": "date-time"},
+    "author": {"type": ["string", "null"]},
+    "published_at": {"type": ["string", "null"]},
     "region": {"type": ["string", "null"]},
     "language": {"type": ["string", "null"]},
     "sponsored": {"type": ["boolean", "null"]},
+    "affiliate": {"type": ["boolean", "null"]},
+    "platform_ids": {
+      "type": "object",
+      "additionalProperties": {"type": "string"}
+    },
+    "product_scope": {
+      "type": ["object", "null"],
+      "properties": {
+        "product_id": {"type": ["string", "null"]},
+        "brand": {"type": ["string", "null"]},
+        "family": {"type": ["string", "null"]},
+        "model": {"type": ["string", "null"]},
+        "variant": {"type": ["string", "null"]},
+        "capacity": {"type": ["string", "null"]},
+        "market": {"type": ["string", "null"]},
+        "generation": {"type": ["string", "null"]},
+        "firmware": {"type": ["string", "null"]}
+      },
+      "additionalProperties": false
+    },
+    "product_match": {
+      "enum": ["EXACT", "COMPATIBLE_VARIANT", "RELATED_MODEL", "AMBIGUOUS", "MISMATCH"]
+    },
+    "publication_role": {
+      "enum": ["ORIGINAL", "DERIVED", "SYNDICATED", "AGGREGATOR", "MIRROR", "UNKNOWN"]
+    },
+    "lineage_root_source_id": {"type": ["string", "null"]},
+    "independence_group_id": {"type": ["string", "null"]},
+    "verification_status": {"enum": ["candidate", "verified", "rejected", "deprecated"]},
+    "human_verified_at": {"type": ["string", "null"], "format": "date-time"},
     "notes": {"type": ["string", "null"]}
   },
   "additionalProperties": false
