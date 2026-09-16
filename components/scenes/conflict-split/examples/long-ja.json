@@ -1,0 +1,41 @@
+{
+  "headline": "同じ空気清浄機なのに 静かだという人と眠れないという人がいました",
+  "topic": "就寝時の運転音",
+  "left": {
+    "label": "静かに感じる",
+    "summary": "部屋の端に置けば睡眠中もほとんど気にならないという評価",
+    "metric": null,
+    "evidence": [
+      {
+        "text": "ベッドから少し離して置いていますが 一晩中つけたままでも特に気になりません",
+        "source_id": "S_USER_102",
+        "source_tier": "user",
+        "source_label": "購入者レビュー"
+      },
+      {
+        "text": "弱運転では測定値も比較的低く 寝室用途として許容範囲でした",
+        "source_id": "S_EXPERT_009",
+        "source_tier": "expert",
+        "source_label": "専門レビュー"
+      }
+    ],
+    "condition_tags": ["distance_2m", "low_mode"]
+  },
+  "right": {
+    "label": "眠ると気になる",
+    "summary": "枕元では低周波のような音が残るという評価",
+    "metric": null,
+    "evidence": [
+      {
+        "text": "数字上は静かなはずですが 枕元に置くと低い音だけがずっと聞こえて気になります",
+        "source_id": "S_USER_117",
+        "source_tier": "user",
+        "source_label": "長期使用レビュー"
+      }
+    ],
+    "condition_tags": ["distance_1m", "bedside"]
+  },
+  "center_label": "同じ『静か』でも条件が違う",
+  "takeaway": "次に置き場所と距離を分けて見ます",
+  "variant": "quote-led"
+}
