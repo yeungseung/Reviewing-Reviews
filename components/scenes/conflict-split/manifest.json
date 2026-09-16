@@ -74,10 +74,7 @@
     "primitives": ["text", "number", "divider", "media-frame"],
     "patterns": ["review-card", "source-badge"],
     "fx": [],
-    "vendor": [
-      "hyperframes:testimonial-proof-card",
-      "hyperframes:comparison-split"
-    ],
+    "vendor": [],
     "packages": []
   },
   "renderers": {
