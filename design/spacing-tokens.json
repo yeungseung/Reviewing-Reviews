@@ -1,0 +1,40 @@
+{
+  "baseUnit": 8,
+  "microUnit": 4,
+  "space": {
+    "025": 2,
+    "050": 4,
+    "075": 6,
+    "100": 8,
+    "150": 12,
+    "200": 16,
+    "250": 20,
+    "300": 24,
+    "400": 32,
+    "500": 40,
+    "600": 48,
+    "800": 64,
+    "1000": 80
+  },
+  "layout": {
+    "1200": 96,
+    "1600": 128,
+    "2000": 160
+  },
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "aspectRatio": "16:9"
+  },
+  "safeArea": {
+    "horizontal": 96,
+    "vertical": 64,
+    "titleHorizontal": 128,
+    "titleVertical": 96
+  },
+  "grid": {
+    "columns": 12,
+    "gutter": 24,
+    "margin": 96
+  }
+}
