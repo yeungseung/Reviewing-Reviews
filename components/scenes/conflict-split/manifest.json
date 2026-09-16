@@ -1,0 +1,110 @@
+{
+  "$schema": "../../../schemas/component-manifest.schema.json",
+  "name": "conflict-split",
+  "version": "0.1.0",
+  "kind": "review2:scene",
+  "title": "Conflict Split",
+  "description": "Two materially different review positions are shown with equal visual weight before any explanation of the cause.",
+  "category": "evidence",
+  "tags": ["review", "conflict", "comparison", "evidence", "split"],
+  "selection": {
+    "scene_types": ["review_conflict"],
+    "mechanics": ["reveal-conflict", "compare"],
+    "use_when": [
+      "Two materially different evaluations exist around the same review topic",
+      "Both sides have enough independent evidence to deserve visible representation",
+      "The scene goal is to establish the conflict before explaining it"
+    ],
+    "avoid_when": [
+      "The conflict is already explained by a known usage condition; prefer condition-split",
+      "One side has only anecdotal or insufficient evidence",
+      "The scene is actually a simple numeric comparison rather than a review disagreement"
+    ],
+    "min_items": 2,
+    "max_items": 6,
+    "requires_evidence": true,
+    "supported_density": ["focus", "standard"]
+  },
+  "input_schema": "props.schema.json",
+  "slots": [
+    {
+      "name": "left_media",
+      "role": "EVIDENCE",
+      "required": false,
+      "accepts": ["video", "image", "capture"]
+    },
+    {
+      "name": "right_media",
+      "role": "EVIDENCE",
+      "required": false,
+      "accepts": ["video", "image", "capture"]
+    }
+  ],
+  "layout": {
+    "grammar": "equal-compare",
+    "variants": ["balanced", "metric-led", "quote-led"]
+  },
+  "theme": {
+    "inherits_category_theme": true,
+    "tokens": [
+      "surface",
+      "textPrimary",
+      "textSecondary",
+      "divider",
+      "conflict",
+      "official",
+      "expert",
+      "user"
+    ]
+  },
+  "motion": {
+    "roles": ["reveal", "compare", "focus"],
+    "default_profile": "conflict-separate",
+    "supports_cues": true
+  },
+  "timing": {
+    "min": 4.5,
+    "ideal": 6.5,
+    "max": 9,
+    "elastic": true,
+    "hold_final": true
+  },
+  "dependencies": {
+    "primitives": ["text", "number", "divider", "media-frame"],
+    "patterns": ["review-card", "source-badge"],
+    "fx": [],
+    "vendor": [
+      "hyperframes:testimonial-proof-card",
+      "hyperframes:comparison-split"
+    ],
+    "packages": []
+  },
+  "renderers": {
+    "hyperframes": {
+      "mode": "block",
+      "adapter": "adapters/hyperframes.md"
+    },
+    "preview": {
+      "mode": "static",
+      "adapter": "adapters/preview.md"
+    }
+  },
+  "fallback": ["comparison-bar", "quote-card"],
+  "quality": {
+    "max_headline_chars": 36,
+    "max_body_chars": 90,
+    "notes": [
+      "Do not imply statistical equivalence merely because both sides are visually balanced",
+      "Do not use percentages unless a defensible denominator exists",
+      "Quotes must remain traceable to source_ids",
+      "At least one evidence item is required on each side"
+    ]
+  },
+  "provenance": {
+    "origin": "adapted",
+    "upstream": "https://github.com/heygen-com/hyperframes",
+    "license": "See upstream item licenses before code import",
+    "attribution": "Structural reference: HyperFrames comparison and testimonial patterns",
+    "adapted_from": "testimonial-proof-card + comparison-split / split-card motion patterns"
+  }
+}
