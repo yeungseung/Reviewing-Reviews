@@ -1,0 +1,22 @@
+{
+  "duration": {
+    "micro": 160,
+    "fast": 200,
+    "ui": 240,
+    "component": 300,
+    "structure": 380,
+    "scene": 480,
+    "emphasis": 640
+  },
+  "easing": {
+    "standard": "cubic-bezier(0.4, 0.0, 0.2, 1)",
+    "enter": "cubic-bezier(0.0, 0.0, 0.2, 1)",
+    "exit": "cubic-bezier(0.4, 0.0, 1, 1)"
+  },
+  "stagger": {
+    "small": 60,
+    "default": 80,
+    "explain": 120
+  },
+  "categoryModifierLimit": 0.15
+}
