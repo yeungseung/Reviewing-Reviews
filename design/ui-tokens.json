@@ -1,0 +1,42 @@
+{
+  "icon": {
+    "baseSize": 24,
+    "glyphSizeSmall": 18,
+    "glyphSizeMedium": 20,
+    "glyphSizeLarge": 24,
+    "strokeDefault": 1.75,
+    "strokeEmphasis": 2,
+    "lineCap": "round",
+    "lineJoin": "round"
+  },
+  "button": {
+    "heightSmall": 36,
+    "heightMedium": 44,
+    "heightLarge": 52,
+    "radiusSmall": 12,
+    "radiusMedium": 14,
+    "radiusLarge": 18,
+    "paddingXSmall": 14,
+    "paddingXMedium": 18,
+    "paddingXLarge": 24
+  },
+  "card": {
+    "radiusDefault": 20,
+    "paddingCompact": 20,
+    "paddingDefault": 24,
+    "paddingLarge": 28,
+    "borderWidth": 1
+  },
+  "chip": {
+    "heightSmall": 28,
+    "heightDefault": 32,
+    "radius": 999
+  },
+  "motion": {
+    "fast": 160,
+    "default": 220,
+    "slow": 360,
+    "pressScale": 0.98,
+    "hoverScale": 1.01
+  }
+}
