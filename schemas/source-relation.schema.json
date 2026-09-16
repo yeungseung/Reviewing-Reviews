@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source-relation.schema.json",
+  "title": "REVIEW2 Source Relation",
+  "type": "object",
+  "required": ["relation_id", "from_source_id", "to_source_id", "relation", "confidence", "status"],
+  "properties": {
+    "relation_id": {"type": "string"},
+    "from_source_id": {"type": "string"},
+    "to_source_id": {"type": "string"},
+    "relation": {
+      "enum": [
+        "same_as",
+        "mirror_of",
+        "syndicated_from",
+        "quotes",
+        "summarizes",
+        "derived_from",
+        "embeds",
+        "references",
+        "unknown_relation"
+      ]
+    },
+    "confidence": {"enum": ["confirmed", "probable", "possible", "unknown"]},
+    "evidence": {"type": ["string", "null"]},
+    "status": {"enum": ["suggested", "human_verified", "rejected"]},
+    "verified_at": {"type": ["string", "null"], "format": "date-time"}
+  },
+  "additionalProperties": false
+}
