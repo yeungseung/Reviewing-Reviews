@@ -39,3 +39,13 @@
 - [ ] 검색어 데이터 저장
 - [ ] CTR / retention / comment signal 저장
 - [ ] 다음 제품 선정에 반영
+
+---
+
+## Architecture research references
+
+- `docs/HIGGSFIELD_SKILLS_ANALYSIS.md`
+  - Higgsfield Skills 구조 분석
+  - REVIEW² Control Plane 적용 후보
+  - Approval State / dependency invalidation / capability routing / targeted repair / eval harness 참고
+  - 실제 적용 전 `yeungseung/connect-ai/external-reference/higgsfield-skills`의 pinned upstream을 함께 확인
