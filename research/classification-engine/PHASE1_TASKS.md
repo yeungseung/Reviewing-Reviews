@@ -1,6 +1,6 @@
 # Phase 1 Tasks: R01~R03
 
-Phase 1은 실제 연구 결과를 쓰는 단계가 아니라 R01~R03의 목적, 질문, 기록 경계를 고정하는 단계다. 아래 내용은 조사 명세이며 finding, schema, architecture 결론이 아니다.
+이 문서는 Phase 1의 실제 연구 결과를 기록하는 문서가 아니라 R01~R03의 목적, 질문, 기록 경계를 정의하는 조사 명세다. Phase 1에서는 이 명세를 바탕으로 R01~R03의 실제 리서치를 수행한다. 아래 내용 자체는 finding, schema, architecture 결론이 아니다.
 
 ## R01 — Product Ontology / Product Classification
 

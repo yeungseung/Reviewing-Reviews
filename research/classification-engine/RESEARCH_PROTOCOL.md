@@ -24,13 +24,30 @@
 | `source_id` | 이 작업공간 안에서 source를 식별하는 ID |
 | `title` | 문서 또는 자료 제목 |
 | `author` 또는 `organization` | 저자 또는 발행 기관 |
-| `publication_date` | 발행일 또는 버전 날짜 |
+| `publication_date` | 발행일 |
+| `version_or_edition` | 가능한 경우 기록하는 버전, 판본, edition 또는 revision; `publication_date`와 별도로 기록 |
 | `url` | 원문 또는 공식 접근 주소 |
 | `accessed_at` | 실제 접근 시각 |
 | `source_type` | 우선순위 판단에 쓰는 출처 유형 |
 | `original_or_secondary` | 원출처인지 2차 설명인지 |
+| `source_origin` | 알려진 원출처 또는 원출처를 식별할 수 있는 reference |
+| `source_relation` | mirror, summary, quotation, syndicated copy 등 다른 source와의 알려진 관계 |
+| `same_origin_chain` | 다른 source와 동일 원출처 chain에 속하는지에 대한 기록 |
+| `independence_note` | 독립성 판단 근거, 불확실성 또는 확인하지 못한 관계에 대한 주석 |
 | `research_id` | R01~R10 중 연결되는 연구 |
-| `notes` | 판본, 접근 제한, 복제 관계 등 주석 |
+| `notes` | 접근 제한, 해석 주의 등 위 항목으로 분리하지 않은 주석 |
+
+표준, taxonomy, methodology, technical documentation은 발행일만으로 식별하지 않는다. 가능한 경우 `version_or_edition`으로 판본 또는 revision을 별도 기록한다.
+
+## Source Independence and Derivation
+
+복제 관계는 `notes`에만 자유 서술로 남기지 않는다. 가능한 경우 `source_origin`, `source_relation`, `same_origin_chain`, `independence_note`를 함께 기록해 provenance와 독립성을 추적한다.
+
+- mirror, summary, quotation, syndicated copy처럼 같은 원출처에서 파생된 자료는 관계와 동일 origin chain 여부를 기록한다.
+- 독립성을 확인하지 못했으면 독립이라고 가정하지 않고 그 상태와 이유를 `independence_note`에 남긴다.
+- 동일 origin chain의 여러 자료는 독립 evidence strength로 중복 계산하지 않는다.
+
+이 규칙은 연구 provenance를 기록하기 위한 protocol이다. 기존 REVIEW² Source Relation schema를 복제하거나 수정하는 것이 아니며, 최종 schema를 정의하지 않는다.
 
 ## Evidence Rules
 
@@ -65,11 +82,11 @@ Evidence ID는 연구별로 `R01-E001`, `R01-E002`, `R02-E001`처럼 부여한�
 | `searched_at` | 실제 검색 시각 |
 | `purpose` | 질문 또는 공백을 메우려는 목적 |
 | `useful_sources_found` | 유용하다고 판단한 source ID 또는 빈 결과 |
-| `rejected_sources` | 제외한 source ID 또는 빈 결과 |
-| `rejection_reason` | 제외 이유 |
+| `rejected_sources` | 제외한 등록 source ID, 또는 source ID가 없으면 title / URL / candidate reference |
+| `rejection_reason` | 각 제외 자료를 제외한 이유; 반드시 기록 |
 | `gap_or_followup` | 남은 공백과 후속 검색 |
 
-검색하지 않았는데 검색한 것처럼 기록하면 안 된다. 결과가 없었던 검색도 중요한 경우에는 결과 없음과 이유를 기록한다.
+검색하지 않았는데 검색한 것처럼 기록하면 안 된다. 탈락한 자료는 아직 source ID를 받지 않았을 수 있으므로, `rejected_sources`에는 등록 source ID뿐 아니라 title, URL, candidate reference를 기록할 수 있다. 각 탈락 이유는 `rejection_reason`에 반드시 남긴다. 결과가 없었던 검색도 중요한 경우에는 결과 없음과 이유를 기록한다.
 
 ## Research Report Common Structure
 
