@@ -81,7 +81,7 @@
 
 | 항목 | 이번 조사에서의 처리 |
 | --- | --- |
-| 출처 우선순위 | 19개 모두 표준기관/표준 어휘의 공식 원출처이다. 블로그·2차 요약을 핵심 근거로 사용하지 않았다. |
+| 출처 우선순위 | 20개 모두 표준기관/표준 어휘의 공식 원출처이다. 블로그·2차 요약을 핵심 근거로 사용하지 않았다. |
 | 독립성 | 동일 기관 내부의 여러 문서는 상호 독립 증거 수가 아니다. 각 source의 origin chain과 관계를 `SOURCES.md`에 남겼고, source count로 결론 강도를 정하지 않았다. |
 | version risk | live vocabulary/documentation은 접속 시점 상태이며, ETIM 10.0, ECLASS 15.0, GDSN maintenance releases, Schema.org V30.1, WoT TD 1.1처럼 확인 가능한 판본을 함께 기록했다. [R01-E004, R01-E012, R01-E018, R01-E019, R01-E024] |
 | 접근 제한 | GS1 GDM Attribute Implementation Guideline의 원문 직접 열람은 403이었고, 공식 검색 색인의 excerpt로만 locator를 확보했다. 해당 Evidence confidence는 medium으로 낮췄다. [R01-E016] |
