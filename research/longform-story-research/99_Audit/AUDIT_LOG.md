@@ -506,3 +506,56 @@ Repository inflation:
 Interpretation:
 KEEP causal-network centrality as a strong narrative-comprehension lead.
 Do not treat the paper as proof of a universal "every important scene must be causally necessary" engine law.
+
+
+### E-016 — Appraisal/Emotion family: mechanism convergence stronger than application claims
+Status: MECHANISM SUPPORTED / APPLICATION OVEREXTENDED
+Severity: MEDIUM for mechanism, HIGH for engine-rule lineage
+
+Externally verified lines include:
+- Oatley & Johnson-Laird (1987): theoretical model of emotions coordinating transitions between plans/goals
+- Roseman (1991): experimental test with 120 college students; manipulated appraisal dimensions affected emotional intensities
+- Scherer (2001): sequential appraisal checking as part of a dynamic component-process model
+- Forgas (1995): review/integrative Affect Infusion Model for mood effects on judgment
+
+Corpus implication:
+The broad proposition "changes in appraisal/goal evaluation can change emotion/judgment" has multiple independent research lines.
+
+Repository overextensions include:
+- converting plan-transition theory into direct "attention reset" / longform retention mechanisms
+- treating appraisal models as exact emotion-conversion formulas
+- using AIM to claim emotional arousal directly improves complex narrative information processing
+- attaching exact percentages (e.g. 87%) not present in the verified records
+
+Audit disposition:
+KEEP M3 Appraisal→Emotion as an A-priority mechanism.
+Separate:
+1. appraisal structure
+2. emotion/judgment consequence
+3. attention consequence
+4. Story Engine manipulation
+5. exact effect magnitude
+
+### E-017 — Capacity/Multimedia family: strong mechanism, unsupported timing formula
+Status: MECHANISM SUPPORTED / ENGINE HEURISTIC INFLATION
+Severity: HIGH for timing rules
+
+Externally verified lines include:
+- Sweller (1988): means-ends problem solving can consume cognitive processing capacity needed for schema acquisition
+- Lang (2000): mediated-message processing is capacity limited and can be modeled through allocation to encoding/storage/retrieval
+- later LC4MP meta-analysis: 142 articles / 683 effects, pooled effects across cognitive-load, motivation, and memory domains roughly r=.314–.398
+- Mayer multimedia-learning work: dual channels, limited capacity, active processing
+- segmenting principle: learner-paced segmentation outperforms continuous presentation under relevant conditions
+
+Repository overextensions include:
+- "information ↔ emotion periodic alternation" as if directly established by Lang
+- "arousal recovery" as a universal longform pacing law
+- converting multimedia segmenting into a universal 60–90 second content block
+- treating educational transfer findings as direct YouTube retention findings
+
+Important correction:
+Mayer's segmenting principle is about manageable/learner-paced segments. Some experimental examples use very short segments, but the literature does not establish a universal 60–90 second story interval.
+
+Audit disposition:
+KEEP M4 Capacity-Limited Processing as an A-priority mechanism.
+DROP universal timing constants until directly tested in comparable longform/video conditions.
