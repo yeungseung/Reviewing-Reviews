@@ -1042,3 +1042,139 @@ Risk perception may inform how stakes are framed, but it is not evidence for the
 
 Research Map implication:
 M10 should become a family of related but distinct audience-relevance mechanisms rather than one "Human Scale" law.
+
+
+### E-036 — SRC-2000-534 is a bibliographic conflation
+Status: CONFIRMED ERROR
+Severity: CRITICAL
+
+Repository:
+- ID: `SRC-2000-534`
+- claimed title: "The effects of edit frequency and complexity on television message processing"
+- claimed authors: Annie Lang et al.
+- claimed venue: Media Psychology 2(1), 17–42
+- stored DOI: `10.1207/S1532785XMEP0201_2`
+
+Verified DOI:
+`10.1207/S1532785XMEP0201_2` belongs to:
+William D. McIntosh, Andria F. Schwegler & Rebecca M. Terry-Murray,
+"Threat and Television Viewing in the United States, 1960–1990,"
+Media Psychology 2(1), 35–46.
+
+Related real Annie Lang research exists, including:
+- Lang, Geiger, Strickwerda & Sumner (1993), related/unrelated cuts and television memory
+- Lang, Bolls, Potter & Kawahara (1999), production pacing/arousing content and TV information processing
+- Lang, Zhou, Schwartz, Bolls & Potter (2000), effects of edits on arousal, attention, and memory for television messages
+
+Interpretation:
+The repository Source appears to conflate a real Lang research program with an unrelated DOI and invented/mixed bibliographic metadata.
+
+Downstream impact:
+#55 T1 relies heavily on this record for exact cut-frequency overload claims.
+
+### E-037 — Simons/Chabris and Henderson are valid attention sources but do not prove the corpus's "semantic refresh" metrics
+Status: VALID MECHANISMS / APPLICATION + QUANTIFICATION INFLATION
+Severity: HIGH
+
+Verified Simons & Chabris (1999):
+- inattentional blindness in dynamic events
+- noticing an unexpected object depends on attentional task/object similarity and task difficulty
+- focused attention strongly constrains what is perceived/remembered
+
+It does **not** establish:
+- narrative-semantic changes are always detected while surface changes are ignored
+- semantic refresh guarantees attention reset
+- exact cut pacing thresholds
+
+Verified Henderson (2003):
+- review of gaze control in real-world scenes
+- gaze is actively directed toward important/informative scene regions
+
+It does **not** establish the repository's:
+- narration-matched object fixation latency -180 ms
+- visual search errors -62%
+- evidence-object pupil dilation +52%
+- narrative "meaning map" as a quantified attention governor
+
+Disposition:
+KEEP selective attention/gaze allocation as a visual-design mechanism.
+Do not attach the current numeric rules without source-level support.
+
+### E-038 — #55 Visual Story cut-timing constants are unsupported engine heuristics
+Status: CONFIRMED ENGINE_HEURISTIC_AS_EMPIRICAL_FACT
+Severity: CRITICAL
+
+Current #55 T1 introduces:
+- optimal cut rhythm 4–8 s (average 5.5 s)
+- overload threshold <2.5 s
+- stagnation threshold >12 s
+- three fast cuts trigger a minimum 5 s stable shot
+- Eye-Trace coordinates must remain within 15%
+- >12 cuts/min unrelated edits → memory collapse
+- exact memory/attention percentages
+
+The verified underlying literature supports:
+- edits/formal features can elicit orienting/resource allocation
+- processing capacity is limited
+- fast/complex production interacts with information processing
+- attention is selective
+
+It does not establish one universal longform cut interval.
+
+Disposition:
+REMOVE these constants from "research fact" status.
+Retain them, if useful, only as tunable production priors to be validated with actual video/retention experiments.
+
+### E-039 — Dynamic graphics research supports congruence/apprehension constraints, not the #58 timing/acoustic formulas
+Status: VALID DIRECTION / QUANTIFICATION INJECTION
+Severity: CRITICAL
+
+Verified Tversky, Morrison & Bétrancourt (2002):
+- graphics help only when carefully designed
+- Congruence Principle: graphic form/content should correspond to the concept
+- Apprehension Principle: graphics should be readily/accurately perceived and understood
+- animation does not automatically outperform static graphics
+
+Verified Lowe (2003):
+- animation provides dynamic information but creates additional processing demands
+- learners must select thematically relevant information and integrate it into knowledge structures
+
+These sources are compatible with:
+- avoid gratuitous motion
+- prioritize comprehensible visual organization
+- motion can compete with reading/analysis
+
+They do **not** directly support current #58 rules such as:
+- data misreading +50%
+- reading speed -60%, error +54%
+- 6–9 s minimum proof-footage dwell
+- 3 s graph accuracy 32% vs 6 s 86%
+- visual element count >3 causes 2.6x gaze wandering
+- narration/BGM conflict -42%
+- mandatory -12 dB ducking or 1–3 kHz EQ window
+- exact 5–8 s fact phase + 4–6 s emotion phase
+
+Disposition:
+Retain qualitative **information-motion compatibility** as a strong design concern.
+Move all timing/audio engineering constants to empirical production testing.
+
+### E-040 — Visual research block has mixed evidence classes and reduced source provenance
+Status: CONFIRMED RESEARCH-DESIGN PROBLEM
+Severity: HIGH
+
+#55–#58 combine:
+- experimental media psychology
+- visual cognition
+- educational multimedia research
+- film-style analysis
+- film theory/craft
+- design books
+- neuroscience/cinema theory
+- general emotion research
+
+They are currently flattened into Tier 1 and then combined into precise production formulas.
+
+Additionally, Sources #558–#589 use a reduced schema with no venue/URL in the index, lowering machine traceability exactly across #57–#59.
+
+Research Map implication:
+M11 should be split before further precision research.
