@@ -744,3 +744,91 @@ Current #29–#31 likely require:
 - retain a smaller story-specific Expectation/Suspense/Surprise module
 
 This is a major example of how the remaining research direction should change before all 86 original categories are completed.
+
+
+# 9. Adaptation and Payoff Reclassification
+
+## M6 — Adaptation / Repetition / Contrast
+Revised priority: **C+ / B- until media-specific bridge evidence**
+
+What survives:
+- repeated or sustained stimulation can change response magnitude
+- habituation and sensitization are real phenomena
+- hedonic adaptation is a real broad phenomenon
+
+What does not survive current audit:
+- universal 8–10 minute emotional half-life
+- "valley resets receptors"
+- mandatory contrast interval
+- low-intensity scene is physiologically necessary before every peak
+
+Research Map implication:
+Do not use M6 to set timing constants.
+Future precision research should search specifically for:
+- emotional habituation during continuous media exposure
+- repetition effects in narrative/video
+- arousal recovery in entertainment
+- contrast effects in media emotion
+- within-session adaptation rather than long-term life adaptation
+
+## M8 is not one mechanism
+
+### M8-A — Narrative Closure / Finality
+Research family:
+- Carroll
+- literary/aesthetic closure theory
+- direct narrative-processing studies needed
+
+Question:
+Which salient narrative questions must be answered for an experience to feel complete?
+
+### M8-B — Expectation Fulfillment / Disconfirmation
+Research family:
+- Oliver and related expectation/disconfirmation work
+- future direct media/platform promise-delivery research
+
+Question:
+How does delivering, exceeding, reframing, or violating a prior promise affect satisfaction/trust?
+
+This likely belongs partly with #64–#67 Packaging/Promise Contract.
+
+### M8-C — Retrospective Experience Evaluation / Peak-End
+Research family:
+- Kahneman/Fredrickson/Redelmeier and related experience-memory studies
+
+Question:
+Under which conditions do peaks and endings disproportionately influence retrospective evaluation?
+
+Do not assume direct transfer to all longform narratives.
+
+### M8-D — Ending Emotion / Open vs Closed Ending
+Needs direct narrative/media research.
+
+Question:
+How do genre, audience goals, ambiguity tolerance, and thematic intent change preferred closure/emotional ending?
+
+### M8-E — Payoff Taxonomy
+The current nine-payoff system is a **design instrument**, not an empirically established natural taxonomy.
+
+Move validation method toward:
+- content-corpus coding
+- expert/user classification
+- inter-rater reliability
+- category overlap
+- missing-type discovery
+- relationship to satisfaction/recall/meaning
+
+## Story Engine implication
+
+A safer provisional rule is:
+
+> The ending should resolve, transform, or deliberately leave open the story's most important active expectations/questions in a way that is coherent with the content's promise, genre, evidence, and intended meaning.
+
+This is deliberately weaker than:
+- "all questions must close"
+- "Peak + End determine total evaluation"
+- "bittersweet is superior"
+- "3–5 minute buffer"
+- "nine payoff types are exhaustive"
+
+The weaker rule currently has much better epistemic integrity and can later be made more specific with direct evidence.
