@@ -1,0 +1,4591 @@
+{
+  "version": "v0",
+  "generated_from_branch": "research/longform-story-audit",
+  "completed_theme_count": 165,
+  "notes": [
+    "Primary Track is single-valued; Secondary Tracks record overlap.",
+    "source_family uses DOI when present in Sources DB index, otherwise normalized title; it is a deduplication proxy, not proof of research independence.",
+    "audit flags are based only on issues already documented in AUDIT_LOG.md and must not be interpreted as exhaustive error rates."
+  ],
+  "themes": [
+    {
+      "theme_id": "LSEv2_#01_T01",
+      "item": 1,
+      "theme": 1,
+      "title": "감정 변화와 몰입의 인과관계",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T01_감정_변화와_몰입의_인과관계.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#01_T02",
+      "item": 1,
+      "theme": 2,
+      "title": "감정 파형·적응·대비",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "H"
+      ],
+      "report_file": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T02_감정_파형적응대비.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#01_T03",
+      "item": 1,
+      "theme": 3,
+      "title": "Story State가 감정을 바꾸는 방식",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T03_Story_State가_감정을_바꾸는_방식.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#01_T04",
+      "item": 1,
+      "theme": 4,
+      "title": "Emotional Arc의 실제 패턴과 장르 차이",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T04_Emotional_Arc의_실제_패턴과_장르_차이.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#01_T05",
+      "item": 1,
+      "theme": 5,
+      "title": "감정 변화와 기억·예측·판단",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T05_감정_변화와_기억예측판단.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#02_T01",
+      "item": 2,
+      "theme": 1,
+      "title": "세 트랙 모델의 이론적 타당성",
+      "primary_track": "L",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T01_세_트랙_모델의_이론적_타당성.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#02_T02",
+      "item": 2,
+      "theme": 2,
+      "title": "세 트랙의 시간적 상호작용",
+      "primary_track": "L",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T02_세_트랙의_시간적_상호작용.md",
+      "source_ids": [
+        "SRC-1995-015",
+        "SRC-1987-006",
+        "SRC-2001-003",
+        "SRC-1959-018",
+        "SRC-1995-016",
+        "SRC-1986-014",
+        "SRC-1986-017",
+        "SRC-2010-013",
+        "SRC-1993-010",
+        "SRC-2007-011"
+      ],
+      "source_families": [
+        "title:the construction of situation models in narrative comprehension an event indexing",
+        "title:towards a cognitive theory of emotions",
+        "title:appraisal considered as a process of multilevel sequential checking",
+        "title:the effect of emotion on cue utilization and the organization of behavior",
+        "title:mood and judgment the affect infusion model aim",
+        "title:actual minds possible worlds",
+        "title:the elaboration likelihood model of persuasion",
+        "title:appreciation as a meaningful entertainment experience",
+        "title:when more pain is preferred to less adding a better end",
+        "title:event perception a mind brain perspective"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#02_T03",
+      "item": 2,
+      "theme": 3,
+      "title": "장르별 트랙 비중과 반례",
+      "primary_track": "L",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T03_장르별_트랙_비중과_반례.md",
+      "source_ids": [
+        "SRC-2002-021",
+        "SRC-1974-019",
+        "SRC-2004-020",
+        "SRC-2001-003",
+        "SRC-1986-014",
+        "SRC-2010-013",
+        "SRC-1995-015"
+      ],
+      "source_families": [
+        "title:multimedia learning",
+        "title:uses and gratifications research",
+        "title:enjoyment at the heart of media entertainment",
+        "title:appraisal considered as a process of multilevel sequential checking",
+        "title:actual minds possible worlds",
+        "title:appreciation as a meaningful entertainment experience",
+        "title:the construction of situation models in narrative comprehension an event indexing"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#03_T01",
+      "item": 3,
+      "theme": 1,
+      "title": "트랙 통합과 몰입·설득",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T01_트랙_통합과_몰입설득.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#03_T02",
+      "item": 3,
+      "theme": 2,
+      "title": "불균형 콘텐츠의 성공·실패 패턴",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T02_불균형_콘텐츠의_성공실패_패턴.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#03_T03",
+      "item": 3,
+      "theme": 3,
+      "title": "순환 구조의 방향성과 경계",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T03_순환_구조의_방향성과_경계.md",
+      "source_ids": [],
+      "source_families": [],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#04_T01",
+      "item": 4,
+      "theme": 1,
+      "title": "목표-장애-선택-결과 구조의 범용성",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T01_목표장애선택결과_구조의_범용성.md",
+      "source_ids": [
+        "SRC-1994-037",
+        "SRC-1996-038",
+        "SRC-1998-039",
+        "SRC-1999-040",
+        "SRC-2009-041",
+        "SRC-2014-042"
+      ],
+      "source_families": [
+        "title:constructing inferences during narrative text comprehension",
+        "title:the psychology of suspense in dramatic exposition",
+        "title:situation models in language comprehension and memory",
+        "title:moral disengagement in the perpetration of inhumanities",
+        "title:witnessing excellence in an other the psychology of elevation gratitude",
+        "title:using narratives and storytelling to communicate science with nonexpert audiences"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#04_T02",
+      "item": 4,
+      "theme": 2,
+      "title": "인과 사슬과 지속 관심",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T02_인과_사슬과_지속_관심.md",
+      "source_ids": [
+        "SRC-1988-043",
+        "SRC-2015-045",
+        "SRC-2009-044",
+        "SRC-1988-028",
+        "SRC-1994-034"
+      ],
+      "source_families": [
+        "title:causal reasoning in serious text comprehension",
+        "title:complex tv the poetics of contemporary television storytelling",
+        "title:puzzle films complex storytelling in contemporary cinema",
+        "title:cognitive load during problem solving effects on learning",
+        "title:the psychology of curiosity a review and reinterpretation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#04_T03",
+      "item": 4,
+      "theme": 3,
+      "title": "선택과 대가의 감정적 효과",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T03_선택과_대가의_감정적_효과.md",
+      "source_ids": [
+        "SRC-2009-041",
+        "SRC-1995-046",
+        "SRC-2000-047",
+        "SRC-2002-048",
+        "SRC-1996-038"
+      ],
+      "source_families": [
+        "title:witnessing excellence in an other the psychology of elevation gratitude",
+        "title:judgments of responsibility a foundation for a theory of social conduct",
+        "title:the psychology of the unthinkable taboo trade offs forbidden base rates",
+        "title:decisions and revisions the affective forecasting of changeable outcomes",
+        "title:the psychology of suspense in dramatic exposition"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#05_T01",
+      "item": 5,
+      "theme": 1,
+      "title": "비인물 서사의 긴장 생성",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#05_단_모든_소재에_사람의_욕망이_있어야_하는_것은_아니다/LSEv2_#05_T01_비인물_서사의_긴장_생성.md",
+      "source_ids": [
+        "SRC-1994-034",
+        "SRC-1960-049",
+        "SRC-1993-050",
+        "SRC-2003-051"
+      ],
+      "source_families": [
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:conflict arousal and curiosity",
+        "title:the role of anomalous data in knowledge acquisition a theoretical framework",
+        "title:approaching awe a moral spiritual and aesthetic emotion"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#05_T02",
+      "item": 5,
+      "theme": 2,
+      "title": "인간화의 이득과 왜곡 위험",
+      "primary_track": "E",
+      "secondary_tracks": [
+        "A"
+      ],
+      "report_file": "20_Research_Reports/#05_단_모든_소재에_사람의_욕망이_있어야_하는_것은_아니다/LSEv2_#05_T02_인간화의_이득과_왜곡_위험.md",
+      "source_ids": [
+        "SRC-2007-054",
+        "SRC-2014-042",
+        "SRC-1998-052",
+        "SRC-2000-053",
+        "SRC-2003-036"
+      ],
+      "source_families": [
+        "title:on seeing human a three factor theory of anthropomorphism",
+        "title:using narratives and storytelling to communicate science with nonexpert audiences",
+        "title:how seductive details do their damage a theory of cognitive interest in",
+        "title:framing european politics a content analysis of press and television news",
+        "title:the expertise reversal effect"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#06_T01",
+      "item": 6,
+      "theme": 1,
+      "title": "긴장 엔진 6종 분류의 완전성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T01_긴장_엔진_6종_분류의_완전성.md",
+      "source_ids": [
+        "SRC-1994-034",
+        "SRC-1992-056",
+        "SRC-1993-057",
+        "SRC-2000-047",
+        "SRC-1980-055",
+        "SRC-1996-058"
+      ],
+      "source_families": [
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:telling in time ii chronology teleology narrativity",
+        "title:interpersonal expectations expectancy violations and emotional communication",
+        "title:the psychology of the unthinkable taboo trade offs forbidden base rates",
+        "title:a cognitive model of the antecedents and consequences of satisfaction decisions",
+        "title:the paradox of suspense"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#06_T02",
+      "item": 6,
+      "theme": 2,
+      "title": "Main Engine 하나를 정하는 효과",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T02_Main_Engine_하나를_정하는_효과.md",
+      "source_ids": [
+        "SRC-1985-022",
+        "SRC-1988-030",
+        "SRC-1988-028",
+        "SRC-2006-060",
+        "SRC-1985-059",
+        "SRC-2015-045"
+      ],
+      "source_families": [
+        "title:causal thinking and the representation of narrative events",
+        "title:the role of knowledge in discourse comprehension a construction integration",
+        "title:cognitive load during problem solving effects on learning",
+        "title:exploring the psychology of interest",
+        "title:narration in the fiction film",
+        "title:complex tv the poetics of contemporary television storytelling"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#06_T03",
+      "item": 6,
+      "theme": 3,
+      "title": "장르·소재별 엔진 적합성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T03_장르소재별_엔진_적합성.md",
+      "source_ids": [
+        "SRC-1994-034",
+        "SRC-1994-037",
+        "SRC-1993-057",
+        "SRC-1978-061",
+        "SRC-2000-047",
+        "SRC-1980-055",
+        "SRC-1993-062"
+      ],
+      "source_families": [
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:constructing inferences during narrative text comprehension",
+        "title:interpersonal expectations expectancy violations and emotional communication",
+        "title:tragic choices the conflicts society confronts in the allocation of tragically",
+        "title:the psychology of the unthinkable taboo trade offs forbidden base rates",
+        "title:a cognitive model of the antecedents and consequences of satisfaction decisions",
+        "title:framing toward clarification of a fractured paradigm"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#07_T01",
+      "item": 7,
+      "theme": 1,
+      "title": "감정 지시와 감정 유발 상황 비교",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T01_감정_지시와_감정_유발_상황_비교.md",
+      "source_ids": [
+        "SRC-2007-063",
+        "SRC-2008-064",
+        "SRC-1966-027",
+        "SRC-1994-024"
+      ],
+      "source_families": [
+        "title:putting feelings into words affect labeling disrupts amygdala activity",
+        "title:grounded cognition",
+        "title:a theory of psychological reactance",
+        "title:the persuasion knowledge model how people cope with persuasion attempts"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#07_T02",
+      "item": 7,
+      "theme": 2,
+      "title": "상황에서 감정이 만들어지는 평가 과정",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T02_상황에서_감정이_만들어지는_평가_과정.md",
+      "source_ids": [
+        "SRC-1991-065",
+        "SRC-2001-003",
+        "SRC-1985-007",
+        "SRC-1995-046",
+        "SRC-2002-048",
+        "SRC-1985-066"
+      ],
+      "source_families": [
+        "title:emotion and adaptation",
+        "title:appraisal considered as a process of multilevel sequential checking",
+        "title:an attributional theory of achievement motivation and emotion",
+        "title:judgments of responsibility a foundation for a theory of social conduct",
+        "title:decisions and revisions the affective forecasting of changeable outcomes",
+        "title:patterns of cognitive appraisal in emotion"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#07_T03",
+      "item": 7,
+      "theme": 3,
+      "title": "구체적 디테일과 감정적 상상",
+      "primary_track": "E",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T03_구체적_디테일과_감정적_상상.md",
+      "source_ids": [
+        "SRC-1986-067",
+        "SRC-2008-064",
+        "SRC-2007-068",
+        "SRC-1996-012",
+        "SRC-2007-025",
+        "SRC-1998-052",
+        "SRC-1988-028"
+      ],
+      "source_families": [
+        "title:mental representations a dual coding approach",
+        "title:grounded cognition",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:the somatic marker hypothesis and the possible functions of the prefrontal",
+        "title:negative emotion enhances memory accuracy for central features while decreasing",
+        "title:how seductive details do their damage a theory of cognitive interest in",
+        "title:cognitive load during problem solving effects on learning"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#08_T01",
+      "item": 8,
+      "theme": 1,
+      "title": "감정별 Trigger 공식 검증",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T01_감정별_Trigger_공식_검증.md",
+      "source_ids": [
+        "SRC-1994-034",
+        "SRC-2000-069",
+        "SRC-1996-070",
+        "SRC-1996-038",
+        "SRC-1985-066",
+        "SRC-1991-065",
+        "SRC-2003-051"
+      ],
+      "source_families": [
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:exploring the strength of surprise an investigation of the expectancy discrepancy",
+        "title:toward a psychological theory of suspense",
+        "title:the psychology of suspense in dramatic exposition",
+        "title:patterns of cognitive appraisal in emotion",
+        "title:emotion and adaptation",
+        "title:approaching awe a moral spiritual and aesthetic emotion"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#08_T02",
+      "item": 8,
+      "theme": 2,
+      "title": "Build-up → Peak → Release의 감정 생성 과정",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T02_Build-up_Peak_Release의_감정.md",
+      "source_ids": [
+        "SRC-1983-071",
+        "SRC-1988-072",
+        "SRC-1991-065"
+      ],
+      "source_families": [
+        "title:transfer of excitation in emotional behavior",
+        "title:the laws of emotion",
+        "title:emotion and adaptation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#08_T03",
+      "item": 8,
+      "theme": 3,
+      "title": "공식의 문화·개인차와 복합성",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T03_공식의_문화개인차와_복합성.md",
+      "source_ids": [
+        "SRC-2001-073",
+        "SRC-1991-074"
+      ],
+      "source_families": [
+        "title:can people feel happy and sad at the same time",
+        "title:culture and the self implications for cognition emotion and motivation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#09_T01",
+      "item": 9,
+      "theme": 1,
+      "title": "감정 다양성과 몰입",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#09_감정의_강도보다_색깔이_중요하다/LSEv2_#09_T01_감정_다양성과_몰입.md",
+      "source_ids": [
+        "SRC-2014-075",
+        "SRC-2008-076",
+        "SRC-2010-013",
+        "SRC-2015-001",
+        "SRC-1985-066",
+        "SRC-1998-039"
+      ],
+      "source_families": [
+        "title:emodiversity and the emotional ecosystem",
+        "title:appraisal of emotions in media use toward a process model of meta emotion",
+        "title:appreciation as a meaningful entertainment experience",
+        "title:the role of a narrative s emotional flow in promoting persuasive outcomes",
+        "title:patterns of cognitive appraisal in emotion",
+        "title:situation models in language comprehension and memory"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#09_T02",
+      "item": 9,
+      "theme": 2,
+      "title": "단일 감정 escalation의 한계와 예외",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#09_감정의_강도보다_색깔이_중요하다/LSEv2_#09_T02_단일_감정_escalation의_한계와_예외.md",
+      "source_ids": [
+        "SRC-1974-077",
+        "SRC-2017-078",
+        "SRC-1988-072",
+        "SRC-1991-065"
+      ],
+      "source_families": [
+        "title:an opponent process theory of motivation i temporal dynamics of affect",
+        "title:emotion shapes the diffusion of moralized content in social networks",
+        "title:the laws of emotion",
+        "title:emotion and adaptation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#10_T01",
+      "item": 10,
+      "theme": 1,
+      "title": "Emotional Fatigue의 메커니즘",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#10_감정_피로/LSEv2_#10_T01_Emotional_Fatigue의_메커니즘.md",
+      "source_ids": [
+        "SRC-2008-079",
+        "SRC-2017-080",
+        "SRC-2007-068",
+        "SRC-2017-078",
+        "SRC-1974-077"
+      ],
+      "source_families": [
+        "title:explaining away a model of affective adaptation",
+        "title:moral outrage in the digital age",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:emotion shapes the diffusion of moralized content in social networks",
+        "title:an opponent process theory of motivation i temporal dynamics of affect"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#10_T02",
+      "item": 10,
+      "theme": 2,
+      "title": "리셋 구간의 기능",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#10_감정_피로/LSEv2_#10_T02_리셋_구간의_기능.md",
+      "source_ids": [
+        "SRC-1998-081",
+        "SRC-1972-082",
+        "SRC-1983-071",
+        "SRC-1988-028",
+        "SRC-2007-011",
+        "SRC-1974-077",
+        "SRC-2002-033",
+        "SRC-2016-008",
+        "SRC-1996-058"
+      ],
+      "source_families": [
+        "title:overcoming negative emotion the undoing effect of positive emotions",
+        "title:humor and its effect on tension reduction",
+        "title:transfer of excitation in emotional behavior",
+        "title:cognitive load during problem solving effects on learning",
+        "title:event perception a mind brain perspective",
+        "title:an opponent process theory of motivation i temporal dynamics of affect",
+        "title:intensified continuity visual style in contemporary american film",
+        "title:the emotional arcs of stories are dominated by six basic shapes",
+        "title:the paradox of suspense"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#10_T03",
+      "item": 10,
+      "theme": 3,
+      "title": "감정-정보 교차 패턴의 실전성",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#10_감정_피로/LSEv2_#10_T03_감정-정보_교차_패턴의_실전성.md",
+      "source_ids": [
+        "SRC-2008-084",
+        "SRC-2007-063",
+        "SRC-2000-083",
+        "SRC-2014-042",
+        "SRC-2007-025",
+        "SRC-2015-001",
+        "SRC-2002-023",
+        "SRC-1988-028",
+        "SRC-2002-021",
+        "SRC-1959-018",
+        "SRC-2008-079",
+        "SRC-1986-067",
+        "SRC-1993-057",
+        "SRC-2007-068"
+      ],
+      "source_families": [
+        "title:learning concepts and categories is spacing the enemy of induction",
+        "title:putting feelings into words affect labeling disrupts amygdala activity",
+        "title:the role of transportation in the persuasiveness of public narratives",
+        "title:using narratives and storytelling to communicate science with nonexpert audiences",
+        "title:negative emotion enhances memory accuracy for central features while decreasing",
+        "title:the role of a narrative s emotional flow in promoting persuasive outcomes",
+        "title:entertainment education and elaboration likelihood analyzing the processing",
+        "title:cognitive load during problem solving effects on learning",
+        "title:multimedia learning",
+        "title:the effect of emotion on cue utilization and the organization of behavior",
+        "title:explaining away a model of affective adaptation",
+        "title:mental representations a dual coding approach",
+        "title:interpersonal expectations expectancy violations and emotional communication",
+        "title:sympathy and callousness the impact of deliberative thought on donations"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#11_T01",
+      "item": 11,
+      "theme": 1,
+      "title": "파형 구조와 정서적 경험",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#11_감정_파형/LSEv2_#11_T01_파형_구조와_정서적_경험.md",
+      "source_ids": [
+        "SRC-2008-085",
+        "SRC-1993-010",
+        "SRC-2003-086",
+        "SRC-1974-077",
+        "SRC-2016-008",
+        "SRC-2021-009",
+        "SRC-1960-049",
+        "SRC-1998-081",
+        "SRC-1983-071",
+        "SRC-2002-033"
+      ],
+      "source_families": [
+        "title:neurocinematics the neuroscience of film",
+        "title:when more pain is preferred to less adding a better end",
+        "title:hedonic contrast and assimilation good slightly good and bad outcomes",
+        "title:an opponent process theory of motivation i temporal dynamics of affect",
+        "title:the emotional arcs of stories are dominated by six basic shapes",
+        "title:how quantifying the shape of stories predicts their success",
+        "title:conflict arousal and curiosity",
+        "title:overcoming negative emotion the undoing effect of positive emotions",
+        "title:transfer of excitation in emotional behavior",
+        "title:intensified continuity visual style in contemporary american film"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#11_T02",
+      "item": 11,
+      "theme": 2,
+      "title": "Peak를 만들기 위한 저점의 역할",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#11_감정_파형/LSEv2_#11_T02_Peak를_만들기_위한_저점의_역할.md",
+      "source_ids": [
+        "SRC-1964-087",
+        "SRC-2003-086",
+        "SRC-1998-088",
+        "SRC-1983-071",
+        "SRC-1996-058",
+        "SRC-1996-070",
+        "SRC-2008-085",
+        "SRC-1974-077"
+      ],
+      "source_families": [
+        "title:adaptation level theory an experimental and systematic approach to behavior",
+        "title:hedonic contrast and assimilation good slightly good and bad outcomes",
+        "title:predictive reward signal of dopamine neurons",
+        "title:transfer of excitation in emotional behavior",
+        "title:the paradox of suspense",
+        "title:toward a psychological theory of suspense",
+        "title:neurocinematics the neuroscience of film",
+        "title:an opponent process theory of motivation i temporal dynamics of affect"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#12_T01",
+      "item": 12,
+      "theme": 1,
+      "title": "장르별 Emotional Arc 비교",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#12_소재별_감정_장르는_달라져야_한다/LSEv2_#12_T01_장르별_Emotional_Arc_비교.md",
+      "source_ids": [
+        "SRC-1980-089",
+        "SRC-1994-034",
+        "SRC-2009-044",
+        "SRC-2002-090",
+        "SRC-2009-041",
+        "SRC-2003-051",
+        "SRC-1993-050",
+        "SRC-2000-047",
+        "SRC-1978-061",
+        "SRC-1959-018",
+        "SRC-1996-058",
+        "SRC-1991-002"
+      ],
+      "source_families": [
+        "title:attachment and loss vol 3 loss sadness and depression",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:puzzle films complex storytelling in contemporary cinema",
+        "title:hope theory rainbows in the mind",
+        "title:witnessing excellence in an other the psychology of elevation gratitude",
+        "title:approaching awe a moral spiritual and aesthetic emotion",
+        "title:the role of anomalous data in knowledge acquisition a theoretical framework",
+        "title:the psychology of the unthinkable taboo trade offs forbidden base rates",
+        "title:tragic choices the conflicts society confronts in the allocation of tragically",
+        "title:the effect of emotion on cue utilization and the organization of behavior",
+        "title:the paradox of suspense",
+        "id:SRC-1991-002"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#12_T02",
+      "item": 12,
+      "theme": 2,
+      "title": "고정 감정 순서의 위험",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#12_소재별_감정_장르는_달라져야_한다/LSEv2_#12_T02_고정_감정_순서의_위험.md",
+      "source_ids": [
+        "SRC-1984-091",
+        "SRC-1998-088",
+        "SRC-2006-092",
+        "SRC-2009-044",
+        "SRC-2003-086",
+        "SRC-1994-034"
+      ],
+      "source_families": [
+        "title:stories scripts and scenes aspects of schema theory",
+        "title:predictive reward signal of dopamine neurons",
+        "title:perceptual pleasure and the brain a novel neurobiological mechanism explains",
+        "title:puzzle films complex storytelling in contemporary cinema",
+        "title:hedonic contrast and assimilation good slightly good and bad outcomes",
+        "title:the psychology of curiosity a review and reinterpretation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#13_T01",
+      "item": 13,
+      "theme": 1,
+      "title": "인간 가치와 정서적 Stakes",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#13_Human_Value/LSEv2_#13_T01_인간_가치와_정서적_Stakes.md",
+      "source_ids": [
+        "SRC-1992-093",
+        "SRC-1978-061",
+        "SRC-2000-094",
+        "SRC-1993-010",
+        "SRC-2017-078",
+        "SRC-2017-080",
+        "SRC-1995-095",
+        "SRC-1980-089",
+        "SRC-1991-074"
+      ],
+      "source_families": [
+        "title:universals in the content and structure of values theoretical advances",
+        "title:tragic choices the conflicts society confronts in the allocation of tragically",
+        "title:self determination theory and the facilitation of intrinsic motivation social",
+        "title:when more pain is preferred to less adding a better end",
+        "title:emotion shapes the diffusion of moralized content in social networks",
+        "title:moral outrage in the digital age",
+        "title:the need to belong desire for interpersonal attachments as a fundamental",
+        "title:attachment and loss vol 3 loss sadness and depression",
+        "title:culture and the self implications for cognition emotion and motivation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#13_T02",
+      "item": 13,
+      "theme": 2,
+      "title": "Stakes의 종류와 장르별 작동",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#13_Human_Value/LSEv2_#13_T02_Stakes의_종류와_장르별_작동.md",
+      "source_ids": [
+        "SRC-1997-096",
+        "SRC-2013-097",
+        "SRC-1978-061",
+        "SRC-1980-089",
+        "SRC-1995-095",
+        "SRC-2000-094",
+        "SRC-1966-027",
+        "SRC-1991-074",
+        "SRC-2002-090",
+        "SRC-1996-012",
+        "SRC-2000-047"
+      ],
+      "source_families": [
+        "title:story substance structure style and the principles of screenwriting",
+        "title:moral foundations theory the pragmatic validity of moral pluralism",
+        "title:tragic choices the conflicts society confronts in the allocation of tragically",
+        "title:attachment and loss vol 3 loss sadness and depression",
+        "title:the need to belong desire for interpersonal attachments as a fundamental",
+        "title:self determination theory and the facilitation of intrinsic motivation social",
+        "title:a theory of psychological reactance",
+        "title:culture and the self implications for cognition emotion and motivation",
+        "title:hope theory rainbows in the mind",
+        "title:the somatic marker hypothesis and the possible functions of the prefrontal",
+        "title:the psychology of the unthinkable taboo trade offs forbidden base rates"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#13_T03",
+      "item": 13,
+      "theme": 3,
+      "title": "Human Value 과잉·왜곡의 위험",
+      "primary_track": "E",
+      "secondary_tracks": [
+        "A"
+      ],
+      "report_file": "20_Research_Reports/#13_Human_Value/LSEv2_#13_T03_Human_Value_과잉왜곡의_위험.md",
+      "source_ids": [
+        "SRC-1966-027",
+        "SRC-1994-024",
+        "SRC-2010-098",
+        "SRC-1998-052",
+        "SRC-1980-099",
+        "SRC-2007-068",
+        "SRC-1996-031",
+        "SRC-1964-087",
+        "SRC-1999-005",
+        "SRC-1994-034",
+        "SRC-2006-060",
+        "SRC-2003-051",
+        "SRC-2006-092",
+        "SRC-1985-022",
+        "SRC-1997-096",
+        "SRC-2007-063"
+      ],
+      "source_families": [
+        "title:a theory of psychological reactance",
+        "title:the persuasion knowledge model how people cope with persuasion attempts",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:how seductive details do their damage a theory of cognitive interest in",
+        "title:human inference strategies and shortcomings of social judgment",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:compassion fatigue communication and burnout toward social problems",
+        "title:adaptation level theory an experimental and systematic approach to behavior",
+        "title:hedonic adaptation",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:exploring the psychology of interest",
+        "title:approaching awe a moral spiritual and aesthetic emotion",
+        "title:perceptual pleasure and the brain a novel neurobiological mechanism explains",
+        "title:causal thinking and the representation of narrative events",
+        "title:story substance structure style and the principles of screenwriting",
+        "title:putting feelings into words affect labeling disrupts amygdala activity"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#14_T01",
+      "item": 14,
+      "theme": 1,
+      "title": "Stakes 명료성과 몰입",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#14_Stake_Question/LSEv2_#14_T01_Stakes_명료성과_몰입.md",
+      "source_ids": [
+        "SRC-2000-083",
+        "SRC-1981-100",
+        "SRC-1988-101",
+        "SRC-1994-034",
+        "SRC-1988-028",
+        "SRC-1993-010",
+        "SRC-1996-070",
+        "SRC-1996-058",
+        "SRC-1996-038",
+        "SRC-2007-068",
+        "SRC-2010-098",
+        "SRC-1997-096",
+        "SRC-1985-059",
+        "SRC-2007-063",
+        "SRC-2009-044",
+        "SRC-2005-032"
+      ],
+      "source_families": [
+        "title:the role of transportation in the persuasiveness of public narratives",
+        "title:the framing of decisions and the psychology of choice",
+        "title:the cognitive structure of emotions",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:cognitive load during problem solving effects on learning",
+        "title:when more pain is preferred to less adding a better end",
+        "title:toward a psychological theory of suspense",
+        "title:the paradox of suspense",
+        "title:the psychology of suspense in dramatic exposition",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:story substance structure style and the principles of screenwriting",
+        "title:narration in the fiction film",
+        "title:putting feelings into words affect labeling disrupts amygdala activity",
+        "title:puzzle films complex storytelling in contemporary cinema",
+        "title:curiosity and exploration an interest deprivation model"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#14_T02",
+      "item": 14,
+      "theme": 2,
+      "title": "Stakes의 크기보다 의미",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#14_Stake_Question/LSEv2_#14_T02_Stakes의_크기보다_의미.md",
+      "source_ids": [
+        "SRC-1981-100",
+        "SRC-1990-102",
+        "SRC-1988-103",
+        "SRC-1995-095",
+        "SRC-2010-098",
+        "SRC-2003-087",
+        "SRC-1997-096"
+      ],
+      "source_families": [
+        "title:the framing of decisions and the psychology of choice",
+        "title:experimental tests of the endowment effect and the coase theorem",
+        "title:possessions and the extended self",
+        "title:the need to belong desire for interpersonal attachments as a fundamental",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "id:SRC-2003-087",
+        "title:story substance structure style and the principles of screenwriting"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#15_T01",
+      "item": 15,
+      "theme": 1,
+      "title": "Human Scale 변환의 인지 효과",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#15_Human_Scale/LSEv2_#15_T01_Human_Scale_변환의_인지_효과.md",
+      "source_ids": [
+        "SRC-1986-067",
+        "SRC-2010-104",
+        "SRC-1983-105",
+        "SRC-2003-087",
+        "SRC-1981-100",
+        "SRC-2010-098"
+      ],
+      "source_families": [
+        "title:mental representations a dual coding approach",
+        "title:construal level theory of psychological distance",
+        "title:structure mapping a theoretical framework for analogy",
+        "id:SRC-2003-087",
+        "title:the framing of decisions and the psychology of choice",
+        "title:if i look at the mass i will never act psychic numbing and genocide"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#15_T02",
+      "item": 15,
+      "theme": 2,
+      "title": "Human Scale과 감정·공감",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#15_Human_Scale/LSEv2_#15_T02_Human_Scale과_감정·공감.md",
+      "source_ids": [
+        "SRC-2003-087",
+        "SRC-2005-106",
+        "SRC-2010-098",
+        "SRC-2007-107",
+        "SRC-1980-099",
+        "SRC-1997-096"
+      ],
+      "source_families": [
+        "id:SRC-2003-087",
+        "title:the identified victim effect an individual group or a group of individuals",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:human inference strategies and shortcomings of social judgment",
+        "title:story substance structure style and the principles of screenwriting"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#15_T03",
+      "item": 15,
+      "theme": 3,
+      "title": "분야별 Human Scale 구현",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#15_Human_Scale/LSEv2_#15_T03_분야별_Human_Scale_구현.md",
+      "source_ids": [
+        "SRC-2006-108",
+        "SRC-2007-109",
+        "SRC-1983-105",
+        "SRC-2010-104"
+      ],
+      "source_families": [
+        "title:experience based and description based perceptions of long term risk why",
+        "title:helping doctors and patients make sense of health statistics",
+        "title:structure mapping a theoretical framework for analogy",
+        "title:construal level theory of psychological distance"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#16_T01",
+      "item": 16,
+      "theme": 1,
+      "title": "구체적 디테일의 정서·기억 효과",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T01_구체적_디테일의_정서기억_효과.md",
+      "source_ids": [
+        "SRC-1986-067",
+        "SRC-2009-112",
+        "SRC-2007-111",
+        "SRC-1982-110",
+        "SRC-1998-052",
+        "SRC-1980-099",
+        "SRC-1995-015"
+      ],
+      "source_families": [
+        "title:mental representations a dual coding approach",
+        "title:reading stories activates neural representations of visual and motor experiences",
+        "title:the cognitive neuroscience of constructive memory remembering the past",
+        "title:stalking the elusive vividness effect",
+        "title:how seductive details do their damage a theory of cognitive interest in",
+        "title:human inference strategies and shortcomings of social judgment",
+        "title:the construction of situation models in narrative comprehension an event indexing"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#16_T02",
+      "item": 16,
+      "theme": 2,
+      "title": "Detail before Scale vs Scale before Detail",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T02_Detail_before_Scale_vs_Scale_b.md",
+      "source_ids": [
+        "SRC-2004-113",
+        "SRC-2007-107",
+        "SRC-1978-114",
+        "SRC-1974-115",
+        "SRC-2010-098",
+        "SRC-2005-106"
+      ],
+      "source_families": [
+        "title:music pandas and mugs on the evaluation of affect and calculation",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:toward a model of text comprehension and production",
+        "title:judgment under uncertainty heuristics and biases",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:the identified victim effect an individual group or a group of individuals"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#16_T03",
+      "item": 16,
+      "theme": 3,
+      "title": "사실 기반 디테일의 신뢰 문제",
+      "primary_track": "A",
+      "secondary_tracks": [
+        "E"
+      ],
+      "report_file": "20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T03_사실_기반_디테일의_신뢰_문제.md",
+      "source_ids": [
+        "SRC-1980-116",
+        "SRC-2012-117",
+        "SRC-2001-118"
+      ],
+      "source_families": [
+        "title:insensitivity to sample bias alternative explanations",
+        "title:nonprobative photographs or words increase truthiness",
+        "title:the elements of journalism what newspeople should know and the public should"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#17_T01",
+      "item": 17,
+      "theme": 1,
+      "title": "Conflict Opening의 주의·궁금증 효과",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#17_반대로_Conflict_Opening도_가능하다/LSEv2_#17_T01_Conflict_Opening의_주의궁금증_효과.md",
+      "source_ids": [
+        "SRC-1960-049",
+        "SRC-1994-034",
+        "SRC-1978-121",
+        "SRC-1992-119",
+        "SRC-1994-120"
+      ],
+      "source_families": [
+        "title:conflict arousal and curiosity",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:putting the fear back into panic the extended parallel process model eppm",
+        "title:constructing inferences during narrative text comprehension"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#17_T02",
+      "item": 17,
+      "theme": 2,
+      "title": "Human Moment와 Conflict Opening 비교",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#17_반대로_Conflict_Opening도_가능하다/LSEv2_#17_T02_Human_Moment와_Conflict_Opening.md",
+      "source_ids": [
+        "SRC-1991-122",
+        "SRC-2000-123",
+        "SRC-1917-124",
+        "SRC-2003-051",
+        "SRC-2010-013",
+        "SRC-1996-038",
+        "SRC-1995-015",
+        "SRC-2004-020",
+        "SRC-1959-018",
+        "SRC-1978-121"
+      ],
+      "source_families": [
+        "title:the altruism question toward a social psychological answer",
+        "title:the limited capacity model of mediated message processing",
+        "title:art as technique искусство как прием",
+        "title:approaching awe a moral spiritual and aesthetic emotion",
+        "title:appreciation as a meaningful entertainment experience",
+        "title:the psychology of suspense in dramatic exposition",
+        "title:the construction of situation models in narrative comprehension an event indexing",
+        "title:enjoyment at the heart of media entertainment",
+        "title:the effect of emotion on cue utilization and the organization of behavior",
+        "title:expositional modes and temporal ordering in fiction"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#18_T01",
+      "item": 18,
+      "theme": 1,
+      "title": "7개 Opening Type의 이론적·사례 검증",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T01_7개_Opening_Type의_이론적사례_검증.md",
+      "source_ids": [
+        "SRC-1960-049",
+        "SRC-1996-038",
+        "SRC-1991-122",
+        "SRC-1978-121",
+        "SRC-1994-120",
+        "SRC-1957-125",
+        "SRC-1997-009",
+        "SRC-1967-127",
+        "SRC-2002-126",
+        "SRC-1994-034",
+        "SRC-1992-119",
+        "SRC-1988-102"
+      ],
+      "source_families": [
+        "title:conflict arousal and curiosity",
+        "title:the psychology of suspense in dramatic exposition",
+        "title:the altruism question toward a social psychological answer",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:constructing inferences during narrative text comprehension",
+        "title:a theory of cognitive dissonance",
+        "id:SRC-1997-009",
+        "title:hitchcock truffaut",
+        "title:the misunderstood limits of folk science an illusion of explanatory depth",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:putting the fear back into panic the extended parallel process model eppm",
+        "id:SRC-1988-102"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#18_T02",
+      "item": 18,
+      "theme": 2,
+      "title": "오프닝 유형의 완전성과 중복",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T02_오프닝_유형의_완전성과_중복.md",
+      "source_ids": [
+        "SRC-1985-129",
+        "SRC-1986-128",
+        "SRC-1978-121",
+        "SRC-1994-034",
+        "SRC-1991-122",
+        "SRC-1957-125",
+        "SRC-2002-126",
+        "SRC-1960-049",
+        "SRC-1967-127"
+      ],
+      "source_families": [
+        "title:narration in the fiction film",
+        "title:the cinema of attraction s early film its spectator and the avant garde",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:the altruism question toward a social psychological answer",
+        "title:a theory of cognitive dissonance",
+        "title:the misunderstood limits of folk science an illusion of explanatory depth",
+        "title:conflict arousal and curiosity",
+        "title:hitchcock truffaut"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#18_T03",
+      "item": 18,
+      "theme": 3,
+      "title": "소재·장르별 적합성과 실패 조건",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T03_소재장르별_적합성과_실패_조건.md",
+      "source_ids": [
+        "SRC-1966-024",
+        "SRC-2008-070",
+        "SRC-1976-130",
+        "SRC-2003-131",
+        "SRC-1957-125",
+        "SRC-2002-126",
+        "SRC-1991-122",
+        "SRC-1978-121",
+        "SRC-1967-127",
+        "SRC-1960-049",
+        "SRC-1991-008",
+        "SRC-1994-120",
+        "SRC-1992-119",
+        "SRC-2010-013",
+        "SRC-2015-001"
+      ],
+      "source_families": [
+        "id:SRC-1966-024",
+        "id:SRC-2008-070",
+        "title:beyond culture",
+        "title:the geography of thought how asians and westerners think differently",
+        "title:a theory of cognitive dissonance",
+        "title:the misunderstood limits of folk science an illusion of explanatory depth",
+        "title:the altruism question toward a social psychological answer",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:hitchcock truffaut",
+        "title:conflict arousal and curiosity",
+        "id:SRC-1991-008",
+        "title:constructing inferences during narrative text comprehension",
+        "title:putting the fear back into panic the extended parallel process model eppm",
+        "title:appreciation as a meaningful entertainment experience",
+        "title:the role of a narrative s emotional flow in promoting persuasive outcomes"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#19_T01",
+      "item": 19,
+      "theme": 1,
+      "title": "오프닝의 필수 기능과 순서",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#19_오프닝의_역할/LSEv2_#19_T01_오프닝의_필수_기능과_순서.md",
+      "source_ids": [
+        "SRC-1995-015",
+        "SRC-1994-034",
+        "SRC-1978-121",
+        "SRC-1986-132",
+        "SRC-1973-133",
+        "SRC-1994-120",
+        "SRC-1960-049",
+        "SRC-1985-129",
+        "SRC-1991-008",
+        "SRC-1988-028",
+        "SRC-2000-123",
+        "SRC-2010-013",
+        "SRC-1917-124",
+        "SRC-1996-038"
+      ],
+      "source_families": [
+        "title:the construction of situation models in narrative comprehension an event indexing",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:relevance communication and cognition",
+        "title:attention and effort",
+        "title:constructing inferences during narrative text comprehension",
+        "title:conflict arousal and curiosity",
+        "title:narration in the fiction film",
+        "id:SRC-1991-008",
+        "title:cognitive load during problem solving effects on learning",
+        "title:the limited capacity model of mediated message processing",
+        "title:appreciation as a meaningful entertainment experience",
+        "title:art as technique искусство как прием",
+        "title:the psychology of suspense in dramatic exposition"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#19_T02",
+      "item": 19,
+      "theme": 2,
+      "title": "초반 답 공개의 경계조건",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#19_오프닝의_역할/LSEv2_#19_T02_초반_답_공개의_경계조건.md",
+      "source_ids": [
+        "SRC-1994-034",
+        "SRC-2007-135",
+        "SRC-2011-134",
+        "SRC-1985-129",
+        "SRC-1994-120",
+        "SRC-2008-070",
+        "SRC-1967-127",
+        "SRC-1978-121",
+        "SRC-1973-133",
+        "SRC-1986-132"
+      ],
+      "source_families": [
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:made to stick why some ideas survive and others die",
+        "title:story spoilers don t spoil but rather enhance enjoyment",
+        "title:narration in the fiction film",
+        "title:constructing inferences during narrative text comprehension",
+        "id:SRC-2008-070",
+        "title:hitchcock truffaut",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:attention and effort",
+        "title:relevance communication and cognition"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#20_T01",
+      "item": 20,
+      "theme": 1,
+      "title": "미완성 상태와 Curiosity",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T01_미완성_상태와_Curiosity.md",
+      "source_ids": [
+        "SRC-1994-034",
+        "SRC-2009-138",
+        "SRC-2006-141",
+        "SRC-1927-136",
+        "SRC-1996-139",
+        "SRC-1960-137",
+        "SRC-2011-140",
+        "SRC-1988-028",
+        "SRC-2008-070",
+        "SRC-2007-135",
+        "SRC-1985-129",
+        "SRC-1997-096"
+      ],
+      "source_families": [
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:the neural correlates of curiosity an fmri study",
+        "title:the question behavior effect what we know and where we go from here",
+        "title:das behalten erledigter und unerledigter handlungen on finished and unfinished",
+        "title:motivated closing of the mind seizing and freezing",
+        "title:conflict arousal and curiosity",
+        "title:consider it done plan making can eliminate the cognitive effects of unfulfilled",
+        "title:cognitive load during problem solving effects on learning",
+        "id:SRC-2008-070",
+        "title:made to stick why some ideas survive and others die",
+        "title:narration in the fiction film",
+        "title:story substance structure style and the principles of screenwriting"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#20_T02",
+      "item": 20,
+      "theme": 2,
+      "title": "Hook 유형과 강한 문장 구분",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T02_Hook_유형과_강한_문장_구분.md",
+      "source_ids": [
+        "SRC-1960-137",
+        "SRC-2009-138",
+        "SRC-2008-079",
+        "SRC-1994-034",
+        "SRC-2001-142",
+        "SRC-2013-143",
+        "SRC-2006-141",
+        "SRC-2015-145",
+        "SRC-2008-070",
+        "SRC-1994-120",
+        "SRC-1978-121",
+        "SRC-1985-129",
+        "SRC-1927-136",
+        "SRC-2013-097",
+        "SRC-1998-088",
+        "SRC-2009-144",
+        "SRC-1991-122",
+        "SRC-1980-089",
+        "SRC-1997-096"
+      ],
+      "source_families": [
+        "title:conflict arousal and curiosity",
+        "title:the neural correlates of curiosity an fmri study",
+        "title:explaining away a model of affective adaptation",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:an fmri investigation of emotional engagement in moral judgment",
+        "title:whatever next predictive brains situated agents and the future of cognitive",
+        "title:the question behavior effect what we know and where we go from here",
+        "title:click bait forward reference as lure in online news headlines",
+        "id:SRC-2008-070",
+        "title:constructing inferences during narrative text comprehension",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:narration in the fiction film",
+        "title:das behalten erledigter und unerledigter handlungen on finished and unfinished",
+        "title:moral foundations theory the pragmatic validity of moral pluralism",
+        "title:predictive reward signal of dopamine neurons",
+        "title:emotion elicits the social sharing of emotion theory and empirical review",
+        "title:the altruism question toward a social psychological answer",
+        "title:attachment and loss vol 3 loss sadness and depression",
+        "title:story substance structure style and the principles of screenwriting"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#20_T03",
+      "item": 20,
+      "theme": 3,
+      "title": "Hook의 Promise와 Trust",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "A",
+        "I"
+      ],
+      "report_file": "20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T03_Hook의_Promise와_Trust.md",
+      "source_ids": [
+        "SRC-1995-146",
+        "SRC-1980-055",
+        "SRC-1984-149",
+        "SRC-1975-147",
+        "SRC-1929-148",
+        "SRC-1994-034",
+        "SRC-2008-070",
+        "SRC-1986-132",
+        "SRC-1978-121",
+        "SRC-2015-145",
+        "SRC-2017-080",
+        "SRC-1988-028",
+        "SRC-1997-096"
+      ],
+      "source_families": [
+        "title:psychological contracts in organizations understanding written and unwritten",
+        "title:a cognitive model of the antecedents and consequences of satisfaction decisions",
+        "title:the evolution of cooperation",
+        "title:logic and conversation",
+        "title:ten commandments of detective fiction the detection club fair play decalogue",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "id:SRC-2008-070",
+        "title:relevance communication and cognition",
+        "title:expositional modes and temporal ordering in fiction",
+        "title:click bait forward reference as lure in online news headlines",
+        "title:moral outrage in the digital age",
+        "title:cognitive load during problem solving effects on learning",
+        "title:story substance structure style and the principles of screenwriting"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#21_T01",
+      "item": 21,
+      "theme": 1,
+      "title": "다층 Open Loop의 인지 효과",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#21_Open_Loop/LSEv2_#21_T01_다층_Open_Loop의_인지_효과.md",
+      "source_ids": [
+        "SRC-2001-150",
+        "SRC-1992-151",
+        "SRC-1998-153",
+        "SRC-1988-028",
+        "SRC-1980-152",
+        "SRC-1994-120",
+        "SRC-1985-129",
+        "SRC-1996-070",
+        "SRC-1983-071",
+        "SRC-1973-133",
+        "SRC-2009-138",
+        "SRC-2011-140",
+        "SRC-1997-096"
+      ],
+      "source_families": [
+        "title:the magical number 4 in short term memory a reconsideration of mental storage",
+        "title:working memory",
+        "title:on the self regulation of behavior",
+        "title:cognitive load during problem solving effects on learning",
+        "title:narrative discourse an essay in method",
+        "title:constructing inferences during narrative text comprehension",
+        "title:narration in the fiction film",
+        "title:toward a psychological theory of suspense",
+        "title:transfer of excitation in emotional behavior",
+        "title:attention and effort",
+        "title:the neural correlates of curiosity an fmri study",
+        "title:consider it done plan making can eliminate the cognitive effects of unfulfilled",
+        "title:story substance structure style and the principles of screenwriting"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#21_T02",
+      "item": 21,
+      "theme": 2,
+      "title": "Big/Chapter/Micro Loop의 설계 원리",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "J"
+      ],
+      "report_file": "20_Research_Reports/#21_Open_Loop/LSEv2_#21_T02_BigChapterMicro_Loop의_설계_원리.md",
+      "source_ids": [
+        "SRC-1992-155",
+        "SRC-1985-154",
+        "SRC-1984-156",
+        "SRC-2007-157",
+        "SRC-1998-153",
+        "SRC-1996-070",
+        "SRC-1973-133",
+        "SRC-1994-120",
+        "SRC-1980-152",
+        "SRC-2001-150"
+      ],
+      "source_families": [
+        "title:mechanisms that generate questions quest a model of question answering",
+        "title:narration in the fiction film",
+        "title:reading for the plot design and intention in narrative",
+        "title:experiencing fiction judgments progressions and the rhetorical theory",
+        "title:on the self regulation of behavior",
+        "title:toward a psychological theory of suspense",
+        "title:attention and effort",
+        "title:constructing inferences during narrative text comprehension",
+        "title:narrative discourse an essay in method",
+        "title:the magical number 4 in short term memory a reconsideration of mental storage"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#22_T01",
+      "item": 22,
+      "theme": 1,
+      "title": "Answer → New Question 연쇄",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#22_Open_Loop_예시/LSEv2_#22_T01_Answer_New_Question_연쇄.md",
+      "source_ids": [
+        "SRC-1985-158",
+        "SRC-1990-159",
+        "SRC-2005-160",
+        "SRC-1989-161",
+        "SRC-1994-120",
+        "SRC-1988-028",
+        "SRC-1994-034",
+        "SRC-1998-153",
+        "SRC-1996-070",
+        "SRC-1985-154"
+      ],
+      "source_families": [
+        "title:causal relatedness and importance of story events",
+        "title:the causal inference maker towards a process model of inference generation",
+        "title:curiosity and the pleasures of learning wanting and liking new information",
+        "title:clues roots of an evidential paradigm in clues myths and the historical",
+        "title:constructing inferences during narrative text comprehension",
+        "title:cognitive load during problem solving effects on learning",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:on the self regulation of behavior",
+        "title:toward a psychological theory of suspense",
+        "title:narration in the fiction film"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#22_T02",
+      "item": 22,
+      "theme": 2,
+      "title": "질문 연쇄와 인과성",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#22_Open_Loop_예시/LSEv2_#22_T02_질문_연쇄와_인과성.md",
+      "source_ids": [
+        "SRC-1992-165",
+        "SRC-1993-162",
+        "SRC-1998-163",
+        "SRC-1992-164",
+        "SRC-1986-029",
+        "SRC-1985-158",
+        "SRC-1988-030",
+        "SRC-1984-156",
+        "SRC-1978-114",
+        "SRC-1985-154",
+        "SRC-1980-152"
+      ],
+      "source_families": [
+        "title:inference during reading",
+        "title:causal bridging inferences in discourse comprehension",
+        "title:situation models in language comprehension and memory",
+        "title:narrative comprehension and film",
+        "id:SRC-1986-029",
+        "title:causal relatedness and importance of story events",
+        "title:the role of knowledge in discourse comprehension a construction integration",
+        "title:reading for the plot design and intention in narrative",
+        "title:toward a model of text comprehension and production",
+        "title:narration in the fiction film",
+        "title:narrative discourse an essay in method"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#23_T01",
+      "item": 23,
+      "theme": 1,
+      "title": "Open Loop 과부하와 인지부하",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#23_질문은_무한히_쌓지_않는다/LSEv2_#23_T01_Open_Loop_과부하와_인지부하.md",
+      "source_ids": [
+        "SRC-2002-166",
+        "SRC-2001-150",
+        "SRC-1994-167",
+        "SRC-1998-169",
+        "SRC-2006-168",
+        "SRC-1996-139",
+        "SRC-2011-140",
+        "SRC-1927-136",
+        "SRC-1988-028",
+        "SRC-1956-027",
+        "SRC-1992-164",
+        "SRC-1995-146"
+      ],
+      "source_families": [
+        "title:access to information in working memory an inspection of the focus of attention",
+        "title:the magical number 4 in short term memory a reconsideration of mental storage",
+        "title:dual task interference in simple tasks data and theory",
+        "title:ego depletion is the active self a limited resource",
+        "title:narrative complexity in contemporary american television",
+        "title:motivated closing of the mind seizing and freezing",
+        "title:consider it done plan making can eliminate the cognitive effects of unfulfilled",
+        "title:das behalten erledigter und unerledigter handlungen on finished and unfinished",
+        "title:cognitive load during problem solving effects on learning",
+        "id:SRC-1956-027",
+        "title:narrative comprehension and film",
+        "title:psychological contracts in organizations understanding written and unwritten"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#23_T02",
+      "item": 23,
+      "theme": 2,
+      "title": "질문의 적정 회수와 만족",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "H"
+      ],
+      "report_file": "20_Research_Reports/#23_질문은_무한히_쌓지_않는다/LSEv2_#23_T02_질문의_적정_회수와_만족.md",
+      "source_ids": [
+        "SRC-1987-171",
+        "SRC-1972-172",
+        "SRC-2006-170",
+        "SRC-1980-173",
+        "SRC-1985-158",
+        "SRC-2002-166",
+        "SRC-2006-168",
+        "SRC-1998-169"
+      ],
+      "source_families": [
+        "title:anticipation and the valuation of delayed consumption",
+        "title:cognitive and attentional mechanisms in delay of gratification",
+        "title:the goal gradient hypothesis resurrected purchase acceleration illusory",
+        "title:anatomy of suspense",
+        "title:causal relatedness and importance of story events",
+        "title:access to information in working memory an inspection of the focus of attention",
+        "title:narrative complexity in contemporary american television",
+        "title:ego depletion is the active self a limited resource"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#24_T01",
+      "item": 24,
+      "theme": 1,
+      "title": "Causal Coherence의 효과",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#24_Causal_Spine/LSEv2_#24_T01_Causal_Coherence의_효과.md",
+      "source_ids": [
+        "SRC-1985-158",
+        "SRC-1988-174",
+        "SRC-2007-175",
+        "SRC-2000-176",
+        "SRC-2008-177",
+        "SRC-1980-173",
+        "SRC-2006-168",
+        "SRC-1990-159"
+      ],
+      "source_families": [
+        "title:causal relatedness and importance of story events",
+        "title:causal reasoning in the comprehension of simple texts",
+        "title:event perception a mind brain perspective",
+        "title:the role of transportation in the persuasiveness of public narratives",
+        "title:measuring narrative engagement",
+        "title:anatomy of suspense",
+        "title:narrative complexity in contemporary american television",
+        "title:the causal inference maker towards a process model of inference generation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#24_T02",
+      "item": 24,
+      "theme": 2,
+      "title": "인과 Spine의 실제 설계",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#24_Causal_Spine/LSEv2_#24_T02_인과_Spine의_실제_설계.md",
+      "source_ids": [
+        "SRC-1975-178",
+        "SRC-2002-180",
+        "SRC-1997-181",
+        "SRC-1994-179",
+        "SRC-2008-177",
+        "SRC-1988-174",
+        "SRC-2007-175",
+        "SRC-2006-168",
+        "SRC-2000-176"
+      ],
+      "source_families": [
+        "title:hindsight is not equal to foresight the effect of outcome knowledge on",
+        "title:the misunderstood limits of folk science an illusion of explanatory depth",
+        "title:counterfactual thinking",
+        "title:learning in and about complex systems",
+        "title:measuring narrative engagement",
+        "title:causal reasoning in the comprehension of simple texts",
+        "title:event perception a mind brain perspective",
+        "title:narrative complexity in contemporary american television",
+        "title:the role of transportation in the persuasiveness of public narratives"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#25_T01",
+      "item": 25,
+      "theme": 1,
+      "title": "Discourse Relation과 이해",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#25_WHY_THEREFORE_엔진/LSEv2_#25_T01_Discourse_Relation과_이해.md",
+      "source_ids": [
+        "SRC-2000-182",
+        "SRC-1988-174",
+        "SRC-2015-184",
+        "SRC-1994-183",
+        "SRC-1996-185",
+        "SRC-2000-176",
+        "SRC-2008-177",
+        "SRC-2007-175"
+      ],
+      "source_families": [
+        "title:the role of coherence relations and their linguistic markers in text processing",
+        "title:causal reasoning in the comprehension of simple texts",
+        "title:reversing expectations during discourse comprehension an erp study of but",
+        "title:the influence of connectives on sentence comprehension",
+        "title:are good texts always better interactions of text coherence background",
+        "title:the role of transportation in the persuasiveness of public narratives",
+        "title:measuring narrative engagement",
+        "title:event perception a mind brain perspective"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#25_T02",
+      "item": 25,
+      "theme": 2,
+      "title": "그리고식 나열 vs 인과 전개",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#25_WHY_THEREFORE_엔진/LSEv2_#25_T02_그리고식_나열_vs_인과_전개.md",
+      "source_ids": [
+        "SRC-1994-186",
+        "SRC-1987-187",
+        "SRC-1988-174",
+        "SRC-1993-188",
+        "SRC-1980-173",
+        "SRC-2007-175",
+        "SRC-2000-182",
+        "SRC-2000-176",
+        "SRC-1975-178",
+        "SRC-2006-189",
+        "SRC-1996-185"
+      ],
+      "source_families": [
+        "title:constructing inferences during narrative text comprehension",
+        "title:degree of causal relatedness and memory",
+        "title:causal reasoning in the comprehension of simple texts",
+        "title:experiencing narrative worlds on the psychological activities of reading",
+        "title:anatomy of suspense",
+        "title:event perception a mind brain perspective",
+        "title:the role of coherence relations and their linguistic markers in text processing",
+        "title:the role of transportation in the persuasiveness of public narratives",
+        "title:hindsight is not equal to foresight the effect of outcome knowledge on",
+        "title:the kuleshov effect the influence of contextual framing on emotionally",
+        "title:are good texts always better interactions of text coherence background"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#26_T01",
+      "item": 26,
+      "theme": 1,
+      "title": "정보 기능 7종 분류의 타당성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T01_정보_기능_7종_분류의_타당성.md",
+      "source_ids": [
+        "SRC-1958-190",
+        "SRC-1966-027",
+        "SRC-1988-193",
+        "SRC-2007-109",
+        "SRC-2006-191",
+        "SRC-1994-186",
+        "SRC-2007-192",
+        "SRC-2007-107",
+        "SRC-1981-100",
+        "SRC-1993-188",
+        "SRC-2015-145",
+        "SRC-2007-175",
+        "SRC-1998-052"
+      ],
+      "source_families": [
+        "title:the uses of argument",
+        "title:a theory of psychological reactance",
+        "title:news as discourse",
+        "title:helping doctors and patients make sense of health statistics",
+        "title:the structure and function of explanations",
+        "title:constructing inferences during narrative text comprehension",
+        "title:empathy and the novel",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:the framing of decisions and the psychology of choice",
+        "title:experiencing narrative worlds on the psychological activities of reading",
+        "title:click bait forward reference as lure in online news headlines",
+        "title:event perception a mind brain perspective",
+        "title:how seductive details do their damage a theory of cognitive interest in"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#26_T02",
+      "item": 26,
+      "theme": 2,
+      "title": "기능성 정보와 기억·몰입",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "J"
+      ],
+      "report_file": "20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T02_기능성_정보와_기억몰입.md",
+      "source_ids": [
+        "SRC-1986-132",
+        "SRC-1993-195",
+        "SRC-1985-158",
+        "SRC-1990-159",
+        "SRC-1992-196",
+        "SRC-1993-197",
+        "SRC-1989-194",
+        "SRC-1998-052",
+        "SRC-1988-028"
+      ],
+      "source_families": [
+        "title:relevance communication and cognition",
+        "title:inferences during reading converging evidence from discourse analysis",
+        "title:causal relatedness and importance of story events",
+        "title:the causal inference maker towards a process model of inference generation",
+        "title:memory for expectancy congruent and expectancy incongruent information",
+        "title:seduction of the strategic reader effects of interest and importance on",
+        "title:brittle teeth and life in the tropics seductive details and learning from",
+        "title:how seductive details do their damage a theory of cognitive interest in",
+        "title:cognitive load during problem solving effects on learning"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#26_T03",
+      "item": 26,
+      "theme": 3,
+      "title": "Seductive Detail과 삭제 기준",
+      "primary_track": "F",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T03_Seductive_Detail과_삭제_기준.md",
+      "source_ids": [
+        "SRC-2001-199",
+        "SRC-2007-200",
+        "SRC-1988-028",
+        "SRC-1998-052",
+        "SRC-1968-198",
+        "SRC-2007-192",
+        "SRC-1994-201",
+        "SRC-1980-173",
+        "SRC-2000-176",
+        "SRC-1988-193",
+        "SRC-1989-194"
+      ],
+      "source_families": [
+        "title:cognitive constraints on multimedia learning when presenting more material",
+        "title:processing and recall of seductive details in scientific text",
+        "title:cognitive load during problem solving effects on learning",
+        "title:how seductive details do their damage a theory of cognitive interest in",
+        "title:l effet de re el the reality effect",
+        "title:empathy and the novel",
+        "title:foregrounding defamiliarization and affect at evaluated points of reading",
+        "title:anatomy of suspense",
+        "title:the role of transportation in the persuasiveness of public narratives",
+        "title:news as discourse",
+        "title:brittle teeth and life in the tropics seductive details and learning from"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#27_T01",
+      "item": 27,
+      "theme": 1,
+      "title": "Number-Benchmark-Meaning의 인지 효과",
+      "primary_track": "F",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T01_Number-Benchmark-Meaning의_인지_효.md",
+      "source_ids": [
+        "SRC-2009-203",
+        "SRC-2006-202",
+        "SRC-1979-026",
+        "SRC-2010-098",
+        "SRC-2022-205",
+        "SRC-1995-204",
+        "SRC-2007-109",
+        "SRC-2007-192",
+        "SRC-1974-115",
+        "SRC-1981-100"
+      ],
+      "source_families": [
+        "title:how numeracy influences risk comprehension and medical decision making",
+        "title:numeracy and decision making",
+        "id:SRC-1979-026",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:making numbers count the art and science of communicating numbers",
+        "title:how to improve bayesian reasoning without instruction frequency formats",
+        "title:helping doctors and patients make sense of health statistics",
+        "title:empathy and the novel",
+        "title:judgment under uncertainty heuristics and biases",
+        "title:the framing of decisions and the psychology of choice"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#27_T02",
+      "item": 27,
+      "theme": 2,
+      "title": "숫자의 Human Meaning 변환",
+      "primary_track": "E",
+      "secondary_tracks": [
+        "F"
+      ],
+      "report_file": "20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T02_숫자의_Human_Meaning_변환.md",
+      "source_ids": [
+        "SRC-2000-209",
+        "SRC-1986-067",
+        "SRC-1993-206",
+        "SRC-2022-205",
+        "SRC-2009-203",
+        "SRC-1995-204",
+        "SRC-2000-207",
+        "SRC-2004-113",
+        "SRC-2010-098",
+        "SRC-2006-202",
+        "SRC-1997-208"
+      ],
+      "source_families": [
+        "title:where mathematics comes from how the embodied mind brings mathematics into",
+        "title:mental representations a dual coding approach",
+        "title:media advocacy and public health power for prevention",
+        "title:making numbers count the art and science of communicating numbers",
+        "title:how numeracy influences risk comprehension and medical decision making",
+        "title:how to improve bayesian reasoning without instruction frequency formats",
+        "title:the affect heuristic in judgments of risks and benefits",
+        "title:music pandas and mugs on the evaluation of affect and calculation",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:numeracy and decision making",
+        "title:structure mapping in analogy and similarity"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#27_T03",
+      "item": 27,
+      "theme": 3,
+      "title": "숫자와 서사의 균형",
+      "primary_track": "F",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T03_숫자와_서사의_균형.md",
+      "source_ids": [
+        "SRC-2007-210",
+        "SRC-2004-113",
+        "SRC-2010-098",
+        "SRC-1973-211",
+        "SRC-1993-206",
+        "SRC-2006-202",
+        "SRC-2011-213",
+        "SRC-2002-021",
+        "SRC-1988-212",
+        "SRC-2022-205",
+        "SRC-1994-024"
+      ],
+      "source_families": [
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:music pandas and mugs on the evaluation of affect and calculation",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:on the psychology of prediction",
+        "title:media advocacy and public health power for prevention",
+        "title:numeracy and decision making",
+        "title:visualization rhetoric framing effects in narrative visualization",
+        "title:multimedia learning",
+        "title:cognitive load during problem solving effects on learning",
+        "title:making numbers count the art and science of communicating numbers",
+        "title:the persuasion knowledge model how people cope with persuasion attempts"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#28_T01",
+      "item": 28,
+      "theme": 1,
+      "title": "Emotion이 Evidence Processing에 미치는 영향",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T01_Emotion이_Evidence_Processing에.md",
+      "source_ids": [
+        "SRC-2011-215",
+        "SRC-1995-217",
+        "SRC-2007-025",
+        "SRC-1990-214",
+        "SRC-2000-207",
+        "SRC-2006-202",
+        "SRC-1981-026",
+        "SRC-2001-216",
+        "SRC-1994-024",
+        "SRC-1993-206"
+      ],
+      "source_families": [
+        "title:arousal biased competition in perception and memory",
+        "title:mood and judgment the affect infusion model aim",
+        "title:negative emotion enhances memory accuracy for central features while decreasing",
+        "title:the case for motivated reasoning",
+        "title:the affect heuristic in judgments of risks and benefits",
+        "title:numeracy and decision making",
+        "title:mood and memory",
+        "title:the emotional dog and its rational tail a social intuitionist approach",
+        "title:the persuasion knowledge model how people cope with persuasion attempts",
+        "title:media advocacy and public health power for prevention"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#28_T02",
+      "item": 28,
+      "theme": 2,
+      "title": "Evidence가 Emotion을 강화하는 방식",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T02_Evidence가_Emotion을_강화하는_방식.md",
+      "source_ids": [
+        "SRC-2004-221",
+        "SRC-1994-024",
+        "SRC-1993-206",
+        "SRC-1995-218",
+        "SRC-1987-219",
+        "SRC-2011-213",
+        "SRC-1994-220",
+        "SRC-2007-210",
+        "SRC-1988-212",
+        "SRC-2010-098",
+        "SRC-2022-205"
+      ],
+      "source_families": [
+        "title:risk as analysis and risk as feelings some thoughts about affect reason",
+        "title:the persuasion knowledge model how people cope with persuasion attempts",
+        "title:media advocacy and public health power for prevention",
+        "title:judgments of responsibility a foundation for a theory of social conduct",
+        "title:distress and empathy two qualitatively distinct vicarious emotions with",
+        "title:visualization rhetoric framing effects in narrative visualization",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:cognitive load during problem solving effects on learning",
+        "title:if i look at the mass i will never act psychic numbing and genocide",
+        "title:making numbers count the art and science of communicating numbers"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#28_T03",
+      "item": 28,
+      "theme": 3,
+      "title": "Emotion→Evidence→Meaning / Evidence→Consequence→Emotion",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T03_EmotionEvidenceMeaning_Evi.md",
+      "source_ids": [
+        "SRC-2000-222",
+        "SRC-1986-223",
+        "SRC-2004-221",
+        "SRC-1988-224",
+        "SRC-1995-218",
+        "SRC-1994-024",
+        "SRC-2013-225",
+        "SRC-1990-214",
+        "SRC-1993-206",
+        "SRC-1988-212",
+        "SRC-2022-205"
+      ],
+      "source_families": [
+        "title:the role of transportation in narrative persuasion",
+        "title:the elaboration likelihood model of persuasion",
+        "title:risk as analysis and risk as feelings some thoughts about affect reason",
+        "title:the social amplification of risk a conceptual framework",
+        "title:judgments of responsibility a foundation for a theory of social conduct",
+        "title:the persuasion knowledge model how people cope with persuasion attempts",
+        "title:ideology motivated reasoning and cognitive reflection",
+        "title:the case for motivated reasoning",
+        "title:media advocacy and public health power for prevention",
+        "title:cognitive load during problem solving effects on learning",
+        "title:making numbers count the art and science of communicating numbers"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#29_T01",
+      "item": 29,
+      "theme": 1,
+      "title": "Narrative Prediction과 몰입",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T01_Narrative_Prediction과_몰입.md",
+      "source_ids": [
+        "SRC-2013-226",
+        "SRC-2010-229",
+        "SRC-1994-228",
+        "SRC-2007-227",
+        "SRC-1994-220",
+        "SRC-1985-022",
+        "SRC-1980-038",
+        "SRC-1994-201",
+        "SRC-2000-222"
+      ],
+      "source_families": [
+        "title:whatever next predictive brains situated agents and the future of cognitive",
+        "title:the free energy principle a unified brain theory",
+        "title:readers as problem solvers in the experience of suspense",
+        "title:event perception a mind brain perspective",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:causal thinking and the representation of narrative events",
+        "id:SRC-1980-038",
+        "title:foregrounding defamiliarization and affect at evaluated points of reading",
+        "title:the role of transportation in narrative persuasion"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#29_T02",
+      "item": 29,
+      "theme": 2,
+      "title": "예측의 정확도와 난이도",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T02_예측의_정확도와_난이도.md",
+      "source_ids": [
+        "SRC-2012-230",
+        "SRC-2009-231",
+        "SRC-1997-233",
+        "SRC-1982-232",
+        "SRC-2013-226",
+        "SRC-1994-228",
+        "SRC-1985-022",
+        "SRC-2007-227",
+        "SRC-1994-220"
+      ],
+      "source_families": [
+        "title:the goldilocks effect human infants allocate attention to visual sequences",
+        "title:the wick in the candle of learning epistemic curiosity activates neural",
+        "title:a neural substrate of prediction and reward",
+        "title:the structure of value accounting for taste",
+        "title:whatever next predictive brains situated agents and the future of cognitive",
+        "title:readers as problem solvers in the experience of suspense",
+        "title:causal thinking and the representation of narrative events",
+        "title:event perception a mind brain perspective",
+        "title:the psychology of curiosity a review and reinterpretation"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#29_T03",
+      "item": 29,
+      "theme": 3,
+      "title": "예측과 감정·판단",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T03_예측과_감정판단.md",
+      "source_ids": [
+        "SRC-1988-234",
+        "SRC-2000-235",
+        "SRC-1997-236",
+        "SRC-2011-237",
+        "SRC-1980-038",
+        "SRC-2013-226",
+        "SRC-2007-210",
+        "SRC-1994-228",
+        "SRC-1997-233"
+      ],
+      "source_families": [
+        "title:the cognitive structure of emotions",
+        "title:basal morality in drama appreciation",
+        "title:counterfactual thinking",
+        "title:story spoilers don t spoil stories",
+        "id:SRC-1980-038",
+        "title:whatever next predictive brains situated agents and the future of cognitive",
+        "title:sympathy and callousness the impact of deliberative thought on donations",
+        "title:readers as problem solvers in the experience of suspense",
+        "title:a neural substrate of prediction and reward"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#30_T01",
+      "item": 30,
+      "theme": 1,
+      "title": "단서 기반 추론과 참여",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T01_단서_기반_추론과_참여.md",
+      "source_ids": [
+        "SRC-1978-238",
+        "SRC-2011-241",
+        "SRC-1994-240",
+        "SRC-1989-239",
+        "SRC-2012-230",
+        "SRC-1985-022",
+        "SRC-2007-227",
+        "SRC-2009-231",
+        "SRC-1997-233"
+      ],
+      "source_families": [
+        "title:the generation effect delineation of a phenomenon",
+        "title:the double edged sword of pedagogy instruction limits spontaneous exploration",
+        "title:constructing inferences during narrative text comprehension",
+        "title:self explanations how students study and use examples in learning to solve",
+        "title:the goldilocks effect human infants allocate attention to visual sequences",
+        "title:causal thinking and the representation of narrative events",
+        "title:event perception a mind brain perspective",
+        "title:the wick in the candle of learning epistemic curiosity activates neural",
+        "title:a neural substrate of prediction and reward"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#30_T02",
+      "item": 30,
+      "theme": 2,
+      "title": "단서의 양·명료도와 Fairness",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "A"
+      ],
+      "report_file": "20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T02_단서의_양명료도와_Fairness.md",
+      "source_ids": [
+        "SRC-2018-242",
+        "SRC-2008-243",
+        "SRC-1966-244",
+        "SRC-1975-245",
+        "SRC-1978-238",
+        "SRC-2012-230",
+        "SRC-2009-231",
+        "SRC-1982-232",
+        "SRC-1997-233",
+        "SRC-1989-239",
+        "SRC-2011-237"
+      ],
+      "source_families": [
+        "title:elements of surprise our mental limits and the satisfactions of plot",
+        "title:misdirection a new kind of visual illusion",
+        "title:signal detection theory and psychophysics",
+        "title:hindsight is not equal to foresight the effect of outcome knowledge on",
+        "title:the generation effect delineation of a phenomenon",
+        "title:the goldilocks effect human infants allocate attention to visual sequences",
+        "title:the wick in the candle of learning epistemic curiosity activates neural",
+        "title:the structure of value accounting for taste",
+        "title:a neural substrate of prediction and reward",
+        "title:self explanations how students study and use examples in learning to solve",
+        "title:story spoilers don t spoil stories"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#30_T03",
+      "item": 30,
+      "theme": 3,
+      "title": "설명형 콘텐츠에서의 능동 추론",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T03_설명형_콘텐츠에서의_능동_추론.md",
+      "source_ids": [
+        "SRC-1978-248",
+        "SRC-1986-246",
+        "SRC-1992-247",
+        "SRC-2012-249"
+      ],
+      "source_families": [
+        "title:medical problem solving an analysis of clinical reasoning",
+        "title:a taxonomy of problem based learning methods",
+        "title:an introduction to case based reasoning",
+        "title:misinformation and its correction continued influence and successful debiasing"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#31_T01",
+      "item": 31,
+      "theme": 1,
+      "title": "Prediction Confirmation의 보상",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T01_Prediction_Confirmation의_보상.md",
+      "source_ids": [
+        "SRC-2006-250",
+        "SRC-2000-251",
+        "SRC-2004-252",
+        "SRC-1970-253"
+      ],
+      "source_families": [
+        "title:sweet anticipation music and the psychology of expectation",
+        "title:self determination theory and the facilitation of intrinsic motivation social",
+        "title:processing fluency and aesthetic pleasure is beauty in the perceiver s",
+        "title:novelty complexity and hedonic value"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#31_T02",
+      "item": 31,
+      "theme": 2,
+      "title": "Prediction Error의 보상과 위험",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T02_Prediction_Error의_보상과_위험.md",
+      "source_ids": [
+        "SRC-1997-254",
+        "SRC-2021-256",
+        "SRC-2010-255",
+        "SRC-1998-257",
+        "SRC-2018-242",
+        "SRC-1975-245",
+        "SRC-1970-253"
+      ],
+      "source_families": [
+        "title:a neural substrate of prediction and reward",
+        "title:prediction errors disrupt hippocampal representations and update episodic",
+        "title:the free energy principle a unified brain theory",
+        "title:surprise and schema strength",
+        "title:elements of surprise our mental limits and the satisfactions of plot",
+        "title:hindsight is not equal to foresight the effect of outcome knowledge on",
+        "title:novelty complexity and hedonic value"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#31_T03",
+      "item": 31,
+      "theme": 3,
+      "title": "맞음과 틀림의 비율",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "J"
+      ],
+      "report_file": "20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T03_맞음과_틀림의_비율.md",
+      "source_ids": [
+        "SRC-2019-258",
+        "SRC-1996-261",
+        "SRC-1990-260",
+        "SRC-1957-259"
+      ],
+      "source_families": [
+        "title:the eighty five percent rule for optimal learning",
+        "title:the psychology of suspense in dramatic exposition",
+        "title:flow the psychology of optimal experience",
+        "title:schedules of reinforcement"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#32_T01",
+      "item": 32,
+      "theme": 1,
+      "title": "Reversal과 Reappraisal의 이론",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#32_반전의_정의/LSEv2_#32_T01_Reversal과_Reappraisal의_이론.md",
+      "source_ids": [
+        "SRC-1996-263",
+        "SRC-2002-264",
+        "SRC-1985-262",
+        "SRC-2008-265"
+      ],
+      "source_families": [
+        "title:poetics malcolm heath trans",
+        "title:emotion regulation affective cognitive and social consequences",
+        "title:on the logic of theory change partial meet contraction and revision functions",
+        "title:the cambridge introduction to narrative"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#32_T02",
+      "item": 32,
+      "theme": 2,
+      "title": "좋은 반전의 조건",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#32_반전의_정의/LSEv2_#32_T02_좋은_반전의_조건.md",
+      "source_ids": [
+        "SRC-1928-267",
+        "SRC-1929-148",
+        "SRC-1975-269",
+        "SRC-2018-242",
+        "SRC-1927-266",
+        "SRC-1944-268"
+      ],
+      "source_families": [
+        "title:twenty rules for writing detective stories",
+        "title:ten commandments of detective fiction the detection club fair play decalogue",
+        "title:hindsight foresight the effect of outcome knowledge on judgment under",
+        "title:elements of surprise our mental limits and the satisfactions of plot",
+        "title:aspects of the novel",
+        "title:the simple art of murder"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#32_T03",
+      "item": 32,
+      "theme": 3,
+      "title": "정보형 콘텐츠의 반전",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#32_반전의_정의/LSEv2_#32_T03_정보형_콘텐츠의_반전.md",
+      "source_ids": [
+        "SRC-1962-270",
+        "SRC-1984-271",
+        "SRC-1991-272",
+        "SRC-2001-273"
+      ],
+      "source_families": [
+        "title:the structure of scientific revolutions",
+        "title:normal accidents living with high risk technologies",
+        "title:is anyone responsible how television frames political issues",
+        "title:introduction to documentary"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#33_T01",
+      "item": 33,
+      "theme": 1,
+      "title": "8개 Reversal Type의 완전성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T01_8개_Reversal_Type의_완전성.md",
+      "source_ids": [
+        "SRC-1936-274",
+        "SRC-1991-275",
+        "SRC-1971-276",
+        "SRC-1984-277",
+        "SRC-1991-272",
+        "SRC-1984-271",
+        "SRC-1962-270"
+      ],
+      "source_families": [
+        "title:the unanticipated consequences of purposive social action",
+        "title:the rhetoric of reaction perversity futility jeopardy",
+        "title:the poetics of prose",
+        "title:time and narrative temps et re cit vol 1",
+        "title:is anyone responsible how television frames political issues",
+        "title:normal accidents living with high risk technologies",
+        "title:the structure of scientific revolutions"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#33_T02",
+      "item": 33,
+      "theme": 2,
+      "title": "유형별 심리적 효과",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T02_유형별_심리적_효과.md",
+      "source_ids": [
+        "SRC-1985-007",
+        "SRC-2008-280",
+        "SRC-1987-278",
+        "SRC-1986-279",
+        "SRC-2001-216",
+        "SRC-1992-281",
+        "SRC-2003-051",
+        "SRC-1997-181"
+      ],
+      "source_families": [
+        "title:an attributional theory of achievement motivation and emotion",
+        "title:crime and punishment why harm and intent matter for different aspects of",
+        "title:perception of risk",
+        "title:norm theory comparing reality to its alternatives",
+        "title:the emotional dog and its rational tail a social intuitionist approach",
+        "title:a theory of fads fashion custom and cultural change as informational cascades",
+        "title:approaching awe a moral spiritual and aesthetic emotion",
+        "title:counterfactual thinking"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#33_T03",
+      "item": 33,
+      "theme": 3,
+      "title": "반전 라이브러리의 오용",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T03_반전_라이브러리의_오용.md",
+      "source_ids": [
+        "SRC-2004-282",
+        "SRC-2010-283",
+        "SRC-2007-284",
+        "SRC-2011-285",
+        "SRC-2018-242",
+        "SRC-1975-269",
+        "SRC-1993-188",
+        "SRC-1984-277"
+      ],
+      "source_families": [
+        "title:balance as bias global warming and the us prestige press",
+        "title:merchants of doubt how a handful of scientists obscured the truth on issues",
+        "title:the black swan the impact of the highly improbable",
+        "title:thinking fast and slow",
+        "title:elements of surprise our mental limits and the satisfactions of plot",
+        "title:hindsight foresight the effect of outcome knowledge on judgment under",
+        "title:experiencing narrative worlds on the psychological activities of reading",
+        "title:time and narrative temps et re cit vol 1"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#34_T01",
+      "item": 34,
+      "theme": 1,
+      "title": "Rehook과 Attention Renewal",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#34_Rehook의_정의/LSEv2_#34_T01_Rehook과_Attention_Renewal.md",
+      "source_ids": [
+        "SRC-1995-287",
+        "SRC-1963-286",
+        "SRC-2006-288",
+        "SRC-2007-011",
+        "SRC-2000-123",
+        "SRC-1994-034",
+        "SRC-1972-289",
+        "SRC-1988-030"
+      ],
+      "source_families": [
+        "title:the restorative benefits of nature toward an integrative framework",
+        "title:perception and the conditioned reflex",
+        "title:the restless mind",
+        "title:event perception a mind brain perspective",
+        "title:the limited capacity model of mediated message processing",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "title:contextual prerequisites for understanding some investigations of comprehension",
+        "title:the role of knowledge in discourse comprehension a construction integration"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#34_T02",
+      "item": 34,
+      "theme": 2,
+      "title": "가짜 Rehook vs 실질 변화",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#34_Rehook의_정의/LSEv2_#34_T02_가짜_Rehook_vs_실질_변화.md",
+      "source_ids": [
+        "SRC-1987-290",
+        "SRC-1970-293",
+        "SRC-1960-291",
+        "SRC-1975-292",
+        "SRC-1994-034",
+        "SRC-1988-112",
+        "SRC-1971-276"
+      ],
+      "source_families": [
+        "doi:10.1016/0010-0277(87)90016-3",
+        "doi:10.1037/h0029810",
+        "title:conflict arousal and curiosity",
+        "title:logic and conversation",
+        "title:the psychology of curiosity a review and reinterpretation",
+        "id:SRC-1988-112",
+        "title:the poetics of prose"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#35_T01",
+      "item": 35,
+      "theme": 1,
+      "title": "Rehook Type 분류와 효과",
+      "primary_track": "J",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T01_Rehook_Type_분류와_효과.md",
+      "source_ids": [
+        "SRC-1995-294",
+        "SRC-2007-295",
+        "SRC-2001-296",
+        "SRC-1994-297",
+        "SRC-1936-274",
+        "SRC-2000-089",
+        "SRC-1979-224",
+        "SRC-2011-205",
+        "SRC-1991-275",
+        "SRC-1985-236",
+        "SRC-2002-145",
+        "SRC-1959-198"
+      ],
+      "source_families": [
+        "doi:10.1111/j.1467-9280.1995.tb00513.x",
+        "doi:10.1509/jmkr.44.2.207",
+        "doi:10.1037/0033-295x.108.4.814",
+        "doi:10.3102/00028312031001104",
+        "title:the unanticipated consequences of purposive social action",
+        "id:SRC-2000-089",
+        "id:SRC-1979-224",
+        "id:SRC-2011-205",
+        "title:the rhetoric of reaction perversity futility jeopardy",
+        "id:SRC-1985-236",
+        "id:SRC-2002-145",
+        "id:SRC-1959-198"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#35_T02",
+      "item": 35,
+      "theme": 2,
+      "title": "유형 전환과 정보 다양성",
+      "primary_track": "J",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T02_유형_전환과_정보_다양성.md",
+      "source_ids": [
+        "SRC-2002-299",
+        "SRC-2010-300",
+        "SRC-2000-301",
+        "SRC-1998-298"
+      ],
+      "source_families": [
+        "doi:10.1016/s0079-7421(02)80005-6",
+        "doi:10.1037/a0018963",
+        "doi:10.1037/0022-3514.79.5.701",
+        "doi:10.1023/a:1022193728205"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#35_T03",
+      "item": 35,
+      "theme": 3,
+      "title": "Rehook의 인과적 연결",
+      "primary_track": "B",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T03_Rehook의_인과적_연결.md",
+      "source_ids": [
+        "SRC-1985-302",
+        "SRC-1994-303",
+        "SRC-1978-305",
+        "SRC-1990-304"
+      ],
+      "source_families": [
+        "doi:10.1016/0749-596x(85)90049-7",
+        "doi:10.1037/0033-295x.101.3.371",
+        "doi:10.1037/0033-295x.85.5.363",
+        "doi:10.1016/s0079-7421(08)60055-1"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#36_T01",
+      "item": 36,
+      "theme": 1,
+      "title": "시간 규칙 vs 상태 기반 타이밍",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T01_시간_규칙_vs_상태_기반_타이밍.md",
+      "source_ids": [
+        "SRC-2016-306",
+        "SRC-2007-309",
+        "SRC-2014-307",
+        "SRC-2008-308"
+      ],
+      "source_families": [
+        "doi:10.1152/advan.00109.2016",
+        "doi:10.1080/00986280701291291",
+        "doi:10.1145/2556325.2566239",
+        "doi:10.1016/j.tics.2007.11.004"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#36_T02",
+      "item": 36,
+      "theme": 2,
+      "title": "Rehook 필요 신호 검증",
+      "primary_track": "C",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T02_Rehook_필요_신호_검증.md",
+      "source_ids": [
+        "SRC-1996-310",
+        "SRC-2010-311",
+        "SRC-1999-312",
+        "SRC-1999-313"
+      ],
+      "source_families": [
+        "doi:10.1037/0033-295x.103.2.263",
+        "doi:10.1038/nrn2787",
+        "title:hedonic adaptation",
+        "doi:10.1017/s0140525x99002149"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#36_T03",
+      "item": 36,
+      "theme": 3,
+      "title": "Rehook 과잉의 비용",
+      "primary_track": "C",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T03_Rehook_과잉의_비용.md",
+      "source_ids": [
+        "SRC-2003-314",
+        "SRC-2008-315",
+        "SRC-2009-317",
+        "SRC-1990-316"
+      ],
+      "source_families": [
+        "doi:10.1016/s1364-6613(03)00028-7",
+        "doi:10.1145/1357054.1357072",
+        "doi:10.1073/pnas.0903620106",
+        "title:flow the psychology of optimal experience"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#37_T01",
+      "item": 37,
+      "theme": 1,
+      "title": "감정 전환이 Attention Renewal을 만드는가",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T01_감정_전환이_Attention_Renewal을_만드는가.md",
+      "source_ids": [
+        "SRC-1980-318",
+        "SRC-1998-319",
+        "SRC-2001-320",
+        "SRC-1987-321"
+      ],
+      "source_families": [
+        "doi:10.1037/h0077714",
+        "doi:10.1037/1089-2680.2.3.271",
+        "doi:10.1037/0022-3514.81.4.684",
+        "doi:10.1080/02699938708408362"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#37_T02",
+      "item": 37,
+      "theme": 2,
+      "title": "감정 전환의 Trigger 설계",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T02_감정_전환의_Trigger_설계.md",
+      "source_ids": [
+        "SRC-1991-322",
+        "SRC-2003-323",
+        "SRC-1980-325",
+        "SRC-1988-324"
+      ],
+      "source_families": [
+        "doi:10.1080/02699939108411034",
+        "title:appraisal processes in emotion",
+        "title:anatomy of suspense",
+        "doi:10.1037/0003-066x.43.5.349"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#37_T03",
+      "item": 37,
+      "theme": 3,
+      "title": "Emotional Rehook의 장르 경계",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T03_Emotional_Rehook의_장르_경계.md",
+      "source_ids": [
+        "SRC-1996-326",
+        "SRC-2011-328",
+        "SRC-2009-329",
+        "SRC-2004-327"
+      ],
+      "source_families": [
+        "title:emotion and the narrative film fiction as a feeling machine",
+        "doi:10.1111/j.1460-2466.2011.01579.x",
+        "doi:10.1525/9780520943940",
+        "doi:10.1111/j.1468-2885.2004.tb00317.x"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#38_T01",
+      "item": 38,
+      "theme": 1,
+      "title": "연속극·멜로드라마의 Retention Mechanics",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T01_연속극멜로드라마의_Retention_Mechanics.md",
+      "source_ids": [
+        "SRC-1985-331",
+        "SRC-1988-330",
+        "SRC-1991-332",
+        "SRC-1985-333"
+      ],
+      "source_families": [
+        "title:speaking of soap operas",
+        "doi:10.1111/j.1460-2466.1988.tb02047.x",
+        "title:women and soap opera a study of prime time soaps",
+        "doi:10.4324/9780203357071"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#38_T02",
+      "item": 38,
+      "theme": 2,
+      "title": "하나의 사건에서 다중 감정을 만드는 구조",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "J"
+      ],
+      "report_file": "20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T02_하나의_사건에서_다중_감정을_만드는_구조.md",
+      "source_ids": [
+        "SRC-1985-337",
+        "SRC-2003-336",
+        "SRC-2009-334",
+        "SRC-2008-335"
+      ],
+      "source_families": [
+        "doi:10.1037/0022-3514.48.4.813",
+        "doi:10.1080/0363775032000133789",
+        "doi:10.1093/acprof:oso/9780195371314.001.0001",
+        "doi:10.1080/15213260701853112"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#38_T03",
+      "item": 38,
+      "theme": 3,
+      "title": "정보형 롱폼으로의 전이 가능성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T03_정보형_롱폼으로의_전이_가능성.md",
+      "source_ids": [
+        "SRC-1996-339",
+        "SRC-1993-341",
+        "SRC-1991-338",
+        "SRC-2014-340"
+      ],
+      "source_families": [
+        "title:the art of record a critical introduction to documentary",
+        "doi:10.1111/j.1460-2466.1993.tb01304.x",
+        "title:representing reality issues and concepts in documentary",
+        "doi:10.1073/pnas.1320645111"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#39_T01",
+      "item": 39,
+      "theme": 1,
+      "title": "Moral Judgment와 Engagement",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T01_Moral_Judgment와_Engagement.md",
+      "source_ids": [
+        "SRC-2017-343",
+        "SRC-2017-344",
+        "SRC-2003-342",
+        "SRC-1999-345"
+      ],
+      "source_families": [
+        "doi:10.1073/pnas.1618923114",
+        "doi:10.1038/s41562-017-0213-3",
+        "title:the moral emotions",
+        "doi:10.1037/0022-3514.76.4.574"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#39_T02",
+      "item": 39,
+      "theme": 2,
+      "title": "스스로 판단하게 하는 방식",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T02_스스로_판단하게_하는_방식.md",
+      "source_ids": [
+        "SRC-1966-346",
+        "SRC-2000-347",
+        "SRC-1999-348",
+        "SRC-1986-349"
+      ],
+      "source_families": [
+        "title:a theory of psychological reactance",
+        "doi:10.1207/s15327965pli1104_01",
+        "doi:10.1080/23808985.1999.11678963",
+        "doi:10.1016/s0065-2601(08)60214-2"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#39_T03",
+      "item": 39,
+      "theme": 3,
+      "title": "도덕 판단의 문화·편향",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T03_도덕_판단의_문화편향.md",
+      "source_ids": [
+        "SRC-2009-350",
+        "SRC-2010-351",
+        "SRC-2008-352",
+        "SRC-2000-353"
+      ],
+      "source_families": [
+        "doi:10.1037/a0015141",
+        "doi:10.1017/s0140525x0999152x",
+        "doi:10.1016/j.cognition.2008.01.006",
+        "doi:10.1037/0022-3514.78.5.853"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#40_T01",
+      "item": 40,
+      "theme": 1,
+      "title": "Mixed Emotion의 심리적 효과",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#40_복합_감정/LSEv2_#40_T01_Mixed_Emotion의_심리적_효과.md",
+      "source_ids": [
+        "SRC-2001-354",
+        "SRC-2006-355",
+        "SRC-2010-356",
+        "SRC-2008-357"
+      ],
+      "source_families": [
+        "doi:10.1037/0022-3514.81.4.684",
+        "doi:10.1037/0882-7974.21.3.621",
+        "doi:10.1111/j.1460-2466.2009.01467.x",
+        "doi:10.1086/588569"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#40_T02",
+      "item": 40,
+      "theme": 2,
+      "title": "복합 감정의 서사 Trigger",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#40_복합_감정/LSEv2_#40_T02_복합_감정의_서사_Trigger.md",
+      "source_ids": [
+        "SRC-1986-358",
+        "SRC-2004-359",
+        "SRC-2003-360",
+        "SRC-1992-361"
+      ],
+      "source_families": [
+        "doi:10.1037/0022-3514.50.4.819",
+        "doi:10.1111/j.1468-2885.2004.tb00319.x",
+        "doi:10.1080/02699930302297",
+        "doi:10.1111/j.1467-9280.1992.tb00046.x"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#40_T03",
+      "item": 40,
+      "theme": 3,
+      "title": "장르·문화별 복합 감정",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#40_복합_감정/LSEv2_#40_T03_장르문화별_복합_감정.md",
+      "source_ids": [
+        "SRC-1999-363",
+        "SRC-2004-362",
+        "SRC-1996-364",
+        "SRC-2014-365",
+        "SRC-2003-360"
+      ],
+      "source_families": [
+        "doi:10.1037/0003-066x.54.9.741",
+        "doi:10.1111/j.0963-7214.2008.00584.x",
+        "doi:10.4324/9780203812839",
+        "title:the positive side of negative emotions",
+        "doi:10.1080/02699930302297"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#41_T01",
+      "item": 41,
+      "theme": 1,
+      "title": "Ambivalence와 Cognitive Processing",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#41_Ambivalence/LSEv2_#41_T01_Ambivalence와_Cognitive_Process.md",
+      "source_ids": [
+        "SRC-1996-366",
+        "SRC-2009-367",
+        "SRC-2017-368",
+        "SRC-2015-369"
+      ],
+      "source_families": [
+        "doi:10.1037/0022-3514.71.3.431",
+        "doi:10.1111/j.2044-8309.2009.tb00005.x",
+        "doi:10.5465/annals.2014.0066",
+        "doi:10.1016/bs.aesp.2015.01.002"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#41_T02",
+      "item": 41,
+      "theme": 2,
+      "title": "Narrative Ambivalence 설계",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#41_Ambivalence/LSEv2_#41_T02_Narrative_Ambivalence_설계.md",
+      "source_ids": [
+        "SRC-1986-370",
+        "SRC-2013-371",
+        "SRC-1993-372",
+        "SRC-2004-373"
+      ],
+      "source_families": [
+        "doi:10.1037/0022-3514.50.4.819",
+        "doi:10.1111/hcre.12003",
+        "doi:10.1016/0010-0277(93)90034-s",
+        "doi:10.1016/j.gloenvcha.2003.10.001"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#41_T03",
+      "item": 41,
+      "theme": 3,
+      "title": "Ambivalence와 신뢰·논쟁 콘텐츠",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "A"
+      ],
+      "report_file": "20_Research_Reports/#41_Ambivalence/LSEv2_#41_T03_Ambivalence와_신뢰논쟁_콘텐츠.md",
+      "source_ids": [
+        "SRC-1999-374",
+        "SRC-2015-375",
+        "SRC-2012-377",
+        "SRC-2010-376"
+      ],
+      "source_families": [
+        "doi:10.1080/23808985.1999.11678963",
+        "doi:10.1371/journal.pone.0118489",
+        "doi:10.1177/1529100612451018",
+        "doi:10.1007/s11109-010-9112-2"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#42_T01",
+      "item": 42,
+      "theme": 1,
+      "title": "Self-Relevance와 Narrative Engagement",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T01_Self-Relevance와_Narrative_Enga.md",
+      "source_ids": [
+        "SRC-1977-378",
+        "SRC-2000-379",
+        "SRC-2001-380",
+        "SRC-1988-381"
+      ],
+      "source_families": [
+        "doi:10.1037/0022-3514.35.9.677",
+        "doi:10.1037/0022-3514.79.5.701",
+        "doi:10.1207/s15327825mcs0403_01",
+        "doi:10.1016/s0065-2601(08)60229-4"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#42_T02",
+      "item": 42,
+      "theme": 2,
+      "title": "Viewer Mirror의 다양한 형태",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T02_Viewer_Mirror의_다양한_형태.md",
+      "source_ids": [
+        "SRC-1999-382",
+        "SRC-2001-383",
+        "SRC-2000-384",
+        "SRC-1995-385"
+      ],
+      "source_families": [
+        "doi:10.1002/(sici)1099-0771(199909)12:3<183::aid-bdm318>3.0.co;2-f",
+        "doi:10.1146/annurev.psych.52.1.397",
+        "doi:10.1037/0033-295x.107.2.261",
+        "doi:10.1037/0033-295x.102.2.379"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#42_T03",
+      "item": 42,
+      "theme": 3,
+      "title": "Forced Relevance와 경계조건",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T03_Forced_Relevance와_경계조건.md",
+      "source_ids": [
+        "SRC-1966-386",
+        "SRC-1994-389",
+        "SRC-1983-388",
+        "SRC-1977-387"
+      ],
+      "source_families": [
+        "title:a theory of psychological reactance",
+        "doi:10.1086/209380",
+        "doi:10.1207/s15516709cog0702_3",
+        "doi:10.1086/226425"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#43_T01",
+      "item": 43,
+      "theme": 1,
+      "title": "Relevance 단계 모델 검증",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T01_Relevance_단계_모델_검증.md",
+      "source_ids": [
+        "SRC-1989-393",
+        "SRC-1968-390",
+        "SRC-1954-391",
+        "SRC-1985-392"
+      ],
+      "source_families": [
+        "doi:10.1037/0033-2909.106.2.290",
+        "doi:10.1037/h0025848",
+        "doi:10.1177/001872675400700202",
+        "doi:10.1086/208520"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#43_T02",
+      "item": 43,
+      "theme": 2,
+      "title": "단계별 효과와 장르 적합성",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T02_단계별_효과와_장르_적합성.md",
+      "source_ids": [
+        "SRC-2010-396",
+        "SRC-2000-395",
+        "SRC-2012-397",
+        "SRC-1979-394"
+      ],
+      "source_families": [
+        "doi:10.1080/08838150903550430",
+        "doi:10.1111/j.1460-2466.2000.tb02833.x",
+        "doi:10.1509/jmr.10.0353",
+        "doi:10.1037/0022-3514.37.10.1915"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#43_T03",
+      "item": 43,
+      "theme": 3,
+      "title": "Relevance 상승의 윤리·정확성",
+      "primary_track": "A",
+      "secondary_tracks": [
+        "E"
+      ],
+      "report_file": "20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T03_Relevance_상승의_윤리정확성.md",
+      "source_ids": [
+        "SRC-1992-398",
+        "SRC-1987-399",
+        "SRC-1979-400",
+        "SRC-2007-401"
+      ],
+      "source_families": [
+        "doi:10.1080/03637759209376276",
+        "doi:10.1126/science.3563507",
+        "title:an integrative theory of intergroup conflict",
+        "doi:10.1111/j.1460-2466.2006.00336.x"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#44_T01",
+      "item": 44,
+      "theme": 1,
+      "title": "낯선 소재의 Personal Relevance 만들기",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T01_낯선_소재의_Personal_Relevance_만들기.md",
+      "source_ids": [
+        "SRC-1983-402",
+        "SRC-1991-403",
+        "SRC-1979-394",
+        "SRC-1994-404",
+        "SRC-2003-405",
+        "SRC-1977-378"
+      ],
+      "source_families": [
+        "doi:10.1207/s15516709cog0702_3",
+        "title:human universals",
+        "doi:10.1037/0022-3514.37.10.1915",
+        "doi:10.1037/0033-2909.116.1.75",
+        "doi:10.1037/0033-295x.110.3.403",
+        "doi:10.1037/0022-3514.35.9.677"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#44_T02",
+      "item": 44,
+      "theme": 2,
+      "title": "Relevance 신호의 타이밍",
+      "primary_track": "E",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T02_Relevance_신호의_타이밍.md",
+      "source_ids": [
+        "SRC-1981-408",
+        "SRC-1994-407",
+        "SRC-1992-398",
+        "SRC-2005-409",
+        "SRC-1981-406",
+        "SRC-2000-395",
+        "SRC-2010-396"
+      ],
+      "source_families": [
+        "doi:10.1037/0022-3514.41.5.847",
+        "doi:10.1037/0033-295x.101.3.371",
+        "doi:10.1080/03637759209376276",
+        "doi:10.1207/s1532785xmep0702_5",
+        "doi:10.1016/c2013-0-11116-2",
+        "doi:10.1111/j.1460-2466.2000.tb02833.x",
+        "doi:10.1080/08838150903550430"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#44_T03",
+      "item": 44,
+      "theme": 3,
+      "title": "관계 없는 연결의 실패",
+      "primary_track": "A",
+      "secondary_tracks": [
+        "E"
+      ],
+      "report_file": "20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T03_관계_없는_연결의_실패.md",
+      "source_ids": [
+        "SRC-1997-410",
+        "SRC-1986-411",
+        "SRC-2003-412",
+        "SRC-1992-398",
+        "SRC-2007-401",
+        "SRC-1981-406",
+        "SRC-1979-400",
+        "SRC-1988-413"
+      ],
+      "source_families": [
+        "doi:10.1037/0003-066x.52.1.45",
+        "title:relevance communication and cognition",
+        "doi:10.2307/1123719",
+        "doi:10.1080/03637759209376276",
+        "doi:10.1111/j.1460-2466.2006.00336.x",
+        "doi:10.1016/c2013-0-11116-2",
+        "title:an integrative theory of intergroup conflict",
+        "title:lost in a book the psychology of reading for pleasure"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#45_T01",
+      "item": 45,
+      "theme": 1,
+      "title": "Story State 개념의 이론적 근거",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#45_Story_State/LSEv2_#45_T01_Story_State_개념의_이론적_근거.md",
+      "source_ids": [
+        "SRC-1983-414",
+        "SRC-1995-415",
+        "SRC-1985-416",
+        "SRC-1994-407",
+        "SRC-2007-417"
+      ],
+      "source_families": [
+        "title:strategies of discourse comprehension",
+        "doi:10.1111/j.1467-9280.1995.tb00513.x",
+        "doi:10.1016/0749-596x(85)90048-8",
+        "doi:10.1037/0033-295x.101.3.371",
+        "doi:10.3758/bf03192934"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#45_T02",
+      "item": 45,
+      "theme": 2,
+      "title": "State Change와 Chapter 가치",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#45_Story_State/LSEv2_#45_T02_State_Change와_Chapter_가치.md",
+      "source_ids": [
+        "SRC-2007-418",
+        "SRC-1985-416",
+        "SRC-2000-421",
+        "SRC-2007-417",
+        "SRC-1996-420",
+        "SRC-2015-001",
+        "SRC-1983-414",
+        "SRC-2009-419"
+      ],
+      "source_families": [
+        "doi:10.1037/0033-2909.133.2.273",
+        "doi:10.1016/0749-596x(85)90048-8",
+        "doi:10.1207/s15327965pli1104_01",
+        "doi:10.3758/bf03192934",
+        "title:the psychology of suspense in dramatic exposition",
+        "title:the role of a narrative s emotional flow in promoting persuasive outcomes",
+        "title:strategies of discourse comprehension",
+        "doi:10.1111/j.1467-8721.2009.01642.x"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#45_T03",
+      "item": 45,
+      "theme": 3,
+      "title": "State Change의 크기와 빈도",
+      "primary_track": "B",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#45_Story_State/LSEv2_#45_T03_State_Change의_크기와_빈도.md",
+      "source_ids": [
+        "SRC-2008-423",
+        "SRC-2007-418",
+        "SRC-1996-424",
+        "SRC-1977-425",
+        "SRC-1988-422"
+      ],
+      "source_families": [
+        "doi:10.1016/j.tics.2007.11.004",
+        "doi:10.1037/0033-2909.133.2.273",
+        "doi:10.4324/9780203812549",
+        "doi:10.4324/9780203781036",
+        "doi:10.1207/s15516709cog1202_4"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#46_T01",
+      "item": 46,
+      "theme": 1,
+      "title": "Micro Story 구조의 타당성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T01_Micro_Story_구조의_타당성.md",
+      "source_ids": [
+        "SRC-1965-426",
+        "SRC-1997-427",
+        "SRC-1979-428",
+        "SRC-1994-037",
+        "SRC-1991-429"
+      ],
+      "source_families": [
+        "title:techniques of the selling writer",
+        "title:story substance structure style and the principles of screenwriting",
+        "title:an analysis of story comprehension in elementary school children",
+        "title:constructing inferences during narrative text comprehension",
+        "doi:10.1093/med:psych/9780195069945.001.0001"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#46_T02",
+      "item": 46,
+      "theme": 2,
+      "title": "Micro Block과 Retention",
+      "primary_track": "J",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T02_Micro_Block과_Retention.md",
+      "source_ids": [
+        "SRC-1985-430",
+        "SRC-2011-432",
+        "SRC-2000-421",
+        "SRC-2007-418",
+        "SRC-2008-423",
+        "SRC-1956-431",
+        "SRC-1988-422",
+        "SRC-1979-433",
+        "SRC-1996-424"
+      ],
+      "source_families": [
+        "doi:10.1016/0749-596x(85)90049-x",
+        "title:the power of small wins",
+        "doi:10.1207/s15327965pli1104_01",
+        "doi:10.1037/0033-2909.133.2.273",
+        "doi:10.1016/j.tics.2007.11.004",
+        "doi:10.1037/h0043158",
+        "doi:10.1207/s15516709cog1202_4",
+        "doi:10.1126/science.472740",
+        "doi:10.4324/9780203812549"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#46_T03",
+      "item": 46,
+      "theme": 3,
+      "title": "정보형 콘텐츠 적용",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T03_정보형_콘텐츠_적용.md",
+      "source_ids": [
+        "SRC-1958-434",
+        "SRC-1960-435",
+        "SRC-2011-432",
+        "SRC-1985-430",
+        "SRC-1996-436",
+        "SRC-1979-428",
+        "SRC-2003-437"
+      ],
+      "source_families": [
+        "doi:10.1017/cbo9780511840005",
+        "doi:10.1037/11164-000",
+        "title:the power of small wins",
+        "doi:10.1016/0749-596x(85)90049-x",
+        "doi:10.1037/0022-0663.88.1.64",
+        "title:an analysis of story comprehension in elementary school children",
+        "doi:10.1080/02699930302297"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#47_T01",
+      "item": 47,
+      "theme": 1,
+      "title": "Investigative Chapter 구조",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T01_Investigative_Chapter_구조.md",
+      "source_ids": [
+        "SRC-1994-438",
+        "SRC-1988-439",
+        "SRC-1958-434",
+        "SRC-1996-440",
+        "SRC-1990-441",
+        "SRC-1997-427"
+      ],
+      "source_families": [
+        "doi:10.1037/0033-2909.116.1.75",
+        "doi:10.1207/s15516709cog1201_1",
+        "doi:10.1017/cbo9780511840005",
+        "doi:10.1037/0033-295x.103.2.263",
+        "title:the causal inference maker towards a process model of inference generation",
+        "title:story substance structure style and the principles of screenwriting"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#47_T02",
+      "item": 47,
+      "theme": 2,
+      "title": "Answer와 Consequence의 구분",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T02_Answer와_Consequence의_구분.md",
+      "source_ids": [
+        "SRC-2003-444",
+        "SRC-1991-442",
+        "SRC-2002-443",
+        "SRC-1990-441",
+        "SRC-2011-445",
+        "SRC-2011-328"
+      ],
+      "source_families": [
+        "doi:10.1017/cbo9780511500107",
+        "title:possible worlds artificial intelligence and narrative theory",
+        "title:story logic problems and possibilities of narrative",
+        "title:the causal inference maker towards a process model of inference generation",
+        "doi:10.1146/annurev-psych-120710-100439",
+        "doi:10.1111/j.1460-2466.2011.01579.x"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#47_T03",
+      "item": 47,
+      "theme": 3,
+      "title": "Chapter 구조의 다양성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T03_Chapter_구조의_다양성.md",
+      "source_ids": [
+        "SRC-1978-446",
+        "SRC-2006-449",
+        "SRC-1981-448",
+        "SRC-1977-447"
+      ],
+      "source_families": [
+        "title:story and discourse narrative structure in fiction and film",
+        "title:a taxonomy of alternative plots in contemporary cinema classified by narrative",
+        "title:the dialogic imagination four essays",
+        "doi:10.1016/0010-0285(77)90005-6"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#48_T01",
+      "item": 48,
+      "theme": 1,
+      "title": "9단계 Macro Structure 검증",
+      "primary_track": "J",
+      "secondary_tracks": [
+        "H"
+      ],
+      "report_file": "20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T01_9단계_Macro_Structure_검증.md",
+      "source_ids": [
+        "SRC-1979-452",
+        "SRC-1949-451",
+        "SRC-2004-453",
+        "SRC-1863-450"
+      ],
+      "source_families": [
+        "title:screenplay the foundations of screenwriting",
+        "title:the hero with a thousand faces",
+        "title:the seven basic plots why we tell stories",
+        "title:die technik des dramas"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#48_T02",
+      "item": 48,
+      "theme": 2,
+      "title": "단계 순서와 필수성",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T02_단계_순서와_필수성.md",
+      "source_ids": [
+        "SRC-2007-457",
+        "SRC-1983-454",
+        "SRC-2010-455",
+        "SRC-2017-456",
+        "SRC-2001-273"
+      ],
+      "source_families": [
+        "title:la tension narrative suspense curiosite et surprise",
+        "title:narrative fiction contemporary poetics",
+        "title:the 21st century screenplay a comprehensive guide to writing tomorrow s",
+        "title:impossible puzzle films a cognitive approach to contemporary complex cinema",
+        "title:introduction to documentary"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#48_T03",
+      "item": 48,
+      "theme": 3,
+      "title": "범용성의 경계",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T03_범용성의_경계.md",
+      "source_ids": [
+        "SRC-1985-460",
+        "SRC-1949-451",
+        "SRC-2010-455",
+        "SRC-1983-454",
+        "SRC-2014-459",
+        "SRC-1981-458",
+        "SRC-2016-461"
+      ],
+      "source_families": [
+        "title:narration in the fiction film",
+        "title:the hero with a thousand faces",
+        "title:the 21st century screenplay a comprehensive guide to writing tomorrow s",
+        "title:narrative fiction contemporary poetics",
+        "title:using narratives and storytelling to communicate science with nonexpert audiences",
+        "title:the content of the form narrative discourse and historical representation",
+        "title:hamlet on the holodeck the future of narrative in cyberspace updated edition"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#49_T01",
+      "item": 49,
+      "theme": 1,
+      "title": "Climax와 Stake의 관계",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T01_Climax와_Stake의_관계.md",
+      "source_ids": [
+        "SRC-1997-462",
+        "SRC-2002-464",
+        "SRC-1979-463",
+        "SRC-2009-465",
+        "SRC-2017-456",
+        "SRC-2010-455"
+      ],
+      "source_families": [
+        "title:story substance structure style and the principles of screenwriting",
+        "title:story logic problems and possibilities of narrative",
+        "doi:10.2307/1914185",
+        "title:such stuff as dreams the psychology of fiction",
+        "title:impossible puzzle films a cognitive approach to contemporary complex cinema",
+        "title:the 21st century screenplay a comprehensive guide to writing tomorrow s"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#49_T02",
+      "item": 49,
+      "theme": 2,
+      "title": "장르별 Peak 형태",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T02_장르별_Peak_형태.md",
+      "source_ids": [
+        "SRC-1985-467",
+        "SRC-1990-468",
+        "SRC-2010-455",
+        "SRC-2004-469",
+        "SRC-1962-466",
+        "SRC-1979-463",
+        "SRC-1981-458",
+        "SRC-2009-465"
+      ],
+      "source_families": [
+        "title:competitive advantage creating and sustaining superior performance",
+        "title:flow the psychology of optimal experience",
+        "title:the 21st century screenplay a comprehensive guide to writing tomorrow s",
+        "doi:10.1111/j.1468-2885.2004.tb00318.x",
+        "title:the structure of scientific revolutions",
+        "doi:10.2307/1914185",
+        "title:the content of the form narrative discourse and historical representation",
+        "title:such stuff as dreams the psychology of fiction"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#49_T03",
+      "item": 49,
+      "theme": 3,
+      "title": "Peak Inflation과 반례",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T03_Peak_Inflation과_반례.md",
+      "source_ids": [
+        "SRC-1998-472",
+        "SRC-1979-463",
+        "SRC-1988-471",
+        "SRC-1972-473",
+        "SRC-1971-470",
+        "SRC-1985-460",
+        "SRC-2010-455",
+        "SRC-1997-462",
+        "SRC-2009-465"
+      ],
+      "source_families": [
+        "title:a philosophy of mass art",
+        "doi:10.2307/1914185",
+        "title:breaking the glass armor neoformalist film analysis",
+        "title:transcendental style in film ozu bresson dreyer",
+        "title:aesthetics and psychobiology",
+        "title:narration in the fiction film",
+        "title:the 21st century screenplay a comprehensive guide to writing tomorrow s",
+        "title:story substance structure style and the principles of screenwriting",
+        "title:such stuff as dreams the psychology of fiction"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#50_T01",
+      "item": 50,
+      "theme": 1,
+      "title": "감정별 Build-up 조건",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T01_감정별_Build-up_조건.md",
+      "source_ids": [
+        "SRC-2007-476",
+        "SRC-1971-474",
+        "SRC-1980-475",
+        "SRC-2002-477"
+      ],
+      "source_families": [
+        "doi:10.1007/s11211-007-0034-z",
+        "doi:10.1016/0022-1031(71)90075-8",
+        "title:attachment and loss vol 3 loss sadness and depression",
+        "doi:10.1207/s15327965pli1304_01"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#50_T02",
+      "item": 50,
+      "theme": 2,
+      "title": "축적의 길이·강도",
+      "primary_track": "D",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T02_축적의_길이강도.md",
+      "source_ids": [
+        "SRC-1980-480",
+        "SRC-2000-481",
+        "SRC-1980-475",
+        "SRC-1995-146",
+        "SRC-1971-470",
+        "SRC-1975-478",
+        "SRC-1957-479",
+        "SRC-2007-135"
+      ],
+      "source_families": [
+        "title:anatomy of suspense",
+        "doi:10.1037/1089-2680.4.2.131",
+        "title:attachment and loss vol 3 loss sadness and depression",
+        "title:psychological contracts in organizations understanding written and unwritten",
+        "title:aesthetics and psychobiology",
+        "title:helplessness on depression development and death",
+        "title:schedules of reinforcement",
+        "title:made to stick why some ideas survive and others die"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#50_T03",
+      "item": 50,
+      "theme": 3,
+      "title": "Setup-Payoff 인과성",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "B"
+      ],
+      "report_file": "20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T03_Setup-Payoff_인과성.md",
+      "source_ids": [
+        "SRC-1985-485",
+        "SRC-1988-484",
+        "SRC-1994-483",
+        "SRC-1889-482",
+        "SRC-2009-465",
+        "SRC-1980-475",
+        "SRC-1998-472",
+        "SRC-2007-135"
+      ],
+      "source_families": [
+        "title:narration in the fiction film",
+        "doi:10.1016/0749-596x(88)90052-6",
+        "doi:10.1037/0033-295x.101.3.371",
+        "title:letters on the short story the drama and other literary topics chekhov s",
+        "title:such stuff as dreams the psychology of fiction",
+        "title:attachment and loss vol 3 loss sadness and depression",
+        "title:a philosophy of mass art",
+        "title:made to stick why some ideas survive and others die"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#51_T01",
+      "item": 51,
+      "theme": 1,
+      "title": "Payoff 유형 분류 검증",
+      "primary_track": "J",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#51_Payoff/LSEv2_#51_T01_Payoff_유형_분류_검증.md",
+      "source_ids": [
+        "SRC-1968-486",
+        "SRC-2007-476",
+        "SRC-1971-474",
+        "SRC-1998-487",
+        "SRC-1988-484",
+        "SRC-2003-488",
+        "SRC-2001-489",
+        "SRC-2002-477"
+      ],
+      "source_families": [
+        "title:poetic closure a study of how poems end",
+        "doi:10.1007/s11211-007-0034-z",
+        "doi:10.1016/0022-1031(71)90075-8",
+        "doi:10.1023/a:1008290412857",
+        "doi:10.1016/0749-596x(88)90052-6",
+        "doi:10.1037/10594-012",
+        "doi:10.1207/s15327957pspr0504_2",
+        "doi:10.1207/s15327965pli1304_01"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#51_T02",
+      "item": 51,
+      "theme": 2,
+      "title": "Payoff와 Audience Satisfaction",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "C"
+      ],
+      "report_file": "20_Research_Reports/#51_Payoff/LSEv2_#51_T02_Payoff와_Audience_Satisfaction.md",
+      "source_ids": [
+        "SRC-1996-490",
+        "SRC-1980-491",
+        "SRC-1994-483",
+        "SRC-2004-493",
+        "SRC-2001-489",
+        "SRC-1927-492"
+      ],
+      "source_families": [
+        "doi:10.1037/0033-295x.103.2.263",
+        "doi:10.1177/002224378001700405",
+        "doi:10.1037/0033-295x.101.3.371",
+        "doi:10.1371/journal.pbio.0020097",
+        "doi:10.1207/s15327957pspr0504_2",
+        "doi:10.1007/bf02409755"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#51_T03",
+      "item": 51,
+      "theme": 3,
+      "title": "Promise-Payoff Fit",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "I"
+      ],
+      "report_file": "20_Research_Reports/#51_Payoff/LSEv2_#51_T03_Promise-Payoff_Fit.md",
+      "source_ids": [
+        "SRC-1975-496",
+        "SRC-1970-495",
+        "SRC-1990-497"
+      ],
+      "source_families": [
+        "doi:10.4324/9780203449769",
+        "doi:10.2307/1770762",
+        "doi:10.4324/9780203361894"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#52_T01",
+      "item": 52,
+      "theme": 1,
+      "title": "Ending Emotion과 기억·평가",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T01_Ending_Emotion과_기억평가.md",
+      "source_ids": [
+        "SRC-1993-498",
+        "SRC-1996-499",
+        "SRC-2000-500",
+        "SRC-2000-501"
+      ],
+      "source_families": [
+        "doi:10.1111/j.1467-9280.1993.tb00589.x",
+        "doi:10.1016/0304-3959(96)03057-0",
+        "doi:10.1037/1089-2680.4.4.577",
+        "doi:10.1037/0096-3445.129.4.508"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#52_T02",
+      "item": 52,
+      "theme": 2,
+      "title": "끝 감정을 사전 설계하는 효과",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "A"
+      ],
+      "report_file": "20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T02_끝_감정을_사전_설계하는_효과.md",
+      "source_ids": [
+        "SRC-1846-502",
+        "SRC-2007-503",
+        "SRC-1998-504",
+        "SRC-1991-505"
+      ],
+      "source_families": [
+        "title:the philosophy of composition",
+        "doi:10.1007/s11098-007-9092-2",
+        "doi:10.1037/1089-2680.2.2.175",
+        "doi:10.1086/448619"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#52_T03",
+      "item": 52,
+      "theme": 3,
+      "title": "장르별 Ending Emotion",
+      "primary_track": "H",
+      "secondary_tracks": [],
+      "report_file": "20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T03_장르별_Ending_Emotion.md",
+      "source_ids": [
+        "SRC-1993-506",
+        "SRC-2005-507",
+        "SRC-2016-508",
+        "SRC-1989-509",
+        "SRC-2007-503",
+        "SRC-2003-051"
+      ],
+      "source_families": [
+        "doi:10.1111/j.1468-2958.1993.tb00304.x",
+        "doi:10.1207/s1532785xmep0702_3",
+        "doi:10.1177/1077699016654682",
+        "title:the open work",
+        "doi:10.1007/s11098-007-9092-2",
+        "title:approaching awe a moral spiritual and aesthetic emotion"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#53_T01",
+      "item": 53,
+      "theme": 1,
+      "title": "Negative Ending의 단기·장기 효과",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T01_Negative_Ending의_단기장기_효과.md",
+      "source_ids": [
+        "SRC-2001-510",
+        "SRC-2019-511",
+        "SRC-2019-512",
+        "SRC-1992-398",
+        "SRC-2017-513",
+        "SRC-2017-078"
+      ],
+      "source_families": [
+        "doi:10.1037/1089-2680.5.4.323",
+        "doi:10.1073/pnas.1908369116",
+        "doi:10.1080/1461670x.2019.1677271",
+        "doi:10.1080/03637759209376276",
+        "doi:10.1086/692015",
+        "title:emotion shapes the diffusion of moralized content in social networks"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#53_T02",
+      "item": 53,
+      "theme": 2,
+      "title": "Positive Reframe의 효과",
+      "primary_track": "H",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T02_Positive_Reframe의_효과.md",
+      "source_ids": [
+        "SRC-1992-514",
+        "SRC-2001-515",
+        "SRC-2014-516",
+        "SRC-2018-517",
+        "SRC-2002-090",
+        "SRC-1983-071",
+        "SRC-2016-508"
+      ],
+      "source_families": [
+        "doi:10.1080/03637759209376276",
+        "doi:10.1037/0003-066x.56.3.218",
+        "title:the effects of solutions journalism",
+        "doi:10.1037/pspp0000157",
+        "title:hope theory rainbows in the mind",
+        "title:transfer of excitation in emotional behavior",
+        "doi:10.1177/1077699016654682"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#53_T03",
+      "item": 53,
+      "theme": 3,
+      "title": "채널 누적 감정과 브랜드 경험",
+      "primary_track": "D",
+      "secondary_tracks": [
+        "H"
+      ],
+      "report_file": "20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T03_채널_누적_감정과_브랜드_경험.md",
+      "source_ids": [
+        "SRC-2001-519",
+        "SRC-1988-518",
+        "SRC-2007-521",
+        "SRC-1993-520",
+        "SRC-2019-512",
+        "SRC-1988-072",
+        "SRC-2005-507",
+        "SRC-1993-506"
+      ],
+      "source_families": [
+        "doi:10.1037/0033-2909.127.6.853",
+        "doi:10.1177/000276488031003005",
+        "doi:10.1037/0033-295x.114.4.843",
+        "doi:10.1177/002224299305700101",
+        "doi:10.1080/1461670x.2019.1677271",
+        "title:the laws of emotion",
+        "doi:10.1207/s1532785xmep0702_3",
+        "doi:10.1111/j.1468-2958.1993.tb00304.x"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#54_T01",
+      "item": 54,
+      "theme": 1,
+      "title": "정보-감정 상호작용",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T01_정보-감정_상호작용.md",
+      "source_ids": [
+        "SRC-1996-522",
+        "SRC-2001-523",
+        "SRC-1995-524",
+        "SRC-1990-525",
+        "SRC-2007-063"
+      ],
+      "source_families": [
+        "doi:10.1098/rstb.1996.0125",
+        "doi:10.1093/oso/9780195130072.001.0001",
+        "doi:10.1037/0033-2909.117.1.39",
+        "doi:10.1037/0033-2909.108.3.480",
+        "title:putting feelings into words affect labeling disrupts amygdala activity"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#54_T02",
+      "item": 54,
+      "theme": 2,
+      "title": "교대 Pacing의 효과",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T02_교대_Pacing의_효과.md",
+      "source_ids": [
+        "SRC-1988-526",
+        "SRC-2001-528",
+        "SRC-2000-527",
+        "SRC-1971-529",
+        "SRC-1998-088",
+        "SRC-1980-055"
+      ],
+      "source_families": [
+        "doi:10.1207/s15516709cog1202_4",
+        "doi:10.1017/cbo9781139547369",
+        "doi:10.1111/j.1460-2466.2000.tb02833.x",
+        "doi:10.1037/10007-000",
+        "title:predictive reward signal of dopamine neurons",
+        "title:a cognitive model of the antecedents and consequences of satisfaction decisions"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#54_T03",
+      "item": 54,
+      "theme": 3,
+      "title": "장르별 최적 비율과 순서",
+      "primary_track": "F",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T03_장르별_최적_비율과_순서.md",
+      "source_ids": [
+        "SRC-2002-530",
+        "SRC-2001-533",
+        "SRC-2012-532",
+        "SRC-1987-531"
+      ],
+      "source_families": [
+        "doi:10.1111/j.1468-2885.2002.tb00265.x",
+        "title:daily news eternal stories the mythological role of journalism",
+        "doi:10.1038/nclimate1547",
+        "doi:10.1126/science.3563507"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#55_T01",
+      "item": 55,
+      "theme": 1,
+      "title": "Semantic vs Surface Visual Change",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "F"
+      ],
+      "report_file": "20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T01_Semantic_vs_Surface_Visual_Change.md",
+      "source_ids": [
+        "SRC-2000-534",
+        "SRC-2003-536",
+        "SRC-1999-535",
+        "SRC-2002-537"
+      ],
+      "source_families": [
+        "doi:10.1207/s1532785xmep0201_2",
+        "doi:10.1016/j.tics.2003.09.006",
+        "doi:10.1068/p281059",
+        "doi:10.1525/fq.2002.55.3.16"
+      ],
+      "audited_flagged": true
+    },
+    {
+      "theme_id": "LSEv2_#55_T02",
+      "item": 55,
+      "theme": 2,
+      "title": "멀티모달 의미 정렬",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "F"
+      ],
+      "report_file": "20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T02_멀티모달_의미_정렬.md",
+      "source_ids": [
+        "SRC-1986-538",
+        "SRC-2009-539",
+        "SRC-2004-541",
+        "SRC-2005-540"
+      ],
+      "source_families": [
+        "title:mental representations a dual coding approach",
+        "doi:10.1017/cbo9780511811678",
+        "doi:10.1177/0093650204266099",
+        "doi:10.1017/cbo9780511816819.009"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#55_T03",
+      "item": 55,
+      "theme": 3,
+      "title": "장르별 Visual Refresh",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "J"
+      ],
+      "report_file": "20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T03_장르별_Visual_Refresh.md",
+      "source_ids": [
+        "SRC-1991-542",
+        "SRC-2008-543",
+        "SRC-2003-544",
+        "SRC-1952-545"
+      ],
+      "source_families": [
+        "title:representing reality issues and concepts in documentary",
+        "doi:10.1016/b978-0-12-370896-0.x0001-3",
+        "title:emotions revealed recognizing faces and feelings to improve communication",
+        "title:theory of the film character and growth of a new art"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#56_T01",
+      "item": 56,
+      "theme": 1,
+      "title": "Visual Function 8종 분류 검증",
+      "primary_track": "J",
+      "secondary_tracks": [
+        "G"
+      ],
+      "report_file": "20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T01_Visual_Function_8종_분류_검증.md",
+      "source_ids": [
+        "SRC-1997-549",
+        "SRC-1987-546",
+        "SRC-1979-548",
+        "SRC-1969-547"
+      ],
+      "source_families": [
+        "title:visual explanations images and quantities evidence and narrative",
+        "title:on empirically substantiating a taxonomy of learning from text associated",
+        "title:film art an introduction",
+        "title:visual thinking"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#56_T02",
+      "item": 56,
+      "theme": 2,
+      "title": "기능별 효과와 오용",
+      "primary_track": "J",
+      "secondary_tracks": [
+        "G"
+      ],
+      "report_file": "20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T02_기능별_효과와_오용.md",
+      "source_ids": [
+        "SRC-1997-551",
+        "SRC-1983-550",
+        "SRC-1999-552",
+        "SRC-1999-553"
+      ],
+      "source_families": [
+        "doi:10.4135/9781452243382",
+        "title:the visual display of quantitative information",
+        "title:the scene of empathy and the human face on film",
+        "doi:10.1207/s1532785xmep0101_4"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#56_T03",
+      "item": 56,
+      "theme": 3,
+      "title": "한 컷의 복수 기능",
+      "primary_track": "J",
+      "secondary_tracks": [
+        "G"
+      ],
+      "report_file": "20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T03_한_컷의_복수_기능.md",
+      "source_ids": [
+        "SRC-1977-554",
+        "SRC-1990-556",
+        "SRC-2003-555",
+        "SRC-2005-557"
+      ],
+      "source_families": [
+        "title:image music text essays selected and translated by stephen heath",
+        "title:envisioning information",
+        "doi:10.1016/j.tics.2003.09.006",
+        "doi:10.1017/cbo9780511816819"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#57_T01",
+      "item": 57,
+      "theme": 1,
+      "title": "Visual Duration과 Comprehension",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "F"
+      ],
+      "report_file": "20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T01_Visual_Duration과_Comprehension.md",
+      "source_ids": [
+        "SRC-2010-558",
+        "SRC-1998-559",
+        "SRC-2016-560",
+        "SRC-2005-557",
+        "SRC-2003-555",
+        "SRC-2012-561"
+      ],
+      "source_families": [
+        "title:attention and the evolution of hollywood film",
+        "title:eye movements in reading and information processing 20 years of research",
+        "title:beyond memorability understanding how we read visualizations",
+        "doi:10.1017/cbo9780511816819",
+        "doi:10.1016/j.tics.2003.09.006",
+        "title:dynamics of affective states during complex learning"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#57_T02",
+      "item": 57,
+      "theme": 2,
+      "title": "편집 속도와 Attention",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "F"
+      ],
+      "report_file": "20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T02_편집_속도와_Attention.md",
+      "source_ids": [
+        "SRC-2000-562",
+        "SRC-2012-563",
+        "SRC-2012-564",
+        "SRC-1998-559",
+        "SRC-2015-565"
+      ],
+      "source_families": [
+        "title:the effects of edits on arousal attention and memory for television messages",
+        "title:psychophysiological measurement and meaning cognitive and emotional processing",
+        "title:the attentional theory of cinematic continuity atocc",
+        "title:eye movements in reading and information processing 20 years of research",
+        "title:neural evidence to support the narrative attentional narrowing hypothesis"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#57_T03",
+      "item": 57,
+      "theme": 3,
+      "title": "자료 유형별 체류 시간",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "F"
+      ],
+      "report_file": "20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T03_자료_유형별_체류_시간.md",
+      "source_ids": [
+        "SRC-2004-566",
+        "SRC-2012-567",
+        "SRC-1998-559",
+        "SRC-2010-568",
+        "SRC-2016-560",
+        "SRC-2009-569"
+      ],
+      "source_families": [
+        "title:how physical text layout affects reading from screen",
+        "title:show me the numbers designing tables and graphs to enlighten 2nd ed",
+        "title:eye movements in reading and information processing 20 years of research",
+        "title:eyetracking web usability",
+        "title:beyond memorability understanding how we read visualizations",
+        "title:moving viewers american film and the affective mind"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#58_T01",
+      "item": 58,
+      "theme": 1,
+      "title": "편집 속도와 감정",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T01_편집_속도와_감정.md",
+      "source_ids": [
+        "SRC-2013-570",
+        "SRC-2019-571",
+        "SRC-2003-573",
+        "SRC-2007-572"
+      ],
+      "source_families": [
+        "title:psychocinematics exploring the mind at the movies",
+        "title:the empathic screen cinema and neuroscience",
+        "title:film structure and the emotion system",
+        "title:the nature of awe elicitors appraisals and a physiological aspect"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#58_T02",
+      "item": 58,
+      "theme": 2,
+      "title": "시각 문법과 정서",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "D"
+      ],
+      "report_file": "20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T02_시각_문법과_정서.md",
+      "source_ids": [
+        "SRC-1986-574",
+        "SRC-1994-577",
+        "SRC-2014-576",
+        "SRC-2015-575"
+      ],
+      "source_families": [
+        "title:television and interpersonal behavior codes of perception and response",
+        "title:emotional contagion",
+        "title:sight sound motion applied media aesthetics 7th ed",
+        "title:the feeling of motion camera movements and motor cortex activation"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#58_T03",
+      "item": 58,
+      "theme": 3,
+      "title": "감정 목적과 정보 이해의 균형",
+      "primary_track": "G",
+      "secondary_tracks": [
+        "F"
+      ],
+      "report_file": "20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T03_감정_목적과_정보_이해의_균형.md",
+      "source_ids": [
+        "SRC-2014-581",
+        "SRC-2003-578",
+        "SRC-2002-579",
+        "SRC-2013-580"
+      ],
+      "source_families": [
+        "title:emotional design in multimedia learning effects of shape and color on affect and learning",
+        "title:animation and learning selective processing of information in dynamic graphics",
+        "title:animation can it facilitate",
+        "title:congruence association model of music and multimedia evaluative and cognitive processes"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#59_T01",
+      "item": 59,
+      "theme": 1,
+      "title": "사실 오류와 신뢰 붕괴",
+      "primary_track": "A",
+      "secondary_tracks": [
+        "G"
+      ],
+      "report_file": "20_Research_Reports/#59_Trust_Layer/LSEv2_#59_T01_사실_오류와_신뢰_붕괴.md",
+      "source_ids": [
+        "SRC-2003-585",
+        "SRC-2012-582",
+        "SRC-1993-584",
+        "SRC-2012-583"
+      ],
+      "source_families": [
+        "title:prominence interpretation theory explaining how people assess credibility online",
+        "title:misinformation and its correction continued influence and successful debiasing",
+        "title:source monitoring",
+        "title:nonprobative photographs or words inflame truthiness"
+      ],
+      "audited_flagged": false
+    },
+    {
+      "theme_id": "LSEv2_#59_T02",
+      "item": 59,
+      "theme": 2,
+      "title": "Visual Authenticity와 Source Confusion",
+      "primary_track": "A",
+      "secondary_tracks": [
+        "G"
+      ],
+      "report_file": "20_Research_Reports/#59_Trust_Layer/LSEv2_#59_T02_Visual_Authenticity와_Source_Co.md",
+      "source_ids": [
+        "SRC-2002-586",
+        "SRC-2012-588",
+        "SRC-2008-589",
+        "SRC-2020-587"
+      ],
+      "source_families": [
+        "title:a picture is worth a thousand lies using false photographs to create false childhood memories",
+        "title:making up history false memories of fake news stories",
+        "title:the main model a heuristic approach to understanding technology effects on credibility",
+        "title:deepfakes and disinformation exploring the impact of synthetic political video on deception uncertainty and trust in news"
+      ],
+      "audited_flagged": true
+    }
+  ]
+}
