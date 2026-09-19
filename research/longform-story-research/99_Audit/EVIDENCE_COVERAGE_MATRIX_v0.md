@@ -17,13 +17,13 @@
 | **G** Visual / Multimodal | 9 / 9 (100%) | 41 | 38 | 37 | 4.1 | 3 | 1 | 1 | P2 |
 | **H** Resolution / Payoff / Ending | 10 / 10 (100%) | 58 | 54 | 53 | 5.3 | 5 | 1 | 0 | P2 |
 | **I** Packaging / Platform Contract | 0 / 12 (0%) | 0 | 0 | 0 | — | 0 | 0 | 0 | P2 |
-| **J** Design Architecture & Instruments | 27 / 60 (45%) | 192 | 153 | 149 | 5.5 | 28 | 1 | 1 | P1-method |
+| **J** Design Architecture & Instruments | 27 / 61 (44.3%) | 192 | 153 | 149 | 5.5 | 28 | 1 | 1 | P1-method |
 | **K** Empirical Story Engine Validation | 0 / 12 (0%) | 0 | 0 | 0 | — | 0 | 0 | 0 | P1-product |
 | **L** Final Synthesis | 3 / 21 (14.3%) | 17 | 13 | 13 | 4.3 | 4 | 0 | 0 | HOLD |
 
 Completed Themes total: **165**  
-Legacy Master List Themes total: **256**  
-Uncompleted legacy Themes identified: **91**  
+Legacy Master List Themes total: **257**  
+Uncompleted legacy Themes identified: **92**  
 Source families reused across 2+ different Research Tracks: **156**
 
 ## 2. How to read the matrix
@@ -178,7 +178,7 @@ No completed Themes in current corpus. Critical empirical/platform gap; research
 Large apparent coverage, but much of it is taxonomy/template validation masquerading as literature validation. Shift method from 'prove it' to instrument/corpus testing.
 
 - Completed Themes: **27**
-- Legacy planned Themes mapped here: **60**
+- Legacy planned Themes mapped here: **61**
 - Deduplicated source families: **149**
 - Average source families per completed Theme: **5.5**
 - Duplicate-ID overhead inside Track: **4**
@@ -361,6 +361,15 @@ These should be precision-researched before final engine synthesis.
 Only a small part of Trust/Provenance has been completed, while the remaining #60–#63 directly address the exact weaknesses found in the archive.
 
 A should be expanded before further high-confidence synthesis.
+
+### 5.6 One earlier Theme is also incomplete
+
+Direct Master List ↔ Registry comparison found **92** uncompleted Themes:
+- **#12 Theme 3 — 비서사·정보형 콘텐츠의 감정 장르**
+- **#59 Theme 3**
+- all planned Themes in **#60–#86**
+
+This matters because the current corpus is not simply "complete through #59." The #12 gap belongs mainly to **J — Design Architecture & Instruments**, while #59 T3 belongs to **A — Epistemic Integrity**.
 
 ## 6. Recommended next move
 
