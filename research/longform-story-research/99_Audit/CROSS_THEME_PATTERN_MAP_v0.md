@@ -892,3 +892,103 @@ Replace a flat "make abstract things human-scale" principle with a **Relevance L
 4. Should the engine zoom in, zoom out, or alternate between levels?
 
 This is more useful for a review/story engine than a universal "one human story beats statistics" rule.
+
+
+# 11. Visual / Multimodal Mechanism Split
+
+M11 "Visual Attention / Multimodal Alignment" is too broad to remain one mechanism.
+
+## V1 — Structural Attention & Edit Processing
+Research line:
+- Lang / LC4MP-related media-psychology work
+- formal features, edits, arousal, resource allocation, memory
+
+Engine relevance:
+high, but **no universal cut interval** should be inferred.
+
+## V2 — Selective Visual Attention / Gaze
+Research line:
+- Simons & Chabris
+- Henderson
+- eye-movement / gaze-control work
+
+Engine relevance:
+where viewers look, what can be missed, attentional competition.
+
+Do not equate this automatically with narrative semantics.
+
+## V3 — Multimedia Comprehension / Cognitive Load
+Research line:
+- Mayer
+- Ayres/Sweller
+- Tversky et al.
+- Lowe
+
+Engine relevance:
+text, narration, graphics, motion, redundancy, split attention, animation.
+
+This overlaps strongly with M4 Capacity-Limited Processing and may ultimately be a visual implementation layer rather than a separate parent mechanism.
+
+## V4 — Film Grammar / Visual Craft
+Research line:
+- Bordwell
+- Balázs
+- Nichols
+- Plantinga
+- Zettl
+- Tufte / Ware for information design
+
+Evidence class:
+craft, theory, historical/style analysis, design principles.
+
+Do not label these as causal cognitive experiments.
+
+Engine relevance:
+very high for implementation patterns, lower for scientific effect-size claims.
+
+## V5 — Affective Cinematic Form
+Topics:
+- shot scale
+- camera motion
+- facial reaction
+- visual rhythm
+- awe/emotion
+- music/image affect
+
+Current state:
+promising but source metadata is weak in #57–#58 and current Reports contain many exact constants.
+
+Disposition:
+re-research with primary studies before engine automation.
+
+## V6 — Visual Authenticity / Provenance
+Move primarily under M9 Trust/Provenance.
+
+Topics:
+- archive vs reenactment vs stock vs synthetic media
+- source labels
+- source monitoring
+- deepfake uncertainty
+- visual truthiness
+
+## Engine-design implication
+
+The strongest current visual principle is not:
+> change the shot every N seconds
+
+but:
+> visual changes should serve an identifiable processing function.
+
+Candidate function labels:
+- orient attention
+- introduce new evidence
+- clarify causality
+- reduce abstraction
+- show emotional response
+- establish context/space
+- support comparison
+- maintain continuity
+- reveal provenance
+- reduce cognitive load
+
+Timing should become a learned/tunable parameter informed by real audience data, not a hard-coded literature constant.
