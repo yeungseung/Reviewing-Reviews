@@ -1,6 +1,6 @@
 # PRECISION RESEARCH ROADMAP — EXPERIENCE-FIRST v1
 
-> Status: APPROVED — P0 ACTIVE / E1-01 AUTHORIZED  
+> Status: APPROVED — P0 ACTIVE / E1-01 COMPLETE / E1-02 AUTHORIZED  
 > Purpose: redirect Precision Research from evidence-system expansion toward Story State, State Transition, and Story Decision support.  
 > Constraint: no new large Precision Research begins from this roadmap until user approval.
 
@@ -230,6 +230,34 @@ E1-01 and E1-02 are separate research tasks but must be treated as one Story Eng
 
 E1-01 must not absorb E1-02, but every E1-01 result should identify handoff points to E1-02.
 
+### Foundation State Separation
+
+All later Story State research must keep three layers distinct:
+
+```text
+A. Canonical / World State
+   What is actually true in the story world
+
+B. Character State
+   What a character actually knows, believes, wants, intends, and is constrained by
+
+C. Audience Model
+   What the audience knows, believes, and infers about causes, goals, intentions, and consequences
+```
+
+Hard distinctions:
+
+```text
+Audience inference ≠ Story fact
+Audience belief about character ≠ Character actual belief
+Character desire ≠ Character intention
+Known information ≠ Currently active information
+Known information ≠ Currently causally relevant information
+```
+
+Candidate accessibility states such as unknown / known-but-dormant / active / causally-relevant / reactivated / suppressed remain provisional and must be refined by E1-02 rather than frozen now.
+
+
 ### E1-01 — Causal + Goal Model Construction
 Former:
 - Q2-01
@@ -300,6 +328,8 @@ This is one of the central transition mechanisms.
 ---
 
 ### E1-04 — Processing Capacity as State Constraint
+
+Priority: **P0 #7**
 Former:
 - Q2-04
 - Q4-01
@@ -664,7 +694,7 @@ Core should specify **desired experience and constraints**; expression layers ch
 3. **E1-03 Appraisal → Emotion / Judgment**
 4. **E2-01 Information Gap / Curiosity**
 5. **E2-02 Narrative Expectation / Suspense**
-6. **E2-03 Surprise / Reframe / Fair Violation**
+6. **E2-03 Expectation Violation → Surprise → Reappraisal / Reframe**
 7. **E1-04 Processing Capacity**
 
 These define the minimum dynamic Story State engine.
@@ -802,9 +832,9 @@ Precision Research should maximize salvage of A/B while stripping C.
 
 Do **not** run Q1-04.
 
-The first new Precision Research under this roadmap should be:
+E1-01 is complete. The next authorized Precision Research is:
 
-**E1-01 — Causal + Goal Model Construction**
+**E1-02 — Event / State Updating**
 
 Its research brief should be redesigned around:
 
@@ -826,4 +856,4 @@ MODEL UPDATE
 NEXT QUESTION / EXPECTATION
 ```
 
-P0 direction is approved. Only E1-01 is authorized to start now. E1-02 and later research must not start automatically after E1-01.
+P0 direction is approved. E1-01 is complete. E1-02 is authorized now. E1-03 and later research must not start automatically after E1-02.
