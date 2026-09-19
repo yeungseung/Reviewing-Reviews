@@ -1,0 +1,187 @@
+[
+  {
+    "id": "LSEv2_#54_T03",
+    "item": 54,
+    "theme": 3,
+    "report": "20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T03_장르별_최적_비율과_순서.md",
+    "sourceIds": [
+      "SRC-2002-530",
+      "SRC-2001-533",
+      "SRC-2012-532",
+      "SRC-1987-531"
+    ]
+  },
+  {
+    "id": "LSEv2_#55_T01",
+    "item": 55,
+    "theme": 1,
+    "report": "20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T01_Semantic_vs_Surface_Visual_Change.md",
+    "sourceIds": [
+      "SRC-2000-534",
+      "SRC-2003-536",
+      "SRC-1999-535",
+      "SRC-2002-537"
+    ]
+  },
+  {
+    "id": "LSEv2_#55_T02",
+    "item": 55,
+    "theme": 2,
+    "report": "20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T02_멀티모달_의미_정렬.md",
+    "sourceIds": [
+      "SRC-1986-538",
+      "SRC-2009-539",
+      "SRC-2004-541",
+      "SRC-2005-540"
+    ]
+  },
+  {
+    "id": "LSEv2_#55_T03",
+    "item": 55,
+    "theme": 3,
+    "report": "20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T03_장르별_Visual_Refresh.md",
+    "sourceIds": [
+      "SRC-1991-542",
+      "SRC-2008-543",
+      "SRC-2003-544",
+      "SRC-1952-545"
+    ]
+  },
+  {
+    "id": "LSEv2_#56_T01",
+    "item": 56,
+    "theme": 1,
+    "report": "20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T01_Visual_Function_8종_분류_검증.md",
+    "sourceIds": [
+      "SRC-1997-549",
+      "SRC-1987-546",
+      "SRC-1979-548",
+      "SRC-1969-547"
+    ]
+  },
+  {
+    "id": "LSEv2_#56_T02",
+    "item": 56,
+    "theme": 2,
+    "report": "20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T02_기능별_효과와_오용.md",
+    "sourceIds": [
+      "SRC-1997-551",
+      "SRC-1983-550",
+      "SRC-1999-552",
+      "SRC-1999-553"
+    ]
+  },
+  {
+    "id": "LSEv2_#56_T03",
+    "item": 56,
+    "theme": 3,
+    "report": "20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T03_한_컷의_복수_기능.md",
+    "sourceIds": [
+      "SRC-1977-554",
+      "SRC-1990-556",
+      "SRC-2003-555",
+      "SRC-2005-557"
+    ]
+  },
+  {
+    "id": "LSEv2_#57_T01",
+    "item": 57,
+    "theme": 1,
+    "report": "20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T01_Visual_Duration과_Comprehension.md",
+    "sourceIds": [
+      "SRC-2010-558",
+      "SRC-1998-559",
+      "SRC-2016-560",
+      "SRC-2005-557",
+      "SRC-2003-555",
+      "SRC-2012-561"
+    ]
+  },
+  {
+    "id": "LSEv2_#57_T02",
+    "item": 57,
+    "theme": 2,
+    "report": "20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T02_편집_속도와_Attention.md",
+    "sourceIds": [
+      "SRC-2000-562",
+      "SRC-2012-563",
+      "SRC-2012-564",
+      "SRC-1998-559",
+      "SRC-2015-565"
+    ]
+  },
+  {
+    "id": "LSEv2_#57_T03",
+    "item": 57,
+    "theme": 3,
+    "report": "20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T03_자료_유형별_체류_시간.md",
+    "sourceIds": [
+      "SRC-2004-566",
+      "SRC-2012-567",
+      "SRC-1998-559",
+      "SRC-2010-568",
+      "SRC-2016-560",
+      "SRC-2009-569"
+    ]
+  },
+  {
+    "id": "LSEv2_#58_T01",
+    "item": 58,
+    "theme": 1,
+    "report": "20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T01_편집_속도와_감정.md",
+    "sourceIds": [
+      "SRC-2013-570",
+      "SRC-2019-571",
+      "SRC-2003-573",
+      "SRC-2007-572"
+    ]
+  },
+  {
+    "id": "LSEv2_#58_T02",
+    "item": 58,
+    "theme": 2,
+    "report": "20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T02_시각_문법과_정서.md",
+    "sourceIds": [
+      "SRC-1986-574",
+      "SRC-1994-577",
+      "SRC-2014-576",
+      "SRC-2015-575"
+    ]
+  },
+  {
+    "id": "LSEv2_#58_T03",
+    "item": 58,
+    "theme": 3,
+    "report": "20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T03_감정_목적과_정보_이해의_균형.md",
+    "sourceIds": [
+      "SRC-2014-581",
+      "SRC-2003-578",
+      "SRC-2002-579",
+      "SRC-2013-580"
+    ]
+  },
+  {
+    "id": "LSEv2_#59_T01",
+    "item": 59,
+    "theme": 1,
+    "report": "20_Research_Reports/#59_Trust_Layer/LSEv2_#59_T01_사실_오류와_신뢰_붕괴.md",
+    "sourceIds": [
+      "SRC-2003-585",
+      "SRC-2012-582",
+      "SRC-1993-584",
+      "SRC-2012-583"
+    ]
+  },
+  {
+    "id": "LSEv2_#59_T02",
+    "item": 59,
+    "theme": 2,
+    "report": "20_Research_Reports/#59_Trust_Layer/LSEv2_#59_T02_Visual_Authenticity와_Source_Co.md",
+    "sourceIds": [
+      "SRC-2002-586",
+      "SRC-2012-588",
+      "SRC-2008-589",
+      "SRC-2020-587"
+    ]
+  }
+]
