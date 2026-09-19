@@ -192,3 +192,201 @@ For every issue classify separately:
 6. generalization
 7. Story Engine application leap
 8. downstream Synthesis effect
+
+
+## Phase 2 additional verified findings
+
+### E-005 — SRC-2009-419 bibliographic conflation
+Status: CONFIRMED ERROR
+Severity: CRITICAL for source traceability
+
+Repository entry:
+- ID: `SRC-2009-419`
+- claimed title: "Changes in events alter how people remember them"
+- claimed authors: Kael W. Swallow, Jeffrey M. Zacks, Nicole K. Speer
+- claimed DOI: `10.1111/j.1467-8721.2009.01642.x`
+
+External verification:
+- DOI `10.1111/j.1467-8721.2009.01642.x` belongs to Anuj K. Shah & Daniel M. Oppenheimer, "The Path of Least Resistance: Using Easy-to-Access Information."
+- A real 2009 event-memory paper is Swallow, Zacks & Abrams, "Event Boundaries in Perception Affect Memory Encoding and Updating," DOI `10.1037/a0015631`.
+- A later related paper is Swallow et al., "Changes in Events Alter How People Remember Recent Information," DOI `10.1162/jocn.2010.21524`.
+
+Interpretation:
+The DB entry appears to conflate multiple real event-segmentation papers while attaching an unrelated DOI. It should not be silently corrected until the intended source lineage is resolved.
+
+Downstream impact:
+#45 T2 uses this entry to support 2.4x recall and 79% next-chapter/next-episode continuation metrics. Those values are not supported by the actual event-segmentation papers inspected.
+
+### E-006 — SRC-1978-238 Generation Effect metadata inflation
+Status: PARTIALLY CONFIRMED + OVERCLAIM
+Severity: HIGH
+
+Real paper:
+Slamecka & Graf (1978), "The Generation Effect: Delineation of a Phenomenon," DOI `10.1037/0278-7393.4.6.592`.
+
+Verified:
+- five experiments
+- 96 undergraduates total
+- generated words were remembered better than read words across several tests
+
+Repository metadata incorrectly states:
+- "총 200여 명 학부생"
+- "Self-Generation Directly Doubles Long-Term Retention"
+- universal direct extension to narrative inference/storytelling
+
+The original article establishes a real generation advantage, but does not state a general 2x law for long-term retention or direct applicability to narrative revelation.
+
+Story Engine implication:
+KEEP the qualitative mechanism as a research lead.
+DROP/REVERIFY the 2x magnitude and the universal narrative generalization.
+
+### E-007 — SRC-2011-241 Bonawitz pedagogy effect inflation
+Status: QUALITATIVE SUPPORT / QUANTITATIVE OVERCLAIM
+Severity: HIGH
+
+Real paper:
+Bonawitz et al. (2011), "The double-edged sword of pedagogy: Instruction limits spontaneous exploration and discovery."
+
+Verified Experiment 1:
+- N=85 preschoolers
+- pedagogical condition explored for less time
+- fewer unique actions
+- fewer non-demonstrated functions discovered
+- non-demonstrated functions discovered: Pedagogical M=.72; Interrupted M=1.3; Naive M=1.2; Baseline M=1.15
+
+Verified Experiment 2:
+- N=64
+- Direct/Indirect Child conditions showed more constrained exploration than comparison conditions
+
+Repository claims:
+- exploration/discovery "60% 급감"
+- incomplete demonstration produces "3배 이상 폭증"
+- p<.001 generalized to the discovery effect
+
+These are not faithful summaries of the reported outcome statistics. The paper supports the direction of the mechanism, not the repository's generalized 3x narrative rule.
+
+Domain caution:
+This is a preschool toy-exploration paradigm. Extension to adult longform-story curiosity is a Story Engine hypothesis, not a directly tested result.
+
+### E-008 — #45 T2 platform-metric injection
+Status: CONFIRMED TRANSFORMATION ERROR
+Severity: CRITICAL
+
+Report claims include:
+- state-change chapter recall 2.4x higher
+- next-chapter/episode playback rate 79% vs 32%
+- dropout +64% when State Change = 0
+- risk escalation lowers mid-series dropout by 64%
+
+The cited event-segmentation literature concerns perception, event boundaries, working/episodic memory, and recognition tasks.
+It does not measure streaming continuation, episode playback, or platform dropout.
+
+This is a clear example of:
+real cognitive mechanism
+→ unsupported effect magnitude
+→ invented platform KPI
+→ Engine Rule
+
+### E-009 — #45 T3 review/theory converted into numerical engineering rule
+Status: HIGH-RISK OVERCLAIM
+Severity: HIGH
+
+`SRC-2008-423` is Kurby & Zacks (2008), "Segmentation in the perception and memory of events," a Trends in Cognitive Sciences review.
+Its abstract supports:
+- event segmentation at multiple timescales
+- hierarchical grouping
+- links to working-memory updating and long-term memory
+
+The #45 T3 Report converts this into:
+- 2.3x recall improvement
+- an optimal hierarchy where 3–4 micro boundaries converge into one macro boundary
+
+The same Report converts Schank & Abelson's script theory into a 70% routine / 30% breach production formula.
+
+Treat these ratios as proposed Engine heuristics unless independently validated; do not store them as direct research findings.
+
+### E-010 — #53 T3 YouTube/platform KPI fabrication pattern
+Status: CONFIRMED TRANSFORMATION ERROR
+Severity: CRITICAL
+
+Report claims:
+- negative emotional brand association → sponsorship CTR -43%
+- paid membership conversion -65%
+- positive ending → subscription conversion +28%
+- negative ending → unsubscribe rate 3.4x
+- stressed viewers choose uplifting endings 3.2x more often
+
+The cited source set consists primarily of general evaluative conditioning, mood management, brand equity, habit, news avoidance, and emotion research.
+Several key cited works predate YouTube and modern creator subscription/membership metrics.
+
+Their Source DB entries contain no such CTR, membership, subscription, or unsubscribe figures.
+
+Interpretation:
+Generic psychological/branding mechanisms were transformed into fabricated creator-platform KPIs.
+
+Story Engine implication:
+The qualitative concern about cumulative emotional brand association may remain useful.
+All platform percentages and multipliers must be removed or independently re-researched.
+
+### E-011 — #54 T1 theory-to-effect-size injection
+Status: CONFIRMED TRACEABILITY FAILURE / HIGH-RISK QUANTIFICATION
+Severity: HIGH
+
+Report claims:
+- emotional hook before knowledge content → elaboration +42%
+- concept comprehension +35%
+- emotional narrative → 30-day retention 3.8x
+- causal explanation after tragedy → amygdala -38%
+- perceived control +52%
+- emotionally tagged data → memory up to 3x
+
+Cited sources include:
+- Damasio (1996) somatic marker hypothesis
+- Scherer et al. (2001) appraisal-process framework/book
+- Forgas (1995) Affect Infusion Model
+- Kunda (1990) motivated reasoning review
+- Lieberman et al. (2007) affect-labeling fMRI experiment
+
+The Source DB entries do not contain the Report's +42%, +35%, 3.8x, -38%, +52%, or 3x values.
+
+External verification confirms Damasio (1996) is explicitly a hypothesis paper on reasoning/decision making rather than a knowledge-content retention experiment.
+
+Interpretation:
+The Report combines legitimate theoretical mechanisms into a synthetic production claim and then adds precise effect sizes without traceable provenance.
+
+## Emerging error taxonomy
+
+The following repeated failure modes are now stable enough to use as audit labels:
+
+1. BIBLIOGRAPHIC_CONFLATION
+   - real papers/authors/topics combined with the wrong DOI/title/year
+
+2. METADATA_INFLATION
+   - wrong sample size, citation count, replication status, study type, or "causal law" label
+
+3. QUANTIFICATION_INJECTION
+   - qualitative result converted into an unsupported percentage, multiplier, p-value, or threshold
+
+4. PLATFORM_KPI_INJECTION
+   - generic psychology/media research converted into YouTube/OTT CTR, retention, subscription, continuation, or churn metrics not measured by the cited work
+
+5. DOMAIN_TRANSFER_LEAP
+   - child learning, word memory, lab perception, etc. treated as direct proof of adult longform storytelling effects
+
+6. THEORY_TO_CAUSAL_UPGRADE
+   - theoretical/review paper relabeled as experimental causal evidence
+
+7. ENGINE_HEURISTIC_AS_EMPIRICAL_FACT
+   - useful production heuristic (80/20, 70/30, exact timing, exact layer counts) presented as if directly derived from research
+
+8. LINEAGE_BREAK
+   - Source → Report → Card transformation cannot identify where a number or rule entered the chain
+
+## Current audit interpretation
+
+A consistent pattern is emerging:
+
+- qualitative mechanisms are often more trustworthy than the precise numbers attached to them
+- source existence is frequently real even when metadata or effect sizes are wrong
+- the most severe distortion often happens when a research mechanism is translated into a Story Engine rule
+- therefore the corpus remains valuable for mechanism discovery and cross-theme pattern mining, but quantitative claims and exact production formulas require a separate verification layer
