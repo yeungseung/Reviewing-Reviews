@@ -1,0 +1,224 @@
+[
+  {
+    "id": "LSEv2_#29_T02",
+    "item": 29,
+    "theme": 2,
+    "report": "20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T02_예측의_정확도와_난이도.md",
+    "sourceIds": [
+      "SRC-2012-230",
+      "SRC-2009-231",
+      "SRC-1997-233",
+      "SRC-1982-232",
+      "SRC-2013-226",
+      "SRC-1994-228",
+      "SRC-1985-022",
+      "SRC-2007-227",
+      "SRC-1994-220"
+    ]
+  },
+  {
+    "id": "LSEv2_#29_T03",
+    "item": 29,
+    "theme": 3,
+    "report": "20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T03_예측과_감정판단.md",
+    "sourceIds": [
+      "SRC-1988-234",
+      "SRC-2000-235",
+      "SRC-1997-236",
+      "SRC-2011-237",
+      "SRC-1980-038",
+      "SRC-2013-226",
+      "SRC-2007-210",
+      "SRC-1994-228",
+      "SRC-1997-233"
+    ]
+  },
+  {
+    "id": "LSEv2_#30_T01",
+    "item": 30,
+    "theme": 1,
+    "report": "20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T01_단서_기반_추론과_참여.md",
+    "sourceIds": [
+      "SRC-1978-238",
+      "SRC-2011-241",
+      "SRC-1994-240",
+      "SRC-1989-239",
+      "SRC-2012-230",
+      "SRC-1985-022",
+      "SRC-2007-227",
+      "SRC-2009-231",
+      "SRC-1997-233"
+    ]
+  },
+  {
+    "id": "LSEv2_#30_T02",
+    "item": 30,
+    "theme": 2,
+    "report": "20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T02_단서의_양명료도와_Fairness.md",
+    "sourceIds": [
+      "SRC-2018-242",
+      "SRC-2008-243",
+      "SRC-1966-244",
+      "SRC-1975-245",
+      "SRC-1978-238",
+      "SRC-2012-230",
+      "SRC-2009-231",
+      "SRC-1982-232",
+      "SRC-1997-233",
+      "SRC-1989-239",
+      "SRC-2011-237"
+    ]
+  },
+  {
+    "id": "LSEv2_#30_T03",
+    "item": 30,
+    "theme": 3,
+    "report": "20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T03_설명형_콘텐츠에서의_능동_추론.md",
+    "sourceIds": [
+      "SRC-1978-248",
+      "SRC-1986-246",
+      "SRC-1992-247",
+      "SRC-2012-249"
+    ]
+  },
+  {
+    "id": "LSEv2_#31_T01",
+    "item": 31,
+    "theme": 1,
+    "report": "20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T01_Prediction_Confirmation의_보상.md",
+    "sourceIds": [
+      "SRC-2006-250",
+      "SRC-2000-251",
+      "SRC-2004-252",
+      "SRC-1970-253"
+    ]
+  },
+  {
+    "id": "LSEv2_#31_T02",
+    "item": 31,
+    "theme": 2,
+    "report": "20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T02_Prediction_Error의_보상과_위험.md",
+    "sourceIds": [
+      "SRC-1997-254",
+      "SRC-2021-256",
+      "SRC-2010-255",
+      "SRC-1998-257",
+      "SRC-2018-242",
+      "SRC-1975-245",
+      "SRC-1970-253"
+    ]
+  },
+  {
+    "id": "LSEv2_#31_T03",
+    "item": 31,
+    "theme": 3,
+    "report": "20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T03_맞음과_틀림의_비율.md",
+    "sourceIds": [
+      "SRC-2019-258",
+      "SRC-1996-261",
+      "SRC-1990-260",
+      "SRC-1957-259"
+    ]
+  },
+  {
+    "id": "LSEv2_#32_T01",
+    "item": 32,
+    "theme": 1,
+    "report": "20_Research_Reports/#32_반전의_정의/LSEv2_#32_T01_Reversal과_Reappraisal의_이론.md",
+    "sourceIds": [
+      "SRC-1996-263",
+      "SRC-2002-264",
+      "SRC-1985-262",
+      "SRC-2008-265"
+    ]
+  },
+  {
+    "id": "LSEv2_#32_T02",
+    "item": 32,
+    "theme": 2,
+    "report": "20_Research_Reports/#32_반전의_정의/LSEv2_#32_T02_좋은_반전의_조건.md",
+    "sourceIds": [
+      "SRC-1928-267",
+      "SRC-1929-148",
+      "SRC-1975-269",
+      "SRC-2018-242",
+      "SRC-1927-266",
+      "SRC-1944-268"
+    ]
+  },
+  {
+    "id": "LSEv2_#32_T03",
+    "item": 32,
+    "theme": 3,
+    "report": "20_Research_Reports/#32_반전의_정의/LSEv2_#32_T03_정보형_콘텐츠의_반전.md",
+    "sourceIds": [
+      "SRC-1962-270",
+      "SRC-1984-271",
+      "SRC-1991-272",
+      "SRC-2001-273"
+    ]
+  },
+  {
+    "id": "LSEv2_#33_T01",
+    "item": 33,
+    "theme": 1,
+    "report": "20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T01_8개_Reversal_Type의_완전성.md",
+    "sourceIds": [
+      "SRC-1936-274",
+      "SRC-1991-275",
+      "SRC-1971-276",
+      "SRC-1984-277",
+      "SRC-1991-272",
+      "SRC-1984-271",
+      "SRC-1962-270"
+    ]
+  },
+  {
+    "id": "LSEv2_#33_T02",
+    "item": 33,
+    "theme": 2,
+    "report": "20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T02_유형별_심리적_효과.md",
+    "sourceIds": [
+      "SRC-1985-007",
+      "SRC-2008-280",
+      "SRC-1987-278",
+      "SRC-1986-279",
+      "SRC-2001-216",
+      "SRC-1992-281",
+      "SRC-2003-051",
+      "SRC-1997-181"
+    ]
+  },
+  {
+    "id": "LSEv2_#33_T03",
+    "item": 33,
+    "theme": 3,
+    "report": "20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T03_반전_라이브러리의_오용.md",
+    "sourceIds": [
+      "SRC-2004-282",
+      "SRC-2010-283",
+      "SRC-2007-284",
+      "SRC-2011-285",
+      "SRC-2018-242",
+      "SRC-1975-269",
+      "SRC-1993-188",
+      "SRC-1984-277"
+    ]
+  },
+  {
+    "id": "LSEv2_#34_T01",
+    "item": 34,
+    "theme": 1,
+    "report": "20_Research_Reports/#34_Rehook의_정의/LSEv2_#34_T01_Rehook과_Attention_Renewal.md",
+    "sourceIds": [
+      "SRC-1995-287",
+      "SRC-1963-286",
+      "SRC-2006-288",
+      "SRC-2007-011",
+      "SRC-2000-123",
+      "SRC-1994-034",
+      "SRC-1972-289",
+      "SRC-1988-030"
+    ]
+  }
+]
