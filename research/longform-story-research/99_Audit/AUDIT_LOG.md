@@ -1178,3 +1178,60 @@ Additionally, Sources #558–#589 use a reduced schema with no venue/URL in the 
 
 Research Map implication:
 M11 should be split before further precision research.
+
+
+### E-041 — Reports cite 18 Source IDs that do not exist in Sources DB
+Status: CONFIRMED LINEAGE BREAK
+Severity: CRITICAL
+
+Full re-extraction of Source references from all 165 completed Research Reports found:
+- **603** distinct Source IDs cited when non-standard historical IDs are included
+- **585** of those IDs resolve to actual Sources DB entries
+- **18** cited IDs have neither an `index.yaml` entry nor a Source YAML file
+
+Broken IDs:
+- `SRC-1956-027`
+- `SRC-1959-198`
+- `SRC-1966-024`
+- `SRC-1979-026`
+- `SRC-1979-224`
+- `SRC-1980-038`
+- `SRC-1985-236`
+- `SRC-1986-029`
+- `SRC-1988-102`
+- `SRC-1988-112`
+- `SRC-1991-002`
+- `SRC-1991-008`
+- `SRC-1997-009`
+- `SRC-2000-089`
+- `SRC-2002-145`
+- `SRC-2003-087`
+- `SRC-2008-070`
+- `SRC-2011-205`
+
+Affected completed Themes: **18**
+
+Interpretation:
+These are not merely malformed URLs inside valid Source records. They are missing nodes in the evidence graph:
+`Report → SRC ID → [no Source DB record]`.
+
+This is a direct Evidence traceability failure. Any claim relying materially on one of these IDs must be treated as unresolved until the intended source is reconstructed.
+
+Important nuance:
+Some affected Reports also cite valid sources. A broken reference does not automatically invalidate the whole Theme.
+
+### E-042 — Sources DB contains one non-standard historical Source ID
+Status: STRUCTURAL ANOMALY
+Severity: LOW/MEDIUM
+
+The Sources DB contains 589 Source YAML files and 589 index entries when generic Source IDs are counted.
+
+One entry uses:
+- `SRC-BC335-494`
+- Aristotle, *Poetics*
+- year: -335
+
+This explains why scripts restricted to `SRC-YYYY-NNN` report only 588 Source IDs.
+
+The ID is internally consistent between file and index and is not itself evidence of a false source.
+However, all integrity tooling and regexes must support non-modern/historical IDs or adopt an explicit canonical ID schema.
