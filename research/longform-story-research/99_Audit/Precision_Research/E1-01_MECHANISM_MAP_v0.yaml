@@ -1,0 +1,423 @@
+research_id: "E1-01"
+title: "Causal + Goal Model Construction"
+foundation_pair_with: "E1-02 Event / State Updating"
+status: "COMPLETE_FOR_REVIEW"
+version: "0.1"
+
+engine_objective:
+  - "Represent what causal/goal model the audience currently holds."
+  - "Detect unresolved causal gaps, ambiguous causes, active goals, and model conflicts."
+  - "Support next-state decisions without prescribing wording or craft devices."
+
+candidate_story_state_fields:
+  audience_model:
+    causal_model:
+      links:
+        fields:
+          - cause
+          - effect
+          - status
+          - confidence
+      unresolved_causal_gaps: []
+      competing_causal_hypotheses: []
+      model_conflicts: []
+    character_model:
+      fields:
+        - character
+        - desires
+        - beliefs_or_known_information
+        - goals
+        - constraints
+        - inferred_intentions
+      goal_status_values:
+        - active
+        - satisfied
+        - failed
+        - superseded
+        - suppressed
+        - ambiguous
+        - unknown
+    active_model:
+      causally_relevant_prior_information: []
+      dormant_but_known_information: []
+
+mechanisms:
+
+  - id: "E101-M01"
+    mechanism: "coherence_driven_causal_integration"
+    what_it_models: "Audience construction of missing causal links needed to keep an event sequence coherent."
+    trigger: "New event or outcome lacks an explicit causal antecedent."
+    preconditions:
+      - "Relevant prior information or world knowledge is accessible."
+      - "Audience detects that an explanation is needed."
+      - "Gap is sufficiently constrained to permit a plausible bridge."
+    from_state: "causal_relation_incomplete"
+    to_state_candidates:
+      - "causal_bridge_inferred"
+      - "multiple_causes_remain_plausible"
+      - "unresolved_coherence_gap"
+    moderators:
+      - background_knowledge
+      - inferential_distance
+      - prior_premise_availability
+      - processing_capacity
+      - referential_continuity
+    boundary_conditions:
+      - "Omission alone does not guarantee inference."
+      - "Large or poorly constrained gaps can become confusion."
+    failure_modes:
+      - arbitrary_jump
+      - missing_necessary_premises
+      - excessive_causal_distance
+      - too_many_uncontrolled_explanations
+    possible_story_decisions:
+      - reveal_missing_cause
+      - delay_cause_if_bridgeable
+      - partially_reveal_to_narrow_hypotheses
+      - reactivate_prior_information
+      - preserve_supported_ambiguity
+    evidence:
+      confidence: HIGH
+      directness: DIRECT
+      domain: "narrative reading; supporting visual narrative evidence"
+      important_limits:
+        - "No optimal omission percentage or timing."
+    application_status: "USABLE_AS_DECISION_EVIDENCE"
+    do_not_claim:
+      - "Causal gaps always increase curiosity."
+      - "Implicit causality is always better."
+
+  - id: "E101-M02"
+    mechanism: "causal_network_integration"
+    what_it_models: "Structural integration of events through cause/consequence relations."
+    trigger: "An event gains meaningful causal links to other events."
+    preconditions: []
+    from_state: "relatively_isolated_event_representation"
+    to_state_candidates:
+      - "causally_integrated_event"
+      - "higher_structural_centrality"
+    moderators:
+      - number_of_links
+      - strength_of_links
+      - causal_chain_membership
+      - semantic_connections
+    boundary_conditions:
+      - "Evidence supports memory/importance/comprehension, not universal story quality."
+    failure_modes:
+      - maximizing_causal_links_for_every_event
+      - treating_coder_causality_as_objective_causation
+    possible_story_decisions:
+      - connect_new_event_to_relevant_prior_cause
+      - check_if_important_event_is_isolated
+      - identify_prior_event_to_reactivate
+      - allow_peripheral_events_when_functionally_needed
+    evidence:
+      confidence: HIGH
+      directness: "DIRECT narrative text + DIRECT audiovisual support"
+      domain: "adult readers/viewers"
+      important_limits:
+        - "No direct CTR/retention implication."
+    application_status: "USABLE_AS_STRUCTURAL_SIGNAL"
+    do_not_claim:
+      - "More causal links always means better story."
+
+  - id: "E101-M03"
+    mechanism: "goal_inference_and_goal_action_binding"
+    what_it_models: "Audience inference of character goals and use of goals to interpret actions."
+    trigger: "Behavior/context implies a goal without explicit statement."
+    preconditions:
+      - "Cues support goal-directed interpretation."
+      - "Relevant goal knowledge is available."
+    from_state: "action_known_goal_implicit_or_unknown"
+    to_state_candidates:
+      - "goal_inferred_and_linked_to_action"
+      - "multiple_candidate_goals"
+    moderators:
+      - cue_strength
+      - goal_action_fit
+      - prior_context
+      - reader_perspective
+    boundary_conditions:
+      - "Inferred goals may be wrong."
+    failure_modes:
+      - no_inferable_motivation
+      - multiple_equally_plausible_goals
+      - later_goal_disconfirmation
+      - desire_based_overinference
+    possible_story_decisions:
+      - leave_goal_implicit_if_inferable
+      - clarify_goal_if_action_is_opaque
+      - preserve_multiple_goals_if_supported
+      - add_character_constraint_or_belief_information
+    evidence:
+      confidence: HIGH
+      directness: DIRECT
+      domain: "narrative reading"
+      important_limits:
+        - "Inference accuracy is not guaranteed."
+    application_status: "CORE_FOUNDATION_MECHANISM"
+    do_not_claim:
+      - "Every action must have one clear goal."
+
+  - id: "E101-M04"
+    mechanism: "hierarchical_goal_plan_tracking"
+    what_it_models: "How active subgoals/actions relate to superordinate goals and unsatisfied goals."
+    trigger: "New subgoal or action appears relative to an existing goal."
+    from_state: "multiple_goal_elements_available"
+    to_state_candidates:
+      - "one_goal_or_subgoal_becomes_current_explanatory_frame"
+    moderators:
+      - superordinate_fit
+      - recency
+      - satisfaction_status
+      - remention
+      - causal_relevance
+    boundary_conditions:
+      - "Not all narratives exhibit clean goal hierarchies."
+    failure_modes:
+      - forcing_single_global_goal
+      - ignoring_side_or_conflicting_goals
+    possible_story_decisions:
+      - reinforce_active_goal_before_dependent_action
+      - introduce_subgoal_if_it_supports_higher_goal
+      - check_disconnected_action_for_missing_goal_context
+      - allow_multiple_active_goals
+    evidence:
+      confidence: MODERATE_HIGH
+      directness: DIRECT
+      domain: "narrative reading"
+      important_limits:
+        - "Hierarchy is a useful representation, not mandatory grammar."
+    application_status: "USABLE_WITH_FLEXIBILITY"
+
+  - id: "E101-M05"
+    mechanism: "goal_relevance_updating_and_suppression"
+    what_it_models: "Dynamic accessibility of old and new character goals."
+    trigger:
+      - goal_rementioned
+      - new_goal_introduced
+      - old_goal_becomes_irrelevant
+    from_state: "old_goal_active"
+    to_state_candidates:
+      - "old_goal_strengthened"
+      - "new_goal_active_old_goal_suppressed"
+      - "multiple_goal_status_unresolved"
+    moderators:
+      - causal_relevance
+      - recency
+      - remention
+      - status_ambiguity
+    boundary_conditions:
+      - "Suppressed does not mean erased."
+    failure_modes:
+      - treating_all_prior_goals_as_equally_active
+      - abrupt_goal_switch_without_context
+      - conflating_completion_with_suppression
+    possible_story_decisions:
+      - signal_goal_relevance_change
+      - reactivate_old_goal_if_later_needed
+      - provide_context_for_new_goal_transition
+      - preserve_simultaneous_goals_when_supported
+    evidence:
+      confidence: HIGH
+      directness: DIRECT
+      domain: "adult narrative reading"
+      important_limits:
+        - "Accessibility is not identical to conscious awareness."
+    application_status: "CORE_FOUNDATION_MECHANISM"
+
+  - id: "E101-M06"
+    mechanism: "belief_desire_constrained_intention_inference"
+    what_it_models: "How desire and character belief/knowledge jointly constrain audience intention inference."
+    trigger: "Desire, belief, or action information becomes available."
+    from_state: "desire_based_provisional_intention"
+    to_state_candidates:
+      - "intention_maintained"
+      - "intention_inhibited"
+      - "intention_uncertain"
+      - "model_conflict_after_action"
+    moderators:
+      - character_belief_information
+      - perspective
+      - processing_effort
+      - cue_order
+    boundary_conditions:
+      - "Desire can produce premature inference before belief constraint is applied."
+    failure_modes:
+      - predicting_action_from_desire_alone
+      - leaking_audience_knowledge_into_character_model
+    possible_story_decisions:
+      - separate_audience_and_character_knowledge
+      - add_character_belief_or_constraint_information
+      - preserve_false_belief_asymmetry
+      - flag_action_as_potentially_conflicting_with_inferred_intention
+    evidence:
+      confidence: MODERATE_HIGH
+      directness: DIRECT
+      domain: "adult narrative vignettes"
+      important_limits:
+        - "Do not hard-code one universal processing sequence."
+    application_status: "USABLE_AS_CONSTRAINT_MODEL"
+
+  - id: "E101-M07"
+    mechanism: "causal_relevance_reactivation"
+    what_it_models: "Reactivation of previously known information when later events make it causally useful."
+    trigger: "New event creates causal need for prior information."
+    from_state: "prior_information_known_but_dormant"
+    to_state_candidates:
+      - "prior_information_reactivated"
+    moderators:
+      - causal_relevance
+      - memory_accessibility
+      - distance
+      - encoding_quality
+    boundary_conditions:
+      - "Direct evidence is narrower than all possible story facts."
+    failure_modes:
+      - crucial_prior_fact_not_encoded
+      - excessive_distance_or_interference
+      - prior_fact_not_actually_relevant
+    possible_story_decisions:
+      - reactivate_prior_fact_before_causal_need
+      - check_dependency_on_dormant_information
+      - avoid_reexplaining_every_prior_fact
+    evidence:
+      confidence: MODERATE_HIGH
+      directness: DIRECT
+      domain: "adult narrative reading"
+      important_limits:
+        - "Generalization beyond tested information types is provisional."
+    application_status: "BRIDGEABLE_CORE_SUPPORT"
+
+  - id: "E101-M08"
+    mechanism: "causal_goal_model_conflict_and_revision"
+    what_it_models: "Audience response when incoming information conflicts with the active causal/goal model."
+    trigger:
+      - action_contradicts_inferred_intention
+      - new_goal_displaces_old_goal
+      - outcome_lacks_expected_cause
+      - new_information_conflicts_with_prior_explanation
+    from_state: "coherent_active_model"
+    to_state_candidates:
+      - "prior_inference_inhibited"
+      - "old_goal_suppressed_new_goal_prioritized"
+      - "bridging_explanation_generated"
+      - "conflict_unresolved"
+      - "model_revision_attempted"
+    moderators:
+      - old_model_strength
+      - alternative_explanation_availability
+      - causal_distance
+      - explanatory_information
+      - perspective
+    boundary_conditions:
+      - "No single universal narrative revision algorithm is established."
+    failure_modes:
+      - forcing_single_explanation_immediately
+      - labeling_every_contradiction_as_reframe
+      - assuming_conflict_always_improves_engagement
+    possible_story_decisions:
+      - mark_model_as_conflicted
+      - add_explanatory_evidence
+      - maintain_unresolved_alternatives
+      - suppress_obsolete_goal_if_supported
+      - handoff_expectation_violation_to_E2_03
+    evidence:
+      confidence: MODERATE
+      directness: "DIRECT components + BRIDGE revision evidence"
+      domain: "narrative reading and knowledge revision"
+      important_limits:
+        - "Detailed transition dynamics belong to E1-02/E2-03."
+    application_status: "APPLICATION_SYNTHESIS_FOUNDATION_HANDOFF"
+
+  - id: "E101-M09"
+    mechanism: "competing_causal_hypotheses"
+    what_it_models: "Retention of multiple plausible causal explanations when evidence underdetermines cause."
+    trigger: "Several causes fit the observed outcome."
+    from_state: "cause_underdetermined"
+    to_state_candidates:
+      - "multiple_causal_hypotheses_retained"
+      - "one_hypothesis_reweighted_after_new_evidence"
+    moderators:
+      - prior_knowledge
+      - cue_diagnosticity
+      - alternative_availability
+      - disconfirmation
+    boundary_conditions:
+      - "Direct narrative evidence is limited."
+    failure_modes:
+      - premature_single_cause_commitment
+      - inventing_unsupported_alternatives
+      - false_balance
+    possible_story_decisions:
+      - retain_multiple_causes_if_facts_support
+      - reveal_discriminating_information_later
+      - update_hypothesis_weights_qualitatively
+      - do_not_manufacture_alternatives_for_suspense
+    evidence:
+      confidence: MODERATE_LOW
+      directness: BRIDGE
+      domain: "general causal reasoning"
+      important_limits:
+        - "No numeric Bayesian weighting should be hard-coded."
+    application_status: "OPTIONAL_BRIDGE_REPRESENTATION"
+
+from_to_transition_candidates:
+  - id: T1
+    from: "unexplained_outcome"
+    trigger: "coherence_gap_detected_and_bridgeable"
+    to: "bridged_causal_model"
+  - id: T2
+    from: "action_without_stated_motive"
+    trigger: "goal_supporting_context"
+    to: "inferred_goal_model"
+  - id: T3
+    from: "active_goal_fragile"
+    trigger: "remention_or_consistent_action"
+    to: "strengthened_goal_model"
+  - id: T4
+    from: "old_goal_active"
+    trigger: "new_goal_becomes_more_relevant"
+    to: "new_goal_active_old_goal_suppressed"
+  - id: T5
+    from: "desire_based_intention"
+    trigger: "belief_or_knowledge_information"
+    to: "belief_constrained_intention"
+  - id: T6
+    from: "dormant_prior_fact"
+    trigger: "new_causal_relevance"
+    to: "reactivated_prior_fact"
+  - id: T7
+    from: "coherent_model"
+    trigger: "incoming_incompatible_information"
+    to: "model_conflict_revision_needed"
+  - id: T8
+    from: "cause_underdetermined"
+    trigger: "multiple_supported_explanations"
+    to: "competing_causal_hypotheses"
+  - id: T9
+    from: "isolated_event"
+    trigger: "cause_or_consequence_links_established"
+    to: "causally_integrated_event"
+
+foundation_pair_handoff_to_E1_02:
+  - "When does an incoming change update the existing event model versus create a new one?"
+  - "Which change dimensions are most important for state updating?"
+  - "When does model conflict cause local repair, replacement, coexistence, or segmentation?"
+  - "How long do old goals/causal relations remain accessible after a state change?"
+  - "How should enrichment, revision, replacement, and event segmentation be distinguished?"
+  - "When does a surprising causal event become a true state update rather than comprehension difficulty?"
+
+p0_refinements:
+  major_restructure_needed: false
+  minor_changes:
+    - "Separate audience knowledge, character knowledge/belief, character desire/goal, and inferred intention."
+    - "Add model_conflict as an intermediate state before reframe."
+    - "Consider stored-known versus currently-active/causally-relevant information."
+
+do_not_start_automatically:
+  - E1-02
+  - E1-03
+  - E2-01
+  - E2-02
+  - E2-03
