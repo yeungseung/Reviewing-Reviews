@@ -832,3 +832,63 @@ This is deliberately weaker than:
 - "nine payoff types are exhaustive"
 
 The weaker rule currently has much better epistemic integrity and can later be made more specific with direct evidence.
+
+
+# 10. Viewer Relevance / Human Scale Split
+
+M10 is now split into at least four related mechanisms.
+
+## M10-A — Identifiable Person / Affective Valuation
+Core line:
+Small, Loewenstein, Slovic and related identifiable-victim research.
+
+Possible engine use:
+Concrete individuals may make otherwise abstract human consequences emotionally accessible.
+
+Boundary:
+Identifiability can bias valuation and may reduce proportional/aggregate judgment.
+This is not automatically a virtue for factual content.
+
+## M10-B — Psychological Distance / Construal
+Core line:
+Trope & Liberman CLT.
+
+Possible engine use:
+Distance and abstraction level can be deliberately managed:
+- near ↔ far
+- concrete ↔ abstract
+- immediate ↔ long-term
+- personal ↔ systemic
+
+This does not inherently mean "near = better."
+High-level construal can be useful for principles, systems, and long-term meaning.
+
+## M10-C — Scope / Psychic Numbing
+Core line:
+Slovic and related scope-sensitivity/compassion research.
+
+Possible engine use:
+Large aggregate harm may not produce linearly larger affective response.
+
+Critical epistemic warning:
+Using one vivid individual to represent a large population can also distort base rates and proportional judgment.
+
+## M10-D — Risk Perception
+Core line:
+Slovic psychometric paradigm.
+
+Possible engine use:
+Perceived dread, controllability, familiarity/unknownness, catastrophic potential, etc. may shape audience stake perception.
+
+This belongs closer to Stakes / Threat Appraisal than to simple Human Scale.
+
+## Research Map v2 implication
+
+Replace a flat "make abstract things human-scale" principle with a **Relevance Lens** that asks:
+
+1. What level of abstraction is needed right now?
+2. Is the viewer meant to understand the system, feel an individual consequence, judge risk, or decide what matters personally?
+3. Would a vivid person clarify the issue or bias the judgment?
+4. Should the engine zoom in, zoom out, or alternate between levels?
+
+This is more useful for a review/story engine than a universal "one human story beats statistics" rule.
