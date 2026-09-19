@@ -1,0 +1,272 @@
+[
+  {
+    "id": "LSEv2_#23_T02",
+    "item": 23,
+    "theme": 2,
+    "report": "20_Research_Reports/#23_질문은_무한히_쌓지_않는다/LSEv2_#23_T02_질문의_적정_회수와_만족.md",
+    "sourceIds": [
+      "SRC-1987-171",
+      "SRC-1972-172",
+      "SRC-2006-170",
+      "SRC-1980-173",
+      "SRC-1985-158",
+      "SRC-2002-166",
+      "SRC-2006-168",
+      "SRC-1998-169"
+    ]
+  },
+  {
+    "id": "LSEv2_#24_T01",
+    "item": 24,
+    "theme": 1,
+    "report": "20_Research_Reports/#24_Causal_Spine/LSEv2_#24_T01_Causal_Coherence의_효과.md",
+    "sourceIds": [
+      "SRC-1985-158",
+      "SRC-1988-174",
+      "SRC-2007-175",
+      "SRC-2000-176",
+      "SRC-2008-177",
+      "SRC-1980-173",
+      "SRC-2006-168",
+      "SRC-1990-159"
+    ]
+  },
+  {
+    "id": "LSEv2_#24_T02",
+    "item": 24,
+    "theme": 2,
+    "report": "20_Research_Reports/#24_Causal_Spine/LSEv2_#24_T02_인과_Spine의_실제_설계.md",
+    "sourceIds": [
+      "SRC-1975-178",
+      "SRC-2002-180",
+      "SRC-1997-181",
+      "SRC-1994-179",
+      "SRC-2008-177",
+      "SRC-1988-174",
+      "SRC-2007-175",
+      "SRC-2006-168",
+      "SRC-2000-176"
+    ]
+  },
+  {
+    "id": "LSEv2_#25_T01",
+    "item": 25,
+    "theme": 1,
+    "report": "20_Research_Reports/#25_WHY_THEREFORE_엔진/LSEv2_#25_T01_Discourse_Relation과_이해.md",
+    "sourceIds": [
+      "SRC-2000-182",
+      "SRC-1988-174",
+      "SRC-2015-184",
+      "SRC-1994-183",
+      "SRC-1996-185",
+      "SRC-2000-176",
+      "SRC-2008-177",
+      "SRC-2007-175"
+    ]
+  },
+  {
+    "id": "LSEv2_#25_T02",
+    "item": 25,
+    "theme": 2,
+    "report": "20_Research_Reports/#25_WHY_THEREFORE_엔진/LSEv2_#25_T02_그리고식_나열_vs_인과_전개.md",
+    "sourceIds": [
+      "SRC-1994-186",
+      "SRC-1987-187",
+      "SRC-1988-174",
+      "SRC-1993-188",
+      "SRC-1980-173",
+      "SRC-2007-175",
+      "SRC-2000-182",
+      "SRC-2000-176",
+      "SRC-1975-178",
+      "SRC-2006-189",
+      "SRC-1996-185"
+    ]
+  },
+  {
+    "id": "LSEv2_#26_T01",
+    "item": 26,
+    "theme": 1,
+    "report": "20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T01_정보_기능_7종_분류의_타당성.md",
+    "sourceIds": [
+      "SRC-1958-190",
+      "SRC-1966-027",
+      "SRC-1988-193",
+      "SRC-2007-109",
+      "SRC-2006-191",
+      "SRC-1994-186",
+      "SRC-2007-192",
+      "SRC-2007-107",
+      "SRC-1981-100",
+      "SRC-1993-188",
+      "SRC-2015-145",
+      "SRC-2007-175",
+      "SRC-1998-052"
+    ]
+  },
+  {
+    "id": "LSEv2_#26_T02",
+    "item": 26,
+    "theme": 2,
+    "report": "20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T02_기능성_정보와_기억몰입.md",
+    "sourceIds": [
+      "SRC-1986-132",
+      "SRC-1993-195",
+      "SRC-1985-158",
+      "SRC-1990-159",
+      "SRC-1992-196",
+      "SRC-1993-197",
+      "SRC-1989-194",
+      "SRC-1998-052",
+      "SRC-1988-028"
+    ]
+  },
+  {
+    "id": "LSEv2_#26_T03",
+    "item": 26,
+    "theme": 3,
+    "report": "20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T03_Seductive_Detail과_삭제_기준.md",
+    "sourceIds": [
+      "SRC-2001-199",
+      "SRC-2007-200",
+      "SRC-1988-028",
+      "SRC-1998-052",
+      "SRC-1968-198",
+      "SRC-2007-192",
+      "SRC-1994-201",
+      "SRC-1980-173",
+      "SRC-2000-176",
+      "SRC-1988-193",
+      "SRC-1989-194"
+    ]
+  },
+  {
+    "id": "LSEv2_#27_T01",
+    "item": 27,
+    "theme": 1,
+    "report": "20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T01_Number-Benchmark-Meaning의_인지_효.md",
+    "sourceIds": [
+      "SRC-2009-203",
+      "SRC-2006-202",
+      "SRC-1979-026",
+      "SRC-2010-098",
+      "SRC-2022-205",
+      "SRC-1995-204",
+      "SRC-2007-109",
+      "SRC-2007-192",
+      "SRC-1974-115",
+      "SRC-1981-100"
+    ]
+  },
+  {
+    "id": "LSEv2_#27_T02",
+    "item": 27,
+    "theme": 2,
+    "report": "20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T02_숫자의_Human_Meaning_변환.md",
+    "sourceIds": [
+      "SRC-2000-209",
+      "SRC-1986-067",
+      "SRC-1993-206",
+      "SRC-2022-205",
+      "SRC-2009-203",
+      "SRC-1995-204",
+      "SRC-2000-207",
+      "SRC-2004-113",
+      "SRC-2010-098",
+      "SRC-2006-202",
+      "SRC-1997-208"
+    ]
+  },
+  {
+    "id": "LSEv2_#27_T03",
+    "item": 27,
+    "theme": 3,
+    "report": "20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T03_숫자와_서사의_균형.md",
+    "sourceIds": [
+      "SRC-2007-210",
+      "SRC-2004-113",
+      "SRC-2010-098",
+      "SRC-1973-211",
+      "SRC-1993-206",
+      "SRC-2006-202",
+      "SRC-2011-213",
+      "SRC-2002-021",
+      "SRC-1988-212",
+      "SRC-2022-205",
+      "SRC-1994-024"
+    ]
+  },
+  {
+    "id": "LSEv2_#28_T01",
+    "item": 28,
+    "theme": 1,
+    "report": "20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T01_Emotion이_Evidence_Processing에.md",
+    "sourceIds": [
+      "SRC-2011-215",
+      "SRC-1995-217",
+      "SRC-2007-025",
+      "SRC-1990-214",
+      "SRC-2000-207",
+      "SRC-2006-202",
+      "SRC-1981-026",
+      "SRC-2001-216",
+      "SRC-1994-024",
+      "SRC-1993-206"
+    ]
+  },
+  {
+    "id": "LSEv2_#28_T02",
+    "item": 28,
+    "theme": 2,
+    "report": "20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T02_Evidence가_Emotion을_강화하는_방식.md",
+    "sourceIds": [
+      "SRC-2004-221",
+      "SRC-1994-024",
+      "SRC-1993-206",
+      "SRC-1995-218",
+      "SRC-1987-219",
+      "SRC-2011-213",
+      "SRC-1994-220",
+      "SRC-2007-210",
+      "SRC-1988-212",
+      "SRC-2010-098",
+      "SRC-2022-205"
+    ]
+  },
+  {
+    "id": "LSEv2_#28_T03",
+    "item": 28,
+    "theme": 3,
+    "report": "20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T03_EmotionEvidenceMeaning_Evi.md",
+    "sourceIds": [
+      "SRC-2000-222",
+      "SRC-1986-223",
+      "SRC-2004-221",
+      "SRC-1988-224",
+      "SRC-1995-218",
+      "SRC-1994-024",
+      "SRC-2013-225",
+      "SRC-1990-214",
+      "SRC-1993-206",
+      "SRC-1988-212",
+      "SRC-2022-205"
+    ]
+  },
+  {
+    "id": "LSEv2_#29_T01",
+    "item": 29,
+    "theme": 1,
+    "report": "20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T01_Narrative_Prediction과_몰입.md",
+    "sourceIds": [
+      "SRC-2013-226",
+      "SRC-2010-229",
+      "SRC-1994-228",
+      "SRC-2007-227",
+      "SRC-1994-220",
+      "SRC-1985-022",
+      "SRC-1980-038",
+      "SRC-1994-201",
+      "SRC-2000-222"
+    ]
+  }
+]
