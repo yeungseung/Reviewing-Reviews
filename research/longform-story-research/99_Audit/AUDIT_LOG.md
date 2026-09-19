@@ -390,3 +390,48 @@ A consistent pattern is emerging:
 - source existence is frequently real even when metadata or effect sizes are wrong
 - the most severe distortion often happens when a research mechanism is translated into a Story Engine rule
 - therefore the corpus remains valuable for mechanism discovery and cross-theme pattern mining, but quantitative claims and exact production formulas require a separate verification layer
+
+
+### E-012 — Synthesis confidence inflation after upstream distortion
+Status: CONFIRMED LINEAGE PROBLEM
+Severity: CRITICAL
+
+Representative Themes with verified or high-risk upstream issues still arrive in the Synthesis registry as:
+- Strong Support
+- High confidence
+- KEEP
+- EXPAND
+
+Checked examples include:
+- #21 T2
+- #30 T1
+- #37 T1
+- #37 T2
+- #45 T2
+- #45 T3
+- #53 T3
+- #54 T1
+- #59 T2
+
+This shows that the Synthesis layer currently does not encode uncertainty introduced by:
+- unsupported quantitative claims
+- source metadata inflation
+- domain-transfer leaps
+- bibliographic conflation
+
+Most importantly, #59 T2's registry summary explicitly preserves some unsupported numeric claims as part of the justification chain.
+
+Interpretation:
+The current registry is useful as a map of Gemini's preferred conclusions, but it is not yet a calibrated evidence-confidence layer.
+
+Required redesign later:
+Synthesis confidence must be derived from separate fields for:
+- source existence/bibliographic confidence
+- mechanism support
+- quantitative support
+- domain transfer confidence
+- independent source-family count
+- counterevidence status
+- application/engine-rule confidence
+
+A Theme should be allowed to remain useful even when its exact numbers fail, but the registry must be able to represent that distinction.
