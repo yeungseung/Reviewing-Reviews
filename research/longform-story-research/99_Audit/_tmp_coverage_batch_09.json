@@ -1,0 +1,215 @@
+[
+  {
+    "id": "LSEv2_#44_T03",
+    "item": 44,
+    "theme": 3,
+    "report": "20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T03_관계_없는_연결의_실패.md",
+    "sourceIds": [
+      "SRC-1997-410",
+      "SRC-1986-411",
+      "SRC-2003-412",
+      "SRC-1992-398",
+      "SRC-2007-401",
+      "SRC-1981-406",
+      "SRC-1979-400",
+      "SRC-1988-413"
+    ]
+  },
+  {
+    "id": "LSEv2_#45_T01",
+    "item": 45,
+    "theme": 1,
+    "report": "20_Research_Reports/#45_Story_State/LSEv2_#45_T01_Story_State_개념의_이론적_근거.md",
+    "sourceIds": [
+      "SRC-1983-414",
+      "SRC-1995-415",
+      "SRC-1985-416",
+      "SRC-1994-407",
+      "SRC-2007-417"
+    ]
+  },
+  {
+    "id": "LSEv2_#45_T02",
+    "item": 45,
+    "theme": 2,
+    "report": "20_Research_Reports/#45_Story_State/LSEv2_#45_T02_State_Change와_Chapter_가치.md",
+    "sourceIds": [
+      "SRC-2007-418",
+      "SRC-1985-416",
+      "SRC-2000-421",
+      "SRC-2007-417",
+      "SRC-1996-420",
+      "SRC-2015-001",
+      "SRC-1983-414",
+      "SRC-2009-419"
+    ]
+  },
+  {
+    "id": "LSEv2_#45_T03",
+    "item": 45,
+    "theme": 3,
+    "report": "20_Research_Reports/#45_Story_State/LSEv2_#45_T03_State_Change의_크기와_빈도.md",
+    "sourceIds": [
+      "SRC-2008-423",
+      "SRC-2007-418",
+      "SRC-1996-424",
+      "SRC-1977-425",
+      "SRC-1988-422"
+    ]
+  },
+  {
+    "id": "LSEv2_#46_T01",
+    "item": 46,
+    "theme": 1,
+    "report": "20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T01_Micro_Story_구조의_타당성.md",
+    "sourceIds": [
+      "SRC-1965-426",
+      "SRC-1997-427",
+      "SRC-1979-428",
+      "SRC-1994-037",
+      "SRC-1991-429"
+    ]
+  },
+  {
+    "id": "LSEv2_#46_T02",
+    "item": 46,
+    "theme": 2,
+    "report": "20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T02_Micro_Block과_Retention.md",
+    "sourceIds": [
+      "SRC-1985-430",
+      "SRC-2011-432",
+      "SRC-2000-421",
+      "SRC-2007-418",
+      "SRC-2008-423",
+      "SRC-1956-431",
+      "SRC-1988-422",
+      "SRC-1979-433",
+      "SRC-1996-424"
+    ]
+  },
+  {
+    "id": "LSEv2_#46_T03",
+    "item": 46,
+    "theme": 3,
+    "report": "20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T03_정보형_콘텐츠_적용.md",
+    "sourceIds": [
+      "SRC-1958-434",
+      "SRC-1960-435",
+      "SRC-2011-432",
+      "SRC-1985-430",
+      "SRC-1996-436",
+      "SRC-1979-428",
+      "SRC-2003-437"
+    ]
+  },
+  {
+    "id": "LSEv2_#47_T01",
+    "item": 47,
+    "theme": 1,
+    "report": "20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T01_Investigative_Chapter_구조.md",
+    "sourceIds": [
+      "SRC-1994-438",
+      "SRC-1988-439",
+      "SRC-1958-434",
+      "SRC-1996-440",
+      "SRC-1990-441",
+      "SRC-1997-427"
+    ]
+  },
+  {
+    "id": "LSEv2_#47_T02",
+    "item": 47,
+    "theme": 2,
+    "report": "20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T02_Answer와_Consequence의_구분.md",
+    "sourceIds": [
+      "SRC-2003-444",
+      "SRC-1991-442",
+      "SRC-2002-443",
+      "SRC-1990-441",
+      "SRC-2011-445",
+      "SRC-2011-328"
+    ]
+  },
+  {
+    "id": "LSEv2_#47_T03",
+    "item": 47,
+    "theme": 3,
+    "report": "20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T03_Chapter_구조의_다양성.md",
+    "sourceIds": [
+      "SRC-1978-446",
+      "SRC-2006-449",
+      "SRC-1981-448",
+      "SRC-1977-447"
+    ]
+  },
+  {
+    "id": "LSEv2_#48_T01",
+    "item": 48,
+    "theme": 1,
+    "report": "20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T01_9단계_Macro_Structure_검증.md",
+    "sourceIds": [
+      "SRC-1979-452",
+      "SRC-1949-451",
+      "SRC-2004-453",
+      "SRC-1863-450"
+    ]
+  },
+  {
+    "id": "LSEv2_#48_T02",
+    "item": 48,
+    "theme": 2,
+    "report": "20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T02_단계_순서와_필수성.md",
+    "sourceIds": [
+      "SRC-2007-457",
+      "SRC-1983-454",
+      "SRC-2010-455",
+      "SRC-2017-456",
+      "SRC-2001-273"
+    ]
+  },
+  {
+    "id": "LSEv2_#48_T03",
+    "item": 48,
+    "theme": 3,
+    "report": "20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T03_범용성의_경계.md",
+    "sourceIds": [
+      "SRC-1985-460",
+      "SRC-1949-451",
+      "SRC-2010-455",
+      "SRC-1983-454",
+      "SRC-2014-459",
+      "SRC-1981-458",
+      "SRC-2016-461"
+    ]
+  },
+  {
+    "id": "LSEv2_#49_T01",
+    "item": 49,
+    "theme": 1,
+    "report": "20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T01_Climax와_Stake의_관계.md",
+    "sourceIds": [
+      "SRC-1997-462",
+      "SRC-2002-464",
+      "SRC-1979-463",
+      "SRC-2009-465",
+      "SRC-2017-456",
+      "SRC-2010-455"
+    ]
+  },
+  {
+    "id": "LSEv2_#49_T02",
+    "item": 49,
+    "theme": 2,
+    "report": "20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T02_장르별_Peak_형태.md",
+    "sourceIds": [
+      "SRC-1985-467",
+      "SRC-1990-468",
+      "SRC-2010-455",
+      "SRC-2004-469",
+      "SRC-1962-466",
+      "SRC-1979-463",
+      "SRC-1981-458",
+      "SRC-2009-465"
+    ]
+  }
+]
