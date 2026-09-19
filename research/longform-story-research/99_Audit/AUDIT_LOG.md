@@ -778,3 +778,183 @@ These sources directly study narrative processing and are more appropriate found
 
 Disposition:
 Create a separate **Narrative Expectation / Suspense / Surprise** research line and prioritize it in precision research.
+
+
+### E-025 — Groves & Thompson habituation DOI error and major domain transfer
+Status: CONFIRMED BIBLIOGRAPHIC ERROR / DOMAIN_TRANSFER_LEAP
+Severity: HIGH
+
+Repository `SRC-1970-004`:
+- title/authors/year broadly identify the real paper
+- stored DOI: `10.1037/h0029800`
+
+Verified DOI:
+- `10.1037/h0029810`
+
+The foundational dual-process theory concerns habituation and sensitization in behavioral/neurophysiological systems. PubMed indexes the work under animal behavior and cats; the original theory was built from reflex/learning paradigms.
+
+Repository transformation:
+- repeated suspense cues → sensitization
+- revealing threat early → habituation
+- low-intensity valley → neural "resensitization"
+- direct justification for longform emotional-wave design
+
+Interpretation:
+The general existence of habituation/sensitization is valid.
+The specific mapping to story tension, emotional valleys, and "resensitizing receptors" is a large domain transfer requiring media/narrative bridge evidence.
+
+### E-026 — Hedonic adaptation converted into a 8–10 minute media-emotion clock
+Status: CONFIRMED ENGINE-HEURISTIC INJECTION
+Severity: CRITICAL for timing rules
+
+Frederick & Loewenstein (1999) is a real book chapter reviewing hedonic adaptation:
+- attenuation of emotional/hedonic impact over time
+- negative domains include noise, imprisonment, bereavement, disability
+- positive domains include food, erotic images, wealth, appearance
+
+It is not a study of:
+- longform video
+- amygdala baseline recovery after 8–10 minutes
+- emotion-tone switching
+- "receptor paralysis" after ten minutes
+
+Repository reports/cards repeatedly convert the chapter into:
+- same emotion >8–10 min → limbic/amygdala response returns to baseline
+- switch emotional tone before 10 min
+- low-intensity intervals reset the emotional baseline
+
+Disposition:
+KEEP adaptation as a broad caution against assuming constant subjective intensity.
+DELETE/REVERIFY every exact media-emotion timing rule derived from this source.
+
+### E-027 — Peak-End / Better-End effect is real but heavily overgeneralized to longform endings
+Status: VALID MECHANISM / DOMAIN OVERGENERALIZATION
+Severity: HIGH
+
+Verified Kahneman et al. (1993):
+- short trial: 60 s hand immersion around 14°C
+- long trial: same 60 s plus 30 s during which water warmed slightly to about 15°C
+- a significant majority later chose to repeat the longer trial
+- retrospective evaluations of these aversive episodes gave relatively small weight to duration and substantial weight to the worst/final moments
+
+This supports:
+- retrospective evaluation can be disproportionately affected by end quality in specific experiential contexts
+- duration can receive less retrospective weight than moment-to-moment experience
+
+It does **not** directly establish:
+- all longform stories are evaluated by the arithmetic mean of Peak + End
+- a good ending erases a weak middle
+- allocate 60% of production resources to peak/end
+- mandatory 3–5 minute post-climax buffer
+- ending design guarantees recommendation/rewatch
+- universal NPS gains
+
+Important nuance:
+Duration neglect/peak-end-like effects have also been studied in other affective/effortful experiences, so the phenomenon should not be discarded. The question is transfer strength to longform narrative evaluation.
+
+Disposition:
+KEEP as a B-level retrospective-evaluation mechanism.
+RESEARCH narrative/media-specific evidence separately before creating engine constants.
+
+### E-028 — Carroll Narrative Closure has wrong DOI and is philosophical theory, not an empirical neuroscience study
+Status: CONFIRMED BIBLIOGRAPHIC ERROR / THEORY_TO_EMPIRICAL_UPGRADE
+Severity: CRITICAL
+
+Repository `SRC-2007-503` stores:
+- DOI `10.1007/s11098-007-9092-2`
+
+Verified Carroll (2007) DOI:
+- `10.1007/s11098-007-9097-9`
+
+Verified contribution:
+Carroll develops a theory in which narrative closure is a phenomenological feeling of finality generated when salient questions posed by the narrative are answered.
+
+Repository upgrades this into:
+- empirical/cognitive proof
+- "affective satiety"
+- direct emotional-payoff mechanisms
+- backward-design production rules
+
+Later scholarship explicitly critiques and refines Carroll's account, including questions about inclusiveness, gradability, plot vs narrative, and online vs ex-post closure.
+
+Disposition:
+KEEP Carroll as a narrative/aesthetic theory source.
+Do not count it as behavioral causal evidence.
+
+### E-029 — Payoff taxonomy treated as an empirically exhaustive natural law
+Status: CONFIRMED RESEARCH-DESIGN / TRANSFORMATION ERROR
+Severity: CRITICAL
+
+#51 T1 asserts that nine payoff types:
+Answer, Justice, Catharsis, Reframe, Admiration, Warning, Decision Rule, Hope, Bittersweet
+
+are:
+- empirically validated
+- exhaustive
+- mutually exclusive
+
+The cited source set spans literary theory, emotion research, learning, moral psychology, and craft concepts. It does not constitute a taxonomic validation showing that exactly nine types exhaust the payoff space.
+
+The Report then attaches untraceable claims including:
+- closed-question stories +84% satisfaction
+- cortisol -72%
+- insight gamma activity +320%
+- altruistic motivation 2.8x
+- warning memory 2.4x / behavioral recall 3.1x
+- bittersweet 3x persistence
+- repeat viewing/music streaming +260%
+- final architecture completion 94%+ / NPS +70
+
+Interpretation:
+The nine-type scheme may still be **very useful as a design taxonomy**.
+It should be validated like an instrument/classification system:
+- coverage
+- overlap
+- inter-rater agreement
+- missing categories
+- genre dependence
+- predictive usefulness
+
+It should not be called an empirically exhaustive psychological law.
+
+### E-030 — Oliver expectation-disconfirmation is a plausible analogy, not direct narrative payoff evidence
+Status: VALID SOURCE / DOMAIN_TRANSFER_CAUTION
+Severity: MEDIUM
+
+Verified Oliver (1980):
+- consumer satisfaction modeled as expectation + expectancy disconfirmation
+- satisfaction linked to attitude change and purchase intention
+- supported in a two-stage field study involving flu-inoculation consumers/nonconsumers
+
+Repository uses it as evidence that:
+opening promise + ending payoff → audience satisfaction/recommendation.
+
+This is a plausible cross-domain hypothesis, but the original study did not test:
+- stories
+- viewing completion
+- narrative payoff
+- creator loyalty
+
+Disposition:
+Move this to the future #64–#67 Promise/Expectation Contract research lane rather than using it as direct proof of #51 Payoff.
+
+### E-031 — #52 Ending design converts multiple weakly related theories into exact production formulas
+Status: CONFIRMED ENGINE_HEURISTIC_AS_EMPIRICAL_FACT
+Severity: CRITICAL
+
+Examples in current reports:
+- mandatory 3–5 minute ending buffer
+- 20-minute fatigue threshold
+- NPS +75
+- +40% pruning efficiency from backward ending design
+- thematic-ending congruence +42%
+- precomputed emotional foreshadowing nodes
+- "open ending" dopamine/serotonin persistence
+
+These values are not supported by the verified Carroll, Kahneman, or Oliver sources.
+
+Positive finding:
+#52 T2 correctly raises a strategically important **product-level risk**:
+in nonfiction/factual storytelling, fixing the desired ending emotion/conclusion in advance can encourage confirmation bias, cherry-picking, and fact-fitting.
+
+That risk should be retained and investigated in #60–#63, but it should not be presented as an experimental result of Carroll/Poe.
