@@ -1,0 +1,188 @@
+[
+  {
+    "id": "LSEv2_#39_T03",
+    "item": 39,
+    "theme": 3,
+    "report": "20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T03_도덕_판단의_문화편향.md",
+    "sourceIds": [
+      "SRC-2009-350",
+      "SRC-2010-351",
+      "SRC-2008-352",
+      "SRC-2000-353"
+    ]
+  },
+  {
+    "id": "LSEv2_#40_T01",
+    "item": 40,
+    "theme": 1,
+    "report": "20_Research_Reports/#40_복합_감정/LSEv2_#40_T01_Mixed_Emotion의_심리적_효과.md",
+    "sourceIds": [
+      "SRC-2001-354",
+      "SRC-2006-355",
+      "SRC-2010-356",
+      "SRC-2008-357"
+    ]
+  },
+  {
+    "id": "LSEv2_#40_T02",
+    "item": 40,
+    "theme": 2,
+    "report": "20_Research_Reports/#40_복합_감정/LSEv2_#40_T02_복합_감정의_서사_Trigger.md",
+    "sourceIds": [
+      "SRC-1986-358",
+      "SRC-2004-359",
+      "SRC-2003-360",
+      "SRC-1992-361"
+    ]
+  },
+  {
+    "id": "LSEv2_#40_T03",
+    "item": 40,
+    "theme": 3,
+    "report": "20_Research_Reports/#40_복합_감정/LSEv2_#40_T03_장르문화별_복합_감정.md",
+    "sourceIds": [
+      "SRC-1999-363",
+      "SRC-2004-362",
+      "SRC-1996-364",
+      "SRC-2014-365",
+      "SRC-2003-360"
+    ]
+  },
+  {
+    "id": "LSEv2_#41_T01",
+    "item": 41,
+    "theme": 1,
+    "report": "20_Research_Reports/#41_Ambivalence/LSEv2_#41_T01_Ambivalence와_Cognitive_Process.md",
+    "sourceIds": [
+      "SRC-1996-366",
+      "SRC-2009-367",
+      "SRC-2017-368",
+      "SRC-2015-369"
+    ]
+  },
+  {
+    "id": "LSEv2_#41_T02",
+    "item": 41,
+    "theme": 2,
+    "report": "20_Research_Reports/#41_Ambivalence/LSEv2_#41_T02_Narrative_Ambivalence_설계.md",
+    "sourceIds": [
+      "SRC-1986-370",
+      "SRC-2013-371",
+      "SRC-1993-372",
+      "SRC-2004-373"
+    ]
+  },
+  {
+    "id": "LSEv2_#41_T03",
+    "item": 41,
+    "theme": 3,
+    "report": "20_Research_Reports/#41_Ambivalence/LSEv2_#41_T03_Ambivalence와_신뢰논쟁_콘텐츠.md",
+    "sourceIds": [
+      "SRC-1999-374",
+      "SRC-2015-375",
+      "SRC-2012-377",
+      "SRC-2010-376"
+    ]
+  },
+  {
+    "id": "LSEv2_#42_T01",
+    "item": 42,
+    "theme": 1,
+    "report": "20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T01_Self-Relevance와_Narrative_Enga.md",
+    "sourceIds": [
+      "SRC-1977-378",
+      "SRC-2000-379",
+      "SRC-2001-380",
+      "SRC-1988-381"
+    ]
+  },
+  {
+    "id": "LSEv2_#42_T02",
+    "item": 42,
+    "theme": 2,
+    "report": "20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T02_Viewer_Mirror의_다양한_형태.md",
+    "sourceIds": [
+      "SRC-1999-382",
+      "SRC-2001-383",
+      "SRC-2000-384",
+      "SRC-1995-385"
+    ]
+  },
+  {
+    "id": "LSEv2_#42_T03",
+    "item": 42,
+    "theme": 3,
+    "report": "20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T03_Forced_Relevance와_경계조건.md",
+    "sourceIds": [
+      "SRC-1966-386",
+      "SRC-1994-389",
+      "SRC-1983-388",
+      "SRC-1977-387"
+    ]
+  },
+  {
+    "id": "LSEv2_#43_T01",
+    "item": 43,
+    "theme": 1,
+    "report": "20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T01_Relevance_단계_모델_검증.md",
+    "sourceIds": [
+      "SRC-1989-393",
+      "SRC-1968-390",
+      "SRC-1954-391",
+      "SRC-1985-392"
+    ]
+  },
+  {
+    "id": "LSEv2_#43_T02",
+    "item": 43,
+    "theme": 2,
+    "report": "20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T02_단계별_효과와_장르_적합성.md",
+    "sourceIds": [
+      "SRC-2010-396",
+      "SRC-2000-395",
+      "SRC-2012-397",
+      "SRC-1979-394"
+    ]
+  },
+  {
+    "id": "LSEv2_#43_T03",
+    "item": 43,
+    "theme": 3,
+    "report": "20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T03_Relevance_상승의_윤리정확성.md",
+    "sourceIds": [
+      "SRC-1992-398",
+      "SRC-1987-399",
+      "SRC-1979-400",
+      "SRC-2007-401"
+    ]
+  },
+  {
+    "id": "LSEv2_#44_T01",
+    "item": 44,
+    "theme": 1,
+    "report": "20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T01_낯선_소재의_Personal_Relevance_만들기.md",
+    "sourceIds": [
+      "SRC-1983-402",
+      "SRC-1991-403",
+      "SRC-1979-394",
+      "SRC-1994-404",
+      "SRC-2003-405",
+      "SRC-1977-378"
+    ]
+  },
+  {
+    "id": "LSEv2_#44_T02",
+    "item": 44,
+    "theme": 2,
+    "report": "20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T02_Relevance_신호의_타이밍.md",
+    "sourceIds": [
+      "SRC-1981-408",
+      "SRC-1994-407",
+      "SRC-1992-398",
+      "SRC-2005-409",
+      "SRC-1981-406",
+      "SRC-2000-395",
+      "SRC-2010-396"
+    ]
+  }
+]
