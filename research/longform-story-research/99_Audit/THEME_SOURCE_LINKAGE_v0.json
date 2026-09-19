@@ -5,7 +5,8 @@
   "notes": [
     "Primary Track is single-valued; Secondary Tracks record overlap.",
     "source_family uses DOI when present in Sources DB index, otherwise normalized title; it is a deduplication proxy, not proof of research independence.",
-    "audit flags are based only on issues already documented in AUDIT_LOG.md and must not be interpreted as exhaustive error rates."
+    "audit flags are based only on issues already documented in AUDIT_LOG.md and must not be interpreted as exhaustive error rates.",
+    "Source extraction supports non-standard historical IDs such as SRC-BC335-494."
   ],
   "themes": [
     {
@@ -3990,12 +3991,14 @@
       "source_ids": [
         "SRC-1975-496",
         "SRC-1970-495",
-        "SRC-1990-497"
+        "SRC-1990-497",
+        "SRC-BC335-494"
       ],
       "source_families": [
         "doi:10.4324/9780203449769",
         "doi:10.2307/1770762",
-        "doi:10.4324/9780203361894"
+        "doi:10.4324/9780203361894",
+        "title:poetics 시학"
       ],
       "audited_flagged": false
     },
