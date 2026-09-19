@@ -632,3 +632,37 @@ TRUST / SOURCE / PROVENANCE ──────┘
 This is only a **candidate architecture**.
 
 The next audit task is to test whether the apparent convergence is genuine across independent source families or is an artifact of repeated reuse of the same small set of papers.
+
+
+# 7. Independence Check v0
+
+The first source-family deduplication pass indicates that several apparent patterns survive after removing repeated registrations.
+
+| Mechanism | Distinct source-title families currently identified | Breadth across original top-level items | Current interpretation |
+|---|---:|---:|---|
+| M1 Active Causal Model Construction | 4 nominal / 3 currently clean enough to count | 12 items | convergence survives; QUEST record is corrupted but Graesser 1994, Trabasso/van den Broek 1985, and Zwaan et al. 1995 remain independent lines |
+| M2 Event / State Updating | 3 nominal | 3+ items | promising; one event-memory source lineage is bibliographically broken and must be reconstructed |
+| M3 Appraisal → Emotion | 6 | 6 items | strong independent convergence candidate |
+| M4 Capacity-Limited Processing | 11 | 14 items | broadest independent research-family coverage found so far |
+| M5 Curiosity / Uncertainty | 4 | 14 items | strong recurrence; exact timing/loop formulas still unsupported |
+| M7 Prediction / Expectation | 3 | 3 items | too heterogeneous to merge yet |
+| M8 Payoff / Closure | 5 | 7 items | promising lifecycle mechanism |
+| M9 Trust / Provenance | 8 | 5 items | broad enough to justify high-priority precision research |
+| M10 Relevance / Human Scale | 2+ | 7 items | current evidence base is too narrow for strong generalization |
+
+## Important result
+
+The cross-theme convergence is **not entirely an artifact of duplicate SRC records**.
+
+For M1, external checks confirm multiple genuinely different research lines:
+- Graesser, Singer & Trabasso (1994): constructionist inference / search-after-meaning
+- Trabasso & van den Broek (1985): causal-network centrality and narrative memory/importance
+- Zwaan, Langston & Graesser (1995): five-dimensional event-indexing situation model
+
+However, the audit also confirms that source-record quality can be poor even inside a valid higher-order pattern.
+
+Therefore Pattern Map v2 must score:
+1. mechanism convergence
+2. individual source-record integrity
+
+separately.
