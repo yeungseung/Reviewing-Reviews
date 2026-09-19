@@ -958,3 +958,87 @@ Positive finding:
 in nonfiction/factual storytelling, fixing the desired ending emotion/conclusion in advance can encourage confirmation bias, cherry-picking, and fact-fitting.
 
 That risk should be retained and investigated in #60–#63, but it should not be presented as an experimental result of Carroll/Poe.
+
+
+### E-032 — Identifiable-victim research is narrower than the corpus's universal "Human Scale" rule
+Status: VALID SOURCE / DOMAIN_TRANSFER + QUANTIFICATION INFLATION
+Severity: HIGH
+
+Verified Small, Loewenstein & Slovic (2007):
+- real peer-reviewed article
+- series of field experiments on charitable donations
+- central result in the abstract: prompting deliberation about the identifiable/statistical discrepancy reduced giving to identifiable victims without increasing giving to statistical victims
+
+Repository transformation:
+- "identifiable victim → 2x empathy/action"
+- statistics themselves automatically cause psychic numbing
+- direct generalization to all narrative/media audiences
+- one person's concrete detail as a universal empathy switch
+
+The identifiable-victim literature is clearly relevant to audience response to individual vs statistical victims, but this paper's core contribution is also about the interaction between affect and deliberation, not simply "one person always beats statistics."
+
+Disposition:
+KEEP as one component of M10.
+REVERIFY exact magnitude and boundary conditions.
+Do not make "one person > aggregate" a universal engine rule.
+
+### E-033 — Slovic psychic-numbing source has wrong DOI and is partly a synthesis/argument, not a direct omnibus experiment
+Status: CONFIRMED BIBLIOGRAPHIC ERROR / METHODOLOGY INFLATION
+Severity: HIGH
+
+Repository `SRC-2010-098` / cited work:
+- title: "If I look at the mass I will never act: Psychic numbing and genocide"
+- stored DOI: `10.1017/S1930297500000067`
+
+Verified DOI:
+- `10.1017/S1930297500000061`
+
+Verified paper:
+- Paul Slovic, Judgment and Decision Making 2(2), 79–95, 2007
+- draws on psychological research to explain why statistics of mass harm often fail to evoke feeling/action
+
+Repository inflation:
+- labels the paper itself as multiple causal psychophysical experiments
+- asserts emotional weight drops as soon as victim count rises from one to two
+- treats a "micro-anchor rule" as directly proven for cinematic storytelling
+
+Disposition:
+KEEP psychic numbing / scope-response limits as a relevant mechanism family.
+Separate evidence from related experiments cited by Slovic from claims made by Slovic's synthesis article.
+
+### E-034 — Construal-Level Theory supports distance→abstraction, not a direct empathy/urgency law
+Status: VALID MECHANISM / DOMAIN_TRANSFER_LEAP
+Severity: MEDIUM/HIGH
+
+Verified Trope & Liberman (2010):
+- psychological distance includes temporal, spatial, social, and hypothetical distance
+- greater distance is associated with higher-level/more abstract construal
+- distance/construal relations influence prediction, preference, and action
+
+Repository upgrades:
+- near/concrete framing "immediately triggers visceral affect"
+- Human Scale automatically increases empathy/risk perception
+- direct narrative rule to zoom from system statistics to a single family/object
+
+The core concrete-vs-abstract representation mechanism is strong.
+The empathy, urgency, and storytelling effects require additional bridge evidence.
+
+Disposition:
+KEEP M10 but split "psychological distance/construal" from "identifiable victim/empathy."
+
+### E-035 — Risk perception is a separate mechanism from Human Scale
+Status: VALID MECHANISM / CONCEPTUAL CONFLATION
+Severity: MEDIUM
+
+Verified Slovic (1987):
+- public risk judgment differs from purely technical estimates
+- psychometric work identifies dimensions commonly summarized as dread risk and unknown risk
+
+Repository transforms this into:
+- "scale reversal" as a story device
+- direct maximization of viewer arousal/threat by revealing a local event as a system-wide catastrophe
+
+Risk perception may inform how stakes are framed, but it is not evidence for the same mechanism as identifiable victims or psychological distance.
+
+Research Map implication:
+M10 should become a family of related but distinct audience-relevance mechanisms rather than one "Human Scale" law.
