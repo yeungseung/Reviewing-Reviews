@@ -435,3 +435,74 @@ Synthesis confidence must be derived from separate fields for:
 - application/engine-rule confidence
 
 A Theme should be allowed to remain useful even when its exact numbers fail, but the registry must be able to represent that distinction.
+
+
+### E-013 — SRC-1992-155 QUEST bibliographic conflation
+Status: CONFIRMED ERROR
+Severity: CRITICAL for source identity
+
+Repository entry combines:
+- title fragments: "Mechanisms that generate questions / QUEST: A model of question answering"
+- authors: Graesser, Person, Huber
+- year: 1992
+- DOI: `10.1016/0010-0285(92)90003-V`
+- venue: Cognitive Psychology
+
+External verification found:
+- "QUEST: A model of question answering" is a real 1992 article in *Computers & Mathematics with Applications*, DOI `10.1016/0898-1221(92)90132-2`
+- a related empirical QUEST study, "Question answering in the context of scientific mechanisms," is a 1991 *Journal of Memory and Language* article, DOI `10.1016/0749-596X(91)90003-3`
+
+The repository's title/DOI/venue combination does not correspond to one verified publication.
+
+The record also contains unsupported:
+- "hundreds" sample description
+- r=.75–.85 model-human agreement
+- quoted wording not verified in the located abstracts
+
+Interpretation:
+Remove this record from independent-evidence counting until reconstructed from a specific original publication.
+
+### E-014 — SRC-1995-015 Event-Indexing model: mechanism valid, metadata/application inflated
+Status: MIXED
+Severity: MEDIUM/HIGH
+
+Verified original:
+Zwaan, Langston & Graesser (1995), "The Construction of Situation Models in Narrative Comprehension: An Event-Indexing Model," DOI `10.1111/j.1467-9280.1995.tb00513.x`.
+
+Verified core:
+- events are focal points in narrative situation models
+- events are connected along time, space, protagonist, causality, intentionality
+- a verb-clustering task supported the model
+
+Repository inflation:
+- sample_size = 120 is not established by the verified abstract
+- relationship_type = "Causal Mental Representation" overstates the evidence type
+- "2 or more dimensions unclear → situation model collapse" is a Story Engine extrapolation, not the paper's demonstrated rule
+- direct extension to visual montage/video is explicitly beyond the paper's tested task
+
+Interpretation:
+KEEP the five-dimension situation-model mechanism.
+REVERIFY sample/method metadata.
+MOVE visual/video thresholds into application hypotheses.
+
+### E-015 — SRC-1985-022 Trabasso/van den Broek: causal-network finding valid, experimental metadata inflated
+Status: MIXED
+Severity: MEDIUM/HIGH
+
+Verified original:
+Trabasso & van den Broek (1985), "Causal thinking and the representation of narrative events," DOI `10.1016/0749-596X(85)90049-X`.
+
+Verified abstract:
+- causal network representations predicted immediate/delayed recall, summarization, and judged importance
+- causal-chain membership and number of causal connections explained substantial variance
+- the study reanalyzed existing stories/data
+
+Repository inflation:
+- study labeled "Experimental / Cognitive Modeling"
+- sample_size = 128 and target "adult and child readers" require source-level verification
+- relationship_type = "Causal" risks confusing causal-network structure with experimental causal identification
+- direct rule that every important event should be a necessary causal node is a craft extrapolation
+
+Interpretation:
+KEEP causal-network centrality as a strong narrative-comprehension lead.
+Do not treat the paper as proof of a universal "every important scene must be causally necessary" engine law.
