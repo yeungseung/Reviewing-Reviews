@@ -1,6 +1,6 @@
 # PRECISION RESEARCH ROADMAP — EXPERIENCE-FIRST REDESIGN v0
 
-> Status: PROPOSED / NOT YET APPROVED  
+> Status: APPROVED P0 DIRECTION / E1-01 START AUTHORIZED  
 > Purpose: redirect Precision Research from evidence-system expansion toward Story State, State Transition, and Story Decision support.  
 > Constraint: no new large Precision Research begins from this roadmap until user approval.
 
@@ -221,6 +221,15 @@ No further broad evidence-system research.
 
 ## PHASE E1 — Audience Model & Story State Foundation
 
+### Foundation Pair
+
+E1-01 and E1-02 are separate research tasks but must be treated as one Story Engine **Foundation Pair**:
+
+- **E1-01 — Causal + Goal Model Construction**: what causal/goal model the audience currently holds
+- **E1-02 — Event / State Updating**: when incoming change causes that model/state to update
+
+E1-01 must not absorb E1-02, but every E1-01 result should identify handoff points to E1-02.
+
 ### E1-01 — Causal + Goal Model Construction
 Former:
 - Q2-01
@@ -343,7 +352,7 @@ Track:
 
 ---
 
-## E2-03 — Surprise / Expectation Violation / Reframe
+## E2-03 — Expectation Violation → Surprise → Reappraisal / Reframe
 Former:
 - Q3-04
 - B3
@@ -351,7 +360,9 @@ Former:
 
 Decision target:
 
-> When can expectation be broken without making the story feel arbitrary?
+> When incoming information violates an existing expectation, under what conditions does that violation produce surprise and lead to reappraisal/reframe?
+
+Do not presuppose fair/unfair. Perceived fairness, arbitrariness, coherence, and audience judgment are Boundary / Failure outcomes to be investigated.
 
 Research:
 - cue visibility
@@ -746,7 +757,7 @@ Prefer:
 
 > Under what conditions can X move an audience from state A to state B, what input produces that movement, what blocks or reverses it, and what information/causal constraints must remain intact?
 
-Every research task should explicitly answer:
+Every research task should, whenever the evidence allows, explicitly answer:
 
 1. **FROM state**
 2. **TRIGGER / INPUT**
@@ -755,7 +766,7 @@ Every research task should explicitly answer:
 5. **MODERATORS**
 6. **BOUNDARIES**
 7. **COUNTEREFFECTS**
-8. **STORY DECISIONS ENABLED**
+8. **POSSIBLE STORY DECISIONS**
 9. **DO NOT CLAIM**
 
 ---
@@ -815,4 +826,4 @@ MODEL UPDATE
 NEXT QUESTION / EXPECTATION
 ```
 
-No new large research starts until this roadmap is approved.
+P0 direction is approved. Only E1-01 is authorized to start now. E1-02 and later research must not start automatically after E1-01.
