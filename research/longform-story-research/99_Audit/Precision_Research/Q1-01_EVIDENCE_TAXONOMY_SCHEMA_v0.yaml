@@ -1,0 +1,402 @@
+schema_version: "0.1"
+research_id: "Q1-01"
+schema_name: "multi_axis_claim_evidence_object"
+status: "PROVISIONAL"
+
+principles:
+  - "Claim type and evidence form are separate."
+  - "Provenance is not a truth score."
+  - "Source quality and claim support are separate."
+  - "Directness and domain transfer must be explicit."
+  - "Population scope must not exceed evidence scope without justification."
+  - "Citation count must not be treated as independent support."
+  - "No aggregate truth score is defined in Q1-01."
+
+claim:
+  claim_id:
+    type: string
+    required: true
+  claim_text:
+    type: string
+    required: true
+  claim_type:
+    type: enum
+    required: true
+    allowed:
+      - OBSERVATION
+      - MEASUREMENT
+      - DESCRIPTIVE_CLAIM
+      - ASSOCIATIONAL_CLAIM
+      - CAUSAL_CLAIM
+      - INTERPRETATION
+      - EXPERT_JUDGMENT
+      - PERSONAL_OPINION
+      - NORMATIVE_JUDGMENT
+      - INFERENCE
+      - ESTIMATE
+      - FORECAST
+      - COUNTERFACTUAL
+      - UNKNOWN
+    notes:
+      - "FACT is not used as a canonical claim_type. Verification status is stored separately."
+
+evidence:
+  evidence_form:
+    type: enum
+    required: true
+    allowed:
+      - DOCUMENT_RECORD
+      - PHYSICAL_OR_DIGITAL_ARTIFACT
+      - DATASET_STATISTIC
+      - EXPERIMENT
+      - QUASI_EXPERIMENT
+      - OBSERVATIONAL_STUDY
+      - QUALITATIVE_STUDY
+      - TESTIMONY_INTERVIEW
+      - CASE_REPORT
+      - ANECDOTE
+      - EXPERT_OPINION
+      - USER_REVIEW
+      - COMMENT_SOCIAL_REACTION
+      - SYSTEMATIC_REVIEW_META_ANALYSIS
+      - NARRATIVE_REVIEW
+      - THEORY_CONCEPTUAL
+      - MODEL_SIMULATION
+      - OFFICIAL_STATEMENT
+      - SECONDARY_REPORTING
+      - OTHER
+      - UNKNOWN
+
+  provenance_role:
+    type: enum
+    required: true
+    allowed:
+      - ORIGINAL_RECORD
+      - FIRSTHAND_SOURCE
+      - PRIMARY_RESEARCH
+      - SECONDARY_SYNTHESIS
+      - SECONDARY_REPORTING
+      - TERTIARY_SUMMARY
+      - DERIVATIVE_REPOST
+      - UNKNOWN
+
+  directness:
+    type: enum
+    required: true
+    allowed:
+      - DIRECT
+      - INDIRECT
+      - BRIDGE
+      - APPLICATION_HYPOTHESIS
+      - DOES_NOT_TEST
+      - UNKNOWN
+
+  support_relation:
+    type: enum
+    required: true
+    allowed:
+      - SUPPORTS
+      - PARTIALLY_SUPPORTS
+      - CONTEXTUALIZES
+      - CONTRADICTS
+      - DOES_NOT_TEST
+      - UNRESOLVED
+
+source:
+  source_id:
+    type: string
+    required: true
+  title:
+    type: string
+    required: false
+  authors_or_issuer:
+    type: string_or_array
+    required: false
+  year:
+    type: integer_or_string
+    required: false
+  doi_or_stable_url:
+    type: string
+    required: false
+  source_verification:
+    type: enum
+    required: true
+    allowed:
+      - VERIFIED
+      - CONDITIONAL
+      - UNVERIFIED
+      - BIBLIOGRAPHIC_CONFLICT
+      - REJECTED
+  source_location:
+    type: string
+    required: false
+  source_family:
+    type: string
+    required: false
+  independence:
+    type: enum
+    required: false
+    allowed:
+      - INDEPENDENT
+      - SAME_DATASET
+      - SAME_RESEARCH_PROGRAM
+      - DERIVED_FROM_SAME_ORIGINAL
+      - DUPLICATE_RECORD
+      - UNKNOWN
+
+scope:
+  target_scope:
+    type: enum_or_text
+    required: true
+    examples:
+      - INDIVIDUAL
+      - CASE
+      - SAMPLE
+      - GROUP
+      - POPULATION
+      - PLATFORM_USERS
+      - VIEWERS
+      - GENERAL
+  evidence_scope:
+    type: enum_or_text
+    required: true
+  representativeness:
+    type: enum
+    required: false
+    allowed:
+      - REPRESENTATIVE_BY_DESIGN
+      - PARTIALLY_REPRESENTATIVE
+      - KNOWN_NONREPRESENTATIVE
+      - SELF_SELECTED
+      - UNKNOWN
+      - NOT_APPLICABLE
+
+causal:
+  causal_status:
+    type: enum
+    required: true
+    allowed:
+      - NOT_CAUSAL_CLAIM
+      - ASSOCIATION_ONLY
+      - CAUSAL_HYPOTHESIS
+      - CAUSAL_IDENTIFICATION_LIMITED
+      - CAUSAL_IDENTIFICATION_SUPPORTED
+      - UNKNOWN
+    conflict_rules:
+      - "ASSOCIATIONAL_CLAIM cannot be rendered with causal verbs unless causal_status is upgraded by explicit evidence review."
+      - "THEORY_CONCEPTUAL cannot by itself set CAUSAL_IDENTIFICATION_SUPPORTED."
+
+temporal:
+  temporal_status:
+    type: enum
+    required: false
+    allowed:
+      - PAST_OBSERVED
+      - CURRENT_OBSERVED
+      - TIMELESS_GENERALIZATION
+      - ESTIMATED_CURRENT
+      - FUTURE_FORECAST
+      - SCENARIO
+      - COUNTERFACTUAL
+      - UNKNOWN
+
+quantitative:
+  required_when:
+    - "claim contains a percentage, multiplier, rate, threshold, duration, ranking, effect size, probability, or count used as evidence"
+  fields:
+    sample_size:
+      type: integer_or_text
+      nullable: true
+    denominator:
+      type: integer_or_text
+      nullable: true
+    estimate:
+      type: number_or_text
+      nullable: true
+    uncertainty:
+      type: text
+      nullable: true
+    effect_size:
+      type: text
+      nullable: true
+    time_period:
+      type: text
+      nullable: true
+    measurement_definition:
+      type: text
+      nullable: true
+    sampling_method:
+      type: text
+      nullable: true
+    missingness_or_nonresponse:
+      type: text
+      nullable: true
+  null_values:
+    - NOT_REPORTED
+    - NOT_APPLICABLE
+    - UNRESOLVED
+
+expert_module:
+  optional: true
+  fields:
+    expertise_domain:
+      type: text
+    expertise_relevance:
+      type: enum
+      allowed:
+        - HIGH
+        - MODERATE
+        - LOW
+        - UNKNOWN
+    elicitation_method:
+      type: text
+    independent_experts_count:
+      type: integer_or_text
+    consensus_status:
+      type: enum
+      allowed:
+        - CONSENSUS
+        - MAJORITY
+        - MIXED
+        - SINGLE_EXPERT
+        - UNKNOWN
+    calibration_known:
+      type: boolean_or_unknown
+
+forecast_module:
+  optional: true
+  fields:
+    horizon:
+      type: text
+    assumptions:
+      type: array
+    model_or_method:
+      type: text
+    scenario_conditions:
+      type: array
+    uncertainty:
+      type: text
+
+qualitative_module:
+  optional: true
+  fields:
+    sampling:
+      type: text
+    context:
+      type: text
+    data_collection:
+      type: text
+    analytic_method:
+      type: text
+    adequacy:
+      type: text
+    coherence:
+      type: text
+
+platform_reaction_module:
+  optional: true
+  fields:
+    collection_method:
+      type: text
+    corpus_size:
+      type: integer_or_text
+    deduplication:
+      type: text
+    bot_or_spam_check:
+      type: text
+    sampling_bias:
+      type: text
+    population_inference_allowed:
+      type: boolean
+
+limits:
+  known_limitations:
+    type: array
+    required: false
+  unresolved:
+    type: array
+    required: false
+
+rendering:
+  allowed_simple_labels:
+    - VERIFIED_RECORD
+    - DIRECT_MEASUREMENT
+    - STUDY_FINDING
+    - EXPERT_JUDGMENT
+    - PERSONAL_EXPERIENCE
+    - PUBLIC_REACTION
+    - INFERENCE
+    - ESTIMATE
+    - FORECAST
+    - MIXED_OR_DISPUTED
+  note: "Simple labels are presentation outputs, not canonical storage categories."
+
+forbidden_upgrades:
+  - id: PRIMARY_TO_TRUE
+    from: "provenance_role in [ORIGINAL_RECORD, FIRSTHAND_SOURCE, PRIMARY_RESEARCH]"
+    to: "verified fact"
+    status: FORBIDDEN
+  - id: EXPERT_TO_FACT
+    from: "EXPERT_JUDGMENT"
+    to: "OBSERVATION"
+    status: FORBIDDEN
+  - id: ANECDOTE_TO_PREVALENCE
+    from: "ANECDOTE/CASE/TESTIMONY"
+    to: "POPULATION prevalence"
+    status: FORBIDDEN
+  - id: ASSOCIATION_TO_CAUSATION
+    from: "ASSOCIATIONAL_CLAIM"
+    to: "CAUSAL_CLAIM"
+    status: FORBIDDEN_WITHOUT_CAUSAL_BASIS
+  - id: THEORY_TO_EFFECT
+    from: "THEORY_CONCEPTUAL"
+    to: "measured quantitative effect"
+    status: FORBIDDEN
+  - id: BRIDGE_TO_DIRECT
+    from: "BRIDGE"
+    to: "DIRECT"
+    status: FORBIDDEN_WITHOUT_TARGET_DOMAIN_EVIDENCE
+  - id: FORECAST_TO_FACT
+    from: "FORECAST"
+    to: "CURRENT_OBSERVED"
+    status: FORBIDDEN
+  - id: CITATIONS_TO_INDEPENDENCE
+    from: "multiple citations"
+    to: "multiple independent source families"
+    status: FORBIDDEN
+  - id: COMMENT_TO_POPULATION
+    from: "COMMENT_SOCIAL_REACTION"
+    to: "representative population opinion"
+    status: FORBIDDEN_WITHOUT_SAMPLING_SUPPORT
+  - id: REVIEW_TO_POPULATION
+    from: "USER_REVIEW"
+    to: "representative user prevalence"
+    status: FORBIDDEN_WITHOUT_SAMPLING_SUPPORT
+  - id: QUALITATIVE_TO_PERCENT
+    from: "QUALITATIVE_STUDY"
+    to: "new quantitative percentage"
+    status: FORBIDDEN
+  - id: PSYCHOLOGY_TO_PLATFORM_KPI
+    from: "general mechanism evidence"
+    to: "CTR/retention/subscription percentage"
+    status: FORBIDDEN_WITHOUT_PLATFORM_DATA
+
+conflict_rules:
+  - "If source_verification is BIBLIOGRAPHIC_CONFLICT, support_relation cannot be used for precise quantitative support."
+  - "If directness is DOES_NOT_TEST, support_relation must be DOES_NOT_TEST or CONTEXTUALIZES."
+  - "If representativeness is SELF_SELECTED or KNOWN_NONREPRESENTATIVE, population prevalence language is blocked unless separately supported."
+  - "If claim_type is FORECAST, temporal_status should be FUTURE_FORECAST or SCENARIO."
+  - "If claim_type is CAUSAL_CLAIM and causal_status is ASSOCIATION_ONLY, flag CAUSAL_LANGUAGE_CONFLICT."
+  - "If multiple evidence objects share the same source_family, they must not be counted as independent replications."
+  - "If a quantitative claim lacks traceable quantitative fields, flag UNSUPPORTED_QUANTIFICATION."
+
+handoff:
+  Q1_02:
+    - "Map evidence status to calibrated uncertainty language."
+    - "Define wording for supported/inferred/disputed/unknown/forecast."
+  Q1_04:
+    - "Model contradictory evidence and alternative explanations."
+  Q1_05:
+    - "Expand provenance and correction/source-monitoring rules."
+  Track_K:
+    - "Test inter-rater reliability for claim_type, evidence_form, directness, causal_status, representativeness, and source independence."
