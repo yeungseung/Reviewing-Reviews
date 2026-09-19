@@ -1,0 +1,214 @@
+[
+  {
+    "id": "LSEv2_#49_T03",
+    "item": 49,
+    "theme": 3,
+    "report": "20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T03_Peak_Inflation과_반례.md",
+    "sourceIds": [
+      "SRC-1998-472",
+      "SRC-1979-463",
+      "SRC-1988-471",
+      "SRC-1972-473",
+      "SRC-1971-470",
+      "SRC-1985-460",
+      "SRC-2010-455",
+      "SRC-1997-462",
+      "SRC-2009-465"
+    ]
+  },
+  {
+    "id": "LSEv2_#50_T01",
+    "item": 50,
+    "theme": 1,
+    "report": "20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T01_감정별_Build-up_조건.md",
+    "sourceIds": [
+      "SRC-2007-476",
+      "SRC-1971-474",
+      "SRC-1980-475",
+      "SRC-2002-477"
+    ]
+  },
+  {
+    "id": "LSEv2_#50_T02",
+    "item": 50,
+    "theme": 2,
+    "report": "20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T02_축적의_길이강도.md",
+    "sourceIds": [
+      "SRC-1980-480",
+      "SRC-2000-481",
+      "SRC-1980-475",
+      "SRC-1995-146",
+      "SRC-1971-470",
+      "SRC-1975-478",
+      "SRC-1957-479",
+      "SRC-2007-135"
+    ]
+  },
+  {
+    "id": "LSEv2_#50_T03",
+    "item": 50,
+    "theme": 3,
+    "report": "20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T03_Setup-Payoff_인과성.md",
+    "sourceIds": [
+      "SRC-1985-485",
+      "SRC-1988-484",
+      "SRC-1994-483",
+      "SRC-1889-482",
+      "SRC-2009-465",
+      "SRC-1980-475",
+      "SRC-1998-472",
+      "SRC-2007-135"
+    ]
+  },
+  {
+    "id": "LSEv2_#51_T01",
+    "item": 51,
+    "theme": 1,
+    "report": "20_Research_Reports/#51_Payoff/LSEv2_#51_T01_Payoff_유형_분류_검증.md",
+    "sourceIds": [
+      "SRC-1968-486",
+      "SRC-2007-476",
+      "SRC-1971-474",
+      "SRC-1998-487",
+      "SRC-1988-484",
+      "SRC-2003-488",
+      "SRC-2001-489",
+      "SRC-2002-477"
+    ]
+  },
+  {
+    "id": "LSEv2_#51_T02",
+    "item": 51,
+    "theme": 2,
+    "report": "20_Research_Reports/#51_Payoff/LSEv2_#51_T02_Payoff와_Audience_Satisfaction.md",
+    "sourceIds": [
+      "SRC-1996-490",
+      "SRC-1980-491",
+      "SRC-1994-483",
+      "SRC-2004-493",
+      "SRC-2001-489",
+      "SRC-1927-492"
+    ]
+  },
+  {
+    "id": "LSEv2_#51_T03",
+    "item": 51,
+    "theme": 3,
+    "report": "20_Research_Reports/#51_Payoff/LSEv2_#51_T03_Promise-Payoff_Fit.md",
+    "sourceIds": [
+      "SRC-1975-496",
+      "SRC-1970-495",
+      "SRC-1990-497"
+    ]
+  },
+  {
+    "id": "LSEv2_#52_T01",
+    "item": 52,
+    "theme": 1,
+    "report": "20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T01_Ending_Emotion과_기억평가.md",
+    "sourceIds": [
+      "SRC-1993-498",
+      "SRC-1996-499",
+      "SRC-2000-500",
+      "SRC-2000-501"
+    ]
+  },
+  {
+    "id": "LSEv2_#52_T02",
+    "item": 52,
+    "theme": 2,
+    "report": "20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T02_끝_감정을_사전_설계하는_효과.md",
+    "sourceIds": [
+      "SRC-1846-502",
+      "SRC-2007-503",
+      "SRC-1998-504",
+      "SRC-1991-505"
+    ]
+  },
+  {
+    "id": "LSEv2_#52_T03",
+    "item": 52,
+    "theme": 3,
+    "report": "20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T03_장르별_Ending_Emotion.md",
+    "sourceIds": [
+      "SRC-1993-506",
+      "SRC-2005-507",
+      "SRC-2016-508",
+      "SRC-1989-509",
+      "SRC-2007-503",
+      "SRC-2003-051"
+    ]
+  },
+  {
+    "id": "LSEv2_#53_T01",
+    "item": 53,
+    "theme": 1,
+    "report": "20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T01_Negative_Ending의_단기장기_효과.md",
+    "sourceIds": [
+      "SRC-2001-510",
+      "SRC-2019-511",
+      "SRC-2019-512",
+      "SRC-1992-398",
+      "SRC-2017-513",
+      "SRC-2017-078"
+    ]
+  },
+  {
+    "id": "LSEv2_#53_T02",
+    "item": 53,
+    "theme": 2,
+    "report": "20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T02_Positive_Reframe의_효과.md",
+    "sourceIds": [
+      "SRC-1992-514",
+      "SRC-2001-515",
+      "SRC-2014-516",
+      "SRC-2018-517",
+      "SRC-2002-090",
+      "SRC-1983-071",
+      "SRC-2016-508"
+    ]
+  },
+  {
+    "id": "LSEv2_#53_T03",
+    "item": 53,
+    "theme": 3,
+    "report": "20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T03_채널_누적_감정과_브랜드_경험.md",
+    "sourceIds": [
+      "SRC-2001-519",
+      "SRC-1988-518",
+      "SRC-2007-521",
+      "SRC-1993-520",
+      "SRC-2019-512",
+      "SRC-1988-072",
+      "SRC-2005-507",
+      "SRC-1993-506"
+    ]
+  },
+  {
+    "id": "LSEv2_#54_T01",
+    "item": 54,
+    "theme": 1,
+    "report": "20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T01_정보-감정_상호작용.md",
+    "sourceIds": [
+      "SRC-1996-522",
+      "SRC-2001-523",
+      "SRC-1995-524",
+      "SRC-1990-525",
+      "SRC-2007-063"
+    ]
+  },
+  {
+    "id": "LSEv2_#54_T02",
+    "item": 54,
+    "theme": 2,
+    "report": "20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T02_교대_Pacing의_효과.md",
+    "sourceIds": [
+      "SRC-1988-526",
+      "SRC-2001-528",
+      "SRC-2000-527",
+      "SRC-1971-529",
+      "SRC-1998-088",
+      "SRC-1980-055"
+    ]
+  }
+]
