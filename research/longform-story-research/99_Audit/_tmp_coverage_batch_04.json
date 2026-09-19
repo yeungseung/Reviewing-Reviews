@@ -1,0 +1,297 @@
+[
+  {
+    "id": "LSEv2_#17_T01",
+    "item": 17,
+    "theme": 1,
+    "report": "20_Research_Reports/#17_반대로_Conflict_Opening도_가능하다/LSEv2_#17_T01_Conflict_Opening의_주의궁금증_효과.md",
+    "sourceIds": [
+      "SRC-1960-049",
+      "SRC-1994-034",
+      "SRC-1978-121",
+      "SRC-1992-119",
+      "SRC-1994-120"
+    ]
+  },
+  {
+    "id": "LSEv2_#17_T02",
+    "item": 17,
+    "theme": 2,
+    "report": "20_Research_Reports/#17_반대로_Conflict_Opening도_가능하다/LSEv2_#17_T02_Human_Moment와_Conflict_Opening.md",
+    "sourceIds": [
+      "SRC-1991-122",
+      "SRC-2000-123",
+      "SRC-1917-124",
+      "SRC-2003-051",
+      "SRC-2010-013",
+      "SRC-1996-038",
+      "SRC-1995-015",
+      "SRC-2004-020",
+      "SRC-1959-018",
+      "SRC-1978-121"
+    ]
+  },
+  {
+    "id": "LSEv2_#18_T01",
+    "item": 18,
+    "theme": 1,
+    "report": "20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T01_7개_Opening_Type의_이론적사례_검증.md",
+    "sourceIds": [
+      "SRC-1960-049",
+      "SRC-1996-038",
+      "SRC-1991-122",
+      "SRC-1978-121",
+      "SRC-1994-120",
+      "SRC-1957-125",
+      "SRC-1997-009",
+      "SRC-1967-127",
+      "SRC-2002-126",
+      "SRC-1994-034",
+      "SRC-1992-119",
+      "SRC-1988-102"
+    ]
+  },
+  {
+    "id": "LSEv2_#18_T02",
+    "item": 18,
+    "theme": 2,
+    "report": "20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T02_오프닝_유형의_완전성과_중복.md",
+    "sourceIds": [
+      "SRC-1985-129",
+      "SRC-1986-128",
+      "SRC-1978-121",
+      "SRC-1994-034",
+      "SRC-1991-122",
+      "SRC-1957-125",
+      "SRC-2002-126",
+      "SRC-1960-049",
+      "SRC-1967-127"
+    ]
+  },
+  {
+    "id": "LSEv2_#18_T03",
+    "item": 18,
+    "theme": 3,
+    "report": "20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T03_소재장르별_적합성과_실패_조건.md",
+    "sourceIds": [
+      "SRC-1966-024",
+      "SRC-2008-070",
+      "SRC-1976-130",
+      "SRC-2003-131",
+      "SRC-1957-125",
+      "SRC-2002-126",
+      "SRC-1991-122",
+      "SRC-1978-121",
+      "SRC-1967-127",
+      "SRC-1960-049",
+      "SRC-1991-008",
+      "SRC-1994-120",
+      "SRC-1992-119",
+      "SRC-2010-013",
+      "SRC-2015-001"
+    ]
+  },
+  {
+    "id": "LSEv2_#19_T01",
+    "item": 19,
+    "theme": 1,
+    "report": "20_Research_Reports/#19_오프닝의_역할/LSEv2_#19_T01_오프닝의_필수_기능과_순서.md",
+    "sourceIds": [
+      "SRC-1995-015",
+      "SRC-1994-034",
+      "SRC-1978-121",
+      "SRC-1986-132",
+      "SRC-1973-133",
+      "SRC-1994-120",
+      "SRC-1960-049",
+      "SRC-1985-129",
+      "SRC-1991-008",
+      "SRC-1988-028",
+      "SRC-2000-123",
+      "SRC-2010-013",
+      "SRC-1917-124",
+      "SRC-1996-038"
+    ]
+  },
+  {
+    "id": "LSEv2_#19_T02",
+    "item": 19,
+    "theme": 2,
+    "report": "20_Research_Reports/#19_오프닝의_역할/LSEv2_#19_T02_초반_답_공개의_경계조건.md",
+    "sourceIds": [
+      "SRC-1994-034",
+      "SRC-2007-135",
+      "SRC-2011-134",
+      "SRC-1985-129",
+      "SRC-1994-120",
+      "SRC-2008-070",
+      "SRC-1967-127",
+      "SRC-1978-121",
+      "SRC-1973-133",
+      "SRC-1986-132"
+    ]
+  },
+  {
+    "id": "LSEv2_#20_T01",
+    "item": 20,
+    "theme": 1,
+    "report": "20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T01_미완성_상태와_Curiosity.md",
+    "sourceIds": [
+      "SRC-1994-034",
+      "SRC-2009-138",
+      "SRC-2006-141",
+      "SRC-1927-136",
+      "SRC-1996-139",
+      "SRC-1960-137",
+      "SRC-2011-140",
+      "SRC-1988-028",
+      "SRC-2008-070",
+      "SRC-2007-135",
+      "SRC-1985-129",
+      "SRC-1997-096"
+    ]
+  },
+  {
+    "id": "LSEv2_#20_T02",
+    "item": 20,
+    "theme": 2,
+    "report": "20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T02_Hook_유형과_강한_문장_구분.md",
+    "sourceIds": [
+      "SRC-1960-137",
+      "SRC-2009-138",
+      "SRC-2008-079",
+      "SRC-1994-034",
+      "SRC-2001-142",
+      "SRC-2013-143",
+      "SRC-2006-141",
+      "SRC-2015-145",
+      "SRC-2008-070",
+      "SRC-1994-120",
+      "SRC-1978-121",
+      "SRC-1985-129",
+      "SRC-1927-136",
+      "SRC-2013-097",
+      "SRC-1998-088",
+      "SRC-2009-144",
+      "SRC-1991-122",
+      "SRC-1980-089",
+      "SRC-1997-096"
+    ]
+  },
+  {
+    "id": "LSEv2_#20_T03",
+    "item": 20,
+    "theme": 3,
+    "report": "20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T03_Hook의_Promise와_Trust.md",
+    "sourceIds": [
+      "SRC-1995-146",
+      "SRC-1980-055",
+      "SRC-1984-149",
+      "SRC-1975-147",
+      "SRC-1929-148",
+      "SRC-1994-034",
+      "SRC-2008-070",
+      "SRC-1986-132",
+      "SRC-1978-121",
+      "SRC-2015-145",
+      "SRC-2017-080",
+      "SRC-1988-028",
+      "SRC-1997-096"
+    ]
+  },
+  {
+    "id": "LSEv2_#21_T01",
+    "item": 21,
+    "theme": 1,
+    "report": "20_Research_Reports/#21_Open_Loop/LSEv2_#21_T01_다층_Open_Loop의_인지_효과.md",
+    "sourceIds": [
+      "SRC-2001-150",
+      "SRC-1992-151",
+      "SRC-1998-153",
+      "SRC-1988-028",
+      "SRC-1980-152",
+      "SRC-1994-120",
+      "SRC-1985-129",
+      "SRC-1996-070",
+      "SRC-1983-071",
+      "SRC-1973-133",
+      "SRC-2009-138",
+      "SRC-2011-140",
+      "SRC-1997-096"
+    ]
+  },
+  {
+    "id": "LSEv2_#21_T02",
+    "item": 21,
+    "theme": 2,
+    "report": "20_Research_Reports/#21_Open_Loop/LSEv2_#21_T02_BigChapterMicro_Loop의_설계_원리.md",
+    "sourceIds": [
+      "SRC-1992-155",
+      "SRC-1985-154",
+      "SRC-1984-156",
+      "SRC-2007-157",
+      "SRC-1998-153",
+      "SRC-1996-070",
+      "SRC-1973-133",
+      "SRC-1994-120",
+      "SRC-1980-152",
+      "SRC-2001-150"
+    ]
+  },
+  {
+    "id": "LSEv2_#22_T01",
+    "item": 22,
+    "theme": 1,
+    "report": "20_Research_Reports/#22_Open_Loop_예시/LSEv2_#22_T01_Answer_New_Question_연쇄.md",
+    "sourceIds": [
+      "SRC-1985-158",
+      "SRC-1990-159",
+      "SRC-2005-160",
+      "SRC-1989-161",
+      "SRC-1994-120",
+      "SRC-1988-028",
+      "SRC-1994-034",
+      "SRC-1998-153",
+      "SRC-1996-070",
+      "SRC-1985-154"
+    ]
+  },
+  {
+    "id": "LSEv2_#22_T02",
+    "item": 22,
+    "theme": 2,
+    "report": "20_Research_Reports/#22_Open_Loop_예시/LSEv2_#22_T02_질문_연쇄와_인과성.md",
+    "sourceIds": [
+      "SRC-1992-165",
+      "SRC-1993-162",
+      "SRC-1998-163",
+      "SRC-1992-164",
+      "SRC-1986-029",
+      "SRC-1985-158",
+      "SRC-1988-030",
+      "SRC-1984-156",
+      "SRC-1978-114",
+      "SRC-1985-154",
+      "SRC-1980-152"
+    ]
+  },
+  {
+    "id": "LSEv2_#23_T01",
+    "item": 23,
+    "theme": 1,
+    "report": "20_Research_Reports/#23_질문은_무한히_쌓지_않는다/LSEv2_#23_T01_Open_Loop_과부하와_인지부하.md",
+    "sourceIds": [
+      "SRC-2002-166",
+      "SRC-2001-150",
+      "SRC-1994-167",
+      "SRC-1998-169",
+      "SRC-2006-168",
+      "SRC-1996-139",
+      "SRC-2011-140",
+      "SRC-1927-136",
+      "SRC-1988-028",
+      "SRC-1956-027",
+      "SRC-1992-164",
+      "SRC-1995-146"
+    ]
+  }
+]
