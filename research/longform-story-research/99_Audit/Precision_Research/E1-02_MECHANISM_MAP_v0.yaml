@@ -1,0 +1,460 @@
+research_id: "E1-02"
+title: "Event / State Updating"
+foundation_pair_with: "E1-01 Causal + Goal Model Construction"
+status: "COMPLETE_FOR_REVIEW"
+version: "0.1"
+
+state_layers:
+  canonical_world_state:
+    purpose: "What is actually true in the story world."
+  character_state:
+    purpose: "What each character actually knows, believes, wants, intends, and is constrained by."
+  audience_model:
+    purpose: "What the audience knows, believes, infers, and currently has active."
+
+hard_distinctions:
+  - "Audience inference != Story fact"
+  - "Audience belief about character != Character actual belief"
+  - "Character desire != Character intention"
+  - "Known information != Currently active information"
+  - "Known information != Currently causally relevant information"
+  - "World change != Audience-detected change"
+  - "Detected change != State update"
+  - "State update != Event boundary"
+  - "Event boundary != Surprise"
+
+core_update_operations:
+  strong:
+    - MAINTAIN
+    - INCREMENTAL_UPDATE
+    - REACTIVATE
+    - SUPPRESS_OR_DEACTIVATE
+    - CONFLICT
+    - REVISE
+    - SEGMENT_AND_CONSTRUCT_NEW_MODEL
+  implementation_aliases:
+    ENRICH: "Subtype of INCREMENTAL_UPDATE when information is added without changing structural relations."
+    REPLACE: "Prefer SEGMENT_AND_CONSTRUCT_NEW_MODEL; old model is not necessarily erased."
+  provisional:
+    - REWEIGHT
+    - COEXIST
+
+mechanisms:
+
+  - id: "E102-M01"
+    mechanism: "incremental_situation_model_updating"
+    what_it_updates: "One or more situation dimensions while preserving the current broad event model."
+    trigger: "Relevant information changes while sufficient overlap/coherence remains."
+    preconditions:
+      - "Current event model remains usable."
+      - "Incoming information can be mapped onto it."
+    from_state: "stable_current_event_model"
+    update_operation:
+      - MAINTAIN
+      - INCREMENTAL_UPDATE
+    to_state: "same_event_model_with_local_state_modified"
+    moderators:
+      - conceptual_overlap
+      - causal_continuity
+      - goal_continuity
+      - spatial_temporal_continuity
+      - prior_knowledge
+      - attention
+    boundary_conditions:
+      - "A dimension change can occur without a perceived new event."
+    failure_modes:
+      - treating_every_change_as_new_event
+      - failing_to_update_relevant_dimension
+    possible_story_decisions:
+      - keep_current_event
+      - add_information_to_current_state
+      - modify_only_changed_relation
+      - avoid_unnecessary_phase_break
+    evidence:
+      confidence: HIGH
+      directness: "DIRECT narrative reading + DIRECT visual narrative"
+      population_domain: "primarily adults"
+      important_limits:
+        - "Exact internal algorithm remains theoretically debated."
+    application_status: "CORE_FOUNDATION_MECHANISM"
+    do_not_claim:
+      - "There is one fixed amount of change that defines a local update."
+
+  - id: "E102-M02"
+    mechanism: "global_update_new_event_model_construction"
+    what_it_updates: "The active event representation as a broad unit."
+    trigger: "Large coherence break or perceived event boundary."
+    preconditions:
+      - "Incoming information is not easily mapped onto current structure."
+    from_state: "current_event_model_active"
+    update_operation:
+      - SEGMENT_AND_CONSTRUCT_NEW_MODEL
+      - SUPPRESS_OR_DEACTIVATE
+    to_state: "new_active_event_model_with_prior_model_retained_in_memory"
+    moderators:
+      - number_or_magnitude_of_dimension_changes
+      - causal_goal_discontinuity
+      - spatial_temporal_discontinuity
+      - predictability
+      - prior_knowledge
+      - attention
+    boundary_conditions:
+      - "Surface edits or single cues are not sufficient by themselves."
+    failure_modes:
+      - segmenting_from_superficial_edit_only
+      - forcing_new_event_despite_strong_continuity
+      - carrying_obsolete_active_relations_across_boundary
+    possible_story_decisions:
+      - start_new_event_representation
+      - archive_prior_model_without_deleting
+      - carry_forward_only_still_relevant_relations
+      - reactivate_prior_event_facts_later_if_needed
+    evidence:
+      confidence: HIGH
+      directness: "DIRECT narrative + visual narrative + naturalistic activity"
+      population_domain: "mostly adults"
+      important_limits:
+        - "No universal boundary threshold."
+    application_status: "CORE_FOUNDATION_MECHANISM"
+
+  - id: "E102-M03"
+    mechanism: "situation_dimension_change_monitoring"
+    what_it_updates: "Variables representing the currently described situation."
+    trigger: "Change in one or more relevant situation dimensions."
+    empirically_supported_dimensions:
+      - causality
+      - goal_or_intentionality
+      - character_or_protagonist
+      - location_or_space
+      - time
+      - object_interaction
+      - character_interaction
+    user_candidate_dimensions_not_yet_directly_established_here:
+      - knowledge
+      - relationship
+      - risk
+      - control
+      - value_or_meaning
+      - outcome_probability
+    from_state: "dimension_values_stable"
+    update_operation:
+      - INCREMENTAL_UPDATE
+      - SEGMENT_AND_CONSTRUCT_NEW_MODEL
+    to_state: "dimension_values_changed_with_possible_boundary_strength_change"
+    moderators:
+      - dimension_type
+      - segmentation_grain
+      - cooccurring_change_count
+      - salience
+      - conceptual_importance
+    boundary_conditions:
+      - "No evidence supports equal weights for all dimensions."
+    failure_modes:
+      - freezing_legacy_dimensions_as_exhaustive
+      - treating_every_value_change_as_equally_meaningful
+    possible_story_decisions:
+      - detect_changed_dimensions
+      - assess_current_structural_relevance
+      - locally_update_if_continuity_remains
+      - escalate_to_boundary_evaluation_if_coherence_drops
+    evidence:
+      confidence: HIGH
+      directness: "DIRECT reading, listening, film"
+      population_domain: "adults; some developmental evidence"
+      important_limits:
+        - "Relative weights vary with context and task."
+    application_status: "CORE_REPRESENTATION_SUPPORT"
+
+  - id: "E102-M04"
+    mechanism: "prediction_stability_boundary_detection"
+    what_it_updates: "The event model when near-future predictions become less reliable."
+    trigger: "Transient mismatch between ongoing input and active event expectations."
+    preconditions:
+      - "An active event model exists."
+    from_state: "stable_predictive_event_model"
+    update_operation:
+      - INCREMENTAL_UPDATE
+      - SEGMENT_AND_CONSTRUCT_NEW_MODEL
+    to_state: "revised_or_newly_constructed_event_model"
+    moderators:
+      - predictability
+      - situational_change_magnitude
+      - prior_knowledge
+      - attention
+    boundary_conditions:
+      - "Surprise is not required for all event updates."
+    failure_modes:
+      - equating_boundary_with_surprise
+      - equating_event_prediction_error_with_reward_prediction_error
+    possible_story_decisions:
+      - flag_candidate_boundary_when_model_predictions_break_down
+      - keep_update_separate_from_surprise_judgment
+      - allow_foreshadowed_shift_to_update_without_surprise
+    evidence:
+      confidence: MODERATE_HIGH
+      directness: "DIRECT event-perception/narrative support plus theory"
+      population_domain: "adult readers/viewers"
+      important_limits:
+        - "Not a deterministic boundary algorithm."
+    application_status: "USABLE_DIRECTIONAL_MECHANISM"
+
+  - id: "E102-M05"
+    mechanism: "boundary_driven_accessibility_redistribution"
+    what_it_updates: "Accessibility of information tied to current versus prior events."
+    trigger: "Perceived event boundary / new event construction."
+    from_state: "current_event_information_highly_accessible"
+    update_operation:
+      - SUPPRESS_OR_DEACTIVATE
+      - MAINTAIN
+    to_state: "new_event_prioritized_with_prior_event_information_still_stored_but_less_accessible"
+    moderators:
+      - boundary_relation
+      - retrieval_cue
+      - current_event_integration
+      - memory_interval
+    boundary_conditions:
+      - "Boundaries can impair or improve memory depending on measurement and structure."
+    failure_modes:
+      - treating_boundary_as_deletion
+      - assuming_all_old_information_is_inaccessible
+      - assuming_more_boundaries_always_improve_memory
+    possible_story_decisions:
+      - do_not_assume_old_facts_remain_active
+      - reactivate_required_prior_event_information
+      - permit_old_information_to_become_dormant
+    evidence:
+      confidence: HIGH
+      directness: "DIRECT naturalistic film/event tasks + narrative/virtual environment evidence"
+      population_domain: "adults"
+      important_limits:
+        - "Memory outcome is task-dependent."
+    application_status: "CORE_STATE_ACCESSIBILITY_SUPPORT"
+
+  - id: "E102-M06"
+    mechanism: "causal_relevance_reactivation"
+    what_it_updates: "Accessibility of previously known information."
+    trigger: "New event makes older information causally useful."
+    from_state: "known_but_dormant_or_low_accessibility"
+    update_operation:
+      - REACTIVATE
+    to_state: "active_and_currently_causally_relevant"
+    moderators:
+      - prior_encoding
+      - distance
+      - causal_relevance
+      - cue_overlap
+    boundary_conditions:
+      - "Reactivation is not guaranteed."
+    failure_modes:
+      - shown_once_equals_currently_active_assumption
+      - depending_on_weakly_encoded_fact_without_cue
+    possible_story_decisions:
+      - cue_prior_information_when_next_inference_depends_on_it
+      - distinguish_information_availability_from_factual_existence
+    evidence:
+      confidence: MODERATE_HIGH
+      directness: DIRECT
+      population_domain: "adult narrative reading"
+      important_limits:
+        - "Stimulus evidence is narrower than all Story Engine use cases."
+    application_status: "FOUNDATION_PAIR_SHARED_MECHANISM"
+
+  - id: "E102-M07"
+    mechanism: "model_conflict_detection_validation_failure"
+    what_it_updates: "Compatibility status between prior model and new information."
+    trigger: "Incoming information contradicts or poorly fits accessible prior information."
+    preconditions:
+      - "Prior conflicting information is accessible enough for comparison."
+      - "Incoming information is processed/validated."
+    from_state: "coherent_current_model"
+    update_operation:
+      - CONFLICT
+    to_state: "model_conflict"
+    moderators:
+      - prior_information_accessibility
+      - explanation_quality
+      - contradiction_strength
+      - attention
+      - task_goals
+    boundary_conditions:
+      - "Conflict detection does not guarantee successful revision."
+    failure_modes:
+      - conflict_missed_due_to_prior_information_unavailable
+      - validation_failure
+      - old_model_persists
+      - new_information_rejected
+    possible_story_decisions:
+      - enter_model_conflict_instead_of_immediate_reframe
+      - check_accessibility_of_conflicting_prior_fact
+      - add_explanation_if_revision_is_required
+      - preserve_unresolved_conflict_when_evidence_is_unresolved
+    evidence:
+      confidence: "HIGH for inconsistency cost; MODERATE for detailed revision paths"
+      directness: "DIRECT narrative reading + BRIDGE knowledge revision"
+      population_domain: "adults plus developmental evidence"
+      important_limits:
+        - "No universal revision path."
+    application_status: "CORE_CONFLICT_STATE"
+    do_not_claim:
+      - "Contradiction automatically revises the model."
+      - "Contradiction automatically creates surprise."
+
+  - id: "E102-M08"
+    mechanism: "model_revision_transformation"
+    what_it_updates: "Prior represented relations/states that cannot remain unchanged under new evidence."
+    trigger: "Detected conflict plus sufficient explanatory/corrective information."
+    from_state: "model_conflict"
+    update_operation:
+      - REVISE
+    to_state: "modified_model_incorporating_new_information"
+    moderators:
+      - explanatory_sufficiency
+      - prior_model_strength
+      - task_goals
+      - old_information_accessibility
+    boundary_conditions:
+      - "Revision can be partial and outdated information may remain influential."
+    failure_modes:
+      - explanation_insufficient
+      - old_model_remains_dominant
+      - incompatible_elements_remain_unintegrated
+    possible_story_decisions:
+      - provide_explanatory_bridge_when_factual_reinterpretation_is_required
+      - do_not_assume_single_contradiction_replaces_strong_model
+      - retain_old_model_as_historical_interpretation_when_relevant
+    evidence:
+      confidence: MODERATE_HIGH
+      directness: "DIRECT narrative revision tasks"
+      population_domain: adults
+      important_limits:
+        - "Mechanisms vary across paradigms."
+    application_status: "USABLE_WITH_CAUTION"
+
+  - id: "E102-M09"
+    mechanism: "hierarchical_multiscale_event_segmentation"
+    what_it_updates: "The temporal/narrative unit treated as the current meaningful event."
+    trigger: "Situation changes at different structural grains."
+    from_state: "ongoing_activity_stream"
+    update_operation:
+      - INCREMENTAL_UPDATE
+      - SEGMENT_AND_CONSTRUCT_NEW_MODEL
+    to_state: "nested_event_representation"
+    moderators:
+      - causal_change
+      - goal_change
+      - spatial_change
+      - object_action_change
+      - task_instruction
+      - event_knowledge
+    boundary_conditions:
+      - "Segmentation grain is context and task dependent."
+    failure_modes:
+      - one_boundary_scale_for_all_narratives
+      - equating_shot_paragraph_chapter_with_cognitive_event_boundary
+    possible_story_decisions:
+      - represent_micro_update_separately_from_major_event_shift
+      - allow_nested_event_units
+      - avoid_inferring_chapter_boundary_from_single_low_level_change
+    evidence:
+      confidence: HIGH
+      directness: "DIRECT everyday event + narrative/film"
+      population_domain: "adult observers/readers"
+      important_limits:
+        - "Mapping to scene/chapter structure remains an application hypothesis."
+    application_status: "CORE_STRUCTURAL_SUPPORT"
+
+transition_candidates:
+  - id: "E102-T1"
+    from: "stable_event_model"
+    trigger: "relevant_change_with_strong_continuity"
+    to: "same_event_model_incrementally_updated"
+  - id: "E102-T2"
+    from: "stable_event_model"
+    trigger: "large_coherence_break_or_broad_situation_change"
+    to: "new_active_event_model"
+  - id: "E102-T3"
+    from: "known_but_dormant_information"
+    trigger: "new_causal_relevance"
+    to: "reactivated_active_information"
+  - id: "E102-T4"
+    from: "current_event_information_active"
+    trigger: "event_boundary"
+    to: "prior_event_information_lower_accessibility"
+  - id: "E102-T5"
+    from: "coherent_model"
+    trigger: "incompatible_information_detected"
+    to: "model_conflict"
+  - id: "E102-T6"
+    from: "model_conflict"
+    trigger: "sufficient_explanation_or_correction"
+    to: "revised_model"
+  - id: "E102-T7"
+    from: "model_conflict"
+    trigger: "insufficient_explanation_or_update_failure"
+    to: "old_model_persists_or_conflict_unresolved"
+  - id: "E102-T8"
+    from: "ongoing_event"
+    trigger: "multiple_meaningful_dimension_changes"
+    to: "stronger_boundary_probability"
+  - id: "E102-T9"
+    from: "unexpected_event_shift"
+    trigger: "foreshadowing_or_expectation_support"
+    to: "expected_event_shift_still_updated_with_less_unexpectedness_cost"
+
+information_access_candidate:
+  note: "Prefer relational fields over one frozen enum."
+  fields:
+    known:
+      type: boolean_or_unknown
+    accessibility:
+      values:
+        - high
+        - low
+        - unknown
+    active_in_current_model:
+      type: boolean_or_unknown
+    causally_relevant_now:
+      type: boolean_or_unknown
+    event_membership:
+      values:
+        - current
+        - prior
+        - cross_event
+        - unknown
+    suppressed_or_deactivated:
+      type: boolean_or_unknown
+
+event_boundary_vs_local_update:
+  local_update:
+    description: "Current event model remains, changed dimensions are updated."
+  event_boundary:
+    description: "Broader coherence break prompts new active event model."
+  caution: "Evidence supports distinguishable processes but not a universal binary threshold."
+
+handoff:
+  E1_03:
+    - "What appraisal/emotion/judgment consequences follow from detected world/model changes?"
+  E2_01:
+    - "When do unresolved updates or missing bridges create curiosity rather than confusion?"
+  E2_02:
+    - "How do active event models and prediction reliability support suspense?"
+  E2_03:
+    - "When does mismatch become expectation violation, surprise, reappraisal, or reframe?"
+    - "Event boundary/update can occur without surprise."
+
+p0_roadmap:
+  major_revision_needed: false
+  approved_order:
+    - "E1-01 Causal + Goal Model Construction — COMPLETE"
+    - "E1-02 Event / State Updating — COMPLETE_FOR_REVIEW"
+    - "E1-03 Appraisal → Emotion / Judgment"
+    - "E2-01 Information Gap / Curiosity"
+    - "E2-02 Narrative Expectation / Suspense"
+    - "E2-03 Expectation Violation → Surprise → Reappraisal / Reframe"
+    - "E1-04 Processing Capacity — P0 #7"
+  do_not_start_automatically:
+    - E1-03
+    - E2-01
+    - E2-02
+    - E2-03
+    - E1-04
