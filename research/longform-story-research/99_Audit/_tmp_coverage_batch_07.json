@@ -1,0 +1,193 @@
+[
+  {
+    "id": "LSEv2_#34_T02",
+    "item": 34,
+    "theme": 2,
+    "report": "20_Research_Reports/#34_Rehook의_정의/LSEv2_#34_T02_가짜_Rehook_vs_실질_변화.md",
+    "sourceIds": [
+      "SRC-1987-290",
+      "SRC-1970-293",
+      "SRC-1960-291",
+      "SRC-1975-292",
+      "SRC-1994-034",
+      "SRC-1988-112",
+      "SRC-1971-276"
+    ]
+  },
+  {
+    "id": "LSEv2_#35_T01",
+    "item": 35,
+    "theme": 1,
+    "report": "20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T01_Rehook_Type_분류와_효과.md",
+    "sourceIds": [
+      "SRC-1995-294",
+      "SRC-2007-295",
+      "SRC-2001-296",
+      "SRC-1994-297",
+      "SRC-1936-274",
+      "SRC-2000-089",
+      "SRC-1979-224",
+      "SRC-2011-205",
+      "SRC-1991-275",
+      "SRC-1985-236",
+      "SRC-2002-145",
+      "SRC-1959-198"
+    ]
+  },
+  {
+    "id": "LSEv2_#35_T02",
+    "item": 35,
+    "theme": 2,
+    "report": "20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T02_유형_전환과_정보_다양성.md",
+    "sourceIds": [
+      "SRC-2002-299",
+      "SRC-2010-300",
+      "SRC-2000-301",
+      "SRC-1998-298"
+    ]
+  },
+  {
+    "id": "LSEv2_#35_T03",
+    "item": 35,
+    "theme": 3,
+    "report": "20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T03_Rehook의_인과적_연결.md",
+    "sourceIds": [
+      "SRC-1985-302",
+      "SRC-1994-303",
+      "SRC-1978-305",
+      "SRC-1990-304"
+    ]
+  },
+  {
+    "id": "LSEv2_#36_T01",
+    "item": 36,
+    "theme": 1,
+    "report": "20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T01_시간_규칙_vs_상태_기반_타이밍.md",
+    "sourceIds": [
+      "SRC-2016-306",
+      "SRC-2007-309",
+      "SRC-2014-307",
+      "SRC-2008-308"
+    ]
+  },
+  {
+    "id": "LSEv2_#36_T02",
+    "item": 36,
+    "theme": 2,
+    "report": "20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T02_Rehook_필요_신호_검증.md",
+    "sourceIds": [
+      "SRC-1996-310",
+      "SRC-2010-311",
+      "SRC-1999-312",
+      "SRC-1999-313"
+    ]
+  },
+  {
+    "id": "LSEv2_#36_T03",
+    "item": 36,
+    "theme": 3,
+    "report": "20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T03_Rehook_과잉의_비용.md",
+    "sourceIds": [
+      "SRC-2003-314",
+      "SRC-2008-315",
+      "SRC-2009-317",
+      "SRC-1990-316"
+    ]
+  },
+  {
+    "id": "LSEv2_#37_T01",
+    "item": 37,
+    "theme": 1,
+    "report": "20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T01_감정_전환이_Attention_Renewal을_만드는가.md",
+    "sourceIds": [
+      "SRC-1980-318",
+      "SRC-1998-319",
+      "SRC-2001-320",
+      "SRC-1987-321"
+    ]
+  },
+  {
+    "id": "LSEv2_#37_T02",
+    "item": 37,
+    "theme": 2,
+    "report": "20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T02_감정_전환의_Trigger_설계.md",
+    "sourceIds": [
+      "SRC-1991-322",
+      "SRC-2003-323",
+      "SRC-1980-325",
+      "SRC-1988-324"
+    ]
+  },
+  {
+    "id": "LSEv2_#37_T03",
+    "item": 37,
+    "theme": 3,
+    "report": "20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T03_Emotional_Rehook의_장르_경계.md",
+    "sourceIds": [
+      "SRC-1996-326",
+      "SRC-2011-328",
+      "SRC-2009-329",
+      "SRC-2004-327"
+    ]
+  },
+  {
+    "id": "LSEv2_#38_T01",
+    "item": 38,
+    "theme": 1,
+    "report": "20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T01_연속극멜로드라마의_Retention_Mechanics.md",
+    "sourceIds": [
+      "SRC-1985-331",
+      "SRC-1988-330",
+      "SRC-1991-332",
+      "SRC-1985-333"
+    ]
+  },
+  {
+    "id": "LSEv2_#38_T02",
+    "item": 38,
+    "theme": 2,
+    "report": "20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T02_하나의_사건에서_다중_감정을_만드는_구조.md",
+    "sourceIds": [
+      "SRC-1985-337",
+      "SRC-2003-336",
+      "SRC-2009-334",
+      "SRC-2008-335"
+    ]
+  },
+  {
+    "id": "LSEv2_#38_T03",
+    "item": 38,
+    "theme": 3,
+    "report": "20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T03_정보형_롱폼으로의_전이_가능성.md",
+    "sourceIds": [
+      "SRC-1996-339",
+      "SRC-1993-341",
+      "SRC-1991-338",
+      "SRC-2014-340"
+    ]
+  },
+  {
+    "id": "LSEv2_#39_T01",
+    "item": 39,
+    "theme": 1,
+    "report": "20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T01_Moral_Judgment와_Engagement.md",
+    "sourceIds": [
+      "SRC-2017-343",
+      "SRC-2017-344",
+      "SRC-2003-342",
+      "SRC-1999-345"
+    ]
+  },
+  {
+    "id": "LSEv2_#39_T02",
+    "item": 39,
+    "theme": 2,
+    "report": "20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T02_스스로_판단하게_하는_방식.md",
+    "sourceIds": [
+      "SRC-1966-346",
+      "SRC-2000-347",
+      "SRC-1999-348",
+      "SRC-1986-349"
+    ]
+  }
+]
