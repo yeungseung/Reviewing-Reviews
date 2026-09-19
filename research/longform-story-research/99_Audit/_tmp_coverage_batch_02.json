@@ -1,0 +1,213 @@
+[
+  {
+    "id": "LSEv2_#05_T02",
+    "item": 5,
+    "theme": 2,
+    "report": "20_Research_Reports/#05_단_모든_소재에_사람의_욕망이_있어야_하는_것은_아니다/LSEv2_#05_T02_인간화의_이득과_왜곡_위험.md",
+    "sourceIds": [
+      "SRC-2007-054",
+      "SRC-2014-042",
+      "SRC-1998-052",
+      "SRC-2000-053",
+      "SRC-2003-036"
+    ]
+  },
+  {
+    "id": "LSEv2_#06_T01",
+    "item": 6,
+    "theme": 1,
+    "report": "20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T01_긴장_엔진_6종_분류의_완전성.md",
+    "sourceIds": [
+      "SRC-1994-034",
+      "SRC-1992-056",
+      "SRC-1993-057",
+      "SRC-2000-047",
+      "SRC-1980-055",
+      "SRC-1996-058"
+    ]
+  },
+  {
+    "id": "LSEv2_#06_T02",
+    "item": 6,
+    "theme": 2,
+    "report": "20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T02_Main_Engine_하나를_정하는_효과.md",
+    "sourceIds": [
+      "SRC-1985-022",
+      "SRC-1988-030",
+      "SRC-1988-028",
+      "SRC-2006-060",
+      "SRC-1985-059",
+      "SRC-2015-045"
+    ]
+  },
+  {
+    "id": "LSEv2_#06_T03",
+    "item": 6,
+    "theme": 3,
+    "report": "20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T03_장르소재별_엔진_적합성.md",
+    "sourceIds": [
+      "SRC-1994-034",
+      "SRC-1994-037",
+      "SRC-1993-057",
+      "SRC-1978-061",
+      "SRC-2000-047",
+      "SRC-1980-055",
+      "SRC-1993-062"
+    ]
+  },
+  {
+    "id": "LSEv2_#07_T01",
+    "item": 7,
+    "theme": 1,
+    "report": "20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T01_감정_지시와_감정_유발_상황_비교.md",
+    "sourceIds": [
+      "SRC-2007-063",
+      "SRC-2008-064",
+      "SRC-1966-027",
+      "SRC-1994-024"
+    ]
+  },
+  {
+    "id": "LSEv2_#07_T02",
+    "item": 7,
+    "theme": 2,
+    "report": "20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T02_상황에서_감정이_만들어지는_평가_과정.md",
+    "sourceIds": [
+      "SRC-1991-065",
+      "SRC-2001-003",
+      "SRC-1985-007",
+      "SRC-1995-046",
+      "SRC-2002-048",
+      "SRC-1985-066"
+    ]
+  },
+  {
+    "id": "LSEv2_#07_T03",
+    "item": 7,
+    "theme": 3,
+    "report": "20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T03_구체적_디테일과_감정적_상상.md",
+    "sourceIds": [
+      "SRC-1986-067",
+      "SRC-2008-064",
+      "SRC-2007-068",
+      "SRC-1996-012",
+      "SRC-2007-025",
+      "SRC-1998-052",
+      "SRC-1988-028"
+    ]
+  },
+  {
+    "id": "LSEv2_#08_T01",
+    "item": 8,
+    "theme": 1,
+    "report": "20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T01_감정별_Trigger_공식_검증.md",
+    "sourceIds": [
+      "SRC-1994-034",
+      "SRC-2000-069",
+      "SRC-1996-070",
+      "SRC-1996-038",
+      "SRC-1985-066",
+      "SRC-1991-065",
+      "SRC-2003-051"
+    ]
+  },
+  {
+    "id": "LSEv2_#08_T02",
+    "item": 8,
+    "theme": 2,
+    "report": "20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T02_Build-up_Peak_Release의_감정.md",
+    "sourceIds": [
+      "SRC-1983-071",
+      "SRC-1988-072",
+      "SRC-1991-065"
+    ]
+  },
+  {
+    "id": "LSEv2_#08_T03",
+    "item": 8,
+    "theme": 3,
+    "report": "20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T03_공식의_문화개인차와_복합성.md",
+    "sourceIds": [
+      "SRC-2001-073",
+      "SRC-1991-074"
+    ]
+  },
+  {
+    "id": "LSEv2_#09_T01",
+    "item": 9,
+    "theme": 1,
+    "report": "20_Research_Reports/#09_감정의_강도보다_색깔이_중요하다/LSEv2_#09_T01_감정_다양성과_몰입.md",
+    "sourceIds": [
+      "SRC-2014-075",
+      "SRC-2008-076",
+      "SRC-2010-013",
+      "SRC-2015-001",
+      "SRC-1985-066",
+      "SRC-1998-039"
+    ]
+  },
+  {
+    "id": "LSEv2_#09_T02",
+    "item": 9,
+    "theme": 2,
+    "report": "20_Research_Reports/#09_감정의_강도보다_색깔이_중요하다/LSEv2_#09_T02_단일_감정_escalation의_한계와_예외.md",
+    "sourceIds": [
+      "SRC-1974-077",
+      "SRC-2017-078",
+      "SRC-1988-072",
+      "SRC-1991-065"
+    ]
+  },
+  {
+    "id": "LSEv2_#10_T01",
+    "item": 10,
+    "theme": 1,
+    "report": "20_Research_Reports/#10_감정_피로/LSEv2_#10_T01_Emotional_Fatigue의_메커니즘.md",
+    "sourceIds": [
+      "SRC-2008-079",
+      "SRC-2017-080",
+      "SRC-2007-068",
+      "SRC-2017-078",
+      "SRC-1974-077"
+    ]
+  },
+  {
+    "id": "LSEv2_#10_T02",
+    "item": 10,
+    "theme": 2,
+    "report": "20_Research_Reports/#10_감정_피로/LSEv2_#10_T02_리셋_구간의_기능.md",
+    "sourceIds": [
+      "SRC-1998-081",
+      "SRC-1972-082",
+      "SRC-1983-071",
+      "SRC-1988-028",
+      "SRC-2007-011",
+      "SRC-1974-077",
+      "SRC-2002-033",
+      "SRC-2016-008",
+      "SRC-1996-058"
+    ]
+  },
+  {
+    "id": "LSEv2_#10_T03",
+    "item": 10,
+    "theme": 3,
+    "report": "20_Research_Reports/#10_감정_피로/LSEv2_#10_T03_감정-정보_교차_패턴의_실전성.md",
+    "sourceIds": [
+      "SRC-2008-084",
+      "SRC-2007-063",
+      "SRC-2000-083",
+      "SRC-2014-042",
+      "SRC-2007-025",
+      "SRC-2015-001",
+      "SRC-2002-023",
+      "SRC-1988-028",
+      "SRC-2002-021",
+      "SRC-1959-018",
+      "SRC-2008-079",
+      "SRC-1986-067",
+      "SRC-1993-057",
+      "SRC-2007-068"
+    ]
+  }
+]
