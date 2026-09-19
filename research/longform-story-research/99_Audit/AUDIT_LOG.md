@@ -620,3 +620,161 @@ This exact quantified claim is not supported by the verified bibliographic recor
 Audit disposition:
 M9 Trust/Provenance remains a strong high-priority mechanism family.
 This strengthens the case for researching #60–#63 next with Claude under stricter evidence rules.
+
+
+### E-020 — #29/#31 Prediction construct conflation
+Status: CONFIRMED RESEARCH-DESIGN PROBLEM
+Severity: CRITICAL for Research Map v2
+
+The current Prediction Engine merges multiple distinct constructs under the word "prediction":
+
+1. **Event-model prediction error**
+   - Zacks et al. Event Segmentation Theory
+   - short-horizon prediction of ongoing activity
+   - transient prediction error → event-model updating / event boundary
+
+2. **Narrative suspense / outcome expectation**
+   - Gerrig & Bernardo (1994)
+   - Hoeken & van Vliet (2000)
+   - direct story-reading manipulations of available solutions, suspense, curiosity, surprise
+
+3. **Mnemonic prediction error**
+   - Sinclair et al. (2021)
+   - familiar narrative videos interrupted before expected endings
+   - hippocampal representation disruption and memory updating
+
+4. **Reward prediction error (RPE)**
+   - Schultz, Dayan & Montague (1997)
+   - primate dopamine/reinforcement-learning literature
+   - expected vs received rewarding/salient events
+
+5. **Predictive processing / Free-Energy Principle**
+   - Friston (2010)
+   - high-level theoretical/computational framework for perception/action/learning
+
+6. **Counterfactual thinking**
+   - Roese (1997)
+   - retrospective "what if / if only" simulation after outcomes
+   - not the same construct as prospective narrative prediction
+
+7. **Curiosity / complexity / uncertainty selection**
+   - Kidd et al. (2012): 7–8 month-old infants' visual attention to intermediate complexity
+   - Kang et al. (2009): trivia curiosity, caudate/reward-related activity, information seeking
+   - better placed under M5 Curiosity/Managed Uncertainty than under a unified Prediction Engine
+
+These constructs can interact, but the current corpus often treats them as one established neurocognitive mechanism.
+
+Research Map implication:
+SPLIT #29/#31 before precision research. Do not ask Claude to "verify Prediction Engine" as a unit.
+
+### E-021 — SRC-2021-256 Sinclair bibliographic metadata corruption + dopamine misread
+Status: CONFIRMED ERROR / IMPORTANT BRIDGE SOURCE
+Severity: HIGH
+
+Verified publication:
+Sinclair, A. H.; Manalili, Grace M.; Brunec, Iva K.; Adcock, R. Alison; Barense, Morgan D. (2021).
+"Prediction errors disrupt hippocampal representations and update episodic memories."
+PNAS 118(51), e2117625118. DOI: `10.1073/pnas.2117625118`.
+
+Repository author list is incorrect:
+- "Matthew L. Manalili" → Grace M. Manalili
+- "Gregory W. Brunec" → Iva K. Brunec
+- "Michael D. R. Robin" → not an author on the verified paper
+- Morgan D. Barense is omitted
+
+Verified design/result:
+- human fMRI study
+- familiar narrative videos
+- mnemonic prediction errors induced by interrupting videos immediately before expected endings
+- prediction errors disrupted sustained hippocampal representations
+- degree of representation disruption predicted memory updating
+- basal forebrain activation moderated the relation between hippocampal representations and memory outcomes
+
+Important negative evidence:
+The paper reports no corresponding VTA three-way interaction and no significant main effect supporting a simple "prediction error → dopamine reward" interpretation.
+
+Repository inflation:
+- "prediction error size → stronger memory revision" is stronger than the verified result
+- "basal forebrain cholinergic modulation maximizes attention/new narrative memory" is interpretive
+- using this paper as support for pleasurable/dopaminergic plot-twist reward is incorrect
+
+Disposition:
+PROMOTE this as a strong, unusually direct **narrative-video memory-updating** source.
+Do NOT use it as RPE/pleasure evidence.
+
+### E-022 — Friston Free-Energy Principle repeatedly converted into Story Engagement law
+Status: THEORY-TO-ENGINE LEAP / CONCEPTUAL CONFLATION
+Severity: CRITICAL
+
+The same Friston (2010) paper is registered at least three times:
+- SRC-2010-229 (#29 T1)
+- SRC-2010-255 (#31 T2)
+- SRC-2010-311 (#36 T2)
+
+Verified source:
+A Nature Reviews Neuroscience review proposing a unifying free-energy framework for action, perception, and learning.
+
+Repository transformations include:
+- variational free energy = ordinary subjective uncertainty
+- free-energy reduction = curiosity satisfaction
+- active inference = page turning / binge watching
+- prediction error resolution = dopaminergic intellectual reward
+- high predictability = brain turns attention off / mind wandering
+- exact Rehook timing derived from FEP
+
+These mappings are not directly tested by Friston (2010).
+
+Technical caution:
+The paper treats variational free energy as a bound on surprisal within a generative-model framework. It should not be used as a synonym for ordinary narrative "mystery level," subjective surprise, or engagement.
+
+Disposition:
+KEEP FEP only as a broad theoretical analogy/background source unless a narrative-specific bridge study independently tests the proposed mapping.
+
+### E-023 — #29 T2 Goldilocks evidence has a population/domain mismatch
+Status: DOMAIN_TRANSFER_LEAP
+Severity: HIGH
+
+Kidd, Piantadosi & Aslin (2012):
+- two experiments
+- 7- and 8-month-old infants
+- visual sequences
+- looking-away probability highest for very low and very high complexity
+- supports selective attention to intermediate information complexity in infants
+
+Repository Report claims:
+- "영유아 및 성인"
+- optimal narrative prediction-error rate about 30–50%
+- direct application to longform narrative immersion
+
+The verified paper does not include adults and does not establish a 30–50% narrative prediction-error optimum.
+
+Kang et al. (2009):
+- trivia-question curiosity
+- curiosity correlated with caudate activity associated with anticipated reward
+- higher curiosity predicted greater willingness to spend resources for answers and better later recall
+
+This supports epistemic curiosity, not a universal "middle prediction uncertainty = dopamine maximum" rule for narrative.
+
+Disposition:
+Move these sources primarily to M5 Curiosity/Managed Uncertainty.
+Do not use them to calibrate a numeric Prediction Engine.
+
+### E-024 — Direct narrative-prediction evidence exists and should be separated from neuroscience extrapolation
+Status: POSITIVE AUDIT FINDING
+Severity: HIGH strategic value
+
+Gerrig & Bernardo (1994):
+- seven experiments with fictional danger scenarios
+- suspense ratings increased when readers believed the range of possible solutions was restricted
+- likelihood-of-escape ratings were comparatively little affected
+
+Hoeken & van Vliet (2000):
+- manipulated narrative event order in a story
+- studied suspense, curiosity, surprise structures
+- suspense could occur even when readers knew the ending
+- surprising events increased appreciation and improved representation of story events
+
+These sources directly study narrative processing and are more appropriate foundations for Story Engine rules about suspense/curiosity/surprise than reward-learning or free-energy sources.
+
+Disposition:
+Create a separate **Narrative Expectation / Suspense / Surprise** research line and prioritize it in precision research.
