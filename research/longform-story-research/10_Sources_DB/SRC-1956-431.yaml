@@ -1,0 +1,12 @@
+id: SRC-1956-431
+author: George A. Miller
+year: 1956
+title: 'The magical number seven, plus or minus two: Some limits on our capacity for processing information'
+venue: Psychological Review
+tier: 1
+citation_count: 42000
+url: https://doi.org/10.1037/h0043158
+key_contribution: 인지과학의 청킹(Chunking) 이론을 정초. 인간 작업 기억의 즉각적 처리 용량은 7±2개 항목으로 엄격히 제한되어 있으며, 방대한 정보를 의미 있는 묶음(Chunk)으로 구조화할 때 정보 처리의 병목을 극복하고 장기 기억으로 안정적으로 전환할 수 있음을 입증.
+relevance: 롱폼 서사의 방대한 정보를 1~3분 단위의 마이크로 스토리 블록으로 청킹(Chunking)하여 관객의 인지 부하를 줄이고 이해도와 기억 파지를 극대화하는 이론적 토대.
+themes:
+  - '#46 Theme 2'

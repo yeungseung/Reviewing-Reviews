@@ -1,0 +1,13 @@
+id: SRC-1978-305
+author: Walter Kintsch & Teun A. van Dijk
+year: 1978
+title: Toward a Model of Text Comprehension and Production
+venue: Psychological Review
+tier: 1
+citation_count: 14200
+url: https://doi.org/10.1037/0033-295X.85.5.363
+key_contribution: 텍스트의 미시 명제들이 거시 규칙(삭제·일반화·통합)을 거쳐 거시 구조(Macrostructure)로 응축되는 인지
+  과정을 규명하여, 곁가지 서사(Side Branch)의 통제와 메인 루프 귀환(Return-to-Main-Loop)의 이론적 기초를 제공.
+relevance: Rehook 곁가지 서사가 주 줄거리로 안전하게 회수되는 메커니즘 설명.
+themes:
+- '#35 Theme 3'

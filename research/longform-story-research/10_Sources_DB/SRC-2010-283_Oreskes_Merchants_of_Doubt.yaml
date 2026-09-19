@@ -1,0 +1,25 @@
+id: SRC-2010-283
+title: "Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming"
+authors:
+  - "Naomi Oreskes"
+  - "Erik M. Conway"
+year: 2010
+type: academic_primary
+tier: 1
+publication: "Bloomsbury Press"
+pages: "1-368"
+isbn: "978-1596916104"
+citation_count: 4800
+key_findings:
+  - "담배의 유해성, 오존층 파괴, 산성비, 지구 온난화 등 명백한 과학적 사실에 맞서 특수 이익 집단이 '의혹을 조작(Manufacturing Doubt)'해 온 역사적 수법 폭로."
+  - "엄격한 동료 평가를 거치지 않은 비주류 소수 연구(Minority Data)와 체리피킹된 통계를 침소봉대하여 '학계의 상식이 뒤집혔다'는 가짜 반전 서사를 대중 매체에 유포하는 선동 공학 규명."
+  - "정보형 콘텐츠 기획 시 극소수 논문이나 이상치 데이터를 바탕으로 무리한 통념 전복(Majority Reversal)을 시도할 때 빠지기 쉬운 사이비 과학적 함정 경고."
+core_claims:
+  - "의혹은 특수 이익 집단이 과학적 진실을 은폐하기 위해 생산해 내는 가장 저렴하고 효과적인 상품이다."
+  - "소수 데이터(Minority Data)를 다수설 전복으로 과장하는 것은 지적 통쾌함이 아니라 공공의 지적 생태계를 파괴하는 기만이다."
+keywords:
+  - merchants of doubt
+  - manufacturing doubt
+  - minority data distortion
+  - cherry picking
+  - epistemic integrity

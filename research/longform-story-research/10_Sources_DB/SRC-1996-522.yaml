@@ -1,0 +1,12 @@
+id: SRC-1996-522
+author: Antonio R. Damasio
+year: 1996
+title: "The somatic marker hypothesis and the possible functions of the prefrontal cortex"
+venue: "Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences, 351(1346), 1413-1420"
+tier: 1
+citation_count: 5850
+url: https://doi.org/10.1098/rstb.1996.0125
+key_contribution: "신체 표지 가설(Somatic Marker Hypothesis) 정립. 감정(신체 생리적 정서 반응)은 이성적 정보 처리의 방해물이 아니라, 복잡한 인지적 선택지 사이에서 중요 정보를 신속히 선별하고 의사결정을 유도하는 필수적 생물학적 가이드임을 뇌손상 환자 연구를 통해 실증."
+relevance: "서사에서 건조한 정보와 데이터가 관객의 뇌에 흡수되고 유의미한 가치 판단으로 연결되기 위해, 반드시 해당 정보에 정서적 신체 표지(Affective Valence)가 결합되어야 한다는 인지신경학적 토대."
+themes:
+  - "#54 Theme 1"

@@ -1,0 +1,45 @@
+source_id: "SRC-1985-022"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Causal thinking and the representation of narrative events"
+  authors:
+    - "Trabasso, Tom (University of Chicago)"
+    - "van den Broek, Paul (University of Minnesota)"
+  institution: "University of Chicago"
+  published_date: "1985-10-01"
+  source_url: "https://doi.org/10.1016/0749-596X(85)90049-X"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental / Cognitive Modeling"
+    sample_size: 128
+    target_population: "성인 및 아동 독자"
+    relationship_type: "Causal"
+    replicated: "Replicated (Multiple times in cognitive narratology)"
+    limitations: "단편 텍스트 기반 실험으로 장편 시청각 미디어의 감각적 변수는 직접 다루지 않음"
+
+claims_and_evidence:
+  core_claim: "독자는 서사 텍스트를 인과적 네트워크(Causal Network)로 표상하며, 인과 사슬(Causal Chain) 상에 위치한 사건 노드일수록 중요도 평가가 높고 기억 회상률이 월등히 높다."
+  verbatim_quotes:
+    - original: "Events in a story are not simply linearly ordered; rather, they form a causal network. Statements on the causal chain are judged as more important and are recalled better than statements that are not on the chain."
+      translation: "이야기 속 사건들은 단순히 선형적으로 배열된 것이 아니라 인과 네트워크를 형성한다. 인과 사슬 상에 있는 진술은 그렇지 않은 진술보다 더 중요하게 평가되고 더 잘 회상된다."
+      citation_location: "p.612, Abstract"
+
+story_application:
+  application_idea: "스토리 설계 시 모든 중요 사건을 인과 사슬의 필수 노드로 연결하고, 정서적 피크를 이 인과 노드에 직접 일치시켜 관객의 뇌에 장기 기억으로 각인시킴."
+  narrative_stage: "Full Narrative Structure (Act 1 to Act 3)"
+  emotional_mechanics:
+    trigger: "인과적 필연성이 밝혀지는 사건 발생"
+    build_up: "앞선 사건들의 누적된 원인이 하나로 수렴"
+    peak: "인과적 귀결이 정서적 폭발로 전환되는 순간"
+    release: "상황 모델의 완성 및 인지적 안정"
+  failure_modes: "인과 사슬에서 벗어난 고립된 사건(Dead-end plot)을 넣으면 관객의 집중도가 급격히 분산되고 지루함을 느낌"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "사건 간의 필요충분 인과관계가 관객의 상식 스키마 내에서 납득 가능해야 함"

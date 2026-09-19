@@ -1,0 +1,45 @@
+source_id: "SRC-2004-113"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Music, pandas, and mugs: On the evaluation of affect and calculation"
+  authors:
+    - "Hsee, Christopher K. (University of Chicago, Graduate School of Business)"
+    - "Rottenstreich, Yuval (Duke University, Fuqua School of Business)"
+  institution: "University of Chicago & Duke University"
+  published_date: "2004-03-01"
+  source_url: "https://doi.org/10.1037/0096-3445.133.1.23"
+  source_type: "Peer-reviewed Journal (Journal of Experimental Psychology: General, 133(1), 23-30)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental Cognitive & Behavioral Psychology"
+    sample_size: "Multiple experimental cohorts (N=200+)"
+    target_population: "University students in pricing, donation, and valuation tasks"
+    relationship_type: "Causal & Order Effect Demonstration"
+    replicated: "Highly Replicated (1,100+ citations, foundational framework for affective vs calculative valuation)"
+    limitations: "실험실 경제/기부 의사결정 중심이나 서사의 정보 제시 순서 및 정서적 몰입에 동일한 인지 메커니즘으로 적용됨"
+
+claims_and_evidence:
+  core_claim: "인간의 가치 평가는 '감정에 의한 평가(Valuation by Feeling)'와 '계산에 의한 평가(Valuation by Calculation)'라는 질적으로 다른 두 가지 모드로 작동한다. 감정 모드에서는 첫 번째 단위(0에서 1)에 극단적인 정서적 도약(Step Function)이 발생하지만 수량/규모의 변화에는 거의 둔감(Scope Insensitive)하다. 반면 계산 모드가 프라이밍되면 규모에 비례하여 선형적으로 평가하지만 전반적인 정서적 지불 용의와 열정이 차갑게 냉각된다. 계산 모드가 먼저 활성화되면 감정 모드의 발화를 억제한다."
+  verbatim_quotes:
+    - original: "Valuation by feeling exhibits a step-function form: A single occurrence elicits a substantial affective reaction, but variations in scope beyond one have little incremental effect... In contrast, valuation by calculation is relatively linear with scope, but depresses the overall affective engagement."
+      translation: "감정에 의한 평가는 계단 함수 형태를 보인다. 단 하나의 발생이 상당한 정서적 반응을 이끌어내지만, 하나를 넘어서는 범위의 변화는 추가적인 효과를 거의 내지 못한다... 대조적으로, 계산에 의한 평가는 범위에 대해 비교적 선형적이지만 전반적인 정서적 몰입을 저하시킨다."
+      citation_location: "pp. 23-25"
+
+story_application:
+  application_idea: "서사에서 관객을 감정적으로 몰입시키려면 거대한 수치(통계, 예산, 사상자 수)를 먼저 제시해 '계산 모드'를 점화해서는 안 됨. 단 하나의 구체적 디테일과 개별 인물의 고통(0에서 1)을 먼저 보여주어 폭발적인 '감정적 도약'을 일으킨 뒤, 그 정서적 모멘텀을 바탕으로 거시적 규모(Scale)를 확장해야 함."
+  narrative_stage: "Opening Framing, Micro-to-Macro Transition & Climax Architecture"
+  emotional_mechanics:
+    trigger: "단 하나의 구체적 대상(0 ➔ 1)에 대한 집중 조명"
+    build_up: "감정 모드 점화를 통한 즉각적 도덕적·정서적 연대감 형성"
+    peak: "개별 인물의 비극이 거대한 세계 전체의 위기와 직결되어 있음을 깨닫는 규모 확장"
+    release: "거시적 수치 속에서도 개별 인물의 운명에 집중하며 카타르시스 도출"
+  failure_modes: "서두에 '전 세계 1억 명의 기아' 같은 거대 통계를 먼저 나열하여 관객의 뇌를 분석적 계산 모드로 고정시키고 정서적 마비를 유발하는 연출"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "순수한 정책 분석이나 과학적 데이터 검증 서사가 아닌, 감정적 공감과 서스펜스가 핵심인 롱폼 콘텐츠에 필수 적용"

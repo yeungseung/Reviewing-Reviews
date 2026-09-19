@@ -1,0 +1,45 @@
+source_id: "SRC-2009-041"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Witnessing excellence in an other: The psychology of elevation, gratitude, and admiration"
+  authors:
+    - "Algoe, Sara B. (University of North Carolina at Chapel Hill)"
+    - "Haidt, Jonathan (University of Virginia)"
+  institution: "University of North Carolina / University of Virginia"
+  published_date: "2009-04-01"
+  source_url: "https://doi.org/10.1080/17439760802650519"
+  source_type: "Peer-reviewed Journal (The Journal of Positive Psychology)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental Emotion Psychology & Behavioral Measures"
+    sample_size: 143
+    target_population: "성인 피험자"
+    relationship_type: "Causal"
+    replicated: "Highly Replicated (Foundational study on other-praising moral emotions, 1000+ citations)"
+    limitations: "실험실 영상 자극 연구이나 서사 미디어의 감동 및 추천 행동 분석에 널리 활용됨"
+
+claims_and_evidence:
+  core_claim: "인물이 타인이나 대의를 위해 개인적 대가(Cost)와 자기희생(Self-sacrifice)을 감수하는 도덕적 탁월성을 목격할 때, 관객은 가슴의 온기와 뭉클함을 동반하는 도덕적 고양감(Elevation)을 느끼며, 이는 단순한 쾌락(Enjoyment)을 초월하는 깊은 감동과 타자 지향적 동기를 촉발한다."
+  verbatim_quotes:
+    - original: "Elevation is elicited by witnessing acts of moral beauty or virtue, involving self-sacrifice for others. It produces distinctive physical feelings of warmth in the chest and motivates prosocial and affiliative behavior."
+      translation: "도덕적 고양감은 타인을 위한 자기희생을 수반하는 도덕적 아름다움이나 미덕의 행위를 목격할 때 유발된다. 이는 가슴의 따뜻한 온기라는 독특한 신체 감각을 낳고 친사회적·유대적 행동을 동기화한다."
+      citation_location: "pp.105-108"
+
+story_application:
+  application_idea: "서사의 판돈(Stakes)을 최고조로 끌어올리고 관객의 영혼을 울리는 정서적 클라이맥스를 완성하려면, 인물이 자신의 이익을 희생하고 치명적 대가를 치르는 값비싼 선택(Costly Choice)을 배치해야 함."
+  narrative_stage: "Climax & Moral Elevation"
+  emotional_mechanics:
+    trigger: "치명적인 개인적 대가와 손실의 위기"
+    build_up: "쉬운 타협 대신 원칙과 대의를 위한 자기희생의 결단"
+    peak: "희생적 선택의 실행 및 가슴 벅찬 정서적 전율"
+    release: "도덕적 승화와 깊은 여운(Elevation/Admiration)"
+  failure_modes: "대가나 희생 없이 공짜로 얻는 승리는 관객에게 카타르시스나 진정한 감동을 제공하지 못함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "도덕적 무게감과 에우다이모니아적 의미가 중요한 감동적 서사에서 핵심적"

@@ -1,0 +1,15 @@
+id: SRC-1995-294
+author: Rolf A. Zwaan, Mark C. Langston & Arthur C. Graesser
+year: 1995
+title: 'The Construction of Situation Models in Language Comprehension: An Event-Indexing
+  Model'
+venue: Psychological Science
+tier: 1
+citation_count: 1550
+url: https://doi.org/10.1111/j.1467-9280.1995.tb00513.x
+key_contribution: 서사 이해 과정에서 관객이 시간(Time), 공간(Space), 인과(Causality), 행위 주체(Protagonist),
+  의도/목표(Intentionality)의 5개 차원을 모니터링하며 상황 모델을 갱신한다는 사건 색인 모델(Event-Indexing Model)을
+  수립하여, Rehook 유형(시간 이동, 원인 전환, 주체 교체 등)의 인지적 갱신 메커니즘을 이론적으로 정초.
+relevance: Rehook의 10대 유형이 인간의 5차원 상황 모델 중 어떤 차원을 집중적으로 리셋하는지 설명하는 핵심 모델.
+themes:
+- '#35 Theme 1'

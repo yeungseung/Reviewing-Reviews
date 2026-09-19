@@ -1,0 +1,45 @@
+source_id: "SRC-2001-118"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "The Elements of Journalism: What Newspeople Should Know and the Public Should Expect"
+  authors:
+    - "Kovach, Bill (Committee of Concerned Journalists)"
+    - "Rosenstiel, Tom (Pew Research Center / Project for Excellence in Journalism)"
+  institution: "Committee of Concerned Journalists & Columbia University"
+  published_date: "2001-04-24"
+  source_url: "https://www.pewresearch.org/journalism/2001/04/24/the-elements-of-journalism/"
+  source_type: "Authoritative Industry Standard / Professional Treatise (Crown / Random House)"
+
+credibility_assessment:
+  credibility_tier: "Tier 2"
+  methodology:
+    study_type: "Systematic Professional Practice Analysis & Empirical Field Consensus"
+    sample_size: "Interviews with over 1,200 journalists and analysis of hundreds of investigative case histories"
+    target_population: "Professional nonfiction writers, investigative journalists, and documentarians"
+    relationship_type: "Epistemological Framework & Verification Discipline"
+    replicated: "Universally Replicated & Global Industry Benchmark (Standard textbook across top journalism schools globally)"
+    limitations: "저널리즘 실무 중심 서술이나 모든 사실 기반 롱폼 서사(내러티브 논픽션, 역사물, 다큐)의 팩트체크 철학으로 기능함"
+
+claims_and_evidence:
+  core_claim: "논픽션 서사와 저널리즘의 본질은 '검증의 규율(The Discipline of Verification)'에 있다. 이야기의 극적 재미와 생생함을 위해 디테일을 가공하거나, 합성 인물(Composite Character)을 만들거나, 확인되지 않은 감정적 일화를 배치하는 것은 수용자와의 신뢰 계약을 파괴하는 행위이다. 객관성은 기자의 주관적 중립성을 의미하는 것이 아니라, 자연과학의 방법론처럼 '검증 기법의 객관성(Objective Method of Verification: 원본 교차 확인, 3각 검증, 겸손함)'을 의미한다."
+  verbatim_quotes:
+    - original: "The essence of journalism is a discipline of verification... The discipline of verification is what separates journalism from entertainment, propaganda, fiction, or art. Never add anything that was not there; never deceive the reader; be as transparent as possible about your methods and motives."
+      translation: "저널리즘의 본질은 검증의 규율이다... 검증의 규율은 저널리즘을 오락, 선전, 허구, 또는 예술과 구별 짓는 기준이다. 거기에 없었던 것은 결코 덧붙이지 말라. 독자를 결코 속이지 말라. 당신의 취재 방식과 동기에 대해 가능한 한 투명하라."
+      citation_location: "Chapter 4: A Discipline of Verification, pp. 71-75"
+
+story_application:
+  application_idea: "사실 기반 롱폼 서사(다큐, 실화 바탕 드라마, 탐사 르포)를 집필할 때, '더 극적이고 감동적인 연출'을 위해 디테일을 창작하거나 합성해서는 안 됨. 진정한 생생함은 '허구적 가공'이 아니라 '철저한 다각도 팩트체크(문서, 녹취, 복수 교차 증언)'를 통해 발굴된 '검증된 디테일(Verified Detail)'에서 나와야 함."
+  narrative_stage: "Factchecking, Script Verification & Nonfiction Ethics"
+  emotional_mechanics:
+    trigger: "실제 사건의 복잡하고 거친 사실적 디테일의 제시"
+    build_up: "철저한 검증에 기반한 흔들리지 않는 서사적 신뢰감 구축"
+    peak: "극적 과장이 아닌 차가운 진실 자체가 주는 압도적인 도덕적 충격"
+    release: "거짓이나 왜곡의 폭로 없이 서사의 메시지가 영구적 역사적 정당성을 획득"
+  failure_modes: "재미를 위해 가짜 일화나 대사를 지어냈다가 사후에 발각되어 작품 전체의 가치를 폐기 처분당하는 오류 (예: 자넷 쿡, 스테판 글래스 사건)"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "실화, 다큐멘터리, 탐사 보도, 역사적 사건 재구성 등 사실성을 표방하는 모든 롱폼 서사에 100% 필수 적용"

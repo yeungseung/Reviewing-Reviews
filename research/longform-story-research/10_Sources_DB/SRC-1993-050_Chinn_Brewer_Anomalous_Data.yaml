@@ -1,0 +1,45 @@
+source_id: "SRC-1993-050"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "The role of anomalous data in knowledge acquisition: A theoretical framework and implications for science instruction"
+  authors:
+    - "Chinn, Clark A. (University of Illinois at Urbana-Champaign)"
+    - "Brewer, William F. (University of Illinois at Urbana-Champaign)"
+  institution: "University of Illinois at Urbana-Champaign"
+  published_date: "1993-03-01"
+  source_url: "https://doi.org/10.3102/00346543063001001"
+  source_type: "Peer-reviewed Journal (Review of Educational Research)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Cognitive Science & Science Education Theory"
+    sample_size: "Comprehensive historical and cognitive experimental synthesis"
+    target_population: "Scientific thinkers, students, and general learners"
+    relationship_type: "Causal & Epistemic"
+    replicated: "Highly Replicated (Foundational framework on conceptual change and anomalous data, 2000+ citations)"
+    limitations: "과학 교육 및 개념 변화 이론 기반이나 지식 기반 롱폼 서사의 질문-모순 엔진에 완벽히 부합"
+
+claims_and_evidence:
+  core_claim: "인간의 인지 체계는 기존 이론/상식으로 설명되지 않는 '이상 데이터(Anomalous Data)'와 직면할 때 기존 스키마를 방어하거나 수정하려는 강력한 지적 탐색을 시작하며, 이상현상이 신뢰할 만하고 설명 불가능할 때 비로소 패러다임 전환과 깊은 몰입이 발생한다."
+  verbatim_quotes:
+    - original: "Anomalous data trigger a search for alternative explanations. When individuals cannot ignore or reject the anomaly, they are driven toward theory change to resolve the contradiction."
+      translation: "이상 데이터는 대안적 설명을 향한 탐색을 촉발한다. 개인이 이상현상을 무시하거나 거부할 수 없을 때, 모순을 해결하기 위해 이론 변화를 향해 나아가게 된다."
+      citation_location: "pp.1-5, Introduction"
+
+story_application:
+  application_idea: "지식 롱폼 콘텐츠의 핵심 구조는 '기존의 지배적 상식 제시 → 상식을 완전히 깨부수는 이상 데이터(Anomaly) 돌출 → 기존 가설의 연쇄 붕괴 → 숨겨진 진실/새로운 메커니즘의 규명'이라는 4단계 발견 서사(Discovery Narrative)로 설계해야 함."
+  narrative_stage: "Act 1 Discovery Engine & Paradigm Shift"
+  emotional_mechanics:
+    trigger: "반박할 수 없는 명백한 이상현상(Anomaly)의 목격"
+    build_up: "기존 상식으로 끼워 맞추려다 실패하는 지적 좌절"
+    peak: "상식을 뒤엎는 새로운 인과 법칙의 번뜩임"
+    release: "우주와 세계에 대한 새로운 이해 및 지적 유레카"
+  failure_modes: "이상현상이 너무 복잡하거나 수용자의 기본 스키마와 무관하면 단순한 혼란이나 무관심으로 끝남"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "과학, 역사, 기술, 탐사보도 등 객관적 진실 규명이 목적인 콘텐츠에 적용"

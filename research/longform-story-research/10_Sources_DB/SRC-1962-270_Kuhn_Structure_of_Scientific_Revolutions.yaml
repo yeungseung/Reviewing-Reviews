@@ -1,0 +1,24 @@
+id: SRC-1962-270
+title: "The Structure of Scientific Revolutions"
+authors:
+  - "Thomas S. Kuhn"
+year: 1962
+type: academic_primary
+tier: 1
+publication: "University of Chicago Press"
+pages: "1-210"
+isbn: "978-0226458083"
+citation_count: 142000
+key_findings:
+  - "과학적 지식 발전의 비연속적 혁명성 규명: 기존 패러다임이 설명하지 못하는 이상 현상(Anomaly)의 누적으로 인한 위기(Crisis)와 새로운 패러다임 전환(Paradigm Shift)."
+  - "단순한 지식의 점진적 축적이 아니라, 세계를 바라보는 개념적 틀(Conceptual Framework) 전체가 뒤바뀌는 인식론적 역전 메커니즘 입증."
+  - "정보형·과학사 콘텐츠에서 '통념의 누적 ➔ 모순 데이터 폭로 ➔ 패러다임 대전환'으로 이어지는 지적 반전의 학술적 원전 제공."
+core_claims:
+  - "지식의 진보는 점진적 추가가 아니라 기존 패러다임을 전면적으로 뒤흔드는 인식론적 혁명(반전)을 통해 이루어진다."
+  - "이상 현상(Anomaly)의 데이터가 임계점을 넘을 때 관객의 멘탈 모델은 불가피한 패러다임 전환을 겪는다."
+keywords:
+  - paradigm shift
+  - anomaly
+  - scientific revolutions
+  - cognitive reframe
+  - epistemology

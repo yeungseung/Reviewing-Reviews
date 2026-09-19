@@ -1,0 +1,46 @@
+source_id: "SRC-1995-015"
+created_at: "2026-09-15"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "The construction of situation models in narrative comprehension: An event-indexing model"
+  authors:
+    - "Zwaan, Rolf A. (Florida State University)"
+    - "Langston, Mark C."
+    - "Graesser, Arthur C."
+  institution: "Florida State University / University of Memphis"
+  published_date: "1995-09-01"
+  source_url: "https://doi.org/10.1111/j.1467-9280.1995.tb00513.x"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Cognitive Linguistics & Experimental Reading Reaction"
+    sample_size: 120
+    target_population: "서사 독서자 및 미디어 인지 수용자"
+    relationship_type: "Causal Mental Representation"
+    replicated: "Replicated (인지언어학 및 담화 심리학 랜드마크)"
+    limitations: "문장 단위 독해 실험 기반으로 시각적 몽타주에 대한 인덱싱 연구 추가 필요"
+
+claims_and_evidence:
+  core_claim: "서사를 이해할 때 독자/시청자의 뇌는 텍스트 표면을 암기하는 것이 아니라, 5대 핵심 차원(시간, 공간, 인과, 인물, 목표)을 지속적으로 모니터링하며 '상황 모델(Situation Model = Story Track)'을 구축함."
+  verbatim_quotes:
+    - original: "Readers track five dimensions of the situation model during narrative comprehension: time, space, causation, protagonist, and intentionality (goals)."
+      translation: "독자들은 서사 이해 과정에서 상황 모델의 5가지 차원인 시간, 공간, 인과, 주인공, 그리고 의도성(목표)을 추적한다."
+      citation_location: "p.292, Introduction"
+
+story_application:
+  application_idea: "시청자가 이야기를 이해하게 만들려면 '시간이 언제인지, 공간이 어디인지, 인과관계가 무엇인지, 누구의 목표인지'를 명확히 인덱싱해주어야 한다. 이 5개 축 중 2개 이상이 모호해지면 상황 모델이 붕괴하여 감정 몰입이 즉각 차단된다."
+  narrative_stage: "Exposition, Setup, and Scene Transition"
+  emotional_mechanics:
+    trigger: "5대 차원의 명확한 앵커링"
+    build_up: "인지적 상황 모델의 안정적 구축"
+    peak: "상황 모델 내 인과적 충돌"
+    release: "해결을 통한 상황 모델의 완성"
+  failure_modes: "시공간이나 인과관계가 불분명한 연출은 관객에게 '지적 피로'와 '혼란'을 초래하여 이탈 유발"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "스토리텔링을 포함하는 모든 담화 및 영상"

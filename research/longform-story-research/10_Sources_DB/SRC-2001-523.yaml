@@ -1,0 +1,12 @@
+id: SRC-2001-523
+author: Klaus R. Scherer, Angela Schorr, & Tom Johnstone
+year: 2001
+title: "Appraisal Processes in Emotion: Theory, Methods, Research"
+venue: "Oxford University Press, Series in Affective Science"
+tier: 1
+citation_count: 3600
+url: https://doi.org/10.1093/oso/9780195130072.001.0001
+key_contribution: "구성요소 처리 모델(Component Process Model, CPM) 정립. 감정은 단일한 반응이 아니라 새로 유입된 정보에 대한 연속적 인지 평가(새로움 ➔ 본질적 유쾌성 ➔ 목표 정합성 ➔ 대처 잠재력 ➔ 규범 적합성)의 순환적 결과이며, 발생한 감정이 다시 다음 정보 처리를 조정하는 '정보-감정 상호 재귀 루프'를 규명."
+relevance: "서사에서 팩트와 정보가 어떻게 관객의 감정 평가를 촉발하고, 그 감정이 다시 후속 정보 탐색의 동기가 되는지를 설명하는 핵심 서사 평가 이론."
+themes:
+  - "#54 Theme 1"

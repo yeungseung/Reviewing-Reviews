@@ -1,0 +1,46 @@
+source_id: "SRC-1994-037"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Constructing inferences during narrative text comprehension"
+  authors:
+    - "Graesser, Arthur C. (University of Memphis)"
+    - "Singer, Murray (University of Manitoba)"
+    - "Trabasso, Tom (University of Chicago)"
+  institution: "University of Memphis / University of Chicago"
+  published_date: "1994-07-01"
+  source_url: "https://doi.org/10.1037/0033-295X.101.3.371"
+  source_type: "Peer-reviewed Journal (Psychological Review)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Cognitive Theory & Empirical Synthesis"
+    sample_size: "Multiple experimental studies review and model validation"
+    target_population: "Human text comprehenders"
+    relationship_type: "Causal & Structural"
+    replicated: "Highly Replicated (Foundational text comprehension framework, 3000+ citations)"
+    limitations: "주로 서사 텍스트 기반 연구이나 시각적 영상 서사 이해의 인지적 모델로 확장됨"
+
+claims_and_evidence:
+  core_claim: "독자는 서사를 수용할 때 인물의 '목표(Goal)'를 중심으로 '왜(Why)'와 '어떻게(How)'의 인과적 추론을 능동적으로 생성하며, 목표 중심 인과 사슬이 서사 상황 모델(Situation Model)의 응집성과 인지적 몰입을 결정한다."
+  verbatim_quotes:
+    - original: "Readers construct a meaning representation that addresses the reader's goals, that is causally coherent, and that explains why actions and events occur in the plot."
+      translation: "독자는 독자 자신의 목표를 다루고, 인과적으로 일관되며, 플롯에서 왜 그러한 행동과 사건이 일어나는지를 설명하는 의미 표상을 능동적으로 구성한다."
+      citation_location: "p.371, Abstract"
+
+story_application:
+  application_idea: "모든 주요 장면과 사건은 인물의 목표 추구와 직간접적으로 연결되는 인과적 '이유(Why)'를 제공해야 하며, 목표와 무관한 사건의 파편적 나열은 독자의 인과 추론 엔진을 멈추게 하여 몰입을 해체함."
+  narrative_stage: "Macro Narrative Architecture & Scene Causality"
+  emotional_mechanics:
+    trigger: "인물의 명확한 목표 제시 및 행동 개시"
+    build_up: "목표 달성을 위한 하위 목표(Sub-goals)와 장애물의 인과적 추론"
+    peak: "목표 달성 여부를 결정짓는 분기점"
+    release: "결과 확인 및 서사적 완결성 획득"
+  failure_modes: "인물의 목표가 모호하거나 사건이 목표와 무관하게 무작위로 발생하면 관객은 스토리 추적을 포기함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "인지적 응집성이 요구되는 모든 목적 지향적 서사에서 보편적으로 작동"

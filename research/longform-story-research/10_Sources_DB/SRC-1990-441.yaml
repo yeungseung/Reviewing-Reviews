@@ -1,0 +1,12 @@
+id: SRC-1990-441
+author: Paul van den Broek
+year: 1990
+title: 'The causal inference maker: Towards a process model of inference generation in text comprehension'
+venue: 'Comprehension Processes in Reading (Lawrence Erlbaum)'
+tier: 1
+citation_count: 820
+url: https://psycnet.apa.org/record/1990-98448-017
+key_contribution: 텍스트 이해에서의 인과 추론 생성 모델(Causal Inference Maker)을 정립. 인간 독자는 사건의 단순 결과(Answer)에 만족하지 않고, 그 결과가 초래하는 인과적 파급 효과(Consequence)와 후속 목표/행동(New Stakes)으로 이어질 때 비로소 거시적 상황 모델을 일관되게 통합함을 실증.
+relevance: 탐구형 챕터에서 5단계(Consequence)와 6단계(New Question Transition)가 왜 단순 해답(Answer)만으로 챕터를 닫지 않고 차기 챕터로 서사를 전이시켜야 하는지 규명하는 결정적 인지 이론.
+themes:
+  - '#47 Theme 1'

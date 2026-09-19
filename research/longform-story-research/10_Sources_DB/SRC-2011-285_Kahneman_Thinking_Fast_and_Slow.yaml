@@ -1,0 +1,24 @@
+id: SRC-2011-285
+title: "Thinking, Fast and Slow"
+authors:
+  - "Daniel Kahneman"
+year: 2011
+type: academic_primary
+tier: 1
+publication: "Farrar, Straus and Giroux"
+pages: "1-499"
+isbn: "978-0374275631"
+citation_count: 55000
+key_findings:
+  - "이해의 환상(Illusion of Understanding)과 결과 편향(Outcome Bias) 체계화: 인간은 결과가 좋으면 의사결정이 훌륭했다고 믿고, 결과가 나쁘면 행위자의 악의나 무능 때문이었다고 거꾸로 동기를 사후 추론(Post Hoc Motive Inference)함."
+  - "보이는 것이 전부다(WYSIATI: What You See Is All There Is): 제한된 단서 몇 개만으로 과도하게 일관된(Coherent) 인과 이야기를 급조하여 사후적 필연성을 착각함."
+  - "정보형 반전 서사에서 결과로부터 역산하여 행위자에게 악마적/천재적 동기를 날조하는 '사후적 동기 추론(Post Hoc Motive Inference)'의 인지적 오류를 학술적으로 완벽히 규명."
+core_claims:
+  - "우리는 과거를 완벽히 이해하고 있다는 치명적인 서사적 환상 속에서 살아간다."
+  - "결과 편향에 기댄 사후적 동기 추론은 반전 서사의 자극을 높이지만 사실의 정직성을 심각하게 파괴한다."
+keywords:
+  - outcome bias
+  - illusion of understanding
+  - wysiati
+  - post hoc motive inference
+  - narrative coherence

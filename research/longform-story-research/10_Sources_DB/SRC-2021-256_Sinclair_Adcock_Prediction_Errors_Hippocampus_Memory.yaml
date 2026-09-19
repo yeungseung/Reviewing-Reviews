@@ -1,0 +1,30 @@
+id: SRC-2021-256
+title: "Prediction errors disrupt hippocampal representations and update episodic memories"
+authors:
+  - "Alyssa H. Sinclair"
+  - "Matthew L. Manalili"
+  - "Gregory W. Brunec"
+  - "Michael D. R. Robin"
+  - "R. Alison Adcock"
+year: 2021
+type: academic_primary
+tier: 1
+publication: "Proceedings of the National Academy of Sciences"
+volume: "118"
+issue: "51"
+pages: "e2117625118"
+doi: "10.1073/pnas.2117625118"
+citation_count: 120
+key_findings:
+  - "서사 영상(Narrative Videos) 시청 중 예측 오차(Prediction Error)가 발생했을 때 해마(Hippocampus)의 신경 표상이 일시적으로 중단·붕괴되고 에피소드 기억이 갱신되는 메커니즘을 fMRI로 실증."
+  - "예상대로 진행되는 서사에서는 해마의 신경 활성 패턴이 안정적으로 유지되는 반면, 예상치 못한 반전이나 사건 중단이 발생하면 해마 표상이 재구성되며 기억이 적극적으로 업데이트됨."
+  - "예측 오차의 크기가 클수록 기존 기억의 수정 강도가 강해지며, 기저전뇌(Basal Forebrain)의 콜린성 조절을 통해 주의와 새로운 서사 기억의 각인이 극대화됨."
+core_claims:
+  - "서사의 예측 오차는 해마의 기존 표상을 리셋하고 새로운 에피소드 기억으로 덮어쓰는 생물학적 계기이다."
+  - "반전의 순간에 관객의 뇌는 기존 기억을 재구성하며 강렬한 기억 각인 효과를 얻는다."
+keywords:
+  - prediction error
+  - episodic memory
+  - hippocampus
+  - narrative video
+  - memory updating

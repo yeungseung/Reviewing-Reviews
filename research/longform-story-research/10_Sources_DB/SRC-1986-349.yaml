@@ -1,0 +1,14 @@
+id: SRC-1986-349
+author: Richard E. Petty & John T. Cacioppo
+year: 1986
+title: The Elaboration Likelihood Model of Persuasion
+venue: Advances in Experimental Social Psychology (Academic Press)
+tier: 1
+citation_count: 16500
+url: https://doi.org/10.1016/S0065-2601(08)60214-2
+key_contribution: '정교화 가능성 모델(ELM)을 정초하여, 중심 경로(Central Route: 스스로 논리와 증거를 검토하여 결론을
+  내림)를 통해 형성된 신념과 태도가 주변 경로(감정적 호소나 권위 복종)보다 훨씬 강력하고 장기적으로 지속됨을 증명.'
+relevance: 팩추얼 롱폼에서 결론을 강요하지 않고 증거 기반 추론(Evidence-based Inference)을 유도할 때 시청자의 인지적
+  각인과 완청률이 극대화되는 원리.
+themes:
+- '#39 Theme 2'

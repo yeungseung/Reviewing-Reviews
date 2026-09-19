@@ -1,0 +1,12 @@
+id: SRC-2003-585
+author: B.J. Fogg
+year: 2003
+title: 'Prominence-Interpretation Theory: Explaining How People Assess Credibility Online'
+venue: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems (CHI '03), pp. 722-723
+tier: 1
+citation_count: 980
+url: https://doi.org/10.1145/642611.642735
+key_contribution: 현저성-해석 이론(Prominence-Interpretation Theory)의 제창. 미디어 및 정보 인터페이스에 대한 공신력 평가는 1) 관객이 특정 단서를 눈치채는 단계(Prominence)와 2) 그 단서에 가치를 부여해 전체를 판단하는 단계(Interpretation)의 2단계로 진행됨. 사소한 숫자 오기, 연도 오류, 어색한 B-roll 등 단 하나의 현저한 결함이 포착되면 전체 콘텐츠의 진실성에 대한 해석 점수가 -60% 이상 파괴되는 불균형적 신뢰 붕괴 메커니즘 규명.
+relevance: 단 하나의 사소한 팩트 오류도 전체 서사를 무너뜨리므로 하드 팩트에 대한 0.1% 무관용 검증 게이트(FCG-T)가 필수적임을 증명하는 근거.
+themes:
+- '#59 Theme 1'

@@ -1,0 +1,14 @@
+id: SRC-2003-555
+author: John M. Henderson
+year: 2003
+title: Human gaze control during real-world scene perception
+venue: Trends in Cognitive Sciences, 7(11), pp. 498-504
+tier: 1
+citation_count: 1850
+url: https://doi.org/10.1016/j.tics.2003.09.006
+key_contribution: 실제 장면 지각 시 인간의 시선 제어(Gaze Control)와 인지적 우선순위 메커니즘 규명. 시각적 돌출도(Visual
+  Saliency)보다 서사적 의미 관련성(Meaning Map / Task Relevance)이 시선 고정(Fixation)을 지배하며, 한 프레임
+  내 복수 요소가 공존할 때 얼굴 ➔ 텍스트 ➔ 맥락 오브제 순으로 200ms 단위의 시선 스캔 경로가 형성됨을 실증.
+relevance: 한 컷에 복수 기능이 중첩될 때 관객의 뇌가 시각적 우선순위를 처리하는 시선 경로와 인지 부하의 과학적 기준선 확립.
+themes:
+- '#56 Theme 3'

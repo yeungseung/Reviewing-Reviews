@@ -1,0 +1,12 @@
+id: SRC-2008-543
+author: Colin Ware
+year: 2008
+title: "Visual Thinking for Design"
+venue: "Morgan Kaufmann / Elsevier, Burlington"
+tier: 1
+citation_count: 1920
+url: https://doi.org/10.1016/B978-0-12-370896-0.X0001-3
+key_contribution: "시각적 사고와 디자인을 위한 인지 지각 이론 정립. 인간 시각 피질의 전주의적 처리(Preattentive Processing) 특성을 분석하고, 복합 데이터를 선·형태·색상·비포-애프터 대비로 시각화할 때 작업 기억 부담 없이 즉각적 통찰(Aha! Moment)이 유발됨을 실증."
+relevance: "과학, 교육, 테크 리뷰 장르에서 추상적 수치와 복합 인과관계를 직관적 데이터 시각화와 전후 대비(Before-After Contrast)로 갱신하는 공학적 기초."
+themes:
+  - "#55 Theme 3"

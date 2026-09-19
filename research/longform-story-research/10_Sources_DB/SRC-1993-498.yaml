@@ -1,0 +1,12 @@
+id: SRC-1993-498
+author: Daniel Kahneman, Barbara L. Fredrickson, Charles A. Schreiber, & Donald A. Redelmeier
+year: 1993
+title: "When More Pain Is Preferred to Less: Adding a Better End"
+venue: "Psychological Science, 4(6), 401-405"
+tier: 1
+citation_count: 2280
+url: https://doi.org/10.1111/j.1467-9280.1993.tb00589.x
+key_contribution: "피크-엔드 법칙(Peak-End Rule)과 지속 시간 무시(Duration Neglect)의 최초 실증. 전체 경험에 대한 사후 평가는 지속 시간이나 총 감정 합계가 아니라 감정의 최고점(Peak)과 최종 종료점(End)의 평균에 의해 결정됨을 규명."
+relevance: "서사 엔딩 구간의 최종 감정(Ending Emotion)이 관객의 총체적 콘텐츠 평가, 기억 저장, 평점 부여를 지배하는 핵심 인지심리학적 법칙."
+themes:
+  - "#52 Theme 1"

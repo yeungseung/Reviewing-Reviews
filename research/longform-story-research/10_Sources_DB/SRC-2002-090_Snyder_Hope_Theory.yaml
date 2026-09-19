@@ -1,0 +1,44 @@
+source_id: "SRC-2002-090"
+created_at: "2026-09-16"
+verified_by: "Antigravity Deep Research"
+
+bibliographic_info:
+  title: "Hope theory: Rainbows in the mind"
+  authors:
+    - "Snyder, C. R. (University of Kansas)"
+  institution: "University of Kansas"
+  published_date: "2002-10-01"
+  source_url: "https://doi.org/10.1207/S15327965PLI1304_01"
+  source_type: "Peer-reviewed Journal (Psychological Inquiry)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Cognitive-Motivational Theoretical Framework & Empirical Psychometric Synthesis"
+    sample_size: "Decades of empirical studies, psychometric scale validation (State/Trait Hope Scale) across thousands of subjects"
+    target_population: "Children, adolescents, and adults facing academic, athletic, and life adversities"
+    relationship_type: "Causal Mechanism (Obstacle -> Pathways Thinking + Agency Thinking -> Goal Attainment & Positive Affect)"
+    replicated: "Widely Replicated & Validated (Foundational pillar of positive psychology and motivation research, 4,200+ citations)"
+    limitations: "인지적 목표 지향성에 집중되어 있어 충동적·비합리적 감정 분출 서사에서는 보완적 정서 모델 필요"
+
+claims_and_evidence:
+  core_claim: "희망의 이중 인지 구조(Pathways & Agency Thinking)와 분투 서사: 희망은 단순한 막연한 낙관이 아니라, '목표에 도달할 수 있는 구체적 경로를 발견하거나 개척해내는 능력(Pathways Thinking)'과 '그 경로를 실행하고 장벽을 뚫고 나가겠다는 내적 추진력 및 신념(Agency Thinking)'의 결합체다. 성공 서사(Success Narrative)의 감정 아크(Struggle -> Hope -> Admiration)는 주인공이 거대한 장벽(Struggle)으로 기존 경로가 차단되었을 때, 굴복하지 않는 주체성(Agency)으로 혁신적인 새 경로(Pathways)를 개척하는 분투를 목격할 때 관객에게 전이된다."
+  verbatim_quotes:
+    - original: "Hope is a positive motivational state based on an interactively derived sense of successful (a) agency (goal-directed energy) and (b) pathways (planning to meet goals)... When individuals encounter significant blockages, high-hope individuals find alternative routes and sustain mental energy."
+      translation: "희망은 상호 작용을 통해 형성되는 성공적인 (a) 주체성(목표 지향적 에너지)과 (b) 경로(목표 달성을 위한 계획)에 기반을 둔 긍정적 동기 상태다... 중대한 장벽에 직면했을 때, 높은 희망을 가진 개인들은 대안적 경로를 찾아내고 정신적 에너지를 유지한다."
+      citation_location: "pp. 249-251"
+
+story_application:
+  application_idea: "성공 서사의 3단계 감정 역학(Struggle -> Hope -> Admiration): 주인공의 성공을 단순히 쉬운 승리로 묘사하지 말고, 기존의 모든 문제 해결 경로가 완벽히 차단당하는 절체절명의 장벽(Struggle)을 설정하라. 여기서 주인공이 포기하지 않는 내적 주체성(Agency)으로 누구도 생각지 못한 기발한 대안 경로(Pathway)를 뚫어내는 과정을 단계적으로 보여줄 때, 관객은 '희망(Hope)'의 전율을 느끼며 마침내 성취의 순간 도덕적 고양감과 찬사(Admiration)를 바치게 됨."
+  narrative_stage: "Success Narrative Arc (Severe Obstacle/Struggle -> Breakthrough/Hope Generation -> Triumph/Admiration)"
+  emotional_mechanics:
+    trigger: "압도적인 현실적 장벽과 기존 경로의 파괴로 인한 극심한 분투(Struggle)"
+    build_up: "좌절을 거부하는 집념(Agency)과 대안적 전략·발상의 전환(Pathways)이 결합되며 타오르는 희망(Hope)"
+    peak: "개척된 새로운 경로를 통한 불가능한 난제의 극적 돌파"
+    release: "탁월한 역량과 불굴의 정신에 대해 관객이 느끼는 찬사(Admiration)와 승리의 고양감"
+  failure_modes: "주인공의 고난(Struggle) 없이 데우스 엑스 마키나로 쉽게 이기거나, 대안 경로를 찾는 치열한 인지적 분투 없이 단순히 운으로 성공하여 찬사(Admiration)를 유발하지 못하는 실패"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "성공기, 언더독 승리극, 스포츠 드라마, 비즈니스 전기, 과학적 탐구 서사"

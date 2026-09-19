@@ -1,0 +1,12 @@
+id: SRC-2001-510
+author: Roy F. Baumeister, Ellen Bratslavsky, Catrin Finkenauer, & Kathleen D. Vohs
+year: 2001
+title: "Bad is Stronger than Good"
+venue: "Review of General Psychology, 5(4), 323-370"
+tier: 1
+citation_count: 11400
+url: https://doi.org/10.1037/1089-2680.5.4.323
+key_contribution: "부정성 편향(Negativity Bias)의 인지심리학적·진화론적 원리 종합 실증. 인간의 신경계는 긍정적 자극보다 부정적 사건·감정에 훨씬 더 빠르고 강하게 반응하지만, 부정적 정서의 누적은 심각한 회피 행동과 방어적 폐쇄를 촉발함을 규명."
+relevance: "부정적 엔딩이 단기 클릭과 주목도를 폭발적으로 끄는 반면, 지속 반복될 경우 관객의 방어적 이탈을 초래하는 근원적 인지 심리 기제."
+themes:
+  - "#53 Theme 1"

@@ -1,0 +1,14 @@
+id: SRC-1980-318
+author: James A. Russell
+year: 1980
+title: A Circumplex Model of Affect
+venue: Journal of Personality and Social Psychology
+tier: 1
+citation_count: 15800
+url: https://doi.org/10.1037/h0077714
+key_contribution: 인간의 정서 상태를 쾌/불쾌(Valence)와 각성/비각성(Arousal)의 2차원 공간 원형 모델(Circumplex
+  Model)로 구조화하여, 정서 상태의 벡터 전환이 주의 환기와 인지적 리셋을 촉발하는 기초 이론 제공.
+relevance: 서사에서 톤 및 정서 상태(Valence-Arousal 좌표)의 급격한 전환이 주의력 갱신(Attention Renewal)을
+  일으키는 정서역학적 근거.
+themes:
+- '#37 Theme 1'

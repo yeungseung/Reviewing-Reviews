@@ -1,0 +1,12 @@
+id: SRC-2007-418
+author: Jeffrey M. Zacks, Nicole K. Speer, Kael W. Swallow, Todd S. Braver, & Jeremy R. Reynolds
+year: 2007
+title: 'Event perception: a mind-brain perspective'
+venue: Psychological Bulletin
+tier: 1
+citation_count: 2100
+url: https://doi.org/10.1037/0033-2909.133.2.273
+key_contribution: 사건 분할 이론(Event Segmentation Theory, EST)을 정초. 뇌는 예측 오류가 증가하는 지점에서 사건 경계(Event Boundary)를 형성하고 작업기억의 상황 모델을 장기기억으로 압축·갱신함을 신경과학적으로 규명.
+relevance: 챕터 종료 시 명확한 상태 변화(State Change)가 존재해야 뇌가 사건 경계를 인식하고 서사적 진전을 체감할 수 있음을 입증하는 이론적 토대.
+themes:
+  - '#45 Theme 2'

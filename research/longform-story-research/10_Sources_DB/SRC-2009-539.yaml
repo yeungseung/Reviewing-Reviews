@@ -1,0 +1,12 @@
+id: SRC-2009-539
+author: Richard E. Mayer
+year: 2009
+title: "Multimedia Learning (2nd ed.)"
+venue: "Cambridge University Press, New York"
+tier: 1
+citation_count: 26800
+url: https://doi.org/10.1017/CBO9780511811678
+key_contribution: "멀티미디어 학습 인지 이론(CTML) 체계화. 양식 원칙(Modality Principle), 분할 주의 원칙(Split-Attention Principle), 중복 원칙(Redundancy Principle) 실증. 음성 내레이션이 제공될 때 화면에 동일한 텍스트를 그대로 나열하면 시각 채널의 과부하로 학습 효과가 유의미하게 저하됨을 입증."
+relevance: "롱폼 영상에서 시각과 음성의 최적 상호보완(Complementary) 관계를 규정하고, 무분별한 풀 자막 나열 및 산만한 화면 분할을 배제해야 하는 표준 근거 제공."
+themes:
+  - "#55 Theme 2"

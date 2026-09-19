@@ -1,0 +1,12 @@
+id: SRC-2003-536
+author: John M. Henderson
+year: 2003
+title: "Human gaze control during real-world scene perception"
+venue: "Trends in Cognitive Sciences, 7(11), 498-504"
+tier: 1
+citation_count: 1580
+url: https://doi.org/10.1016/j.tics.2003.09.006
+key_contribution: "실제 장면 지각에서의 시선 제어(Gaze Control)와 의미 지도(Meaning Maps) 이론 체계화. 인간의 시선 고정과 주의 이동은 밝기·대비·단순 움직임 같은 하향식 물리적 돌출성(Visual Saliency)보다, 장면에 부여된 서사적 맥락과 의미적 정보 가치(Cognitive/Semantic Relevance)에 의해 주도됨을 안구 추적 실험으로 입증."
+relevance: "시각적 주의를 리셋하는 진정한 힘은 번쩍이는 효과나 빠른 컷이 아니라, 관객의 시선을 붙잡는 새로운 '의미적 닻(Semantic Anchor)'의 제시에 있음을 밝히는 핵심 근거."
+themes:
+  - "#55 Theme 1"

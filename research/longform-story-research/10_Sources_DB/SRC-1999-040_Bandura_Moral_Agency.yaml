@@ -1,0 +1,44 @@
+source_id: "SRC-1999-040"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Moral disengagement in the perpetration of inhumanities"
+  authors:
+    - "Bandura, Albert (Stanford University)"
+  institution: "Stanford University"
+  published_date: "1999-08-01"
+  source_url: "https://doi.org/10.1207/S15327957PSPR0303_03"
+  source_type: "Peer-reviewed Journal (Personality and Social Psychology Review)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Social Cognitive Theory & Moral Psychology"
+    sample_size: "Theoretical and experimental synthesis"
+    target_population: "Human moral agents and observers"
+    relationship_type: "Causal & Evaluative"
+    replicated: "Highly Replicated (Landmark paper on moral agency and disengagement, 4000+ citations)"
+    limitations: "사회심리학적 도덕 판단 연구이나 미디어 엔터테인먼트의 안티히어로 및 인물 평가 모델로 정착됨"
+
+claims_and_evidence:
+  core_claim: "인간의 도덕적 평가와 몰입은 인물이 주체적 선택(Agency)을 행사할 때 비로소 발동되며, 선택의 결과에 대한 책임성(Accountability)과 동기의 정당성이 인물 동일시와 감정적 애착을 규정한다."
+  verbatim_quotes:
+    - original: "Moral agency is manifested in both the power to refrain from behaving inhumanely and the proactive power to behave humanely. Agency requires the belief in one's capability to exercise control over actions and consequences."
+      translation: "도덕적 주체성은 비인도적 행동을 삼가는 힘과 인도적으로 행동하는 능동적 힘 모두에서 나타난다. 주체성은 행동과 결과에 대해 통제력을 행사할 수 있다는 믿음을 요구한다."
+      citation_location: "pp.193-195"
+
+story_application:
+  application_idea: "수동적으로 사건에 휘둘리는 수동적 피해자보다, 고통스러운 딜레마 속에서도 스스로 선택하고 그 결과에 책임을 지는 주체적 인물(Active Agent)이 관객의 도덕적 관여와 정서적 동일시를 압도적으로 강력하게 유도함."
+  narrative_stage: "Character Decision & Turning Point"
+  emotional_mechanics:
+    trigger: "가치 충돌 상황에서의 갈림길(Dilemma) 직면"
+    build_up: "선택에 따른 내적 고뇌와 책임의 무게 체감"
+    peak: "주체적 결단(Moral Choice)의 실행"
+    release: "선택의 결과에 직면하며 발생하는 인격적 성숙 또는 파국"
+  failure_modes: "인물이 선택하지 않고 우연이나 외부 조력에만 의존하면 관객은 인물에 대한 매력과 존경을 상실함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "인간 중심 서사에서 인물의 선택과 주체성이 극적 추진력을 쥐는 경우에 해당"

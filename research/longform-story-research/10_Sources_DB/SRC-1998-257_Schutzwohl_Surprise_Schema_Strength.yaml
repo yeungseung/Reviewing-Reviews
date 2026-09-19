@@ -1,0 +1,26 @@
+id: SRC-1998-257
+title: "Surprise and schema strength"
+authors:
+  - "Achim Schützwohl"
+year: 1998
+type: academic_primary
+tier: 1
+publication: "Journal of Experimental Psychology: Learning, Memory, and Cognition"
+volume: "24"
+issue: "5"
+pages: "1182-1199"
+doi: "10.1037/0278-7393.24.5.1182"
+citation_count: 310
+key_findings:
+  - "스키마의 강도(Schema Strength)와 불일치 사건이 유발하는 놀라움(Surprise)의 3대 인지 심리학적 메커니즘 체계화."
+  - "1) 진행 중인 인지 처리 활동의 즉각적 중단(Interruption), 2) 불일치 사건으로의 주의 강제 집중(Focusing of Attention), 3) 주관적 놀라움의 감정 경험."
+  - "관객이 확신하는 스키마가 강할수록 불일치 사건 발생 시 처리 지연 시간이 길어지며, 원인을 규명하기 위한 인지적 분석(Causal Attribution & Schema Accommodation) 노력이 급증함."
+core_claims:
+  - "놀라움은 기존 정보 처리를 강제 중단시키고 주의를 100% 재집중시키는 인지적 리셋 버튼이다."
+  - "강력한 스키마를 사전에 구축할수록 반전의 인지적 충격과 몰입 효과가 기하급수적으로 커진다."
+keywords:
+  - surprise
+  - schema strength
+  - schema inconsistency
+  - interruption
+  - attention focusing

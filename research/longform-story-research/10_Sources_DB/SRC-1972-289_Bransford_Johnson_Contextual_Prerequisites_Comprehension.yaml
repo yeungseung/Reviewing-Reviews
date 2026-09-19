@@ -1,0 +1,27 @@
+id: SRC-1972-289
+title: "Contextual Prerequisites for Understanding: Some Investigations of Comprehension and Recall"
+authors:
+  - "John D. Bransford"
+  - "Marcia K. Johnson"
+year: 1972
+type: academic_primary
+tier: 1
+publication: "Journal of Verbal Learning and Verbal Behavior"
+volume: "11"
+issue: "6"
+pages: "717-726"
+doi: "10.1016/S0022-5371(72)80006-9"
+citation_count: 6500
+key_findings:
+  - "인지심리학의 불후의 고전 연구: 사전 맥락(Prior Context)과 스키마 활성화가 텍스트 이해도와 기억 회상에 미치는 결정적 영향 증명 ('빨래 문단' 및 '풍선 세레나데' 실험)."
+  - "문장의 개별 단어들이 아무리 쉬워도, 적절한 인지적 틀(Schema/Anchor)이 사전에 활성화되지 않으면 뇌는 의미론적 통합(Comprehension)에 완전히 실패함."
+  - "서사 전환부에서 과도한 신기성(Novelty)만을 추구하여 선행 맥락과의 연결고리를 상실할 경우, 서사적 일관성(Coherence)이 붕괴되어 시청자가 탈락함을 입증."
+core_claims:
+  - "이해는 단순한 문장 해독이 아니라 사전에 활성화된 맥락적 스키마에 새로운 정보를 통합하는 과정이다."
+  - "Rehook은 신기성을 제공하되 선행 서사 맥락과 의미론적 정합성(Coherence)을 유지하는 범위 내에서만 기능한다."
+keywords:
+  - contextual prerequisites
+  - schema activation
+  - comprehension and recall
+  - narrative coherence
+  - topic shift

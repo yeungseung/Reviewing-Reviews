@@ -1,0 +1,46 @@
+source_id: "SRC-2011-140"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Consider it done! Plan making can eliminate the cognitive effects of unfulfilled goals"
+  authors:
+    - "Masicampo, E. J. (Wake Forest University)"
+    - "Baumeister, Roy F. (Florida State University)"
+  institution: "Florida State University"
+  published_date: "2011-10-01"
+  source_url: "https://doi.org/10.1037/a0024192"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1 Experimental Social Psychology"
+  methodology:
+    study_type: "Experimental"
+    sample_size: 345
+    target_population: "대학생 및 일반 성인 피험자"
+    relationship_type: "Causal"
+    effect_size: "미완성 목표 활성화로 인한 후속 독해 과제 주의 방해 유의미 (p < .01); 계획 수립 시 주의 간섭 소멸"
+    replicated: "Replicated (목표 추구 및 자이가르닉 효과의 인지심리학적 재해석)"
+    limitations: "실험실 내 학업 및 일상 과제 목표를 중심으로 측정하여 허구적 서사 몰입에서의 대리 목표 지속 시간은 추가 검증 필요"
+
+claims_and_evidence:
+  core_claim: "달성되지 않은 미완성 목표는 뇌의 작업 기억에 억제되지 않는 인지적 활성화(침투적 사고)를 지속적으로 유발하여 다른 과제에 대한 주의 집중을 방해하며, 이러한 인지적 긴장은 목표가 실제로 완료되거나 구체적인 실행 계획이 수립될 때 비로소 해소된다."
+  verbatim_quotes:
+    - original: "Unfulfilled goals persist in working memory and cause cognitive interference... Intrusive thoughts about unfinished business consume executive resources unless closure or a concrete plan is achieved."
+      translation: "달성되지 않은 목표는 작업 기억에 지속되어 인지적 간섭을 일으킨다... 미완성된 일에 대한 침투적 사고는 종결에 도달하거나 구체적인 계획이 수립되지 않는 한 집행 자원을 소모시킨다."
+      citation_location: "Journal of Personality and Social Psychology, 101(4), p. 667, 679"
+
+story_application:
+  application_idea: "서사 오프닝에서 주인공에게 절체절명의 '미완성 목표(Unfulfilled Goal)'를 부여하면, 관객은 주인공과 대리 동일시를 일으켜 자신의 작업 기억에 동일한 인지적 미완성 상태를 형성하게 되며, 이 목표가 완수될 때까지 다른 자극으로 주의를 분산시키지 못하고 스토리에 묶이게 됨."
+  narrative_stage: "Inciting Incident & Main Dramatic Question"
+  emotional_mechanics:
+    trigger: "주인공의 결핍 및 해결해야 할 긴급 과제 제시"
+    build_up: "미완성 목표로 인한 인지적 간섭과 주의 집중 유지"
+    peak: "목표 달성의 최대 위기"
+    release: "목표 달성 및 작업 기억의 인지적 해방"
+  failure_modes: "주인공의 목표가 모호하거나 사소하여 관객에게 '미완성 인지 긴장'을 형성하지 못하는 실패"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "관객이 주인공의 목표에 정서적·도덕적으로 동의(Buy-in)해야 함"

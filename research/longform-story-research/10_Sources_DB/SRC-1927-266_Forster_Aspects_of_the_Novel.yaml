@@ -1,0 +1,23 @@
+id: SRC-1927-266
+title: "Aspects of the Novel"
+authors:
+  - "E. M. Forster"
+year: 1927
+type: academic_primary
+tier: 1
+publication: "Edward Arnold / Harcourt, Brace & Company"
+pages: "1-224"
+citation_count: 8900
+key_findings:
+  - "스토리(Story)와 플롯(Plot)의 근본적 차이 정초: 스토리는 시간적 연속('왕이 죽었고 왕비가 죽었다')이지만, 플롯은 인과적 지능('왕이 죽었고 왕비가 슬픔으로 죽었다')임."
+  - "서사에서 미스터리와 반전은 인과적 정합성(Causal Coherence)에 완전히 종속되며, 인과 고리가 결여된 단순 사건 나열은 플롯이 될 수 없음을 규명."
+  - "관객이 반전 후 느끼는 만족감은 인과적 논리(Logic of Causality)가 완전한 고리(Full Circle)를 이룰 때 발생함을 논증."
+core_claims:
+  - "플롯의 본질은 인과성에 있으며, 반전은 과거 사건들의 숨겨진 인과관계를 완성하는 장치이다."
+  - "인과적 필연성이 결여된 사건의 반전은 플롯의 붕괴를 초래한다."
+keywords:
+  - causal coherence
+  - plot vs story
+  - causality
+  - mystery
+  - narrative structure

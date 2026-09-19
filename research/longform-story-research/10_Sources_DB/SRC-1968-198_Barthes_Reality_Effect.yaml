@@ -1,0 +1,40 @@
+source_id: SRC-1968-198
+created_at: '2026-09-17'
+verified_by: Gemini Deep Research
+bibliographic_info:
+  title: "L'effet de réel (The Reality Effect)"
+  authors:
+  - Barthes, Roland (École Pratique des Hautes Études, Paris)
+  institution: École Pratique des Hautes Études (EPHE) / Collège de France
+  published_date: '1968-03-01'
+  source_url: https://doi.org/10.3406/comm.1968.1158
+  source_type: Foundational Narrative Semiotics & Literary Theory (Communications, 11, 84-89)
+credibility_assessment:
+  credibility_tier: Tier 1 Narrative Theory & Semiotics
+  methodology:
+    study_type: Structural Semiotic & Textual Analysis
+    sample_size: Analysis of Realist Literature (Flaubert, Michelet, etc.)
+    target_population: 서사 텍스트의 독자 및 수용자
+    relationship_type: Semiotic & Aesthetic Functionalism (Superfluous Detail -> Signification of the Real)
+    effect_size: 플롯의 인과 척추와 무관해 보이는 잉여 세부(플로베르의 기압계 등)가 '우리는 현실이다'라는 지표적 기호로 작용함을 규명 (서사 기호학 분야 4,500+ 피인용 불후의 고전)
+    replicated: Universally Adopted (현대 서사학, 영화학, 문화비평의 절대적 기준 이론)
+    limitations: 문학 텍스트 중심 분석으로 인지심리학적 인지 부하 측정치는 현대 교육심리학 실험으로 보완 필요
+claims_and_evidence:
+  core_claim: 서사 내에서 인물의 행동이나 플롯 전개에 직접적으로 기여하지 않는 구체적이고 사소한 세부 묘사(예: 벽에 걸린 기압계, 낡은 피아노 등)는 '무기능한 잡음'이 아니다. 이 잉여 디테일들은 기의(Signified)와의 연결을 건너뛰고 '현실 그 자체(The Real)'를 직접 지시함으로써 서사에 박진감(Verisimilitude), 분위기(Atmosphere), 구체적 실재감을 부여하는 고유한 '실재 효과(Reality Effect)'를 수행한다. 모든 정보를 기능주의적 뼈대로만 압축하면 서사는 메마른 도식으로 전락한다.
+  verbatim_quotes:
+  - original: The pure and simple 'representation' of the 'real', the naked relation of 'what is' appears thus as a resistance to meaning. This very resistance is meaningful: by signifying 'we are the real', superfluous details produce a reality effect that underpins the entire narrative structure.
+    translation: '현실'의 순수하고 단순한 '재현', '있는 그대로'의 적나라한 서술은 의미에 대한 저항으로 나타난다. 그러나 이 저항 자체가 의미를 갖는다. '우리는 현실이다'를 기호화함으로써, 잉여 디테일들은 서사 구조 전체를 떠받치는 실재 효과(Reality Effect)를 산출한다.
+    citation_location: pp. 84-88
+story_application:
+  application_idea: 롱폼 스토리의 '분위기/텍스처(Tone/Texture) 방어권'. 과도한 기능주의 에디팅으로 인해 작품이 딱딱한 요약본처럼 메마르는 것을 방지하는 안전장치. 작가가 배치한 감각적 디테일(공간의 냄새, 인물의 사소한 습관, 배경의 물건)이 인과 플롯을 전진시키지 않더라도 '세계관의 실재감'을 지탱하는 실재 효과로 정당화되는 조건을 규정.
+  narrative_stage: Worldbuilding, Atmospheric Immersion & Sensory Texture Design
+  emotional_mechanics:
+    trigger: 서사 세계의 낯설음 및 가상성에 대한 의심
+    build_up: 플롯과 무관하지만 생생하고 감각적인 구체적 잉여 세부 제시
+    peak: '이 세계는 진짜 살아 숨쉰다'는 직관적 확신(Reality Click)
+    release: 의심의 유예(Suspension of Disbelief) 및 서사 세계로의 완전한 이입
+  failure_modes: 실재 효과를 핑계로 서사 흐름을 완전히 가로막는 무의미한 세부를 수십 쪽씩 늘어놓는 백과사전식 남발
+verification_status:
+  status: Strong Support
+  confidence_level: High
+  boundary_conditions: 세계관의 리얼리티와 시각적/감각적 몰입이 중요한 롱폼 드라마, 영화, 팩트 다큐멘터리에 강력히 적용됨

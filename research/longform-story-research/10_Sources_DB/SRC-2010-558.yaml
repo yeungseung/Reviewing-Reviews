@@ -1,0 +1,15 @@
+id: SRC-2010-558
+author: James E. Cutting, Jordan E. DeLong, & Christine E. Nothelfer
+year: 2010
+title: Attention and the Evolution of Hollywood Film
+venue: Psychological Science, 21(3), pp. 432-439
+tier: 1
+citation_count: 380
+url: https://doi.org/10.1177/0956797610361679
+key_contribution: 1935~2005년 150편의 영화 분석을 통해 샷 지속 시간(Shot Duration)의 시계열 구조가 뇌의 1/f^alpha
+  (Pink Noise) 주의 변동 패턴과 공명하도록 진화해왔음을 수학적·인지신경학적으로 규명. 샷 길이를 고정하는 기계적 편집은 관객의 자연스러운
+  주의 리듬을 파괴하며, 샷 길이는 시각적 정보량과 내러티브 기능에 따라 동적으로 가변해야 함을 실증.
+relevance: '시각 자료 체류 시간의 기계적 고정(예: 2~3초 룰)을 배격하고, 인간 주의 리듬과 정보 밀도에 맞춘 동적 샷 길이 가변화의
+  핵심 이론적 토대.'
+themes:
+- '#57 Theme 1'

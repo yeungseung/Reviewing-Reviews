@@ -1,0 +1,12 @@
+id: SRC-2000-501
+author: Dan Ariely & George Loewenstein
+year: 2000
+title: "When Does Duration Matter in Evaluations of Experiences?"
+venue: "Journal of Experimental Psychology: General, 129(4), 508-523"
+tier: 1
+citation_count: 730
+url: https://doi.org/10.1037/0096-3445.129.4.508
+key_contribution: "피크-엔드 법칙의 비판 및 경계 조건(Boundary Conditions) 실증. 경험의 진행 과정이 역동적인 변화(Dynamic Profile)를 보이거나 인과적 축적의 피로가 극에 달할 때, 지속 시간(Duration)과 중간 고통의 크기가 사후 평가에 유의미하게 개입함을 증명."
+relevance: "서사 엔딩 감정이 아무리 좋아도 중간 전개(축적 구간)가 지루하거나 과도하게 고통스러우면 피크-엔드 효과가 무력화될 수 있다는 경계 조건의 핵심 근거."
+themes:
+  - "#52 Theme 1"

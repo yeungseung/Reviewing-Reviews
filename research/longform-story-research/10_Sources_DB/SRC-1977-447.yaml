@@ -1,0 +1,12 @@
+id: SRC-1977-447
+author: Perry N. Thorndyke
+year: 1977
+title: 'Cognitive structures in comprehension and memory of narrative discourse'
+venue: Cognitive Psychology
+tier: 1
+citation_count: 2280
+url: https://doi.org/10.1016/0010-0285(77)90005-6
+key_contribution: 이야기 문법(Story Grammar)과 서사 인지 스키마 모델을 정초. 독자는 텍스트의 구조적 규칙성을 학습하여 다음 단계를 예측하지만, 동일한 서사 문법이 기계적으로 반복될 경우 인지적 스키마 포화(Schema Saturation)와 주의 집중도 감쇄가 발생함을 실증.
+relevance: 모든 챕터가 동일한 6단계 탐구 아크를 따를 때 발생하는 예측 가능성의 함정과 챕터 구조 다양화의 인지심리학적 필요성을 입증하는 근거.
+themes:
+  - '#47 Theme 3'

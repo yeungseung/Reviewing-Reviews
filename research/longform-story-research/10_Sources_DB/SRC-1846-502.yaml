@@ -1,0 +1,12 @@
+id: SRC-1846-502
+author: Edgar Allan Poe
+year: 1846
+title: "The Philosophy of Composition"
+venue: "Graham's Magazine, 28(4), 163-167"
+tier: 1
+citation_count: 1820
+url: https://www.eapoe.org/works/essays/philcomp.htm
+key_contribution: "서사 창작에서 단일 효과의 원칙(Unity of Effect)과 결말 역산 설계(Denouement Backward Design)의 미학적·구조적 기초 정립. 결말의 최종 감정 효과를 사전에 확정하고, 이전의 모든 사건·대사·톤·운율을 그 결말 효과에 종속시켜 인과적 필연성을 구축해야 함을 규명."
+relevance: "서사 기획에서 엔딩 감정(Ending Emotion)을 최우선으로 사전 결정하고 이를 향해 전체 서사를 역산하여 수렴시키는 Backward Design의 서사학적 원형."
+themes:
+  - "#52 Theme 2"

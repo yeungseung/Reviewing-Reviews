@@ -1,0 +1,15 @@
+id: SRC-1997-549
+author: Edward R. Tufte
+year: 1997
+title: 'Visual Explanations: Images and Quantities, Evidence and Narrative'
+venue: Graphics Press, Cheshire, CT
+tier: 1
+citation_count: 9100
+url: https://www.edwardtufte.com/tufte/books_ve
+key_contribution: 시각적 증거(Visual Evidence)와 인과적 설명(Causal Narrative)의 결합 원리 실증. 챌린저호
+  참사 데이터 분석 등을 통해 증거 제시의 실패가 의사결정 참사로 이어지는 과정을 규명하고, 데이터 시각화(DATA), 전후 비교(CONTRAST),
+  1차 증거(PROOF)가 신뢰성과 설득력을 형성하는 결정적 설계 표준 정립.
+relevance: 화면 기능 8종 중 PROOF, DATA, CONTRAST의 상호작용 및 고밀도 정보 화면이 관객의 분석적 사고와 의사결정 신뢰를
+  극대화하는 설계 원칙 확립.
+themes:
+- '#56 Theme 1'

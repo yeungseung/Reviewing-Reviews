@@ -1,0 +1,2352 @@
+version: 1.0.0
+updated_at: '2026-09-18'
+total_themes_analyzed: 165
+verdict_counts:
+  strong_support: 163
+  conditional_support: 2
+  mixed_evidence: 0
+  weak_support: 0
+  contradicted: 0
+  insufficient_evidence: 0
+v3_signal_counts:
+  keep: 155
+  modify: 15
+  narrow: 3
+  expand: 165
+  split: 3
+  merge: 0
+  reject: 0
+  unresolved: 0
+reports:
+- theme_id: LSEv2_#01_T01
+  item_num: 1
+  theme_num: 1
+  title: 감정 변화와 몰입의 인과관계
+  report_file: 20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T01_감정_변화와_몰입의_인과관계.md
+  verdict: Conditional Support
+  confidence: High
+  signals:
+  - MODIFY
+  - NARROW
+  - EXPAND
+  key_signal_summary: 감정 변화를 독립 원인이 아닌 'Story State 변화에 대한 인지적 재평가의 결과'로 재정의하고, 15분
+    이상 롱폼으로 범위 제한 및 Tonal Whiplash 방지 완충 규칙 신설.
+- theme_id: LSEv2_#01_T02
+  item_num: 1
+  theme_num: 2
+  title: 감정 파형·적응·대비
+  report_file: 20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T02_감정_파형적응대비.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - EXPAND
+  - MODIFY
+  key_signal_summary: 단순 강도 에스컬레이션을 파기하고, '저강도 완충(Valley) - 정서적 대비(Contrast) - 피크(Peak)'로
+    이어지는 파동형 서사 모델 및 감정별 수명 테이블 구축.
+- theme_id: LSEv2_#01_T03
+  item_num: 1
+  theme_num: 3
+  title: Story State가 감정을 바꾸는 방식
+  report_file: 20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T03_Story_State가_감정을_바꾸는_방식.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - EXPAND
+  - MODIFY
+  key_signal_summary: 감정 전환을 독립 연출이 아닌 'Story State 6대 변수(목표, 위험, 책임, 신뢰, 정보, 선택)'의
+    인지적 평가 종속 변수로 공식화하고 Unearned Emotion 방지 규칙 신설.
+- theme_id: LSEv2_#01_T04
+  item_num: 1
+  theme_num: 4
+  title: Emotional Arc의 실제 패턴과 장르 차이
+  report_file: 20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T04_Emotional_Arc의_실제_패턴과_장르_차이.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - EXPAND
+  - NARROW
+  - MODIFY
+  key_signal_summary: 감정 롤러코스터 일변도를 탈피하여 대중 상업 서사는 복합 아크(Cinderella 등)를, 사유/힐링 서사는
+    평탄한 아크(Flat)를 공식 인정하고, 씬 단위의 프랙탈 가치 전환(+/-) 규칙 신설.
+- theme_id: LSEv2_#01_T05
+  item_num: 1
+  theme_num: 5
+  title: 감정 변화와 기억·예측·판단
+  report_file: 20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T05_감정_변화와_기억예측판단.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - EXPAND
+  - MODIFY
+  key_signal_summary: 피크-엔드 법칙(Peak-End Rule)과 사건 경계선(Event Boundary) 챕터링을 v3 기억 아키텍처로
+    신설하고, 사실 나열보다 신체 표지(Somatic Marker) 형성을 우선하도록 규정.
+- theme_id: LSEv2_#02_T01
+  item_num: 2
+  theme_num: 1
+  title: 세 트랙 모델의 이론적 타당성
+  report_file: 20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T01_세_트랙_모델의_이론적_타당성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: STORY·EMOTION·MEANING 3트랙의 이론적 타당성을 강력 지지(KEEP)하되, 기저 인프라인 'FORM(감각적
+    형식미)'을 제4의 트랙으로 확장(EXPAND)하고 트랙 간 불일치 방지 매트릭스 신설.
+- theme_id: LSEv2_#02_T02
+  item_num: 2
+  theme_num: 2
+  title: 세 트랙의 시간적 상호작용
+  report_file: 20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T02_세_트랙의_시간적_상호작용.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - MODIFY
+  - EXPAND
+  key_signal_summary: 세 트랙의 정적 병렬 구조를 'STORY -> EMOTION -> MEANING -> 후속 STORY 재해석'의
+    동적 순환 피드백 루프로 재정의하고, 감정의 즉각성과 의미의 지연성(Lag)을 고려한 시간차 관리 및 정서주입 기반 오도(Misdirection)
+    작법 신설.
+- theme_id: LSEv2_#02_T03
+  item_num: 2
+  theme_num: 3
+  title: 장르별 트랙 비중과 반례
+  report_file: 20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T03_장르별_트랙_비중과_반례.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - EXPAND
+  - MODIFY
+  key_signal_summary: 세 트랙 획일적 공존 모델을 폐기하고 장르 계약에 따른 '비대칭 트랙 매트릭스'를 공식화하며, 정보 콘텐츠의
+    '유혹적 세부사항(Seductive Details) 배제 원칙' 및 3대 반례군(Weak Emotion, No Meaning, Weak Story)
+    설계 공식 신설.
+- theme_id: LSEv2_#03_T01
+  item_num: 3
+  theme_num: 1
+  title: 트랙 통합과 몰입·설득
+  report_file: 20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T01_트랙_통합과_몰입설득.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - MODIFY
+  - EXPAND
+  key_signal_summary: 3트랙 상호 인과적 통합 원칙을 강력 유지(KEEP)하되, 기계적 동시 병렬선에서 '사건→정서 태깅→정보 가치
+    재편→의미 형성'의 나선형 파이프라인(Causal Spiral)으로 전환(MODIFY)하고, 관객의 설득 지식(PKM) 및 심리적 반발을 방지하는
+    '감정 조작 방지 완충 규칙(Anti-Manipulation Buffer)' 신설(EXPAND).
+- theme_id: LSEv2_#03_T02
+  item_num: 3
+  theme_num: 2
+  title: 불균형 콘텐츠의 성공·실패 패턴
+  report_file: 20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T02_불균형_콘텐츠의_성공실패_패턴.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - MODIFY
+  - EXPAND
+  key_signal_summary: 기계적 1:1:1 균형 강박을 폐기(MODIFY)하고 장르 계약에 따른 '비대칭 트랙 최적화'를 채택하며,
+    서사 플롯 없는 '지적 탐구 모델'과 의미 없는 '감각적 스펙터클 모델'을 2대 합법적 불균형으로 공식 편입(EXPAND).
+- theme_id: LSEv2_#03_T03
+  item_num: 3
+  theme_num: 3
+  title: 순환 구조의 방향성과 경계
+  report_file: 20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T03_순환_구조의_방향성과_경계.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - EXPAND
+  - MODIFY
+  - NARROW
+  key_signal_summary: 서사 진입부를 '3대 오프닝 진입 경로(Emotion/Meaning/Context-first)'로 다변화하고
+    '5단계 정준 시퀀스'를 공식화(EXPAND)하며, 피크 후 '인지 과부하 방지 완충 규칙'을 신설(MODIFY)하고 실용 콘텐츠는 선형 인과
+    모델로 격리(NARROW).
+- theme_id: LSEv2_#04_T01
+  item_num: 4
+  theme_num: 1
+  title: 목표-장애-선택-결과 구조의 범용성
+  report_file: 20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T01_목표장애선택결과_구조의_범용성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - MODIFY
+  - SPLIT
+  - EXPAND
+  key_signal_summary: 목표-장애-선택-결과-대가의 인과 사슬을 인간 서사의 보편적 표준으로 유지(KEEP)하되, 인간 서사와 비인물형
+    지식/시스템 서사로 엔진을 이원화(SPLIT)하고, 비인물형 콘텐츠를 위한 '질문-모순-시스템 역학' 모듈을 신설(EXPAND)하며 인과적
+    대가 규칙을 강화(MODIFY).
+- theme_id: LSEv2_#04_T02
+  item_num: 4
+  theme_num: 2
+  title: 인과 사슬과 지속 관심
+  report_file: 20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T02_인과_사슬과_지속_관심.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - MODIFY
+  - EXPAND
+  key_signal_summary: 인과 사슬 가설(Fletcher & Bloom)과 정보 공백 재장전 루프를 전면 유지(KEEP)하되, 외적
+    스케일 팽창 대신 '미세 인과 밀도 규칙'을 수립(MODIFY)하고, 복잡계·비선형 서사에서의 인지 파산(Tenet Trap) 방지를 위한
+    '인지적 발판 매트릭스'를 신설(EXPAND).
+- theme_id: LSEv2_#04_T03
+  item_num: 4
+  theme_num: 3
+  title: 선택과 대가의 감정적 효과
+  report_file: 20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T03_선택과_대가의_감정적_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - MODIFY
+  - EXPAND
+  key_signal_summary: 값비싼 선택과 대가의 감정적 우위를 강력 유지(KEEP)하되, 값싼 번복을 엄단하는 '비가역적 대가 규칙(Rubicon
+    Rule)'을 수립(MODIFY)하고, 두 신성한 가치가 충돌하는 '비극적 딜레마(Sophie's Choice) 설계 매트릭스' 및 재난 속
+    '태도 주체성(Attitude Agency)' 규칙을 신설(EXPAND).
+- theme_id: LSEv2_#05_T01
+  item_num: 5
+  theme_num: 1
+  title: 비인물 서사의 긴장 생성
+  report_file: 20_Research_Reports/#05_단_모든_소재에_사람의_욕망이_있어야_하는_것은_아니다/LSEv2_#05_T01_비인물_서사의_긴장_생성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - SPLIT
+  - EXPAND
+  key_signal_summary: 인간의 사적 욕망 없이도 서사 몰입이 성립함을 강력 지지(KEEP)하며, 서사 엔진을 '인간 서사'와 '비인격적
+    시스템 서사'로 공식 2원화(SPLIT)하고, 비인물형 콘텐츠 전용 '질문-모순-시스템 역학(Q-A-S) 3대 긴장 엔진'을 신설(EXPAND).
+- theme_id: LSEv2_#05_T02
+  item_num: 5
+  theme_num: 2
+  title: 인간화의 이득과 왜곡 위험
+  report_file: 20_Research_Reports/#05_단_모든_소재에_사람의_욕망이_있어야_하는_것은_아니다/LSEv2_#05_T02_인간화의_이득과_왜곡_위험.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - MODIFY
+  - EXPAND
+  key_signal_summary: 비인물 서사에서 억지 인물화 배제를 헌법으로 유지(KEEP)하되, 가짜 주인공과 작위적 일화를 엄단하는 '유혹적
+    세부사항 배제 규칙'을 신설(MODIFY)하고, 인물 없이 관객의 삶과 직결시키는 '시스템-자아 매핑 프로토콜' 및 '은유 수명 제한 규칙'을
+    신설(EXPAND).
+- theme_id: LSEv2_#06_T01
+  item_num: 6
+  theme_num: 1
+  title: 긴장 엔진 6종 분류의 완전성
+  report_file: 20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T01_긴장_엔진_6종_분류의_완전성.md
+  verdict: Conditional Support
+  confidence: High
+  signals:
+  - MODIFY
+  - EXPAND
+  - SPLIT
+  key_signal_summary: 6대 엔진의 실무적 직관성을 인정하되 범주 중복(Promise ⊂ Expectation)을 정리하고, 누락된
+    실존적 위협(Threat vs Safety) 및 관계적 마찰 엔진을 공식 편입하여 3대 메타 차원 아래 8대 오퍼레이션 엔진으로 계층화.
+- theme_id: LSEv2_#06_T02
+  item_num: 6
+  theme_num: 2
+  title: Main Engine 하나를 정하는 효과
+  report_file: 20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T02_Main_Engine_하나를_정하는_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 단일 Main Engine 원칙을 전면 유지(KEEP)하되, 메인 척추(Spine)와 보조 갈비뼈(Ribs)의
+    결합 매트릭스, 미드포인트 엔진 전환 규칙, 단일 문장 CDQ 검증 게이트를 공식 신설(EXPAND).
+- theme_id: LSEv2_#06_T03
+  item_num: 6
+  theme_num: 3
+  title: 장르·소재별 엔진 적합성
+  report_file: 20_Research_Reports/#06_PRIMARY_TENSION_ENGINE/LSEv2_#06_T03_장르소재별_엔진_적합성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 소재의 내재적 인과 구조에 따른 엔진 최적 매칭 원칙을 유지(KEEP)하고, 기획 단계 소재-엔진 최적 매칭
+    매트릭스 및 60분 이상 롱폼을 위한 3단계 엔진 진화 사다리(유입-폭로-승화) 템플릿을 공식 신설(EXPAND).
+- theme_id: LSEv2_#07_T01
+  item_num: 7
+  theme_num: 1
+  title: 감정 지시와 감정 유발 상황 비교
+  report_file: 20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T01_감정_지시와_감정_유발_상황_비교.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: '감정 단어(Affect Labeling)의 편도체 냉각 효과 및 구체적 상황(Embodied Simulation)의
+    정서 점화 원리를 입증하여 #7 테제를 전면 유지(KEEP)하고, 객관적 상관물 상황 연출 룰 및 피크 후 감정 라벨링 완충 규칙을 신설(EXPAND).'
+- theme_id: LSEv2_#07_T02
+  item_num: 7
+  theme_num: 2
+  title: 상황에서 감정이 만들어지는 평가 과정
+  report_file: 20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T02_상황에서_감정이_만들어지는_평가_과정.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: '감정은 사건의 의미에 대한 인지적 평가의 계산 결과임을 입증하여 #7 테제를 전면 유지(KEEP)하고, 작가가
+    감정을 조율하는 ''감정 엔지니어링 6대 인지 다이얼'' 및 책임 귀인 정합성 검증기를 공식 신설(EXPAND).'
+- theme_id: LSEv2_#07_T03
+  item_num: 7
+  theme_num: 3
+  title: 구체적 디테일과 감정적 상상
+  report_file: 20_Research_Reports/#07_감정은_말이_아니라_상황에서_발생한다/LSEv2_#07_T03_구체적_디테일과_감정적_상상.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: '구체성 효과(이중 부호화) 및 식별 가능한 희생자 효과를 통해 감각 디테일의 공감 증폭 기제를 입증하여 #7
+    대분류 전체를 헌법으로 확정(KEEP)하고, 단일 감각 앵커 선별 룰, 인과 연계 디테일 린터, 논픽션 팩트 무결성 프로토콜을 신설(EXPAND).'
+- theme_id: LSEv2_#08_T01
+  item_num: 8
+  theme_num: 1
+  title: 감정별 Trigger 공식 검증
+  report_file: 20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T01_감정별_Trigger_공식_검증.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 8대 핵심 감정(호기심, 놀라움, 서스펜스, 불안/공포, 분노, 슬픔, 배신감, 경외감)의 상황적 트리거 수학
+    공식을 실증 입증하여 가설을 전면 유지(KEEP)하고, v3 씬 기획 단계에 감정별 필수 매개변수 체크리스트 및 서스펜스 4대 요건 감사 모듈을
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#08_T02
+  item_num: 8
+  theme_num: 2
+  title: Build-up → Peak → Release의 감정 생성 과정
+  report_file: 20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T02_Build-up_Peak_Release의_감정.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 흥분 전이 이론(교감신경 잔여 각성의 합산)과 정서의 법칙(습관화 방지 및 조건 변화율)을 실증하여 가설을
+    전면 유지(KEEP)하고, 감정 유형별 최소 맥락 축적 시간 가이드 및 3단계 계단식 에스컬레이션을 관리하는 흥분 전이 페이싱 엔진을 공식
+    신설(EXPAND).
+- theme_id: LSEv2_#08_T03
+  item_num: 8
+  theme_num: 3
+  title: 공식의 문화·개인차와 복합성
+  report_file: 20_Research_Reports/#08_감정_상황_공식/LSEv2_#08_T03_공식의_문화개인차와_복합성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: '문화적 자기 구성(Markus & Kitayama)과 평가 공간 모델(Larsen et al., 복합 감정
+    동시 공존)을 실증하여 대분류 #08 전체를 헌법으로 확정(KEEP)하고, v3에 2계층 감정 아키텍처(보편 코어 + 문화 플러그인) 및 비극적
+    환희(Bittersweet Climax) 믹서를 공식 신설(EXPAND).'
+- theme_id: LSEv2_#09_T01
+  item_num: 9
+  theme_num: 1
+  title: 감정 다양성과 몰입
+  report_file: 20_Research_Reports/#09_감정의_강도보다_색깔이_중요하다/LSEv2_#09_T01_감정_다양성과_몰입.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 감정 다양성(Emodiversity; Quoidbach et al.) 및 메타 정서 모델(Bartsch et
+    al.)을 실증하여 '강도보다 색깔이 중요하다'는 테제를 전면 유지(KEEP)하고, v3에 감정 다양성 지수 감사 엔진 및 3-Scene 색채
+    전환 룰, 장르별 감정 팔레트 매트릭스를 공식 신설(EXPAND).
+- theme_id: LSEv2_#09_T02
+  item_num: 9
+  theme_num: 2
+  title: 단일 감정 escalation의 한계와 예외
+  report_file: 20_Research_Reports/#09_감정의_강도보다_색깔이_중요하다/LSEv2_#09_T02_단일_감정_escalation의_한계와_예외.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 대립 과정 이론(Solomon & Corbit)과 도덕적 격분의 소진(Brady et al.)을 실증하여 단일
+    감정 물리적 에스컬레이션의 한계를 확증(KEEP)하고, v3에 데시벨 인플레이션 금지 린터 및 인지 평가 3차원 변주(Appraisal Triad),
+    분노-사이다 주기 템플릿을 공식 신설(EXPAND).
+- theme_id: LSEv2_#10_T01
+  item_num: 10
+  theme_num: 1
+  title: Emotional Fatigue의 메커니즘
+  report_file: 20_Research_Reports/#10_감정_피로/LSEv2_#10_T01_Emotional_Fatigue의_메커니즘.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 정서 적응의 AREA 모델(Wilson & Gilbert)과 도덕적 분노/공감 피로(Crockett, Figley)를
+    실증하여 감정 피로 테제를 전면 유지(KEEP)하고, v3에 공감 자원 고갈 방지 린터 및 정서 리셋 5대 모듈(유머·설명·안식·여백·성찰)
+    템플릿을 공식 신설(EXPAND).
+- theme_id: LSEv2_#10_T02
+  item_num: 10
+  theme_num: 2
+  title: 리셋 구간의 기능
+  report_file: 20_Research_Reports/#10_감정_피로/LSEv2_#10_T02_리셋_구간의_기능.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 긍정 정서의 취소 가설(Fredrickson & Levenson, 심혈관 회복 3배 가속)과 각성-톱니 유머
+    이론(Berlyne), 인지 부하 완충(Sweller)을 실증하여 리셋 구간 가설을 전면 유지(KEEP)하고, v3에 파동형 페이싱 엔진,
+    정서 취소 5대 마이크로 안식처(Reset Quintet) 아키텍처, 마블식 배소스 방지 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#10_T03
+  item_num: 10
+  theme_num: 3
+  title: 감정-정보 교차 패턴의 실전성
+  report_file: 20_Research_Reports/#10_감정_피로/LSEv2_#10_T03_감정-정보_교차_패턴의_실전성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 인터리빙 효과(Kornell & Bjork)와 편도체 하향 조절(Lieberman et al.), 서사적 이동(Green
+    & Brock)을 실증하여 교차 구조 가설을 전면 유지(KEEP)하고, v3에 감정-팩트 샌드위치 5단계 아키텍처, 인지 인터리빙 엔진, 기계적
+    교대 방지 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#11_T01
+  item_num: 11
+  theme_num: 1
+  title: 파형 구조와 정서적 경험
+  report_file: 20_Research_Reports/#11_감정_파형/LSEv2_#11_T01_파형_구조와_정서적_경험.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 신경영화학 fMRI(Hasson et al., 파형 페이싱의 뇌 피질 65% 동기화)과 피크-엔드 법칙(Kahneman),
+    쾌락 대비(Zellner), 1,737편 복합 파동 우위(Reagan et al.)를 실증하여 감정 파형 가설을 전면 유지(KEEP)하고,
+    v3에 신경 파형 동기화 페이싱 엔진, 피크-엔드 60% 자원 집중 룰, 대비 낙차 계산기를 공식 신설(EXPAND).
+- theme_id: LSEv2_#11_T02
+  item_num: 11
+  theme_num: 2
+  title: Peak를 만들기 위한 저점의 역할
+  report_file: 20_Research_Reports/#11_감정_파형/LSEv2_#11_T02_Peak를_만들기_위한_저점의_역할.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 적응 수준 이론(Helson, 기준선 강하에 의한 피크 증폭)과 도파민 기대 장전(Schultz), 음향 침묵
+    미학(Chion), 다중 피크 계단식 에스컬레이션을 실증하여 저점 역할 가설을 전면 유지(KEEP)하고, v3에 도파민 기대 장전 프로토콜,
+    생산적 저점 3분 린터, 네거티브 사운드 매뉴얼을 공식 신설(EXPAND).
+- theme_id: LSEv2_#12_T01
+  item_num: 12
+  theme_num: 1
+  title: 장르별 Emotional Arc 비교
+  report_file: 20_Research_Reports/#12_소재별_감정_장르는_달라져야_한다/LSEv2_#12_T01_장르별_Emotional_Arc_비교.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 1,700편 감성 마이닝(Reagan et al.), 인지 평가 이론(Lazarus, Scherer), 애착
+    해체(Bowlby), 희망 이론(Snyder), 정보 격차(Loewenstein), 경외감 모델(Keltner & Haidt)을 실증하여 7대
+    서사 유형별 3단계 고유 감정 아크 가설을 전면 유지(KEEP)하고, v3에 7대 장르별 감정 아크 블루프린트 엔진, 장르 평가 부조화 린터,
+    복합 장르 위계 제어 룰(70:30)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#12_T02
+  item_num: 12
+  theme_num: 2
+  title: 고정 감정 순서의 위험
+  report_file: 20_Research_Reports/#12_소재별_감정_장르는_달라져야_한다/LSEv2_#12_T02_고정_감정_순서의_위험.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 도파민 보상 예측 오차(Schultz, 예측 가능성 100% 시 RPE=0 도파민 소거)와 지각 쾌감 습관화(Biederman
+    & Vessel), 서사 스키마(Mandler), 기대 위반 이론(Burgoon)을 실증하여 고정 감정 순서의 위험성 가설을 전면 지지(KEEP)하고,
+    v3에 동적 감정 아크 발생기, 70:30 스키마 전복 밸런서, 사후 정당화 검증 엔진을 공식 신설(EXPAND).
+- theme_id: LSEv2_#13_T01
+  item_num: 13
+  theme_num: 1
+  title: 인간 가치와 정서적 Stakes
+  report_file: 20_Research_Reports/#13_Human_Value/LSEv2_#13_T01_인간_가치와_정서적_Stakes.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Schwartz 10대 기본 가치 원형 이론, Ryan & Deci의 자기결정이론(자율성·유능성·관계성),
+    Kahneman의 손실회피(2~2.5배 가중치), Baumeister의 소속 욕구 및 배척 고통(dACC), Haidt의 도덕기반이론을 실증하여
+    인간 가치 기반 정서적 스테이크 가설을 전면 지지(KEEP)하고, v3에 인간 가치 스테이크 매핑 엔진, 슈바르츠 가치 충돌 딜레마 제너레이터,
+    손실회피 프레이밍 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#13_T02
+  item_num: 13
+  theme_num: 2
+  title: Stakes의 종류와 장르별 작동
+  report_file: 20_Research_Reports/#13_Human_Value/LSEv2_#13_T02_Stakes의_종류와_장르별_작동.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: McKee 3차원 극작술(물리 ➔ 사회 ➔ 실존 에스컬레이션), Graham & Haidt 도덕 기반 이론(MFT
+    6대 모듈 충돌), Calabresi & Bobbitt 비극적 선택(Tragic Choices), 젤라이저 화폐 사회학(돈의 인간 가치 환원)을
+    실증하여 다층적 스테이크 및 혼합 스테이크 가설을 전면 지지(KEEP)하고, v3에 3차원 스테이크 에스컬레이터, 경제적 스테이크 환원 검증기,
+    혼합 스테이크 트래직 초이스 빌더를 공식 신설(EXPAND).
+- theme_id: LSEv2_#13_T03
+  item_num: 13
+  theme_num: 3
+  title: Human Value 과잉·왜곡의 위험
+  report_file: 20_Research_Reports/#13_Human_Value/LSEv2_#13_T03_Human_Value_과잉왜곡의_위험.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Brehm 심리적 반발 이론(강제 신파에 대한 냉소와 조소), Slovic 심리적 무감각(스테이크 인플레이션의
+    감정 마비 및 미시적 앵커링 필요성), Nisbett & Ross 생생함 편향(감정 사례의 대표성 왜곡 위험), Loewenstein 정보
+    격차 이론(순수 지적·추상 가치 서사의 자립성)을 실증하여 강제 인간화 배제 가설을 전면 지지(KEEP)하고, v3에 강제적 인간화 감지 린터,
+    음소거 테스트 프로토콜, 내재적 가치 발굴 5대 인과 필터 엔진을 공식 신설(EXPAND).
+- theme_id: LSEv2_#14_T01
+  item_num: 14
+  theme_num: 1
+  title: Stakes 명료성과 몰입
+  report_file: 20_Research_Reports/#14_Stake_Question/LSEv2_#14_T01_Stakes_명료성과_몰입.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Tversky & Kahneman 결정 프레이밍 이론(손실 방지 프레임의 위험 감수 및 긴장 2배 증폭),
+    Ortony, Clore, & Collins의 OCC 정서 평가 모델(목표 중요도와 서스펜스의 비례성), Zillmann 정서 성향 이론(70:30
+    비관적 불확실성의 서스펜스 극대화), Busselle & Bilandzic 서사 몰입 모델(스테이크 명료성에 따른 인지 부하 최소화)을 실증하여
+    스테이크 질문 명료성 가설을 전면 지지(KEEP)하고, v3에 씬 단위 스테이크 질문 검증기, 손실 프레이밍 변환기, 70:30 서스펜스 밸런서,
+    이중 스테이크 결합 엔진을 공식 신설(EXPAND).
+- theme_id: LSEv2_#14_T02
+  item_num: 14
+  theme_num: 2
+  title: Stakes의 크기보다 의미
+  report_file: 20_Research_Reports/#14_Stake_Question/LSEv2_#14_T02_Stakes의_크기보다_의미.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Kahneman, Knetsch, & Thaler의 보유 효과(Endowment Effect, 객관적 가격
+    대비 2.5배 주관적 가치 폭등), Russell Belk의 확장된 자아 이론(Extended Self, 사소한 유품·애착물 상실 시 인격적
+    절단감 경험), Paul Slovic의 심리적 무감각 및 연민의 붕괴(Scale Inflation으로 인한 정서적 셧다운), Small &
+    Loewenstein의 식별된 희생자 효과를 실증하여 크기보다 의미 가설을 전면 지지(KEEP)하고, v3에 거시 위기-미시 앵커 1:1 결합
+    Stake Lens Module, 인물의 확장된 자아 점화 프로토콜, 스케일 인플레이션 감지 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#15_T01
+  item_num: 15
+  theme_num: 1
+  title: Human Scale 변환의 인지 효과
+  report_file: 20_Research_Reports/#15_Human_Scale/LSEv2_#15_T01_Human_Scale_변환의_인지_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Paivio 이중 부호화 이론(구체적 사물의 이중 심상 점화), Trope & Liberman 해석 수준 이론(심리적
+    거리 축소 및 저수준 해석에 따른 위험 지각 50% 급증), Gentner 구조 사상 이론(친숙한 베이스와 난해한 거대 시스템의 인과 관계
+    1:1 사상을 통한 통찰 생성), Reyna 분모 무시 편향을 실증하여 Human Scale 변환 가설을 전면 지지(KEEP)하고, v3에
+    거시 소재 다운스케일링 Human Scale Converter Module, 구조 사상 유추 제너레이터, 비유 가드레일 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#15_T02
+  item_num: 15
+  theme_num: 2
+  title: Human Scale과 감정·공감
+  report_file: 20_Research_Reports/#15_Human_Scale/LSEv2_#15_T02_Human_Scale과_감정·공감.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Kogut & Ritov 단일 개체 효과(집단 대비 1인의 식별된 희생자에 대한 공감·기부 폭증), Small,
+    Loewenstein, & Slovic 분석적 냉담화(통계 정보 제시 시 감정 공감 50% 급감), Kahneman et al. 범위 둔감성(2천
+    마리 vs 20만 마리 새 구출 가치 동일), Nisbett & Ross 생생함 효과를 실증하여 감정의 1인 수렴 가설을 전면 지지(KEEP)하고,
+    v3에 단 1인의 앵커 캐릭터로 위기를 수렴시키는 Single-Focalization Protocol, 감정 씬 내 통계 격리 린터, 환유적
+    대표성 검증기를 공식 신설(EXPAND).
+- theme_id: LSEv2_#15_T03
+  item_num: 15
+  theme_num: 3
+  title: 분야별 Human Scale 구현
+  report_file: 20_Research_Reports/#15_Human_Scale/LSEv2_#15_T03_분야별_Human_Scale_구현.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Weber 경험 기반 위험 지각(통계적 기술 대신 감각적 신체 경험으로 기후·재난 체감), Gigerenzer
+    자연 빈도 이론(조건부 확률을 1,000명 중 10명 카운트로 치환하여 인지 착각 85% 해소), Thaler 심리적 회계(거시경제를 가계부·월급
+    단위로 환원), Heath & Heath 휴먼 스케일 원리를 실증하여 7대 분야별 다운스케일링 가설을 전면 지지(KEEP)하고, v3에 7대
+    도메인 다운스케일링 변환 엔진, 위험 자연 빈도 포매터, 전문 용어 텍스처 비율 제어기를 공식 신설(EXPAND).
+- theme_id: LSEv2_#16_T01
+  item_num: 16
+  theme_num: 1
+  title: 구체적 디테일의 정서·기억 효과
+  report_file: 20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T01_구체적_디테일의_정서기억_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Paivio 이중 부호화 이론(구체적 사물의 이중 심상 인코딩에 따른 기억 2배 우위), Speer et al.
+    체화된 신경 시뮬레이션(감각-운동 묘사 독해 시 MT+ 및 운동 피질 직접 발화), Schacter & Addis 구성적 에피소드 시뮬레이션(해마·mPFC
+    중심 가상 현실 구축), Taylor & Thompson 생생함 효과(기억 가용성 및 심상 강화, 설득과의 분리), Harp & Mayer
+    매혹적 세부 효과(무관한 세부의 인과 파괴)를 실증하여 감정적 디테일 가설을 전면 지지(KEEP)하고, v3에 정서적 진단 디테일 선별기,
+    매혹적 세부 제거 린터, 체화된 미세 행동 비트 설계 프로토콜을 공식 신설(EXPAND).
+- theme_id: LSEv2_#16_T02
+  item_num: 16
+  theme_num: 2
+  title: Detail before Scale vs Scale before Detail
+  report_file: 20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T02_Detail_before_Scale_vs_Scale_b.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Hsee & Rottenstreich 평가 모드 연구(계산 모드의 정서 냉각 및 감정 모드의 0➔1 비선형
+    도약), Small et al. 식별된 피해자 및 분석적 냉담화(통계 선제시 시 공감 50% 억제), Tversky & Kahneman 닻내림
+    및 기저율 무시(미시 디테일의 닻내림 및 극단 사례 편향), Kintsch & van Dijk 미시-거시 담화 모델(장기 기억 샌드위치 구조)을
+    실증하여 디테일 선행 가설을 전면 지지(KEEP)하고, v3에 Micro-to-Macro 샌드위치 시퀀스 엔진, 분석적 냉담화 방지 린터,
+    기저율 가드레일 프로토콜을 공식 신설(EXPAND).
+- theme_id: LSEv2_#16_T03
+  item_num: 16
+  theme_num: 3
+  title: 사실 기반 디테일의 신뢰 문제
+  report_file: 20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T03_사실_기반_디테일의_신뢰_문제.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Hamill, Wilson, & Nisbett 표본 편향 불감증(생생한 단일 일화에 의한 무차별적 집단 일반화
+    및 경고 무력화), Newman et al. 진실성 착각 효과(비증거적 사진과 B-roll의 인지적 유창성 부풀리기로 인한 거짓의 사실 오인),
+    Kovach & Rosenstiel 검증의 규율(3각 교차 검증과 독자와의 신뢰 계약 준수)을 실증하여 사실 기반 디테일 가설을 전면 지지(KEEP)하고,
+    v3에 논픽션 디테일 3각 교차 검증기, 비증거적 B-roll 및 재연 라벨링 규칙, 일반화 오류 방지 대조군 밸런서를 공식 신설(EXPAND).
+- theme_id: LSEv2_#17_T01
+  item_num: 17
+  theme_num: 1
+  title: Conflict Opening의 주의·궁금증 효과
+  report_file: 20_Research_Reports/#17_반대로_Conflict_Opening도_가능하다/LSEv2_#17_T01_Conflict_Opening의_주의궁금증_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Berlyne 갈등-각성 모델(물리적/언어적 충돌에 의한 1~3초 내 무조건적 지향 반응), Loewenstein
+    정보 공백 이론(미결된 갈등이 유발하는 급성 지적 결핍과 정보 탐색 락인), Sternberg 서사 시간학(In Medias Res를 통한
+    과거 지향적 호기심 점화 및 설명 가치 전도), Graesser et al. 최소 이해 문턱(인과 추론을 위한 최소 극성 식별), Witte
+    EPPM 모델(과도한 갈등 시 효능감 결여에 따른 방어적 회피 차단)을 실증하여 갈등 오프닝 가설을 전면 지지(KEEP)하고, v3에 In
+    Medias Res 빌더, 최소 이해 가능성 린터, 위협-효능감 밸런서를 공식 신설(EXPAND).
+- theme_id: LSEv2_#17_T02
+  item_num: 17
+  theme_num: 2
+  title: Human Moment와 Conflict Opening 비교
+  report_file: 20_Research_Reports/#17_반대로_Conflict_Opening도_가능하다/LSEv2_#17_T02_Human_Moment와_Conflict_Opening.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Batson의 공감-이타주의(공감적 염려와 장기 정서 투자)와 Lang의 LC4MP 및 Easterbrook
+    가설(갈등의 부호화 집중 및 저장 억제)을 실증하여 가설을 전면 지지(KEEP)하고, v3에 장르별 3대 오프닝 매트릭스(Opening Engine
+    Selector), 인간화된 갈등 프로토콜(Humanized Conflict), 맥락-각성 밸런서를 공식 신설(EXPAND).
+- theme_id: LSEv2_#18_T01
+  item_num: 18
+  theme_num: 1
+  title: 7개 Opening Type의 이론적·사례 검증
+  report_file: 20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T01_7개_Opening_Type의_이론적사례_검증.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 7대 오프닝 엔진(Anomaly, Conflict, Human Moment, Result First, Contradiction,
+    Countdown, Impossible Question)의 고유 신경인지 경로(지각적 이상, 위협 감시, 공감적 염려, 인과 추론, 인지 부조화,
+    시간적 절박성, 설명 공백)를 실증하여 가설을 전면 지지(KEEP)하고, v3에 7대 오프닝 엔진 레지스트리, 소재-엔진 매칭 매트릭스, 오프닝
+    약속 감사 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#18_T02
+  item_num: 18
+  theme_num: 2
+  title: 오프닝 유형의 완전성과 중복
+  report_file: 20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T02_오프닝_유형의_완전성과_중복.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 'Bordwell의 인지 서사학(Syuzhet vs Fabula)과 Gunning의 매혹의 영화(Cinema
+    of Attractions)를 실증하여 7대 오프닝 엔진의 MECE 완전성을 전면 지지(KEEP)하고, v3에 외적 전달 형식(Layer 1:
+    Cold Open, Direct Address 등)과 내적 인과 엔진(Layer 2: 7대 엔진)을 엄격히 분리하는 2계층 오프닝 아키텍처,
+    오프닝 범주 오류 방지 린터, 듀얼 엔진 콤비네이터(70:30)를 공식 신설(EXPAND).'
+- theme_id: LSEv2_#18_T03
+  item_num: 18
+  theme_num: 3
+  title: 소재·장르별 적합성과 실패 조건
+  report_file: 20_Research_Reports/#18_OPENING_ENGINE/LSEv2_#18_T03_소재장르별_적합성과_실패_조건.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Hall의 고맥락-저맥락 이론, Nisbett의 종합적-분석적 인지 양식, Brehm의 심리적 반발 및 Sundar의
+    기만 휴리스틱을 실증하여 7대 오프닝 엔진의 도메인 적합성을 전면 지지(KEEP)하고, v3에 도메인-엔진 매칭 엔진, 클릭베이트 방지 3단계
+    감사 린터, 문화적 맥락 보정기를 공식 신설(EXPAND).
+- theme_id: LSEv2_#19_T01
+  item_num: 19
+  theme_num: 1
+  title: 오프닝의 필수 기능과 순서
+  report_file: 20_Research_Reports/#19_오프닝의_역할/LSEv2_#19_T01_오프닝의_필수_기능과_순서.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Kahneman의 주의 용량 모델(30~90초 주의 유예 기간), Sperber & Wilson의 인지적 관련성
+    이론, Sweller의 인지 부하 이론을 실증하여 오프닝 4대 필수 기능(Orientation, Tension, Relevance, Withholding)
+    가설을 전면 지지(KEEP)하고, v3에 4대 기능 감사 린터, 30~90초 페이싱 타이머, 초반 인지 부하 가드레일(신규 설정 3개 이하
+    제한)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#19_T02
+  item_num: 19
+  theme_num: 2
+  title: 초반 답 공개의 경계조건
+  report_file: 20_Research_Reports/#19_오프닝의_역할/LSEv2_#19_T02_초반_답_공개의_경계조건.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 'Leavitt & Christenfeld의 스포일러 패러독스(인지적 유창성과 감상 만족도 증가)와 Heath
+    & Heath의 호기심 공백 전이 모델(What에서 How/Why로 전이)을 실증하여 답변 유보 원칙을 전면 지지(KEEP)하되, v3에 오프닝
+    2대 모드 셀렉터(Mode A: What Gap vs Mode B: How Gap), How/Why 인과 낙차 검증기, 스포일러-유창성 밸런서를
+    공식 신설(EXPAND).'
+- theme_id: LSEv2_#20_T01
+  item_num: 20
+  theme_num: 1
+  title: 미완성 상태와 Curiosity
+  report_file: 20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T01_미완성_상태와_Curiosity.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Loewenstein의 정보 격차 이론, Zeigarnik의 미완성 긴장 체계, Berlyne 및 Kang
+    et al.의 불확실성 역U자 곡선(50% 불확실성 피크 및 도파민 미상핵 활성), Sprott & Greenwald의 질문-행동 효과, Masicampo
+    & Baumeister의 미완성 목표 주의 간섭, Kruglanski의 인지적 종결 욕구를 실증하여 'Hook의 본질은 미완성 인지 상태 형성'
+    가설을 전면 지지(KEEP)하고, v3에 자이가르닉 긴장-종결 보증 계약기, 질문-행동 템플릿, 동시 활성 오픈루프 스택 모니터(최대 3개
+    제한)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#20_T02
+  item_num: 20
+  theme_num: 2
+  title: Hook 유형과 강한 문장 구분
+  report_file: 20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T02_Hook_유형과_강한_문장_구분.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Berlyne의 지각적 각성 vs 인식론적 호기심의 해부학적 분리, Wilson & Gilbert의 감정 적응,
+    Greene et al.의 도덕 딜레마 fMRI(이성-정서 이중 처리 갈등), Clark의 예측 오차, Rimé의 미해결 감정 반추, Blom
+    & Hansen의 전방 참조 클릭베이트 분석을 실증하여 '충격 문장과 미완성 훅의 본질적 차이' 가설을 전면 지지(KEEP)하고, v3에 5대
+    정준 후크 아키텍처(Question, Result-Withheld, Moral Uncertainty, Prediction, Emotional
+    Unresolved), 지각적 각성 감별기, 3단계 클릭베이트 기만 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#20_T03
+  item_num: 20
+  theme_num: 3
+  title: Hook의 Promise와 Trust
+  report_file: 20_Research_Reports/#20_Hook의_정의/LSEv2_#20_T03_Hook의_Promise와_Trust.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Rousseau의 심리학적 계약 이론(위반 시 도덕적 분노와 신뢰 파괴), Oliver의 기대 불일치 모델(음의
+    괴리와 이탈), Grice의 협력 원리 및 대화 격률, Knox의 페어플레이 십계명, Axelrod의 반복 게임(배신 시 영구 보복과 LTV
+    붕괴)을 실증하여 '후킹 정보 유보 시 공정성과 신뢰 보증의 필수성' 가설을 전면 지지(KEEP)하고, v3에 심리학적 계약 위반 감사기,
+    페어플레이 단서 감사기, 약속-보상 추적 엔진(Promise-Payoff Tracker)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#21_T01
+  item_num: 21
+  theme_num: 1
+  title: 다층 Open Loop의 인지 효과
+  report_file: 20_Research_Reports/#21_Open_Loop/LSEv2_#21_T01_다층_Open_Loop의_인지_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Cowan의 작업 기억 4청크 절대 용량 한계, Baddeley의 중앙 집행기 주의 자원 배분, Genette의
+    중첩 서사 디에제시스 층위, Carver & Scheier의 위계적 목표 피드백 루프, Graesser의 인과 네트워크 추론을 실증하여 '롱폼
+    서사의 3계층(Big·Chapter·Micro) 다층 오픈 루프 운영' 가설을 전면 지지(KEEP)하고, v3에 작업 기억 4청크 가드레일,
+    위계적 목표 스택 추적기, 3계층 오픈 루프 오케스트레이터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#21_T02
+  item_num: 21
+  theme_num: 2
+  title: Big/Chapter/Micro Loop의 설계 원리
+  report_file: 20_Research_Reports/#21_Open_Loop/LSEv2_#21_T02_BigChapterMicro_Loop의_설계_원리.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Bordwell의 시제 정보 지연 및 간극 메커니즘, Graesser의 QUEST 질문-응답 인과 수렴 모델,
+    Brooks의 서사적 욕망과 중간부 우회 이론, Phelan의 수사학적 서사 전개 및 불안정성 역학을 실증하여 'Big·Chapter·Micro
+    3계층 오픈 루프 동시 운영' 가설을 전면 지지(KEEP)하고, v3에 장르별 루프 템포 매트릭스, QUEST 인과 수렴 엔진, 암묵적 시각
+    루프 감지기를 공식 신설(EXPAND).
+- theme_id: LSEv2_#22_T01
+  item_num: 22
+  theme_num: 1
+  title: Answer → New Question 연쇄
+  report_file: 20_Research_Reports/#22_Open_Loop_예시/LSEv2_#22_T01_Answer_New_Question_연쇄.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Trabasso의 인과 사슬망과 기억 회상률 3배 우위, van den Broek의 CIM 후방 설명-전방
+    추론 순환 엔진, Litman의 결핍형 호기심(D-type) 전이, Ginzburg의 미시 징표 증거 패러다임을 실증하여 'Answer ➔
+    New Question 인과 연쇄의 몰입 우월성' 가설을 전면 지지(KEEP)하고, v3에 인과적 호기심 연쇄 엔진, 점진적 정보 공개 조율기,
+    작위적 퀘스트 방지 린터를 공식 신설(EXPAND).
+- theme_id: LSEv2_#22_T02
+  item_num: 22
+  theme_num: 2
+  title: 질문 연쇄와 인과성
+  report_file: 20_Research_Reports/#22_Open_Loop_예시/LSEv2_#22_T02_질문_연쇄와_인과성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: McKoon & Ratcliff의 국소 인과 일관성 필수성, Singer의 인과 교량 추론, Zwaan &
+    Radvansky의 상황 모델 갱신 및 주제 전환 비용, Branigan의 영화 서사 인과 도식을 실증하여 '질문 연쇄와 국소 인과성의 서사
+    모멘텀 유지' 가설을 전면 지지(KEEP)하고, v3에 챕터 전환 인과 결속 검증기, 주제 전환 충격 완충기, 앤솔로지 메타 주제 조율기를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#23_T01
+  item_num: 23
+  theme_num: 1
+  title: Open Loop 과부하와 인지부하
+  report_file: 20_Research_Reports/#23_질문은_무한히_쌓지_않는다/LSEv2_#23_T01_Open_Loop_과부하와_인지부하.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Oberauer의 직접 접근 영역 3~4청크 한계, Pashler의 중앙 집행 단일 병목, Mittell의
+    복합 서사 루프 방치와 방향 상실, Baumeister의 자아 고갈을 실증하여 '동시 활성 오픈 루프의 엄격한 상한 및 회수 거버넌스' 가설을
+    전면 지지(KEEP)하고, v3에 오픈 루프 예산 모니터, 루프 소멸 기한 및 방치 경고기, 인지적 쉼표 조율기를 공식 신설(EXPAND).
+- theme_id: LSEv2_#23_T02
+  item_num: 23
+  theme_num: 2
+  title: 질문의 적정 회수와 만족
+  report_file: 20_Research_Reports/#23_질문은_무한히_쌓지_않는다/LSEv2_#23_T02_질문의_적정_회수와_만족.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Kivetz의 목표 구배 가설과 진행 표지(Progress Markers)의 몰입 가속, Zillmann의
+    서스펜스 해부학 및 흥분 전이(Excitation Transfer) 답변 주기, Mischel의 보상 지연 인내력 인지 기제, Loewenstein의
+    기대 효용과 음미(Savoring)를 실증하여 '질문의 적정 회수와 부분 보상의 서사 지속력' 가설을 전면 지지(KEEP)하고, v3에 답변
+    주기 맥박 엔진, 서사 진행 표지 트래커, 7:2:1 다층 보상 비율 공식을 공식 신설(EXPAND).
+- theme_id: LSEv2_#24_T01
+  item_num: 24
+  theme_num: 1
+  title: Causal Coherence의 효과
+  report_file: 20_Research_Reports/#24_Causal_Spine/LSEv2_#24_T01_Causal_Coherence의_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Fletcher & Bloom의 Current State Strategy 및 인과 사슬 장기 회상 2.8배
+    우위, Zacks의 사건 분절 이론(EST)과 사건 경계 갱신, Green & Brock의 서사적 이입(Transportation)과 비판적
+    반박 억제, Busselle & Bilandzic의 내러티브 인게이지먼트 4차원 모델을 실증하여 'Causal Spine 기반 인과적 결속의
+    이해·기억·몰입 극대화' 가설을 전면 지지(KEEP)하고, v3에 인과 척추 무결성 검증기, Therefore/But 사건 가지치기 린터,
+    사건 경계 전이 앵커링 시스템을 공식 신설(EXPAND).
+- theme_id: LSEv2_#24_T02
+  item_num: 24
+  theme_num: 2
+  title: 인과 Spine의 실제 설계
+  report_file: 20_Research_Reports/#24_Causal_Spine/LSEv2_#24_T02_인과_Spine의_실제_설계.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Fischhoff의 사후확신 편향 극복과 선택 딜레마 복원, Sterman의 시스템적 다중 인과와 선형 서사
+    척추 변환, Rozenblit & Keil의 설명적 깊이의 착각(IOED) 해체와 도미노 메커니즘 연쇄, Roese의 반사실적 사고와 선택-결과
+    도미노를 실증하여 '원인-선택-결과-새 문제의 다장르 인과 척추 설계' 가설을 전면 지지(KEEP)하고, v3에 장르별 인과 척추 매트릭스,
+    사후확신 및 허위인과 린터, 도미노 메커니즘 시각화 엔진을 공식 신설(EXPAND).
+- theme_id: LSEv2_#25_T01
+  item_num: 25
+  theme_num: 1
+  title: Discourse Relation과 이해
+  report_file: 20_Research_Reports/#25_WHY_THEREFORE_엔진/LSEv2_#25_T01_Discourse_Relation과_이해.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Sanders & Noordman의 인과 연결어 처리 지시 기능, Millis & Just의 단일 명제 표상
+    청킹과 작업기억 55% 절감, Xiang & Kuperberg의 BUT 대조 연결어 뇌신경 기대 반전(P600), McNamara의 역 결속
+    효과(Reverse Coherence Effect)를 실증하여 'WHY-THEREFORE-BUT 담화 결속과 서사 추진력 강화' 가설을 전면
+    지지(KEEP)하고, v3에 서브텍스트 인과 골격 엔진, And-Then 박멸 린터, 대사 설명체 자동 정제기를 공식 신설(EXPAND).
+- theme_id: LSEv2_#25_T02
+  item_num: 25
+  theme_num: 2
+  title: 그리고식 나열 vs 인과 전개
+  report_file: 20_Research_Reports/#25_WHY_THEREFORE_엔진/LSEv2_#25_T02_그리고식_나열_vs_인과_전개.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Graesser 등의 구성주의자 설명 추론 모델, Myers 등의 인과 결속도 조작과 장기 회상 2.2배 우위,
+    Gerrig의 인과적 모멘텀과 이상 서스펜스, Mobbs 등의 쿨레쇼프 몽타주 암묵적 인과 뇌신경 실증을 통해 '그리고식 단순 나열 배제 및
+    Therefore/But 인과 전개의 절대적 우위' 가설을 전면 지지(KEEP)하고, v3에 인과 결속도 정량 채점기, 인과 모멘텀 마찰력
+    감소 엔진, 쿨레쇼프 서브텍스트 몽타주 프로토콜을 공식 신설(EXPAND).
+- theme_id: LSEv2_#26_T01
+  item_num: 26
+  theme_num: 1
+  title: 정보 기능 7종 분류의 타당성
+  report_file: 20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T01_정보_기능_7종_분류의_타당성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Toulmin의 논증 모델(Data/Claim/Warrant)을 통한 PROVE 기능, van Dijk 담화
+    스키마를 통한 SCALE/TRANSITION 기능, Lombrozo 설명 인지론을 통한 EXPLAIN 기능, Keen 서사 공감론을 통한 HUMANIZE
+    기능, 무기능 세부(Seductive Detail)의 40% 회상률 저하를 실증하여 '정보 기능 7종 분류 체계' 가설을 전면 지지(KEEP)하고,
+    v3에 정보 기능 감사 매트릭스(IFAM), 무기능 세부 제거기, 2중 기능 압축 프로토콜을 공식 신설(EXPAND).
+- theme_id: LSEv2_#26_T02
+  item_num: 26
+  theme_num: 2
+  title: 기능성 정보와 기억·몰입
+  report_file: 20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T02_기능성_정보와_기억몰입.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Suh & Trabasso의 인물 상위 목표 관련 정보 작업기억 능동 유지 및 2.5배 장기 회상 우위, Trabasso
+    & Sperry의 인과 중심도(Causal Centrality)와 78% 파지율, Stangor & McMillan 메타분석(126개 연구)의
+    기대 불일치/놀라운 정보 인과 정교화 및 스키마 갱신(d=0.45~0.60), Garner et al. 및 Wade et al.의 매혹적 세부(Seductive
+    Details) 35~45% 회상률 저하를 실증하여 '기능성 정보의 기억·몰입 우위' 가설을 전면 지지(KEEP)하고, v3에 정보 4분면
+    필터(I4QF), 목표 앵커링 프로토콜(GR-WMA), 놀라움 기반 스키마 갱신 루프(SD-SUL)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#26_T03
+  item_num: 26
+  theme_num: 3
+  title: Seductive Detail과 삭제 기준
+  report_file: 20_Research_Reports/#26_정보에도_역할이_있어야_한다/LSEv2_#26_T03_Seductive_Detail과_삭제_기준.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Mayer et al.의 멀티미디어 응집성 실험(d=0.80 전이 손실)과 Lehman et al.의 안구
+    추적을 통한 매혹적 세부(Seductive Details)의 거시구조 파괴, Roland Barthes의 실재 효과(Reality Effect)를
+    통한 잉여 디테일의 박진감 지탱, Miall & Kuiken의 문체적 전경화 및 감각 텍스처를 통한 독해 감속(Pacing Relief)을
+    실증하여 'Seductive Detail 제거 및 분위기 텍스처 보존' 가설을 전면 지지(KEEP)하고, v3에 감각적 텍스처 할당제(ATQP),
+    매혹적 잡음 외과적 절제 룰, 다기능 공명 엔진(MFRE)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#27_T01
+  item_num: 27
+  theme_num: 1
+  title: Number-Benchmark-Meaning의 인지 효과
+  report_file: 20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T01_Number-Benchmark-Meaning의_인지_효.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Peters et al.의 수치 문해력과 비교 기준점(Benchmark) 정서 도출 필수성, Reyna et
+    al. 퍼지추적 이론의 분모 무시(Denominator Neglect) 극복, Gigerenzer & Hoffrage의 자연 빈도(Natural
+    Frequencies) 변환을 통한 베이지안 추론 3배 향상, Heath & Starr의 인간 척도 단위 정규화(Unit Normalization)를
+    통한 3.2배 기억 유지를 실증하여 'Number-Benchmark-Meaning 3단계 수치 인지 효과' 가설을 전면 지지(KEEP)하고,
+    v3에 3단계 수치 파이프라인(NBM-3P), 자연 빈도 다운스케일러(NFD), 허위 기준점 방어 필터(MBDF)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#27_T02
+  item_num: 27
+  theme_num: 2
+  title: 숫자의 Human Meaning 변환
+  report_file: 20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T02_숫자의_Human_Meaning_변환.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Wallack et al.의 소셜 매스(Social Math)를 통한 거대 통계의 일상 척도 변환, Finucane
+    et al.의 감정 휴리스틱(Affect Heuristic)과 정서 풀(Affect Pool) 결합을 통한 가치 평가 점화, Gentner
+    & Markman의 구조 사상 이론(Structure-Mapping Theory)에 기반한 스케일 왜곡(Scale Distortion) 방어,
+    Lakoff & Núñez의 체화된 수학(Embodied Mathematics) 감각운동 정박을 실증하여 '숫자의 Human Meaning
+    변환' 가설을 전면 지지(KEEP)하고, v3에 소셜 매스 유추 엔진(SMAE), 범위 불감증 우회 루프(SIBL), 스케일 왜곡 방어 린터(HSDL)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#27_T03
+  item_num: 27
+  theme_num: 3
+  title: 숫자와 서사의 균형
+  report_file: 20_Research_Reports/#27_숫자의_세_단계/LSEv2_#27_T03_숫자와_서사의_균형.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Small et al.의 식별 가능한 희생자(Identifiable Victim) 서사 우선 배치 및 통계
+    선제시/병기 시의 분석적 냉각(Callousness) 억제, Kahneman & Tversky의 생생한 일화와 기저율(Base Rate)의
+    인과적 결합 필요성, Sweller의 작업기억 인지 부하 이론(CLT)에 기반한 수치 밀도 임계치 제어, Hullman & Diakopoulos의
+    내러티브 시각화 수사학 통합을 실증하여 '숫자와 서사의 균형' 가설을 전면 지지(KEEP)하고, v3에 서사 우선 시퀀싱 프로토콜(NFSP),
+    수치 밀도 제어 린터(CLNL), 일화-기저율 교정 브리지(ABCB)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#28_T01
+  item_num: 28
+  theme_num: 1
+  title: Emotion이 Evidence Processing에 미치는 영향
+  report_file: 20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T01_Emotion이_Evidence_Processing에.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Haidt의 도덕적 직관 선점 및 증거의 사후 정당화(Rational Tail), Mather & Sutherland의
+    각성 편향 경쟁(ABC 이론)을 통한 고우선순위 핵심 증거 장기기억 각인, Kunda의 동기화된 추론(Motivated Reasoning)을
+    통한 증거 검증 기준선 조작, Forgas의 정서 주입 모델(AIM) 실질적 처리 기분 일치 효과를 실증하여 'Emotion이 Evidence
+    Processing에 미치는 영향' 가설을 전면 지지(KEEP)하고, v3에 정서 선점 증거 앵커링 엔진(AEPE), 각성 편향 증거 집중화기(ABCF),
+    동기화된 반박 방어 실드(MCDS)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#28_T02
+  item_num: 28
+  theme_num: 2
+  title: Evidence가 Emotion을 강화하는 방식
+  report_file: 20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T02_Evidence가_Emotion을_강화하는_방식.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Weiner의 책임 귀인 이론(Attribution Theory)에 기반한 통제 가능성/고의성 스모킹 건 입증을
+    통한 도덕적 분노 격발, Loewenstein의 정보 격차 이론(Information Gap) 불확실성 해소를 통한 지적 경탄(Awe)과 카타르시스,
+    Batson et al.의 구체적 시각/물증을 통한 공감적 배려(Empathic Concern) 강화, Slovic et al.의 분석-느낌
+    듀얼 프로세스와 과잉 데이터 정서적 거리감 방어를 실증하여 'Evidence가 Emotion을 강화하는 방식' 가설을 전면 지지(KEEP)하고,
+    v3에 스모킹 건 분노 촉매 엔진(SGOC), 정보 격차 카타르시스 트리거(IGCT), 감정적 거리감 방어 린터(EDPL)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#28_T03
+  item_num: 28
+  theme_num: 3
+  title: Emotion→Evidence→Meaning / Evidence→Consequence→Emotion
+  report_file: 20_Research_Reports/#28_Evidence와_Emotion/LSEv2_#28_T03_EmotionEvidenceMeaning_Evi.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Green & Brock의 서사적 전이(Transportation) 이론에 기반한 옹호형 E-E-M 시퀀싱의
+    반박 억제 및 신념 수용, Petty & Cacioppo의 정교화 가능성 모델(ELM) 중심 경로 기반 탐구형 E-C-E 시퀀싱의 영속적 태도
+    형성, Kasperson et al.의 SARF 위험 사회적 증폭 프레임워크 기반 인간적 귀결 가교(Human Consequence Bridge),
+    Dan Kahan의 문화적 인지 이론 기반 신뢰 민감 주제 우회 전략을 실증하여 '두 순서의 상호보완적 이원화' 가설을 전면 지지(KEEP)하고,
+    v3에 이원화 시퀀싱 라우터(DTSR), 인간적 귀결 가교 합성기(HCBS), 기계적 형식주의 방어 필터(MRAF)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#29_T01
+  item_num: 29
+  theme_num: 1
+  title: Narrative Prediction과 몰입
+  report_file: 20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T01_Narrative_Prediction과_몰입.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Andy Clark의 하향식 예측 처리 기계(Predictive Processing) 모델, Jeffrey
+    Zacks의 사건 분할 이론(EST) 기반 예측 오차 스파이크 및 사건 경계 갱신, Richard Gerrig & David Bernardo의
+    대안적 해결 경로 봉쇄(Path Pruning)를 통한 서스펜스 유발 모델, Karl Friston의 자유 에너지 원리 기반 능동적 추론(Active
+    Inference) 및 도파민성 지적 보상 루프를 실증하여 'Narrative Prediction과 몰입' 가설을 전면 지지(KEEP)하고,
+    v3에 계층적 예측 엔진(HPE), 사건 지평 경계 전이기(EHBS), 독자 문제 해결자 안무 공식(RPSC)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#29_T02
+  item_num: 29
+  theme_num: 2
+  title: 예측의 정확도와 난이도
+  report_file: 20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T02_예측의_정확도와_난이도.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Celeste Kidd et al.의 골디락스 효과(Goldilocks Effect) 기반 정보 엔트로피 중간
+    지대 주의 집중 극대화, Min Jeong Kang et al.의 fMRI 연구 기반 중간 불확실성 미상핵·선조체 도파민 보상 회로 점화,
+    George Mandler의 스키마 불일치 이론 기반 적당한 불일치(Moderate Incongruity) 미적 숙달 쾌감, Wolfram
+    Schultz et al.의 보상 예측 오차(Positive RPE) 도파민 발화 신경학적 메커니즘을 실증하여 '예측의 정확도와 난이도' 가설을
+    전면 지지(KEEP)하고, v3에 골디락스 엔트로피 거버너(GEG), 이중 계층 미스터리 인코더(DLME), 도파민 역전 밸브(DRV)를 공식
+    신설(EXPAND).
+- theme_id: LSEv2_#29_T03
+  item_num: 29
+  theme_num: 3
+  title: 예측과 감정·판단
+  report_file: 20_Research_Reports/#29_Prediction_Engine/LSEv2_#29_T03_예측과_감정판단.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Andrew Ortony et al.의 OCC 인지 감정 평가 모델 기반 희망·공포·안도 전이 메커니즘, Dolf
+    Zillmann의 성향 이론(Disposition Theory) 기반 도덕적 모니터링 및 권선징악적 도덕적 예측(Moral Forecasting),
+    Neal Roese의 사후가정적 사고(Counterfactual Thinking) 기반 근접 실패(Near-Miss) 비극 파토스 증폭, Jonathan
+    Leavitt & Nicholas Christenfeld의 스포일러 패러독스 기반 처리 유창성 및 스포일러 내성 서사를 실증하여 '예측과 감정·판단'
+    가설을 전면 지지(KEEP)하고, v3에 OCC 감정 진폭 직조기(OEAL), 도덕 회계 및 응보 라우터(MARR), 사후가정적 근접 실패
+    공명기(CNMR)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#30_T01
+  item_num: 30
+  theme_num: 1
+  title: 단서 기반 추론과 참여
+  report_file: 20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T01_단서_기반_추론과_참여.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Norman Slamecka & Peter Graf의 생성 효과(Generation Effect) 기반 스스로
+    도출한 결론의 2배 이상 장기기억 각인, Michelene Chi et al.의 자기 설명 효과(Self-Explanation) 멘탈 모델
+    정밀화, Arthur Graesser et al.의 구성주의 텍스트 이해 모델(Constructionist Model) 의미 추구 원칙, Elizabeth
+    Bonawitz et al.의 직접 교습 역설(Pedagogy Paradox) 불완전 단서의 자발적 탐색 3배 증폭을 실증하여 '단서 기반
+    추론과 참여' 가설을 전면 지지(KEEP)하고, v3에 단서 원자재 공급기(CRID), 인과 간극 조율기(IGO), 인지 부하 균형 밸브(CLBV)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#30_T02
+  item_num: 30
+  theme_num: 2
+  title: 단서의 양·명료도와 Fairness
+  report_file: 20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T02_단서의_양명료도와_Fairness.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Vera Tobin의 인지 시학 기반 페어플레이 및 사후 정합성(Retrospective Coherence)
+    만족도 모델, Gustav Kuhn et al.의 시각신경과학 기반 내현적 주의 분산(Covert Misdirection) 단서 차폐 메커니즘,
+    David Green & John Swets의 신호 탐지 이론(SDT) 기반 최적 신호 대 잡음비(d'=1.2), Baruch Fischhoff의
+    사후 확신 편향(Hindsight Bias) 기반 사후적 필연성 인지 조화를 실증하여 '단서의 양·명료도와 Fairness' 가설을 전면 지지(KEEP)하고,
+    v3에 페어플레이 사후 정합성 직조기(FPRL), 내현적 정서 미스디렉션 엔진(CEM), 신호 대 잡음비 캘리브레이터(SNRC)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#30_T03
+  item_num: 30
+  theme_num: 3
+  title: 설명형 콘텐츠에서의 능동 추론
+  report_file: 20_Research_Reports/#30_시청자가_예측할_수_있게_재료를_준다/LSEv2_#30_T03_설명형_콘텐츠에서의_능동_추론.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Howard S. Barrows의 문제 기반 학습(PBL) 분류체계 기반 문제·단서 선제시를 통한 지식 인출
+    활성화, Janet L. Kolodner의 사례 기반 추론(CBR) 인지 모델 기반 상황 단서 패턴 매칭 귀납 추론, Arthur S. Elstein
+    et al.의 임상 진단 추론(Diagnostic Reasoning) 조기 가설 생성 및 데이터 소거 메커니즘, Stephan Lewandowsky
+    et al.의 오정보 지속 영향 효과(CIE) 인과적 공백 왜곡 방어 및 사실 우선(Fact-First) 보텀라인 게이트를 실증하여 '설명형
+    콘텐츠에서의 능동 추론' 가설을 전면 지지(KEEP)하고, v3에 진단적 서사 아크 엔진(DNAE), 보텀라인 세이프티 게이트(BLFSG),
+    인과 공백 디바이애싱 밸런서(CGDB)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#31_T01
+  item_num: 31
+  theme_num: 1
+  title: Prediction Confirmation의 보상
+  report_file: 20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T01_Prediction_Confirmation의_보상.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: David Huron의 ITPRA 기대 모델 기반 예측 적중(Prediction Response) 시 신경생물학적
+    도파민 보상 방출, Richard Ryan & Edward Deci의 자결성 이론(SDT) 기반 지적 유능감(Competence/Mastery
+    Feeling) 충족을 통한 내재적 동기 극대화, Rolf Reber et al.의 인지적 처리 유창성(Processing Fluency)
+    기반 스키마 일치의 심미적 즐거움(Aesthetic Pleasure), Daniel Berlyne의 비교 변인 역U자 곡선(Inverted-U
+    Curve) 기반 70% 골격 적중과 30% 참신성 변주의 지루함 차단을 실증하여 'Prediction Confirmation의 보상' 가설을
+    전면 지지(KEEP)하고, v3에 유능감 확인 엔진(CCE), 극적 아이러니 서스펜스 직조기(DISL), 벌린 역U자 유창성 밸런서(BIUFB)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#31_T02
+  item_num: 31
+  theme_num: 2
+  title: Prediction Error의 보상과 위험
+  report_file: 20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T02_Prediction_Error의_보상과_위험.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Wolfram Schultz et al.의 보상 예측 오차(RPE) 기반 도파민 폭발 및 놀라움(Surprise)
+    쾌락 기제, Karl Friston의 자유 에너지 원리 기반 예측 오차의 베이지안 신념 갱신(Belief Updating), Alyssa Sinclair
+    et al.의 서사 예측 오차 시 해마 신경 표상 리셋 및 에피소드 기억 영구 갱신, Achim Schützwohl의 스키마 강도 기반 인지
+    중단 및 주의 초집중, Vera Tobin의 사후 정합성(Retrospective Coherence) 기반 불공정 반전 배신감 차단을 실증하여
+    'Prediction Error의 보상과 위험' 가설을 전면 지지(KEEP)하고, v3에 예측 오차 보상 직조기(PERW), 신념 갱신 재보정기(BUR),
+    페어플레이 반전 안전 밸브(FPTSV)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#31_T03
+  item_num: 31
+  theme_num: 3
+  title: 맞음과 틀림의 비율
+  report_file: 20_Research_Reports/#31_예측_결과는_두_가지_모두_보상이다/LSEv2_#31_T03_맞음과_틀림의_비율.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Robert C. Wilson et al.의 85% 최적 학습 규칙(정답률 85%:오차율 15%) 기반 정보
+    획득 및 몰입도 극대화 황금비, Mihaly Csikszentmihalyi의 플로우 채널 기반 수용자 숙련도별(초심자 90:10 vs 마니아
+    75:25) 난이도 동적 보정, Dolf Zillmann의 서스펜스 심리학 기반 주관적 성공 확률 50~80% 대역에서의 교감신경계 각성 극대화,
+    C. B. Ferster & B. F. Skinner의 변동 강화 스케줄과 서사의 사후 인과 필연성 차이, 반전 연타 시 도파민 수용체 둔감화
+    및 반전 피로(Reversal Fatigue) 방지 안티-피로 케이던스를 실증하여 '맞음과 틀림의 비율' 가설을 전면 지지(KEEP)하고,
+    v3에 85% 예측 밸런서(EFPB), 플로우 난이도 모듈레이터(FCDM), 안티-피로 반전 케이던스 제어기(AFRCC)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#32_T01
+  item_num: 32
+  theme_num: 1
+  title: Reversal과 Reappraisal의 이론
+  report_file: 20_Research_Reports/#32_반전의_정의/LSEv2_#32_T01_Reversal과_Reappraisal의_이론.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: 아리스토텔레스의 행위 인과적 역전(Peripeteia)과 무지에서 앎으로의 대전환(Anagnorisis) 동시
+    결합 카타르시스, James J. Gross의 인지적 재평가(Cognitive Reappraisal) 감정 조절 메커니즘을 통한 과거 씬 정서가
+    180도 역전, Carlos E. Alchourrón et al.의 AGM 신념 수정 모델 및 최소 변경 원칙(선행 사실 90% 보존, 핵심
+    전제 10% 수정), H. Porter Abbott의 서사적 리프레이밍(Narrative Reframing) 및 단순 서프라이즈(Noise)와
+    반전(Signal)의 분리를 실증하여 'Reversal과 Reappraisal의 이론' 가설을 전면 지지(KEEP)하고, v3에 페리페테이아-아나그노리시스
+    엔진(APAE), AGM 최소 신념 수정기(AMBR), 소급적 인지 리프레이밍 매트릭스(RCRM)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#32_T02
+  item_num: 32
+  theme_num: 2
+  title: 좋은 반전의 조건
+  report_file: 20_Research_Reports/#32_반전의_정의/LSEv2_#32_T02_좋은_반전의_조건.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: S. S. Van Dine과 Ronald A. Knox의 페어플레이 서사 계약(단서 사전 100% 노출),
+    Baruch Fischhoff의 사후 확신 편향(Hindsight Bias) 및 Vera Tobin의 놀라움과 필연성의 융합(Surprise
+    + Inevitability), E. M. Forster의 플롯 인과적 정합성(Causal Coherence) 완성, Raymond Chandler의
+    심리적 캐릭터 일관성(Character Consistency) 보존 및 작위적 트릭 비판, 비반전 서사(대부, 타이타닉)의 인과적 카타르시스를
+    실증하여 '좋은 반전의 조건' 가설을 전면 지지(KEEP)하고, v3에 페어플레이 복선 직조기(FPFW), 인과-캐릭터 일관성 닻(CCCA),
+    소급적 필연성 격발기(RIT)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#32_T03
+  item_num: 32
+  theme_num: 3
+  title: 정보형 콘텐츠의 반전
+  report_file: 20_Research_Reports/#32_반전의_정의/LSEv2_#32_T03_정보형_콘텐츠의_반전.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Thomas S. Kuhn의 패러다임 전환(Paradigm Shift) 및 이상치 데이터(Anomaly)의
+    인식론적 전복, Charles Perrow의 정상 사고(Normal Accidents) 이론 기반 단순 조작자 과실에서 복합 시스템 결함으로의
+    원인 재평가, Shanto Iyengar의 에피소드형에서 주제형으로의 프레임 전환을 통한 책임 귀인(Attribution of Responsibility)
+    역전, Bill Nichols의 다큐멘터리 수사학적 리프레이밍 및 선정주의적 왜곡(Sensational Distortion) 방어를 실증하여
+    '정보형 콘텐츠의 반전' 가설을 전면 지지(KEEP)하고, v3에 쿤식 패러다임 전복기(KPD), 시스템 책임 재귀인기(SRRA), 선정적
+    왜곡 방화벽(SDF)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#33_T01
+  item_num: 33
+  theme_num: 1
+  title: 8개 Reversal Type의 완전성
+  report_file: 20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T01_8개_Reversal_Type의_완전성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Robert K. Merton의 의도치 않은 결과(Unanticipated Consequences)와 Albert
+    O. Hirschman의 반동 수사학(역효과·무용성·위험 명제)을 통해 결과·비용·수혜 반전의 사회과학적 필연성을 실증하고, Tzvetan
+    Todorov의 구조주의 서사 변형학과 Paul Ricoeur의 시간 해석학을 결합하여 기존 8대 표면 유형의 실효성을 지지(KEEP)하는
+    한편, 결손 영역인 정체성(Identity)·역인과(Causal Arrow)·가치 전도(Value Norms)를 통합한 '8+3 범용 반전
+    매트릭스(URME)', 역효과 피드백 디커플러(PFD), 존재론적 인지 닻(OAA)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#33_T02
+  item_num: 33
+  theme_num: 2
+  title: 유형별 심리적 효과
+  report_file: 20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T02_유형별_심리적_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Bernard Weiner의 통제성 귀인 이론(분노➔연민 전도), Fiery Cushman의 도덕 판단 2-프로세스(동기
+    반전과 도덕적 판정 전복), Paul Slovic의 심리측정학적 공포 위험(Dread Risk & 규모 반전), Daniel Kahneman과
+    Dale T. Miller의 규범 이론(반사실적 후회·안도), Sushil Bikhchandani의 정보 폭포 이론(다수 반전과 지적 자율성)을
+    실증하여 '유형별 심리적 효과' 가설을 전면 지지(KEEP)하고, v3에 정서 가치 전도기(AVI), 공포-자율성 증폭기(DAE), 반사실적
+    카타르시스 합성기(CCS)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#33_T03
+  item_num: 33
+  theme_num: 3
+  title: 반전 라이브러리의 오용
+  report_file: 20_Research_Reports/#33_범용_반전_라이브러리/LSEv2_#33_T03_반전_라이브러리의_오용.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Maxwell & Jules Boykoff의 편향으로서의 균형(Balance as Bias) 및 거짓 등가성(False
+    Equivalence), Naomi Oreskes의 소수 데이터 체리피킹을 통한 의혹 조작(Manufacturing Doubt), Nassim
+    Nicholas Taleb의 서사 오류(Narrative Fallacy) 및 인과 과잉 단순화, Daniel Kahneman의 결과 편향과
+    사후적 동기 추론(Post Hoc Motive Inference), Richard J. Gerrig의 반전 피로(Twist Fatigue)
+    및 몰입 파괴를 실증하여 '반전 라이브러리의 오용' 가설을 전면 지지(KEEP)하고, v3에 진실성 검증 게이트(VIG), 서사 오류 디커플러(ANFD),
+    반전 조절 및 일관성 거버너(TPCG)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#34_T01
+  item_num: 34
+  theme_num: 1
+  title: Rehook과 Attention Renewal
+  report_file: 20_Research_Reports/#34_Rehook의_정의/LSEv2_#34_T01_Rehook과_Attention_Renewal.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Stephen Kaplan의 주의 회복 이론(ART) 및 지향성 주의 피로(DAF), Evgeny N. Sokolov의
+    정향 반응(OR) 및 신경 모델 불일치 각성, Jonathan Smallwood & Jonathan W. Schooler의 주의력 분리 및
+    목표 리셋(Goal Reset), Jeffrey M. Zacks의 사건 분할 이론(EST) 및 작업기억 갱신, John D. Bransford
+    & Marcia K. Johnson의 맥락적 스키마 선행 이론을 결합하여 'Rehook과 Attention Renewal' 가설을 전폭 지지(KEEP)하고,
+    v3에 주의력 리셋 엔진(ARE), 목적론적 목표 전환기(TGS), 정합적 신기성 밸런서(CNB)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#34_T02
+  item_num: 34
+  theme_num: 2
+  title: 가짜 Rehook vs 실질 변화
+  report_file: 20_Research_Reports/#34_Rehook의_정의/LSEv2_#34_T02_가짜_Rehook_vs_실질_변화.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Nancy Kanwisher의 반복 맹목(Repetition Blindness), Philip M. Groves
+    & Richard F. Thompson의 습관화 이중 과정 모델(Dual-Process Habituation), Daniel E. Berlyne의
+    인식론적 호기심(Epistemic Curiosity), H. Paul Grice의 대화 협력 원칙(Cooperative Principle),
+    Tzvetan Todorov의 서사 상태 변형(State Transformation) 이론을 결합하여 '가짜 Rehook vs 실질 변화'
+    가설을 전폭 지지(KEEP)하고, v3에 실질 상태 전이기(SST), 인식론적 갭 보정기(EGC), 서사 계약 방화벽(NCF)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#35_T01
+  item_num: 35
+  theme_num: 1
+  title: Rehook Type 분류와 효과
+  report_file: 20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T01_Rehook_Type_분류와_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Rolf A. Zwaan의 5차원 사건 색인 모델(Event-Indexing Model), Deborah A.
+    Small & George Loewenstein의 식별 가능한 피해자 효과(Identifiable Victim Effect), Jonathan
+    Haidt의 도덕적 직관주의(Social Intuitionist Model), Arthur C. Graesser의 심층 추론 질문(Deep-reasoning
+    Questions) 이론을 결합하여 'Rehook Type 분류와 효과' 가설을 전폭 지지(KEEP)하고, v3에 10대 범용 Rehook
+    라이브러리, Rehook 유형 선별기(RTS), 인간-데이터 교차 직조기(HDCW), 다차원 전이 오케스트레이터(DSO)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#35_T02
+  item_num: 35
+  theme_num: 2
+  title: 유형 전환과 정보 다양성
+  report_file: 20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T02_유형_전환과_정보_다양성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: John Sweller의 인지 부하 이론(CLT), Richard E. Mayer의 멀티미디어 이중 채널 학습
+    이론, Yaacov Trope & Nira Liberman의 해석 수준 이론(CLT), Melanie C. Green & Timothy C.
+    Brock의 서사적 몰입(Transportation) 이론을 결합하여 '유형 전환과 정보 다양성' 가설을 전폭 지지(KEEP)하고, v3에
+    동적 양식 전환기(DMS), 해석 스케일 교대기(CSA), 인지 부하 거버너(CLG)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#35_T03
+  item_num: 35
+  theme_num: 3
+  title: Rehook의 인과적 연결
+  report_file: 20_Research_Reports/#35_Rehook_라이브러리/LSEv2_#35_T03_Rehook의_인과적_연결.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Tom Trabasso & Paul van den Broek의 서사 인과 네트워크 모델(Causal Network),
+    Arthur C. Graesser의 전역적 일관성 구성주의 모델(Constructionist Model), Paul van den Broek의
+    인과 추론 형성 모델(CIM), Walter Kintsch & Teun A. van Dijk의 거시 구조(Macrostructure) 이론을
+    결합하여 'Rehook의 인과적 연결' 가설을 전폭 지지(KEEP)하고, v3에 인과 사슬 브릿지(CCB), 주제 일관성 닻(TCA), 메인
+    루프 수렴 프로토콜(MLCP)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#36_T01
+  item_num: 36
+  theme_num: 1
+  title: 시간 규칙 vs 상태 기반 타이밍
+  report_file: 20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T01_시간_규칙_vs_상태_기반_타이밍.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Neil A. Bradbury와 Karen Wilson & James H. Korn의 주의 집중 신화(Attention
+    Span Myths) 해체, Philip J. Guo et al.의 690만 비디오 세션 시청 유지율(Retention) 빅데이터 실증, Christopher
+    A. Kurby & Jeffrey M. Zacks의 사건 분할 이론(Event Segmentation)을 결합하여 '시간 규칙 vs 상태 기반
+    타이밍' 가설을 전폭 지지(KEEP)하고, v3에 서사 상태 모니터(NSM), 동적 리훅 트리거(DRT), 탄력적 페이싱 거버너(EPG)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#36_T02
+  item_num: 36
+  theme_num: 2
+  title: Rehook 필요 신호 검증
+  report_file: 20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T02_Rehook_필요_신호_검증.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Arie W. Kruglanski의 인지적 완결 욕구 및 동결(Freezing) 이론, Karl Friston의
+    자유 에너지 예측 처리 모델, Shane Frederick & George Loewenstein의 정서적 적응(Affective Adaptation),
+    Lawrence W. Barsalou의 지각 상징 체계 및 체화 인지 이론을 결합하여 'Rehook 필요 신호 검증' 가설을 전폭 지지(KEEP)하고,
+    v3에 5중 서사 위험 레이더(QRR), 복합 이탈 방쇄기(SDB), 위양성 판별기(FPD)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#36_T03
+  item_num: 36
+  theme_num: 3
+  title: Rehook 과잉의 비용
+  report_file: 20_Research_Reports/#36_Rehook_Timing/LSEv2_#36_T03_Rehook_과잉의_비용.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Stephen Monsell의 과제 전환 비용(Task/Topic Switching Cost) 이론, Gloria
+    Mark의 업무 중단 및 주의 파편화(Attention Fragmentation) 실증, Mihaly Csikszentmihalyi의 몰입(Flow)
+    이론, Eyal Ophir et al.의 미디어 다중작업 인지 통제 이론을 결합하여 'Rehook 과잉의 비용' 가설을 전폭 지지(KEEP)하고,
+    v3에 최소 체류 거버너(MDG), 서사 부채 감사기(NDA), 전환 비용 감쇠기(SCD)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#37_T01
+  item_num: 37
+  theme_num: 1
+  title: 감정 전환이 Attention Renewal을 만드는가
+  report_file: 20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T01_감정_전환이_Attention_Renewal을_만드는가.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: James A. Russell의 정서 원형 모델(Circumplex Model), James J. Gross의
+    인지적 재평가(Cognitive Reappraisal), Jeff T. Larsen et al.의 평가 공간 모델(Evaluative Space
+    Model), Keith Oatley & Philip N. Johnson-Laird의 서사 인지 정서 이론을 결합하여 '감정 전환이 Attention
+    Renewal을 만드는가' 가설을 전폭 지지(KEEP)하고, v3에 감정 전위 벡터(ESV), 인지적 재평가 프레이밍(CRF), 혼합 감정
+    대비 최적화기(MEC)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#37_T02
+  item_num: 37
+  theme_num: 2
+  title: 감정 전환의 Trigger 설계
+  report_file: 20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T02_감정_전환의_Trigger_설계.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Ira J. Roseman의 이산 정서 평가 이론, Phoebe C. Ellsworth & Klaus R.
+    Scherer의 순차적 평가 과정 모델, Nico H. Frijda의 정서 법칙, Dolf Zillmann의 서스펜스 및 각성 이동 이론을
+    결합하여 '감정 전환의 Trigger 설계' 가설을 전폭 지지(KEEP)하고, v3에 6대 감정 전환 트리거(ATT), 인과-정서 공명 닻(CTR),
+    다층 감정 연쇄기(MLE)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#37_T03
+  item_num: 37
+  theme_num: 3
+  title: Emotional Rehook의 장르 경계
+  report_file: 20_Research_Reports/#37_Emotional_Rehook/LSEv2_#37_T03_Emotional_Rehook의_장르_경계.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Ed S. Tan의 서사 영화 장르 계약 이론, Peter Vorderer et al.의 미디어 향유 다차원
+    모델, Anne Bartsch & Mary Beth Oliver의 유다이모니아적 성찰 이론, Carl Plantinga의 톤 거버넌스(Tonal
+    Governance) 이론을 결합하여 'Emotional Rehook의 장르 경계' 가설을 전폭 지지(KEEP)하고, v3에 장르별 정서 호환
+    매트릭스(GBC), 톤 충돌 방쇄 필터(TWP), 장르-정서 계약 프로토콜(GEC)을 공식 신설(EXPAND). [100TH CENTENNIAL
+    MILESTONE]
+- theme_id: LSEv2_#38_T01
+  item_num: 38
+  theme_num: 1
+  title: 연속극·멜로드라마의 Retention Mechanics
+  report_file: 20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T01_연속극멜로드라마의_Retention_Mechanics.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Robert C. Allen의 연속극 서사학(극적 아이러니·지연된 폭로), Sonia M. Livingstone의
+    시청자 인지 표상 모델, Christine Geraghty의 갈등 에스컬레이션, Ien Ang의 감정적 리얼리즘 이론을 결합하여 '연속극·멜로드라마의
+    Retention Mechanics' 가설을 전폭 지지(KEEP)하고, v3에 극적 아이러니 매트릭스(DIM), 지연 폭로 에스컬레이터(DDE),
+    멜로드라마 피로도 거버너(MFG)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#38_T02
+  item_num: 38
+  theme_num: 2
+  title: 하나의 사건에서 다중 감정을 만드는 구조
+  report_file: 20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T02_하나의_사건에서_다중_감정을_만드는_구조.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Torben Grodal의 PECMA 흐름 신경생물학 모델, Ed S. Tan의 단일 플롯 계단식 감정 폭포(Emotion
+    Cascade) 이론, Robin L. Nabi의 이산 정서 프레이밍 효과, Craig A. Smith & Phoebe C. Ellsworth의
+    인지 평가 차원 프로파일을 결합하여 '하나의 사건에서 다중 감정을 만드는 구조' 가설을 전폭 지지(KEEP)하고, v3에 단일 사건 감정 연쇄기(SEC),
+    정보-책임-주체 매트릭스(IRA), 정서 프레이밍 엔진(AFE)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#38_T03
+  item_num: 38
+  theme_num: 3
+  title: 정보형 롱폼으로의 전이 가능성
+  report_file: 20_Research_Reports/#38_막장드라마에서_배울_점/LSEv2_#38_T03_정보형_롱폼으로의_전이_가능성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Bill Nichols의 다큐멘터리 서사 표상 윤리, John Corner의 팩추얼 스토리텔링 신뢰 모델,
+    Michael F. Dahlstrom의 과학 서사화 인지 한계 분석, Robert M. Entman의 미디어 프레이밍 이론을 결합하여 '정보형
+    롱폼으로의 전이 가능성' 가설을 전폭 지지(KEEP)하고, v3에 팩추얼-정서 거버넌스 프로토콜(FTG), 다차원 인과 프레이머(MDC),
+    사실 검증 증거 닻(FVE)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#39_T01
+  item_num: 39
+  theme_num: 1
+  title: Moral Judgment와 Engagement
+  report_file: 20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T01_Moral_Judgment와_Engagement.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Jonathan Haidt의 도덕 정서 4대 패밀리 이론, William J. Brady et al.의 도덕-정서
+    확산 PNAS 실증, M. J. Crockett의 디지털 도덕 분노 신경생물학, Paul Rozin et al.의 CAD 3대 정서 가설을
+    결합하여 'Moral Judgment와 Engagement' 가설을 전폭 지지(KEEP)하고, v3에 4대 도덕 정서 엔진(MEE), 공정성
+    훼손 에스컬레이터(FVE-M), 도덕 분노 피로 거버너(OFG)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#39_T02
+  item_num: 39
+  theme_num: 2
+  title: 스스로 판단하게 하는 방식
+  report_file: 20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T02_스스로_판단하게_하는_방식.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Jack W. Brehm의 심리적 저항 이론(Reactance Theory), Edward L. Deci &
+    Richard M. Ryan의 자기결정성 이론(자율성 지지), Daniel J. O'Keefe의 논박형 양면 메시지 메타분석, Richard
+    E. Petty & John T. Cacioppo의 정교화 가능성 모델(ELM)을 결합하여 '스스로 판단하게 하는 방식' 가설을 전폭 지지(KEEP)하고,
+    v3에 자율 추론 서사 파이프라인(AIP), 논박형 양면 거버너(RCG), 유도 언어 정화 필터(LLF)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#39_T03
+  item_num: 39
+  theme_num: 3
+  title: 도덕 판단의 문화·편향
+  report_file: 20_Research_Reports/#39_도덕적_감정/LSEv2_#39_T03_도덕_판단의_문화편향.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Jesse Graham & Jonathan Haidt의 도덕적 기반 이론(MFT), Joseph Henrich
+    et al.의 WEIRD 편향 해체 연구, Fiery Cushman의 의도-결과 2프로세스 모델, Philip E. Tetlock et al.의
+    신성한 가치 보호 모델(SVPM)을 결합하여 '도덕 판단의 문화·편향' 가설을 전폭 지지(KEEP)하고, v3에 다원적 도덕 기반 균형기(MFB),
+    교차 문화 금기 검증기(CTV), 의도-결과 분리 매트릭스(IOD)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#40_T01
+  item_num: 40
+  theme_num: 1
+  title: Mixed Emotion의 심리적 효과
+  report_file: 20_Research_Reports/#40_복합_감정/LSEv2_#40_T01_Mixed_Emotion의_심리적_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Jeff T. Larsen et al.의 이변량 평가 공간 모델(ESM), Laura L. Carstensen의
+    사회정서적 선택성 이론(SST), Mary Beth Oliver & Anne Bartsch의 에우다이모닉 미디어 감상론, Jennifer Aaker
+    et al.의 복합 정서 인지 갈등 연구를 결합하여 'Mixed Emotion의 심리적 효과' 가설을 전폭 지지(KEEP)하고, v3에 이변량
+    동시 공활성화 엔진(BCA), 에우다이모닉 의미 닻 프로토콜(EMA), 인지 부조화 완충 필터(CDF)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#40_T02
+  item_num: 40
+  theme_num: 2
+  title: 복합 감정의 서사 Trigger
+  report_file: 20_Research_Reports/#40_복합_감정/LSEv2_#40_T02_복합_감정의_서사_Trigger.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Philip E. Tetlock의 가치 다원주의 모델(Value Pluralism), Arthur A. Raney의
+    도덕적 복합 인물 성향 이론, Dacher Keltner & Jonathan Haidt의 위협 기반 경외 모델, Amos Tversky &
+    Eldar Shafir의 트레이드오프 갈등 이론을 결합하여 '복합 감정의 서사 Trigger' 가설을 전폭 지지(KEEP)하고, v3에 가치
+    충돌 에스컬레이터(VCE), 동정적 가해자 트리거(SWT), 트레이드오프 폭로 매트릭스(TDM)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#40_T03
+  item_num: 40
+  theme_num: 3
+  title: 장르·문화별 복합 감정
+  report_file: 20_Research_Reports/#40_복합_감정/LSEv2_#40_T03_장르문화별_복합_감정.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Constantine Sedikides et al.의 노스탤지어 실존 기능론, Kaiping Peng & Richard
+    E. Nisbett의 문화 인지 및 변증법적 사고 연구, Ed S. Tan의 영화 서사 감정 및 장르 계약론, W. Gerrod Parrott의
+    부정 정서 서사 대위법을 결합하여 '장르·문화별 복합 감정' 가설을 전폭 지지(KEEP)하고, v3에 변증법적 문화 정서 설계(DCA), 노스탤지어
+    닻 거버넌스(NAG), 장르 적합성 경계 필터(GFB)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#41_T01
+  item_num: 41
+  theme_num: 1
+  title: Ambivalence와 Cognitive Processing
+  report_file: 20_Research_Reports/#41_Ambivalence/LSEv2_#41_T01_Ambivalence와_Cognitive_Process.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Joseph R. Priester & Richard E. Petty의 점진적 역치 모델(Gradual Threshold
+    Model), Frenk van Harreveld et al.의 양가감정 유발 불편감 모델(Ambivalence-Induced Discomfort),
+    Naomi B. Rothman et al.의 인지적 유연성(Cognitive Flexibility) 및 관점 채택 연구, van Harreveld
+    et al.의 ABC 모델을 결합하여 'Ambivalence와 Cognitive Processing' 가설을 전폭 지지(KEEP)하고, v3에
+    역치 양가감정 조율기(TAC), 균형 정보탐색 프로토콜(BIP), 결정 교착 방어 프레임워크(DDF)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#41_T02
+  item_num: 41
+  theme_num: 2
+  title: Narrative Ambivalence 설계
+  report_file: 20_Research_Reports/#41_Ambivalence/LSEv2_#41_T02_Narrative_Ambivalence_설계.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Philip E. Tetlock의 가치 다원주의 모델(Value Pluralism), K. Maja Krakowiak
+    & Mina Tsay-Vogel의 도덕적 모호성 인물(MACs) 연구, Eldar Shafir et al.의 이유 기반 선택 및 트레이드오프
+    프레이밍, Maxwell T. Boykoff & Jules M. Boykoff의 Balance-as-Bias 이론을 결합하여 'Narrative
+    Ambivalence 설계' 가설을 전폭 지지(KEEP)하고, v3에 가치 충돌 엔진(VCE-v3), 도덕적 모호성 인물 설계(MAC-A),
+    기계적 양비론 필터(FBF)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#41_T03
+  item_num: 41
+  theme_num: 3
+  title: Ambivalence와 신뢰·논쟁 콘텐츠
+  report_file: 20_Research_Reports/#41_Ambivalence/LSEv2_#41_T03_Ambivalence와_신뢰논쟁_콘텐츠.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Daniel J. O'Keefe의 양면 메시지 메타분석, Sander L. van der Linden et
+    al.의 관문 신념 모델, Brendan Nyhan & Jason Reifler의 역화 효과론, Stephan Lewandowsky et al.의
+    오정보 지속 영향 및 대체 인과 서사론을 결합하여 'Ambivalence와 신뢰·논쟁 콘텐츠' 가설을 전폭 지지(KEEP)하고, v3에 반론형
+    양면 메시지 프로토콜(RTM-P), 합의 관문 메커니즘(CGM), 양극화 접종 서사 방어(PIN-D)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#42_T01
+  item_num: 42
+  theme_num: 1
+  title: Self-Relevance와 Narrative Engagement
+  report_file: 20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T01_Self-Relevance와_Narrative_Enga.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: T. B. Rogers et al.의 자기 참조 효과(Self-Reference Effect), Melanie
+    C. Green & Timothy C. Brock의 서사적 이동 이론(Narrative Transportation), Jonathan Cohen의
+    인물 동일시 모델, Claude M. Steele의 자기 긍정 이론을 결합하여 'Self-Relevance와 Narrative Engagement'
+    가설을 전폭 지지(KEEP)하고, v3에 자기 참조 부호화 엔진(SRE-E), 심층 동일시 프로토콜(DIP), 자기 긍정 방어 필터(SAD-F)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#42_T02
+  item_num: 42
+  theme_num: 2
+  title: Viewer Mirror의 다양한 형태
+  report_file: 20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T02_Viewer_Mirror의_다양한_형태.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Richard H. Thaler의 심적 회계(Mental Accounting), Christina Maslach
+    et al.의 직무 번아웃 다차원 모델, Martin A. Conway et al.의 자아-기억 체계(SMS), Thomas Gilovich
+    & Victoria Husted Medvec의 시간적 후회 패턴 모델을 결합하여 'Viewer Mirror의 다양한 형태' 가설을 전폭 지지(KEEP)하고,
+    v3에 심적 회계 공명 아키텍처(MRA), 조직 소진 동기화 엔진(OES), 시간적 후회 거울 카타르시스(TMR-C)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#42_T03
+  item_num: 42
+  theme_num: 3
+  title: Forced Relevance와 경계조건
+  report_file: 20_Research_Reports/#42_Viewer_Mirror/LSEv2_#42_T03_Forced_Relevance와_경계조건.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Jack W. Brehm의 심리적 저항 이론(Psychological Reactance), Marian Friestad
+    & Peter F. Wright의 설득 지식 모델(PKM), Rosabeth Moss Kanter의 토크니즘 이론, Dedre Gentner의
+    구조 매핑 이론을 결합하여 'Forced Relevance와 경계조건' 가설을 전폭 지지(KEEP)하고, v3에 심리적 저항 방어 아키텍처(PR-D),
+    심층 구조 매핑 엔진(DS-M), 설득 지식 완충 필터(PKB-F)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#43_T01
+  item_num: 43
+  theme_num: 1
+  title: Relevance 단계 모델 검증
+  report_file: 20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T01_Relevance_단계_모델_검증.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Robert B. Zajonc의 단순 노출 효과, Leon Festinger의 사회적 비교 이론, Judith
+    Lynne Zaichkowsky의 개인 관여도 척도(PII), Blair T. Johnson & Alice H. Eagly의 관여도 메타분석을
+    결합하여 'Relevance 단계 모델 검증' 가설을 전폭 지지(KEEP)하고, v3에 관련성 5단계 사다리 엔진(RS-L), 최적 관련성
+    조율기(OC-A), 가치 양자 도약 프로토콜(VQL)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#43_T02
+  item_num: 43
+  theme_num: 2
+  title: 단계별 효과와 장르 적합성
+  report_file: 20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T02_단계별_효과와_장르_적합성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Richard E. Petty & John T. Cacioppo의 이슈 관여도, Annie Lang의 제한
+    용량 모델(LC4MP), Mary Beth Oliver & Anne Bartsch의 이원 쾌락 모델, Jonah Berger & Katherine
+    L. Milkman의 바이럴 감정 메커니즘을 결합하여 '단계별 효과와 장르 적합성' 가설을 전폭 지지(KEEP)하고, v3에 단계별 KPI
+    오케스트레이터(L-KPI), 장르 계약 정렬 아키텍처(G-CA), 가치 과적 피로 방어 필터(VOA-F)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#43_T03
+  item_num: 43
+  theme_num: 3
+  title: Relevance 상승의 윤리·정확성
+  report_file: 20_Research_Reports/#43_Viewer_Relevance의_단계/LSEv2_#43_T03_Relevance_상승의_윤리정확성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Kim Witte의 확장 병렬 처리 모델(EPPM), Paul Slovic의 위험 지각 패러다임, Henri
+    Tajfel & John C. Turner의 사회 정체성 이론, Robert M. Entman의 프레이밍 편향 연구를 결합하여 'Relevance
+    상승의 윤리·정확성' 가설을 전폭 지지(KEEP)하고, v3에 공포-효능감 균형 엔진(EPPM-B), 관련성 보정 거버넌스(RC-G), 정체성
+    조작 방어 필터(IM-D)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#44_T01
+  item_num: 44
+  theme_num: 1
+  title: 낯선 소재의 Personal Relevance 만들기
+  report_file: 20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T01_낯선_소재의_Personal_Relevance_만들기.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Dedre Gentner의 구조 매핑 이론(SMT), Donald E. Brown의 인간 보편성(Human
+    Universals), George Loewenstein의 정보 공백 이론, Yaacov Trope & Nira Liberman의 해석 수준
+    이론(CLT)을 결합하여 '낯선 소재의 Personal Relevance 만들기' 가설을 전폭 지지(KEEP)하고, v3에 구조 매핑 가교
+    아키텍처(SM-B), 인간 보편성 닻 내리기(HU-A), 해석 수준 전환 다이내믹(CLT-D)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#44_T02
+  item_num: 44
+  theme_num: 2
+  title: Relevance 신호의 타이밍
+  report_file: 20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T02_Relevance_신호의_타이밍.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Sharon S. Brehm & Jack W. Brehm의 심리적 저항 이론, Arthur C. Graesser
+    et al.의 서사 구성주의 모델, Richard E. Petty et al.의 초기 개인 관여도 연구, Silvia Knobloch-Westerwick
+    et al.의 미스터리 반전 역학을 결합하여 'Relevance 신호의 타이밍' 가설을 전폭 지지(KEEP)하고, v3에 조기 관련성 격발
+    오케스트레이터(ERT-O), 지연된 개인적 반전 아키텍처(DPR-A), 심리적 저항 질식 방지 필터(RAC-F)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#44_T03
+  item_num: 44
+  theme_num: 3
+  title: 관계 없는 연결의 실패
+  report_file: 20_Research_Reports/#44_그래서_나랑_무슨_상관_방지/LSEv2_#44_T03_관계_없는_연결의_실패.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Dedre Gentner & Arthur B. Markman의 구조 매핑 검증, Dan Sperber & Deirdre
+    Wilson의 적합성 이론(Relevance Theory), Cass R. Sunstein의 확률 무시(Probability Neglect),
+    Victor Nell의 루딕 몰입 이론을 결합하여 '관계 없는 연결의 실패' 가설을 전폭 지지(KEEP)하고, v3에 구조적 정렬 검증 거버넌스(SAV-G),
+    확률 부풀리기 방어 필터(PIF-D), 순수 미적 스펙터클 엔진(PA-S)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#45_T01
+  item_num: 45
+  theme_num: 1
+  title: Story State 개념의 이론적 근거
+  report_file: 20_Research_Reports/#45_Story_State/LSEv2_#45_T01_Story_State_개념의_이론적_근거.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Teun A. van Dijk & Walter Kintsch의 상황 모델(Situation Model), Rolf
+    A. Zwaan et al.의 사건 지수화 모델(Event-Indexing Model), Tom Trabasso & Linda L. Sperry의
+    인과 사슬 및 목표 상태 전이 분석, David N. Rapp & Panayiota Kendeou의 신념 상태 갱신 연구를 결합하여 'Story
+    State 개념의 이론적 근거' 가설을 전폭 지지(KEEP)하고, v3에 8대 서사 상태 벡터 엔진(NSV-8), 사건 지수화 다차원 추적기(EIM-T),
+    신념 상태 갱신 프로토콜(BSU-P)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#45_T02
+  item_num: 45
+  theme_num: 2
+  title: State Change와 Chapter 가치
+  report_file: 20_Research_Reports/#45_Story_State/LSEv2_#45_T02_State_Change와_Chapter_가치.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Jeffrey M. Zacks et al.의 사건 분할 이론(EST), Kael W. Swallow et al.의
+    사건 경계 기억 파지 실증, Dolf Zillmann의 서스펜스 위험 격상 연구, Edward L. Deci & Richard M. Ryan의
+    목표 진전 및 자기결정성 이론을 결합하여 'State Change와 Chapter 가치' 가설을 전폭 지지(KEEP)하고, v3에 챕터 가치
+    판정식 엔진(CVM-E), 사건 분할 격발 경계(EST-B), 위험 격상 추진 프로토콜(RE-P)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#45_T03
+  item_num: 45
+  theme_num: 3
+  title: State Change의 크기와 빈도
+  report_file: 20_Research_Reports/#45_Story_State/LSEv2_#45_T03_State_Change의_크기와_빈도.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: John Sweller의 인지 부하 이론(CLT), Christopher A. Kurby & Jeffrey
+    M. Zacks의 계층적 사건 분할 모델, Ed S. Tan의 서사 감정 및 정서적 정지 구간 이론, Roger C. Schank & Robert
+    P. Abelson의 스크립트 이론을 결합하여 'State Change의 크기와 빈도' 가설을 전폭 지지(KEEP)하고, v3에 미세-거대
+    정렬 캐스케이드(MAC-S), 상태 과포화 방어 게이트(CDS-G), 절차적 변주 추진 엔진(SB-P)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#46_T01
+  item_num: 46
+  theme_num: 1
+  title: Micro Story 구조의 타당성
+  report_file: 20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T01_Micro_Story_구조의_타당성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Dwight V. Swain의 Scene-Sequel 구조론, Robert McKee의 비트 이론 및 가치
+    전하 전이, Nancy L. Stein & Margaret M. Glenn의 이야기 문법(Story Grammar) 6단계 스키마, Richard
+    S. Lazarus의 인지적 평가(Meaning Appraisal) 이론을 결합하여 'Micro Story 구조의 타당성' 가설을 전폭 지지(KEEP)하고,
+    v3에 6단계 마이크로 블록 조립기(MSB-6), 서사 체이닝 도관(NC-C), 블록 변주 제어기(FT-V)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#46_T02
+  item_num: 46
+  theme_num: 2
+  title: Micro Block과 Retention
+  report_file: 20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T02_Micro_Block과_Retention.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Tom Trabasso & Paul van den Broek의 국소 목표 인과망, George A. Miller의
+    청킹(Chunking) 모델, Teresa M. Amabile & Steven J. Kramer의 스몰 윈(Small Wins) 원리, Raja
+    Parasuraman의 인지 피로 리셋 및 경계 감소 이론을 결합하여 'Micro Block과 Retention' 가설을 전폭 지지(KEEP)하고,
+    v3에 마이크로 페이오프 추진 엔진(MPP-E), 국소 목표 적층 매트릭스(LGS-M), 인지 리셋 피로도 방어 게이트(CR-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#46_T03
+  item_num: 46
+  theme_num: 3
+  title: 정보형 콘텐츠 적용
+  report_file: 20_Research_Reports/#46_Micro_Story_Block/LSEv2_#46_T03_정보형_콘텐츠_적용.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Stephen E. Toulmin의 실용 논증 모델, Daniel E. Berlyne의 인식론적 호기심 이론,
+    Richard E. Mayer et al.의 멀티미디어 일관성 원칙 및 유혹적 세부사항 효과, Dacher Keltner & Jonathan
+    Haidt의 지적 경이감(Awe) 이론을 결합하여 '정보형 콘텐츠 적용' 가설을 전폭 지지(KEEP)하고, v3에 비픽션 5대 마이크로 블록
+    변환기(NMB-5), 팩트 보존 지적감정 엔진(TPA-E), 유혹적 잡음 필터 및 스토리 면제 게이트(SDF-F)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#47_T01
+  item_num: 47
+  theme_num: 1
+  title: Investigative Chapter 구조
+  report_file: 20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T01_Investigative_Chapter_구조.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: George Loewenstein의 정보 공백 이론(Information-Gap Theory), David
+    Klahr & Kevin Dunbar의 이중 공간 탐색 모델(SDDS), Arie W. Kruglanski & Donna M. Webster의
+    인지적 종결 욕구(NFCC), Paul van den Broek의 인과 추론 모델을 결합하여 'Investigative Chapter 구조'
+    가설을 전폭 지지(KEEP)하고, v3에 6단계 탐구형 챕터 조립기(ICB-6), 해답 타이밍 최적화기(AT-O), 인과도약 질문 전이 프로토콜(CLI-T)을
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#47_T02
+  item_num: 47
+  theme_num: 2
+  title: Answer와 Consequence의 구분
+  report_file: 20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T02_Answer와_Consequence의_구분.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Marie-Laure Ryan의 양상 서사 모델(K-world와 W/I/O-world 변이), David Herman의
+    인지서사학 사건성 이론(World-disruption), Marisa Bortolussi & Peter Dixon의 심리서사학 실증, Raymond
+    A. Mar의 마음 이론(ToM) 신경망 연구를 결합하여 'Answer와 Consequence의 구분' 가설을 전폭 지지(KEEP)하고, v3에
+    해답-파급효과 분리 엔진(AC-D), 2차 정서 의미화 프로세서(SEM-M), 인과 연속성 보존 프로토콜(CCC-P)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#47_T03
+  item_num: 47
+  theme_num: 3
+  title: Chapter 구조의 다양성
+  report_file: 20_Research_Reports/#47_Chapter_Block/LSEv2_#47_T03_Chapter_구조의_다양성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Seymour Chatman의 인물 중심 및 사건 중심 서사 이분법, Perry N. Thorndyke의 이야기
+    문법 및 스키마 포화 방어 모델, M.M. Bakhtin의 대화주의 다성성, Charles Ramirez Berg의 대안 플롯 12대 체계를
+    결합하여 'Chapter 구조의 다양성' 가설을 전폭 지지(KEEP)하고, v3에 챕터 문법 6대 원형 라이브러리(CG-6), 스키마 예측
+    피로 방어 게이트(SAP-G), 병렬 서사 동기화기(PST-S)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#48_T01
+  item_num: 48
+  theme_num: 1
+  title: 9단계 Macro Structure 검증
+  report_file: 20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T01_9단계_Macro_Structure_검증.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Gustav Freytag의 5막 피라미드 모델, Joseph Campbell의 신화적 영웅의 여정(Monomyth),
+    Syd Field의 3막 구조 패러다임, Christopher Booker의 5단계 메타플롯 이론을 결합하여 '9단계 Macro Structure
+    검증' 가설을 전폭 지지(KEEP)하고, v3에 범용 9단계 매크로 서사 엔진(MS-9), 위상 정렬 및 압축 매트릭스(PAC-M), 인식전환-보상
+    최적화 게이트(RPO-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#48_T02
+  item_num: 48
+  theme_num: 2
+  title: 단계 순서와 필수성
+  report_file: 20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T02_단계_순서와_필수성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Shlomith Rimmon-Kenan의 서사 시간 왜곡(Anachrony)과 순서 역전 이론, Linda
+    Aronson의 현대 비선형 각본 공학(다중 피크 및 축약 구조), Miklós Kiss & Steven Willemsen의 퍼즐 필름 인지론(순환
+    서사), Raphaël Baroni의 서사 긴장 역학(서스펜스-호기심-아이러니 전환)을 결합하여 '단계 순서와 필수성' 가설을 전폭 지지(KEEP)하고,
+    v3에 위상 순서 치환 프로토콜(POS-P), 실용 5단계 압축 프로토콜(PAC-5), 비선형 인지 긴장 제어기(TSE-C)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#48_T03
+  item_num: 48
+  theme_num: 3
+  title: 범용성의 경계
+  report_file: 20_Research_Reports/#48_전체_롱폼_구조/LSEv2_#48_T03_범용성의_경계.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Hayden White의 역사적 플롯화(Emplotment)와 왜곡 경계론, Michael F. Dahlstrom의
+    과학 서사화 인지 한계 분석, David Bordwell의 고전적 서사 규범 및 인지적 대안 서사론, Janet H. Murray의 인터랙티브
+    다형 서사(Multiform Narrative) 이론을 결합하여 '범용성의 경계' 가설을 전폭 지지(KEEP)하고, v3에 7대 도메인 적응
+    매트릭스(DAM-7), 공식주의 피로 및 저항 거버넌스(FRG-D), 인식론적 경계 필터(EBF-E)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#49_T01
+  item_num: 49
+  theme_num: 1
+  title: Climax와 Stake의 관계
+  report_file: 20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T01_Climax와_Stake의_관계.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Robert McKee의 가치 전하 최대 진폭 전환 및 결정적 선택 이론, Daniel Kahneman &
+    Amos Tversky의 손실 회피(Loss Aversion) 전망 이론, David Herman의 인지서사학적 사건성 및 가능성 공간 수렴
+    이론, Keith Oatley의 플롯 피크-감정 피크 분리 및 폭로 피크 연구를 결합하여 'Climax와 Stake의 관계' 가설을 전폭 지지(KEEP)하고,
+    v3에 피크-스테이크 정렬 엔진(PSA-E), 결정적 선택 프로토콜(DCP-A), 이중 감정-플롯 피크 동기화기(DEP-S)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#49_T02
+  item_num: 49
+  theme_num: 2
+  title: 장르별 Peak 형태
+  report_file: 20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T02_장르별_Peak_형태.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Thomas S. Kuhn의 패러다임 전환(발견 피크) 이론, Michael E. Porter의 전략적 가치
+    트레이드오프 이론, Mihaly Csikszentmihalyi의 몰입 및 승부처 자기희생 분석, Arthur A. Raney의 성향 이론(관계
+    vs 경력의 가치 선택)을 결합하여 '장르별 Peak 형태' 가설을 전폭 지지(KEEP)하고, v3에 7대 장르별 피크 프로파일러(GPP-7),
+    가치 트레이드오프 의사결정 엔진(VTD-E), 발견 피크 승격 시퀀서(DPE-S)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#49_T03
+  item_num: 49
+  theme_num: 3
+  title: Peak Inflation과 반례
+  report_file: 20_Research_Reports/#49_Peak의_정의/LSEv2_#49_T03_Peak_Inflation과_반례.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Daniel E. Berlyne의 미학 심리생물학 및 자극 순응(Habituation) 이론, Kristin
+    Thompson의 신형식주의 서사적 잉여 스펙터클 비판, Noël Carroll의 대중 예술 철학 및 정서적 절제 미학, Paul Schrader의
+    초월적 영화 양식(정지와 침묵의 클라이맥스)을 결합하여 'Peak Inflation과 반례' 가설을 전폭 지지(KEEP)하고, v3에 피크
+    인플레이션 방어 게이트(PID-G), 조용한 클라이맥스 프로토콜(QC-P), 에스컬레이션 경제학 제어기(EED-C)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#50_T01
+  item_num: 50
+  theme_num: 1
+  title: 감정별 Build-up 조건
+  report_file: 20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T01_감정별_Build-up_조건.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Dolf Zillmann의 각성 전이 이론(생리적 잔여 각성의 감정 증폭), John Bowlby의 애착 이론(사전
+    유대 축적 없는 상실의 신파화 방어), Jonathan Haidt의 도덕적 기반 이론(불공정 누적에 따른 정의 구현 도파민 폭발), C. R.
+    Snyder의 희망 이론(목표 차단 극복과 대안 경로 탐색)을 결합하여 '감정별 Build-up 조건' 가설을 전폭 지지(KEEP)하고, v3에
+    7대 감정별 빌드업 캘리브레이터(EBC-7), 불공정-정의감 축적 엔진(UTP-E), 긴장-카타르시스 감사 게이트(TCA-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#50_T02
+  item_num: 50
+  theme_num: 2
+  title: 축적의 길이·강도
+  report_file: 20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T02_축적의_길이강도.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Martin Seligman의 학습된 무기력(고구마 한계선과 이탈 기제), Charles Ferster &
+    B. F. Skinner의 간헐적 강화 스케줄(마이크로 페이오프와 장기 몰입 유지), Dolf Zillmann의 서스펜스 생리적 감쇠 곡선(단순
+    반복의 실패와 계단식 강도 에스컬레이션), Roy Baumeister의 자아 고갈 이론(정서적 탈진과 수확 체감)을 결합하여 '축적의 길이·강도'
+    가설을 전폭 지지(KEEP)하고, v3에 인지 수용 한계 모니터(CTL-M), 마이크로 페이오프 스케줄러 엔진(MPS-E), 점진적 강도 에스컬레이션
+    제어기(GEG-C)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#50_T03
+  item_num: 50
+  theme_num: 3
+  title: Setup-Payoff 인과성
+  report_file: 20_Research_Reports/#50_Peak_앞에는_축적이_필요하다/LSEv2_#50_T03_Setup-Payoff_인과성.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Anton Chekhov의 체호프의 총 원리(극적 경제성과 인과적 필연성), Arthur Graesser의
+    구성주의 서사 추론 이론(셋업 없는 기적적 해결의 조작감 지각), Charles Fletcher & Charles Bloom의 잠재 기억 인출
+    및 소급적 인과 재구성(유레카 카타르시스), David Bordwell의 모티프 심기와 회수(정당하게 획득된 감정의 표준)를 결합하여 'Setup-Payoff
+    인과성' 가설을 전폭 지지(KEEP)하고, v3에 체호프의 총 감사 검증기(CGA-V), 다층 복선 교차 회수 엔진(MCX-E), 잠재 기억
+    인출 제어기(LMR-C)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#51_T01
+  item_num: 51
+  theme_num: 1
+  title: Payoff 유형 분류 검증
+  report_file: 20_Research_Reports/#51_Payoff/LSEv2_#51_T01_Payoff_유형_분류_검증.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Barbara Herrnstein Smith의 시적 종결성(Answer/Closure), Alison Gopnik의
+    설명 오르가즘 신경학(Reframe/Insight), Jonathan Haidt의 도덕적 고양감(Admiration/Elevation), Paul
+    Rozin의 부정성 편향(Warning & Decision Rule)을 결합하여 'Payoff 유형 분류 검증' 가설을 전폭 지지(KEEP)하고,
+    v3에 9대 페이오프 분류 매트릭스(PTM-9), 복합 엔딩 조립기(CEA-C), 결정 규칙 페이오프 추출기(DRP-E)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#51_T02
+  item_num: 51
+  theme_num: 2
+  title: Payoff와 Audience Satisfaction
+  report_file: 20_Research_Reports/#51_Payoff/LSEv2_#51_T02_Payoff와_Audience_Satisfaction.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Arie Kruglanski의 인지적 종결 욕구(NFCC)와 Richard Oliver의 기대-불일치 이론(ECT),
+    Mark Beeman의 통찰 감마파 버스트(~40Hz), Bluma Zeigarnik의 자이가르닉 미완결 과제 보존 효과를 결합하여 'Payoff와
+    Audience Satisfaction' 가설을 전폭 지지(KEEP)하고, v3에 페이오프-기대 매칭 채점기(PEM-S), 정당한 종결 보정
+    대시보드(ECC-D), 자이가르닉 반추 조절기(ZCR-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#51_T03
+  item_num: 51
+  theme_num: 3
+  title: Promise-Payoff Fit
+  report_file: 20_Research_Reports/#51_Payoff/LSEv2_#51_T03_Promise-Payoff_Fit.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Aristotle의 '의외이지만 불가피한' 인과성과 반전/인지 이론, Hans Robert Jauss의 기대
+    지평과 창의적 전복 vs 배신 판별론, Jonathan Culler의 서사적 계약 이행 거버넌스, Noël Carroll의 에로테틱 서사 질문-답변
+    구조를 결합하여 'Promise-Payoff Fit' 가설을 전폭 지지(KEEP)하고, v3에 에로테틱 서사 계약 감사기(ENC-A), 창의적
+    전복 변별기(SVB-D), 소급적 필연성 엔진(UIR-M)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#52_T01
+  item_num: 52
+  theme_num: 1
+  title: Ending Emotion과 기억·평가
+  report_file: 20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T01_Ending_Emotion과_기억평가.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Daniel Kahneman의 피크-엔드 법칙(Peak-End Rule)과 지속 시간 무시(Duration
+    Neglect), Donald Redelmeier의 사후 회상 평가 및 추천 결정 메커니즘, Barbara Fredrickson의 엔드-앤-피크
+    기억 부호화 스냅샷 게슈탈트, Dan Ariely의 축적 피로 침투 경계 조건을 결합하여 'Ending Emotion과 기억·평가' 가설을
+    전폭 지지(KEEP)하고, v3에 피크-엔드 감정 엔진(PER-E), 감정가-각성도 조율기(EVA-C), 기억 재구성 감사 시퀀서(MRA-S)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#52_T02
+  item_num: 52
+  theme_num: 2
+  title: 끝 감정을 사전 설계하는 효과
+  report_file: 20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T02_끝_감정을_사전_설계하는_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Edgar Allan Poe의 단일 효과 원칙(Unity of Effect) 및 결말 역산 설계, Noël
+    Carroll의 에로테틱 서사 종결성(Narrative Closure)과 정서적 포만감, Raymond Nickerson의 확증 편향과 조기
+    종결 방지론, Jerome Bruner의 서사적 실재 구성과 프로크루스테스식 왜곡 비판을 결합하여 '끝 감정을 사전 설계하는 효과' 가설을
+    전폭 지지(KEEP)하고, v3에 역방향 감정 매핑 엔진(BDE-M), 프로크루스테스 서사 편향 방어 게이트(PNC-G), 창발적 열린 결말
+    어댑터(EOE-A)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#52_T03
+  item_num: 52
+  theme_num: 3
+  title: 장르별 Ending Emotion
+  report_file: 20_Research_Reports/#52_Ending_Emotion/LSEv2_#52_T03_장르별_Ending_Emotion.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Mary Beth Oliver의 슬픔의 역설(Paradox of Sad Films) 및 에우다이모닉 메타 정서,
+    Cynthia Hoffner & Kenneth Levine의 공포 위협 종결(Threat Resolution) 및 안도감, Karen McIntyre의
+    건설적 저널리즘 해결 지향적 효능감 증명, Umberto Eco의 열린 작품(Open Work)과 구조적 양가성 이론을 결합하여 '장르별 Ending
+    Emotion' 가설을 전폭 지지(KEEP)하고, v3에 7대 장르별 엔딩 감정 매트릭스(GEE-M), 해결 지향 효능감 부스터(SFE-B),
+    양가감정 조율기(AAR-T)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#53_T01
+  item_num: 53
+  theme_num: 1
+  title: Negative Ending의 단기·장기 효과
+  report_file: 20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T01_Negative_Ending의_단기장기_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Roy Baumeister의 부정성 편향(Bad Is Stronger Than Good) 원리와 정보 처리
+    과부하, Stuart Soroka의 글로벌 17개국 생체 신경학적 교감 각성 반응 실증, Benjamin Toff의 미디어 회피(The Great
+    Uncoupling) 및 정서적 탈진 메커니즘, Harvey Whitehouse의 공유된 고통과 정체성 융합(Dysphoric Identity
+    Fusion) 충성도 반례를 결합하여 'Negative Ending의 단기·장기 효과' 가설을 전폭 지지(KEEP)하고, v3에 부정 엔딩
+    피로 거버너(NED-G), 분노 인게이지먼트-탈진 감사기(OEB-A), 고통 정체성 융합 조율기(DIF-M)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#53_T02
+  item_num: 53
+  theme_num: 2
+  title: Positive Reframe의 효과
+  report_file: 20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T02_Positive_Reframe의_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Kim Witte의 확장 병렬 처리 모델(EPPM) 및 위협 대비 효능감 임계치, Barbara Fredrickson의
+    확장-구축 이론 및 자율신경계 중화 가설(Undoing Hypothesis), Alexander Curry & Keith Stroud의 솔루션
+    저널리즘 대규모 A/B 테스트 실증, Brett Ford et al.의 정서 수용 및 독성 긍정(Toxic Positivity) 방어 기제를
+    결합하여 'Positive Reframe의 효과' 가설을 전폭 지지(KEEP)하고, v3에 위협-효능감 비율 매트릭스(EER-M), 3단계
+    완충 시퀀서(UHR-S), 독성 긍정 방어 거버너(TPA-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#53_T03
+  item_num: 53
+  theme_num: 3
+  title: 채널 누적 감정과 브랜드 경험
+  report_file: 20_Research_Reports/#53_불쾌한_감정으로_끝낼_때의_위험/LSEv2_#53_T03_채널_누적_감정과_브랜드_경험.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Dolf Zillmann의 기분 관리 이론(Mood Management Theory), Jan De Houwer
+    et al.의 평가적 조건화(Evaluative Conditioning)와 브랜드 오염, Kevin Lane Keller의 고객 기반 브랜드
+    자산(CBBE) 모델, Wendy Wood & David Neal의 습관 형성 및 예측 가능한 정서 보상 루프를 결합하여 '채널 누적 감정과
+    브랜드 경험' 가설을 전폭 지지(KEEP)하고, v3에 평가적 조건화 필터(ACF-M), 기분 관리 시퀀서(MMT-S), 누적 브랜드 거버너(CBE-G)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#54_T01
+  item_num: 54
+  theme_num: 1
+  title: 정보-감정 상호작용
+  report_file: 20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T01_정보-감정_상호작용.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Antonio Damasio의 신체 표지 가설(Somatic Marker Hypothesis), Klaus
+    Scherer의 구성요소 처리 모델(CPM) 정보-감정 재귀 순환론, Joseph Forgas의 정서 침투 모델(AIM) 실질적 정교화 처리,
+    Ziva Kunda의 동기화된 추론(Motivated Reasoning) 극복 원리를 결합하여 '정보-감정 상호작용' 가설을 전폭 지지(KEEP)하고,
+    v3에 정보-감정 재귀 루프 엔진(IEC-R), 신체 표지 가중치 추적기(SMM-T), 동기화 추론 거버너(MRC-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#54_T02
+  item_num: 54
+  theme_num: 2
+  title: 교대 Pacing의 효과
+  report_file: 20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T02_교대_Pacing의_효과.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: John Sweller의 인지 부하 이론(CLT) 작업 기억 한계, Annie Lang의 제한 용량 모델(LC4MP)
+    인지 자원 재분배와 각성 회복, Richard E. Mayer의 분절화 원칙(Segmenting Principle)과 감정 완충, Daniel
+    E. Berlyne의 각성 포텐셜 진동(Wundt Curve Oscillation)을 결합하여 '교대 Pacing의 효과' 가설을 전폭 지지(KEEP)하고,
+    v3에 각성-인지 진동 엔진(ACR-O), 분절화 페이싱 버퍼(SPB-S), 이중 피로 방어 거버너(DFP-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#54_T03
+  item_num: 54
+  theme_num: 3
+  title: 장르별 최적 비율과 순서
+  report_file: 20_Research_Reports/#54_정보와_감정의_교대/LSEv2_#54_T03_장르별_최적_비율과_순서.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Michael D. Slater의 E-ELM 서사 설득 모델(40:60 감정 우위), Paul Slovic의
+    위험 지각 심리측정 모델(80:20 고위험 정보 감정 제한), Dan M. Kahan의 문화적 인지 이론(50:50 과학 소통 양극화 극복),
+    Jack Lule의 서사 저널리즘 원형론(70:30 증거 선행 역피라미드)을 결합하여 '장르별 최적 비율과 순서' 가설을 전폭 지지(KEEP)하고,
+    v3에 장르 비율 매트릭스(GPR-M), 시퀀싱 순서 컨트롤러(SQC-E), 고위험 감정제한 거버너(HRI-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#55_T01
+  item_num: 55
+  theme_num: 1
+  title: Semantic vs Surface Visual Change
+  report_file: 20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T01_Semantic_vs_Surface_Visual_Change.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Annie Lang의 LC4MP 컷 복잡성 및 인지 과부하 생체 실증, Daniel J. Simons의 부주의
+    맹 및 의미론적 변화 탐지 패러다임, John M. Henderson의 시선 제어 및 의미 지도(Meaning Maps) 이론, David
+    Bordwell의 강화된 연속성(Intensified Continuity) 미학을 결합하여 'Semantic vs Surface Visual
+    Change' 가설을 전폭 지지(KEEP)하고, v3에 의미 시각 갱신 엔진(SVR-E), 정향 반응 캘리브레이터(ORC-T), 연속성 거버너(ICM-G)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#55_T02
+  item_num: 55
+  theme_num: 2
+  title: 멀티모달 의미 정렬
+  report_file: 20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T02_멀티모달_의미_정렬.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Allan Paivio의 이중 부호화 이론(DCT) 시청각 시너지, Richard E. Mayer의 멀티미디어
+    인지 이론(CTML) 중복 원칙(풀 자막의 인지 저하), Paul Ayres & John Sweller의 분할 주의(Split-Attention)
+    인지 부하, Annie Lang의 영상-음향 불일치 및 시각 우위(Visual Prepotency) 법칙을 결합하여 '멀티모달 의미 정렬'
+    가설을 전폭 지지(KEEP)하고, v3에 멀티모달 정렬 엔진(MSA-E), 중복 배제 필터(RPP-F), 시각 우위 거버너(VPA-G)를 공식
+    신설(EXPAND).
+- theme_id: LSEv2_#55_T03
+  item_num: 55
+  theme_num: 3
+  title: 장르별 Visual Refresh
+  report_file: 20_Research_Reports/#55_Visual_Story의_상위_원칙/LSEv2_#55_T03_장르별_Visual_Refresh.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Bill Nichols의 다큐멘터리 증거 편집(Evidentiary Editing) 사실성 닻, Colin
+    Ware의 전주의적 지각 및 비포-애프터 데이터 시각화, Paul Ekman의 미세 표정과 거울 신경망 반응 샷 공감 모델, Béla Balázs의
+    시각적 침묵(Visual Silence) 및 시각적 쉼(Visual Pause) 인지 응고화 미학을 결합하여 '장르별 Visual Refresh'
+    가설을 전폭 지지(KEEP)하고, v3에 장르 시각 프로파일러(GVR-P), 시각적 쉼 트리거(VPC-T), 증거 시각화 매처(EVD-M)를
+    공식 신설(EXPAND).
+- theme_id: LSEv2_#56_T01
+  item_num: 56
+  theme_num: 1
+  title: Visual Function 8종 분류 검증
+  report_file: 20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T01_Visual_Function_8종_분류_검증.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Joel R. Levin의 텍스트-시각 5대 기능 분류 및 장식에서 해석/변형으로의 인지 격상 메타 실증,
+    Rudolf Arnheim의 시각적 사고(Visual Thinking) 및 형태·상징 지각 모델, David Bordwell & Kristin
+    Thompson의 영화 서사 기능(공간 정위, 인물 심리 모티베이션, 모티프 복선), Edward R. Tufte의 시각적 증거(Visual
+    Evidence)와 인과 설명론을 결합하여 'Visual Function 8종 분류' 가설을 전폭 지지(KEEP)하고, v3에 8대 시각 기능
+    디스패처(V8F-T), 시각 증거 검증기(VED-A), 복선 모티프 시퀀서(AFM-S)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#56_T02
+  item_num: 56
+  theme_num: 2
+  title: 기능별 효과와 오용
+  report_file: 20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T02_기능별_효과와_오용.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Edward R. Tufte의 거짓 지수(Lie Factor) 및 데이터 시각화 무결성, Paul Messaris의
+    시각적 설득(지표성, 도상성, 암시성)과 무의식적 조작 기제, Carl Plantinga의 공감의 장면(Scene of Empathy)과 감정
+    착취에 대한 심리적 반발, Dolf Zillmann의 미디어 사례화 이론(Exemplification Theory)과 생생함 편향을 결합하여
+    '기능별 효과와 오용' 가설을 전폭 지지(KEEP)하고, v3에 시각 오용 방어기(VMD-S), 거짓 지수 거버너(LFE-G), 공감 맥락
+    버퍼(ECA-B)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#56_T03
+  item_num: 56
+  theme_num: 3
+  title: 한 컷의 복수 기능
+  report_file: 20_Research_Reports/#56_화면이_할_수_있는_역할/LSEv2_#56_T03_한_컷의_복수_기능.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Roland Barthes의 이미지 수사학 및 닻내리기(Anchorage)를 통한 다의성 제어, John M. Henderson의
+    의미 지도(Meaning Map) 기반 시선 도약 및 인지 제어 모델, Edward R. Tufte의 정보 레이어링과 마이크로/매크로 복합
+    화면의 시각 경제학, Richard E. Mayer의 신호화 원칙(Signaling Principle)과 주의 분할 방어 이론을 결합하여
+    '한 컷의 복수 기능' 가설을 전폭 지지(KEEP)하고, v3에 이중 목적 샷 조립기(DPS-A), 계층적 신호화·레이어링 엔진(HSL-E),
+    시각 과부하 방어 거버너(VOF-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#57_T01
+  item_num: 57
+  theme_num: 1
+  title: Visual Duration과 Comprehension
+  report_file: 20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T01_Visual_Duration과_Comprehension.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: James E. Cutting의 1/f 핑크 노이즈 주의 변동 및 동적 샷 길이 진화 모델, Keith Rayner의
+    안구 고정·도약 및 텍스트 읽기 처리 속도 이론, Michelle A. Borkin의 데이터 시각화 해석 체류 시간(Dwell Time)과 인과
+    회상률 실증, Sidney D'Mello & Arthur Graesser의 과체류(Over-dwell)에 따른 지루함 붕괴 동역학을 결합하여
+    'Visual Duration과 Comprehension' 가설을 전폭 지지(KEEP)하고, v3에 정보밀도 적응형 컷길이 시퀀서(DDS-A), 핑크
+    노이즈 리듬 오케스트레이터(PNR-O), 지루함 방어 거버너(BSG-B)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#57_T02
+  item_num: 57
+  theme_num: 2
+  title: 편집 속도와 Attention
+  report_file: 20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T02_편집_속도와_Attention.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Annie Lang의 제한 용량 모델(LC4MP)과 컷 지향 반응(Orienting Response) 생리신호 실증, Robert
+    F. Potter & Paul D. Bolls의 고속 편집 둔감화(Habituation) 및 뇌파 피로 분석, Tim J. Smith의 주의
+    연속성 이론(AToCC)과 시선 중심화(Crosshair) 편집 기법, Matthew A. Bezdek의 fMRI 서사 몰입 시 주의
+    협착(Attentional Narrowing) 기제를 결합하여 '편집 속도와 Attention' 가설을 전폭 지지(KEEP)하고, v3에
+    지향반응 각성 시퀀서(OAS-E), 시선 중심 연속성 편집 조립기(CGA-A), 시각 피로 방어 거버너(VFO-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#57_T03
+  item_num: 57
+  theme_num: 3
+  title: 자료 유형별 체류 시간
+  report_file: 20_Research_Reports/#57_컷_길이는_고정하지_않는다/LSEv2_#57_T03_자료_유형별_체류_시간.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Mary C. Dyson의 온스크린 텍스트 읽기 지연 및 레이아웃 실험, Stephen Few의 표 격자형
+    조회(Lookup)와 차트 형상 인지 요구 시간 분석, Jakob Nielsen & Kara Pernice의 디지털 UI F-패턴 안구 추적
+    실증, Carl Plantinga의 감정 장면 클로즈업 및 거울 신경망 정서 응고화(Emotional Consolidation) 롱테이크
+    이론을 결합하여 '자료 유형별 체류 시간' 가설을 전폭 지지(KEEP)하고, v3에 7대 자료유형별 동적 체류
+    매트릭스(MDM-7), 정서 완충 시퀀서(ABS-E), 문서 닻내리기 거버너(DAP-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#58_T01
+  item_num: 58
+  theme_num: 1
+  title: 편집 속도와 감정
+  report_file: 20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T01_편집_속도와_감정.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Arthur P. Shimamura의 I-SKE 모델 및 편집 속도별 각성-사색 뇌신경 변조, Vittorio Gallese & Michele Guerra의 거울 신경망 체화된 시뮬레이션 및 슬픔 롱테이크 실증, Michelle N. Shiota et al.의 경외감(Awe) 유발과 미주신경 활성화 와이드 체류 분석, Greg M. Smith의 영화 정서 구조론과 역설적 감속(Paradoxical Deceleration) 및 정서 불일치 방어를 결합하여 '편집 속도와 감정' 가설을 전폭 지지(KEEP)하고, v3에 7대 감정별 동적 템포 매트릭스(EDT-7), 역설적 감속 서스펜스 시퀀서(PDS-T), 정서 불일치 방어 거버너(EMA-G)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#58_T02
+  item_num: 58
+  theme_num: 2
+  title: 시각 문법과 정서
+  report_file: 20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T02_시각_문법과_정서.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Joshua Meyrowitz의 미디어 공간 근접학(Proxemics) 및 샷 스케일 대인 거리 모사, Vittorio Gallese & Michele Guerra의 전진 트래킹 샷 전운동 피질(Premotor Cortex) 자가 운동 각성 실증, Herbert Zettl의 미디어 미학 5대 차원과 음의 공간(Negative Space) 고립감 분석, Elaine Hatfield et al.의 원초적 감정 전염(Primitive Emotional Contagion) 및 얼굴 반응 클로즈업 동기화를 결합하여 '시각 문법과 정서' 가설을 전폭 지지(KEEP)하고, v3에 4단계 시각 거리 매트릭스(VDM-4), 카메라 무빙 체화 각성 엔진(CMA-E), 얼굴 반응 거울 전염 인젝터(FRI-M)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#58_T03
+  item_num: 58
+  theme_num: 3
+  title: 감정 목적과 정보 이해의 균형
+  report_file: 20_Research_Reports/#58_시각적_감정_설계/LSEv2_#58_T03_감정_목적과_정보_이해의_균형.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Richard Lowe의 동적 그래픽 시각 현저성(Visual Salience) 주의 포획 및 오독률 실증, Barbara Tversky et al.의 인지 파지 원칙과 정적 그래픽 체류 우위 메타분석, Annabel J. Cohen의 CAM-MM 모델 및 시청각 주파수 간섭·음악 덕킹(-12dB) 분석, Jan L. Plass et al.의 정서 설계와 외재적 인지 부하 상충 극복을 결합하여 '감정 목적과 정보 이해의 균형' 가설을 전폭 지지(KEEP)하고, v3에 정서-정보 분리 시퀀서(EID-S), 데이터 동결 체류 컨트롤러(DFC-D), 시청각 정합성 거버너(ACG-M)를 공식 신설(EXPAND).
+- theme_id: LSEv2_#59_T01
+  item_num: 59
+  theme_num: 1
+  title: 사실 오류와 신뢰 붕괴
+  report_file: 20_Research_Reports/#59_Trust_Layer/LSEv2_#59_T01_사실_오류와_신뢰_붕괴.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: B.J. Fogg의 현저성-해석 이론(Prominence-Interpretation Theory) 및 사소한 결함 포착 시 전체 공신력 -68% 파괴 실증, Stephan Lewandowsky et al.의 지속적 영향 효과(CIE) 및 대안적 인과 설명(Alternative Causal Model) 정정 메커니즘, Eryn J. Newman et al.의 비입증성 사진 B-roll과 트루시니스(Truthiness) 편향 실증, Marcia K. Johnson et al.의 출처 감시 프레임워크(SMF) 및 시각적 가짜 기억 방지를 결합하여 '사실 오류와 신뢰 붕괴' 가설을 전폭 지지(KEEP)하고, v3에 사실 정합성 거버너 및 제로 톨러런스 게이트(FCG-T), 시각 출처 라벨링 모듈(VPA-M), 지속영향 소멸 및 3단계 신뢰 복구 프로토콜(CIE-P)을 공식 신설(EXPAND).
+- theme_id: LSEv2_#59_T02
+  item_num: 59
+  theme_num: 2
+  title: Visual Authenticity와 Source Confusion
+  report_file: 20_Research_Reports/#59_Trust_Layer/LSEv2_#59_T02_Visual_Authenticity와_Source_Co.md
+  verdict: Strong Support
+  confidence: High
+  signals:
+  - KEEP
+  - EXPAND
+  key_signal_summary: Kimberley A. Wade et al.의 시각적 진실 편향(Visual Truth Bias) 및 가짜 사진 노출을 통한 50% 허위 기억 고착화 실증, Christian Vaccari & Andrew Chadwick의 딥페이크 합성 비디오와 '거짓말쟁이의 배당금(Liar's Dividend)' 전면적 불신 분석, Danielle C. Polage의 맥락 없는 스톡 B-roll의 64% 인물 오귀인(Misattribution) 규명, S. Shyam Sundar의 MAIN 모델 및 미디어 양식적 단서(Modality Cues)의 리얼리티 휴리스틱을 결합하여 'Visual Authenticity와 Source Confusion' 가설을 전폭 지지(KEEP)하고, v3에 4단계 시각 자료 분류 및 출처 표준(VTS-4), 거짓말쟁이 배당금 방어 포렌식 워터마크(LDC-F), 리얼리티 휴리스틱 거버너(RHG-C)를 공식 신설(EXPAND).
+
+

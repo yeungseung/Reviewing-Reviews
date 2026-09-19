@@ -1,0 +1,12 @@
+id: SRC-2001-528
+author: Richard E. Mayer
+year: 2001
+title: "Multimedia Learning"
+venue: "Cambridge University Press"
+tier: 1
+citation_count: 34500
+url: https://doi.org/10.1017/CBO9781139547369
+key_contribution: "멀티미디어 학습 이론 및 분절화 원칙(Segmenting Principle) 체계화. 학습자에게 복잡한 연속 정보를 한꺼번에 제시하는 것보다, 학습자가 소화할 수 있는 의미 단위로 분절(Paced Segments)하여 감정적 맥락과 교차 제시할 때 정보 이해도와 전이 능력이 비약적으로 상승함을 입증."
+relevance: "정보형 롱폼 서사에서 분석적 정보 덩어리를 60~90초 단위로 분절하고 감정적 서사 완충을 결합해야 하는 교육공학적 및 인지적 표준 제공."
+themes:
+  - "#54 Theme 2"

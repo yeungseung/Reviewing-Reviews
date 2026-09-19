@@ -1,0 +1,29 @@
+id: SRC-2019-258
+title: "The Eighty Five Percent Rule for optimal learning"
+authors:
+  - "Robert C. Wilson"
+  - "Amitai Shenhav"
+  - "Mark Straccia"
+  - "Jonathan D. Cohen"
+year: 2019
+type: academic_primary
+tier: 1
+publication: "Nature Communications"
+volume: "10"
+issue: "1"
+pages: "4646"
+doi: "10.1038/s41467-019-12552-4"
+citation_count: 210
+key_findings:
+  - "인간 및 인공지능 신경망의 최적 학습률과 지적 몰입을 달성하는 정답률의 수학적 스위트 스팟(Sweet Spot) 규명."
+  - "성공률(예측 적중률)이 약 85%, 오류율(예측 오차율)이 약 15%일 때 학습 속도와 참여도가 극대화됨(The 85% Rule)."
+  - "정답률이 100%에 가까우면 새로운 정보 획득이 없어 지루함(Boredom)이 발생하고, 오류율이 과도하게 높아지면 인지적 좌절과 모델 붕괴가 발생함."
+core_claims:
+  - "최적의 인지적 참여와 정보 처리는 약 85%의 예측 적중과 15%의 예측 오차 비율에서 달성된다."
+  - "서사에서도 85%의 스키마 일치와 15%의 참신한 반전 조합이 관객의 최적 몰입을 유지한다."
+keywords:
+  - eighty-five percent rule
+  - optimal learning
+  - prediction accuracy
+  - sweet spot
+  - cognitive engagement

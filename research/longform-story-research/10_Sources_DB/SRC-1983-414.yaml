@@ -1,0 +1,12 @@
+id: SRC-1983-414
+author: Teun A. van Dijk & Walter Kintsch
+year: 1983
+title: 'Strategies of Discourse Comprehension'
+venue: Academic Press
+tier: 1
+citation_count: 22000
+url: https://psycnet.apa.org/record/1983-28987-000
+key_contribution: 텍스트 이해의 '상황 모델(Situation Model)' 이론을 정초. 독자는 언어적 표면을 넘어 서사 세계의 시공간, 행위자, 상태 변화를 머릿속에 능동적으로 시뮬레이션함을 규명.
+relevance: 서사의 본질이 단순 문장이 아니라 '이야기 상태(Story State)'의 인지적 표상과 갱신에 있음을 입증하는 인지언어학 원전.
+themes:
+  - '#45 Theme 1'

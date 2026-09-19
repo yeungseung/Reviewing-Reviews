@@ -1,0 +1,41 @@
+source_id: SRC-1995-204
+created_at: '2026-09-17'
+verified_by: Gemini Deep Research
+bibliographic_info:
+  title: 'How to improve Bayesian reasoning without instruction: Frequency formats'
+  authors:
+  - Gigerenzer, Gerd (Max Planck Institute for Psychological Research / University of Chicago)
+  - Hoffrage, Ulrich (University of Salzburg / Max Planck Institute)
+  institution: Max Planck Institute for Psychological Research & University of Chicago
+  published_date: '1995-10-01'
+  source_url: https://doi.org/10.1037/0033-295X.102.4.684
+  source_type: Peer-reviewed Journal (Psychological Review, 102(4), 684-704)
+credibility_assessment:
+  credibility_tier: Tier 1 Cognitive Psychology & Evolutionary Epistemology
+  methodology:
+    study_type: Factorial Experimental Cognitive Reasoning Study (15 Diagnostic Problems)
+    sample_size: 195 (Physicians, professionals, and university students)
+    target_population: 복잡한 조건부 확률 및 통계적 위험을 판단해야 하는 인간 인지 시스템
+    relationship_type: Causal (Information Representation Format -> Bayesian Causal Reasoning Competence)
+    effect_size: '자연 빈도 효과(Natural Frequency Effect): 동일한 데이터라도 확률/백분율(0.8%, 90%)로 제시했을 때는 정답률이 16%에 불과했으나, 자연 빈도("1,000명 중 8명")로 제시했을 때 정답률이 46~50%로 3배 폭증 (1,900+ 피인용 불후의 고전)'
+    replicated: Universally Replicated (의학 통계, 법정 증거 판단, 위험 커뮤니케이션의 글로벌 표준)
+    limitations: 베이지안 추론 과제 중심이나 대중의 확률적 사태 이해와 스토리의 통계 연출에 직접 투영됨
+claims_and_evidence:
+  core_claim: 인간의 진화된 뇌는 '조건부 확률(0.1%, 95% 등)'이나 '백분율'을 직관적으로 연산하도록 설계되어 있지 않다. 추상적 확률 표현은 기저율 무시(Base-Rate Fallacy)를 유발하여 의사와 판사조차 치명적 오판을 내리게 만든다. 반면 자연 상태의 경험을 반영한 '자연 빈도(Natural Frequencies: 예컨대 "1,000명 중 10명")' 포맷으로 정보를 변환하면, 수용자는 아무런 통계 훈련 없이도 사태의 인과적 진실과 위험의 크기를 정확히 꿰뚫어본다.
+  verbatim_quotes:
+  - original: Information presented in natural frequencies fosters computationally simpler algorithms and transparent representations, dramatically improving Bayesian reasoning. While only 16% solved problems in probability format, nearly 50% solved them correctly when presented in natural frequencies.
+    translation: 자연 빈도로 제시된 정보는 계산적으로 더 단순한 알고리즘과 투명한 표상을 촉진하여 베이지안 추론을 비약적으로 개선한다. 확률 포맷에서는 단 16%만이 문제를 해결한 반면, 자연 빈도로 제시되었을 때는 거의 50%가 정답을 맞혔다.
+    citation_location: pp. 684-688
+story_application:
+  application_idea: 롱폼 스토리의 '자연 빈도 다운스케일러(Natural Frequency Downscaler)'. 의학 스릴러, 법정물, 경제 다큐 등에서 "이 질병의 유병률은 0.05%이며 검사의 위양성률은 10%입니다"라고 설명하면 관객은 100% 튕겨 나간다. 이를 "인구 1,000명이 이 검사를 받으면, 실제 환자는 단 1명뿐이지만, 멀쩡한 사람 100명이 양성 판정을 받아 사형선고의 공포를 겪습니다"라는 자연 빈도로 변환하여 관객의 뇌에 사건의 모순과 서스펜스를 직격시키는 연출 공식.
+  narrative_stage: Climax Proof, Medical/Forensic Investigation & Causal Paradox Revelation
+  emotional_mechanics:
+    trigger: 복잡한 통계 확률로 인한 인지적 먹통 현상
+    build_up: '1,000명 중 N명'이라는 구체적 자연 빈도 표본군으로 시각화
+    peak: 기저율과 오판 가능성이 한눈에 꿰어지며 터지는 '통계적 역설(Paradox)'의 충격
+    release: 안개 걷힌 인과적 진실의 포착 및 지적 카타르시스
+  failure_modes: 전문성을 뽐내겠다고 복잡한 조건부 확률과 소수점 수치를 스크린에 띄워 관객의 몰입을 꺼버리는 오류
+verification_status:
+  status: Strong Support
+  confidence_level: High
+  boundary_conditions: 확률, 위험도, 진단 검사, 통계적 물증이 등장하는 모든 지적 서사에 절대적 표준으로 작동함

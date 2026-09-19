@@ -1,0 +1,26 @@
+id: SRC-1992-247
+title: "An introduction to case-based reasoning"
+authors:
+  - "Janet L. Kolodner"
+year: 1992
+type: academic_primary
+tier: 1
+publication: "Artificial Intelligence Review"
+volume: "6"
+issue: "1"
+pages: "3-34"
+doi: "10.1007/BF00155572"
+citation_count: 2800
+key_findings:
+  - "인간 및 인공지능의 사례 기반 추론(Case-Based Reasoning, CBR)의 핵심 인지 계산 모델 정립."
+  - "추상적 규칙이나 공식을 암기하는 것보다, 구체적인 과거 사례(Cases)와 그 안에 담긴 상황 단서들의 패턴 매칭을 통해 새로운 문제를 이해하고 해석함."
+  - "새로운 문제의 단서가 제시되었을 때 기억 속 유사 사례를 인출(Retrieve)하고, 이를 현재 상황에 맞게 개작(Adapt)하며, 결과를 비판적으로 평가(Critique)하는 귀납적 인지 루프 규명."
+core_claims:
+  - "수용자는 추상 원리보다 풍부한 맥락을 가진 구체적 사례 단서를 통해 훨씬 강력한 인과적 추론을 형성한다."
+  - "사례 단서의 제시는 기억 속 유사 경험을 인출시켜 능동적 상황 해석을 촉발한다."
+keywords:
+  - case-based reasoning
+  - analogical reasoning
+  - pattern matching
+  - cognitive architecture
+  - schema induction

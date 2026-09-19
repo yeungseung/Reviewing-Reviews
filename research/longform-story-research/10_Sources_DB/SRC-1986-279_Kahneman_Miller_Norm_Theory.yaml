@@ -1,0 +1,28 @@
+id: SRC-1986-279
+title: "Norm Theory: Comparing Reality to Its Alternatives"
+authors:
+  - "Daniel Kahneman"
+  - "Dale T. Miller"
+year: 1986
+type: academic_primary
+tier: 1
+publication: "Psychological Review"
+volume: "93"
+issue: "2"
+pages: "136-153"
+doi: "10.1037/0033-295X.93.2.136"
+citation_count: 3200
+key_findings:
+  - "사후 규범 생성 이론(Norm Theory) 정립: 인간은 사건을 사전에 정해진 규칙뿐 아니라 사건 직후 즉각적으로 구성되는 '가상의 대안(Counterfactual Alternatives)'과 비교하여 감정을 느낌."
+  - "어떤 결과가 '하마터면 다르게 끝날 뻔했을수록(Mutated Antecedent)', 가상 대안과의 대비 효과로 인해 정서적 반응의 강도가 기하급수적으로 폭증함."
+  - "결과 반전(Result Reversal)이 터질 때 '상향적 사후가정'은 뼈아픈 후회(Regret)를, '하향적 사후가정'은 가슴을 쓸어내리는 안도감(Relief)을 촉발함을 인지심리학적으로 규명."
+core_claims:
+  - "정서적 반응의 강도는 현실과 손쉽게 상상할 수 있는 가상 대안 사이의 인지적 거리에 의해 결정된다."
+  - "결과 반전은 관객의 뇌 속에서 가상 대안을 즉시 활성화시켜 후회(Regret)와 안도(Relief)라는 강력한 반사실적 카타르시스를 생성한다."
+keywords:
+  - norm theory
+  - counterfactual thinking
+  - regret
+  - relief
+  - result reversal
+  - cognitive contrast

@@ -1,0 +1,45 @@
+source_id: "SRC-1999-005"
+created_at: "2026-09-15"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Hedonic adaptation"
+  authors:
+    - "Frederick, Shane (Yale University)"
+    - "Loewenstein, George (Carnegie Mellon University)"
+  institution: "Yale University / Carnegie Mellon University"
+  published_date: "1999-01-01"
+  source_url: "https://psycnet.apa.org/record/1999-04287-016"
+  source_type: "Academic Book"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Meta-analysis & Behavioral Synthesis"
+    sample_size: 0
+    target_population: "인간 정서 및 쾌락 반응 일반"
+    relationship_type: "Causal Mechanism"
+    replicated: "Replicated (행동경제학 랜드마크)"
+    limitations: "장기적 삶의 만족도 중심 연구이나 단기 미디어 정서 반응에도 동일 법칙 적용됨"
+
+claims_and_evidence:
+  core_claim: "인간은 긍정적이든 부정적이든 지속적인 정서 자극에 노출되면 신경학적으로 정서적 기준선(Baseline)으로 회귀하며, 체감 만족/고통의 강도가 급격히 감쇠함."
+  verbatim_quotes:
+    - original: "Adaptation is a reduction in the intensity of a psychological or physiological response to a stimulus over time."
+      translation: "적응은 시간이 지남에 따라 자극에 대한 심리적 또는 생리적 반응의 강도가 감소하는 것이다."
+      citation_location: "p.302"
+
+story_application:
+  application_idea: "아무리 강렬한 클라이맥스나 비극이라도 한 장면에 10분 이상 지속시키면 관객은 무감각해짐. 반드시 감정의 '휴지기(Breathing Room)'를 두어 기준선을 리셋시켜야 다음 장면의 체감 충격이 유지됨."
+  narrative_stage: "Post-Climax & Pacing Management"
+  emotional_mechanics:
+    trigger: "동일한 고강도 자극의 지속 노출"
+    build_up: "수용체의 정서적 피로"
+    peak: "감각 마비 (무반응)"
+    release: "저강도 구간(Valley) 도입을 통한 기준선 리셋"
+  failure_modes: "쉼표 없이 몰아치기만 하는 서사는 관객의 지루함과 뇌 피로를 초래함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "시간이 경과하는 모든 지속 자극 환경"

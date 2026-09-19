@@ -1,0 +1,12 @@
+id: SRC-2008-589
+author: S. Shyam Sundar
+year: 2008
+title: 'The MAIN Model: A Heuristic Approach to Understanding Technology Effects on Credibility'
+venue: 'Digital Media, Youth, and Credibility (The John D. and Catherine T. MacArthur Foundation Series on Digital Media and Learning), MIT Press, pp. 73-100'
+tier: 1
+citation_count: 1250
+url: https://doi.org/10.1162/dmal.9780262562324.073
+key_contribution: MAIN 모델(Modality, Agency, Interactivity, Navigability Heuristics)을 통한 미디어 기술과 공신력 평가 프레임워크 정립. 화면비, 해상도, 워터마크, 자막 폰트 등 미디어 양식적 단서(Modality Cues)가 관객의 뇌에서 '리얼리티 휴리스틱(Realism Heuristic)'과 '전문성 휴리스틱(Expertise Heuristic)'을 자동 격발함을 실증. 방송사 로고나 시대적 텍스처와 같은 시각적 단서가 공신력 판단을 결정짓는 핵심 기제임을 규명.
+relevance: 아카이브 영상의 화면비, 필름 그레인, 워터마크 고증을 통해 관객의 즉각적 공신력을 획득하는 RHG-C 거버너의 이론적 원천.
+themes:
+- '#59 Theme 2'

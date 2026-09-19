@@ -1,0 +1,12 @@
+id: SRC-2002-579
+author: Barbara Tversky, Julie B. Morrison, & Mireille Bétrancourt
+year: 2002
+title: 'Animation: Can It Facilitate?'
+venue: International Journal of Human-Computer Studies, 57(4), pp. 247-262
+tier: 1
+citation_count: 2550
+url: https://doi.org/10.1006/ijhc.2002.1017
+key_contribution: 인지 파지 원칙(The Apprehension Principle) 및 정합성 원칙(Congruence Principle) 정립. 움직이는 그래픽과 고속 편집은 찰나적인 상태 변화로 인해 시각 작업기억(Visuospatial Working Memory)에 심각한 과부하를 초래하여, 정적 그래픽(Static Graphics) 대비 데이터 구조 이해와 복합 추론 능력을 유의미하게 저하시킴을 대규모 메타분석으로 입증. 핵심 증거와 데이터는 화면을 멈춘 정적 상태에서 충분한 체류 시간이 보장되어야 온전히 디코딩됨을 실증.
+relevance: 데이터 및 증거 영상 제시 시 빠른 페이싱과 복잡한 모션을 배제하고 정적 체류 시간을 확보해야 하는 인지과학적 근거.
+themes:
+- '#58 Theme 3'

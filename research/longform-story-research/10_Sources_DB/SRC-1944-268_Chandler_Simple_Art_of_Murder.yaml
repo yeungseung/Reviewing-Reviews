@@ -1,0 +1,25 @@
+id: SRC-1944-268
+title: "The Simple Art of Murder"
+authors:
+  - "Raymond Chandler"
+year: 1944
+type: academic_primary
+tier: 1
+publication: "The Atlantic Monthly"
+volume: "174"
+issue: "6"
+pages: "53-59"
+citation_count: 2200
+key_findings:
+  - "오직 반전의 충격(Twist for shock's sake)을 위해 캐릭터의 성격과 심리적 일관성을 왜곡하는 고전 수수께끼 소설의 작위성 통렬히 비판."
+  - "살인과 반전은 진열장 속의 기계 장치가 아니라 살아 숨 쉬는 인간의 동기와 심리적 필연성(Psychological Inevitability)에서 나와야 함을 역설."
+  - "캐릭터 일관성(Character Consistency)이 무너지면 아무리 화려한 반전이라도 관객의 감정적 몰입을 완전히 파괴함을 규명."
+core_claims:
+  - "반전을 위해 인물을 꼭두각시로 만들어서는 안 되며, 반전 후에도 인물의 내면적 동기와 일관성이 유지되어야 한다."
+  - "좋은 반전은 인간 본성과 심리적 현실주의에 단단히 뿌리박혀 있어야 한다."
+keywords:
+  - character consistency
+  - psychological plausibility
+  - realism
+  - critique of puzzle plots
+  - organic twist

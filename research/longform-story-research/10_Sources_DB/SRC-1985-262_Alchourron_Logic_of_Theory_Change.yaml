@@ -1,0 +1,28 @@
+id: SRC-1985-262
+title: "On the Logic of Theory Change: Partial Meet Contraction and Revision Functions"
+authors:
+  - "Carlos E. Alchourrón"
+  - "Peter Gärdenfors"
+  - "David Makinson"
+year: 1985
+type: academic_primary
+tier: 1
+publication: "Journal of Symbolic Logic"
+volume: "50"
+issue: "2"
+pages: "510-530"
+doi: "10.2307/2274239"
+citation_count: 4500
+key_findings:
+  - "새로운 모순 정보가 유입되었을 때 인간 및 인공지능 지식 기반이 신념을 수정하는 논리적 프레임워크(AGM 신념 수정 모델) 정립."
+  - "기존 신념 체계의 손실을 최소화하면서(Minimal Change Principle) 새로운 정보를 일관되게 통합하는 확장(Expansion), 축소(Contraction), 수정(Revision)의 공리 체계 구축."
+  - "서사적 반전에서 관객이 기존 멘탈 모델의 불일치를 최소한의 인지 비용으로 재조직화하는 신념 갱신의 수리논리적 기초 제공."
+core_claims:
+  - "신념 수정은 기존 지식의 최대 보존과 최소 변경 원칙에 따라 새로운 사실과 기존 신념 간의 모순을 해결하는 과정이다."
+  - "서사 반전은 관객의 신념 체계(Belief State)를 새로운 전제로 전환하는 형식적 신념 수정(Belief Revision) 메커니즘이다."
+keywords:
+  - belief revision
+  - AGM model
+  - theory change
+  - minimal change
+  - cognitive consistency

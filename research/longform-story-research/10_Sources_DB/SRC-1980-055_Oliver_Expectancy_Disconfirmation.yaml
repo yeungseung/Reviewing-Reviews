@@ -1,0 +1,44 @@
+source_id: "SRC-1980-055"
+created_at: "2026-09-16"
+verified_by: "Antigravity Deep Research"
+
+bibliographic_info:
+  title: "A cognitive model of the antecedents and consequences of satisfaction decisions"
+  authors:
+    - "Oliver, Richard L. (Vanderbilt University)"
+  institution: "Vanderbilt University"
+  published_date: "1980-11-01"
+  source_url: "https://doi.org/10.1177/002224378001700405"
+  source_type: "Peer-reviewed Journal (Journal of Marketing Research)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Cognitive & Empirical Consumer Psychology Experiment"
+    sample_size: "Large-scale field study & longitudinal structural equation modeling"
+    target_population: "General consumers and evaluators of products and services"
+    relationship_type: "Causal (Expectation × Disconfirmation -> Emotion/Evaluation)"
+    replicated: "Highly Replicated (Foundational foundation of Expectation-Disconfirmation Theory (EDT), 15,000+ citations)"
+    limitations: "마케팅 및 고객 만족 맥락에서 도출되었으나, 공약(Promise)과 결과(Result) 간의 서사적 괴리 및 배신/환희 긴장에 직접 적용 가능"
+
+claims_and_evidence:
+  core_claim: "수용자의 만족도와 정서적 긴장은 절대적인 성능/결과 자체보다, 사전 형성된 기대/약속(Expectation/Promise)과 실제 경험된 결과(Perceived Performance) 간의 인지적 불일치(Disconfirmation)에 의해 결정된다. 약속 대비 결과의 괴리(Negative Disconfirmation)는 극심한 인지적 배신감과 감정적 분노를 촉발하며, 긍정적 괴리는 경탄을 촉발한다."
+  verbatim_quotes:
+    - original: "Satisfaction is a function of an initial expectation and perceived disconfirmation... Disconfirmation arises from discrepancies between prior expectations and actual outcomes."
+      translation: "만족은 초기 기대와 지각된 불일치의 함수이다... 불일치는 사전 기대와 실제 결과 사이의 괴리에서 발생한다."
+      citation_location: "pp. 460-463"
+
+story_application:
+  application_idea: "Promise vs Result 긴장 엔진의 실무적 핵심은 오프닝에서 대담한 공약/약속(기업 로드맵, 정치인 공약, 신기술 청사진)을 제시하여 기대치를 최대치로 끌어올린 뒤, 실제 결과물과의 참혹한 괴리(Negative Disconfirmation)를 순차적으로 폭로함으로써 수용자에게 강력한 계약 위반 분노와 인과적 추궁 긴장을 유도하는 데 있음."
+  narrative_stage: "Act 2 Investigative Gap & Climax Disillusionment"
+  emotional_mechanics:
+    trigger: "대담하고 화려한 공식 약속/비전의 천명"
+    build_up: "약속과 어긋나는 은밀한 결함과 지연의 징후 포착"
+    peak: "약속이 완전히 거짓이었거나 처참하게 실패했음을 증명하는 결정적 결과의 폭로"
+    release: "환상 붕괴(Disillusionment) 및 책임자에 대한 인과적 귀인과 도덕적 분노"
+  failure_modes: "사전 약속의 구체성이 약하거나, 결과와의 괴리가 사소할 경우 서사적 배신감이 아닌 단순한 지루함을 유발함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "기업 흥망사, 테크 스타트업 사기극, 정책 검증, 제품/게임 리뷰 등 공적 약속과 실현이 중심인 서사에 적합"

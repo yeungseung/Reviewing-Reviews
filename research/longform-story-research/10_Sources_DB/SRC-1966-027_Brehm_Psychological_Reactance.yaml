@@ -1,0 +1,44 @@
+source_id: "SRC-1966-027"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "A theory of psychological reactance"
+  authors:
+    - "Brehm, Jack W. (Duke University)"
+  institution: "Duke University"
+  published_date: "1966-01-01"
+  source_url: "https://psycnet.apa.org/record/1967-03099-000"
+  source_type: "Academic Book / Landmark Monograph"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental Social Psychology"
+    sample_size: "Multiple experimental series"
+    target_population: "인간 피험자 일반"
+    relationship_type: "Causal"
+    replicated: "Replicated (Universally recognized foundational theory)"
+    limitations: "문화권(개인주의 vs 집단주의)에 따라 반발심의 표출 방식 차이 존재"
+
+claims_and_evidence:
+  core_claim: "인간은 자신의 자유로운 선택권이나 신념 체계가 외부로부터 위협받거나 강요당한다고 느낄 때, 심리적 반발(Reactance)을 일으켜 빼앗긴 자유를 회복하고자 정반대의 행동이나 거부 태도를 취한다."
+  verbatim_quotes:
+    - original: "If an individual's freedom is threatened or eliminated, he experiences psychological reactance, a motivational state directed toward the re-establishment of the threatened freedom."
+      translation: "개인의 자유가 위협받거나 박탈당하면, 그는 위협받은 자유를 회복하려는 동기 상태인 심리적 반발을 경험한다."
+      citation_location: "p.1, Introduction"
+
+story_application:
+  application_idea: "스토리의 주제나 교훈(Meaning)을 직설적으로 훈계하지 않고, 관객이 스스로 질문을 던지고 결론을 내릴 수 있는 '해석적 여백(Interpretive Gap)'을 열어둠으로써 심리적 반발을 원천 차단함."
+  narrative_stage: "Act 3 Ending & Theme Delivery"
+  emotional_mechanics:
+    trigger: "선택의 자유와 열린 결말감"
+    build_up: "강요 없는 객관적 사건의 전개"
+    peak: "관객 자신의 자발적 깨달음"
+    release: "내면화된 신념 및 자발적 공유"
+  failure_modes: "'이렇게 생각하십시오'라고 결론을 강요하는 순간 관객은 방어적 비웃음과 조롱으로 반응함 (Preachiness Backlash)"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "교조주의적 메시지가 명시적으로 드러날 때 즉각 촉발됨"

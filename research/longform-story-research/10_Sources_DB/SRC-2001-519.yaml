@@ -1,0 +1,12 @@
+id: SRC-2001-519
+author: Jan De Houwer, Sarah Thomas, & Frank Baeyens
+year: 2001
+title: "Association learning of likes and dislikes: A review of 25 years of research on human evaluative conditioning"
+venue: "Psychological Bulletin, 127(6), 853-876"
+tier: 1
+citation_count: 2480
+url: https://doi.org/10.1037/0033-2909.127.6.853
+key_contribution: "인간의 평가적 조건화(Evaluative Conditioning)에 관한 25년간의 연구 종합. 긍정적 또는 부정적 무조건 자극(US)과 반복 연합된 중립 자극(CS)이 영구적인 선호/불호 태도를 획득하며, 이는 소거(Extinction)에 극도로 저항함을 실증."
+relevance: "채널 브랜드(로고, 썸네일, 진행자)가 반복되는 불쾌한 엔딩 감정과 연합될 경우, 수용자의 무의식에 채널에 대한 비자발적 혐오와 회피 반응(Affective Brand Taint)이 고착화되는 메커니즘 제공."
+themes:
+  - "#53 Theme 3"

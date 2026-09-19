@@ -1,0 +1,26 @@
+id: SRC-2010-255
+title: "The free-energy principle: a unified brain theory?"
+authors:
+  - "Karl Friston"
+year: 2010
+type: academic_primary
+tier: 1
+publication: "Nature Reviews Neuroscience"
+volume: "11"
+issue: "2"
+pages: "127-138"
+doi: "10.1038/nrn2787"
+citation_count: 5400
+key_findings:
+  - "뇌의 지각, 행동, 학습을 통합적으로 설명하는 자유 에너지 원리(Free-Energy Principle)와 예측 코딩(Predictive Coding) 이론 정립."
+  - "뇌는 끊임없이 세계를 예측하는 계층적 베이지안 추론 기계이며, 감각 입력과 내부 기대 간의 오차인 '자유 에너지(수학적으로 놀라움/예측 오차)'를 최소화하도록 설계됨."
+  - "예측 오차(Prediction Error)가 발생하면 뇌는 내부 신념(Belief)과 멘탈 모델을 사후 확률(Posterior)에 맞추어 즉각적으로 갱신(Belief Updating)함."
+core_claims:
+  - "예측 오차는 뇌의 상황 모델을 업데이트하는 가장 강력한 인지적 동력이다."
+  - "서사 반전은 관객의 기존 신념을 깨고 새로운 상황 모델로 베이지안 갱신을 강제하는 과정이다."
+keywords:
+  - free-energy principle
+  - predictive coding
+  - prediction error
+  - belief updating
+  - bayesian brain

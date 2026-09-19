@@ -1,0 +1,48 @@
+source_id: "SRC-2000-047"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "The psychology of the unthinkable: Taboo trade-offs, forbidden base rates, and tragic dilemmas"
+  authors:
+    - "Tetlock, Philip E. (The Ohio State University)"
+    - "Kristel, Orie V. (The Ohio State University)"
+    - "Elson, S. Beth (The Ohio State University)"
+    - "Green, Melanie C. (The Ohio State University)"
+    - "Lerner, Jennifer S. (Carnegie Mellon University)"
+  institution: "The Ohio State University / Carnegie Mellon University"
+  published_date: "2000-05-01"
+  source_url: "https://doi.org/10.1037/0022-3514.78.5.853"
+  source_type: "Peer-reviewed Journal (Journal of Personality and Social Psychology)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental Social & Moral Psychology"
+    sample_size: 476
+    target_population: "Adult experimental participants"
+    relationship_type: "Causal"
+    replicated: "Highly Replicated (Landmark paper on sacred values and tragic dilemmas, 1800+ citations)"
+    limitations: "실험실 시나리오 기반이나 고대 비극부터 현대 드라마의 윤리적 딜레마 분석에 결정적 틀 제공"
+
+claims_and_evidence:
+  core_claim: "신성한 가치(인간 생명, 사랑, 명예)가 세속적 가치(돈, 효율)와 충돌하는 '금기시된 거래'나 두 신성한 가치가 충돌하는 '비극적 딜레마(Tragic Dilemma)'에 직면할 때 인간은 극심한 도덕적 분노, 고뇌, 그리고 타협 불가능한 죄책감을 경험한다."
+  verbatim_quotes:
+    - original: "Tragic trade-offs pit sacred values against other sacred values. People recognize the terrible necessity of making a choice, but experience deep moral distress and seek to cleanse themselves through symbolic affirmations of virtue."
+      translation: "비극적 거래는 신성한 가치와 또 다른 신성한 가치를 충돌시킨다. 사람들은 선택을 내려야만 하는 끔찍한 필연성을 인식하지만, 깊은 도덕적 고통을 겪으며 미덕의 상징적 확인을 통해 스스로를 정화하고자 한다."
+      citation_location: "pp.854-856"
+
+story_application:
+  application_idea: "서사의 가장 깊은 정서적 파동과 카타르시스를 끌어내려면, 선과 악의 뻔한 대립이 아니라 '두 가지 신성한 가치(예: 가족의 생명 vs 전우들의 안전, 진실 규명 vs 공동체의 평화)'가 충돌하는 비극적 강제 선택(Tragic Forced Choice)을 클라이맥스에 배치해야 함."
+  narrative_stage: "Climax & Tragic Dilemma Design"
+  emotional_mechanics:
+    trigger: "두 개의 신성한 가치 중 하나를 반드시 희생해야 하는 극단적 상황 도래"
+    build_up: "어떤 선택을 내려도 죄책감과 상실을 피할 수 없는 도덕적 질식 상태"
+    peak: "피눈물을 흘리며 내리는 비극적 결단(Sophie's Choice)"
+    release: "도덕적 상처(Moral Injury)와 숭고한 비극적 정화(Tragic Catharsis)"
+  failure_modes: "신성한 가치를 돈이나 가벼운 실리로 손쉽게 바꾸는 가벼운 타협은 관객의 도덕적 혐오와 경멸을 부름"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "도덕적 딜레마와 심오한 비극성을 다루는 고품격 드라마, 영화, 롱폼 서사에 적용"

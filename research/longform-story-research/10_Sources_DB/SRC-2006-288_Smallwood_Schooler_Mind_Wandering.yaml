@@ -1,0 +1,27 @@
+id: SRC-2006-288
+title: "The Restless Mind"
+authors:
+  - "Jonathan Smallwood"
+  - "Jonathan W. Schooler"
+year: 2006
+type: academic_primary
+tier: 1
+publication: "Psychological Bulletin"
+volume: "132"
+issue: "6"
+pages: "946-958"
+doi: "10.1037/0033-2909.132.6.946"
+citation_count: 3500
+key_findings:
+  - "마인드 원더링(Mind Wandering)과 주의력 분리(Attentional Decoupling)의 신경인지 메커니즘 규명."
+  - "현재 당면한 과제(독서, 영상 시청)의 목표가 모호해지거나 예측 가능해질 때, 실행 통제망(Executive Control Network)이 과제로부터 이탈하여 과제 무관 생각(Task-Unrelated Thoughts, TUTs)으로 뇌가 표류함."
+  - "서사에서 관객의 잡념과 이탈을 막기 위해서는 정기적으로 서사적 목표를 리셋(Goal Reset)하고 새로운 긴박성을 부여하는 Rehook이 필수적임을 실증."
+core_claims:
+  - "인간의 뇌는 새로운 인지적 과제나 명확한 목표가 없으면 즉시 마인드 원더링으로 이탈한다."
+  - "Rehook은 시청 목표(Goal)를 재설정하여 표류하는 주의력을 서사 세계로 강제 재결합(Recoupling)시킨다."
+keywords:
+  - mind wandering
+  - attentional decoupling
+  - task-unrelated thoughts
+  - goal reset
+  - executive control

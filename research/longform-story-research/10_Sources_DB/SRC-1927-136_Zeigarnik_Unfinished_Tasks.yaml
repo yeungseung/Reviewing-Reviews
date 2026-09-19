@@ -1,0 +1,45 @@
+source_id: "SRC-1927-136"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Das Behalten erledigter und unerledigter Handlungen (On Finished and Unfinished Tasks)"
+  authors:
+    - "Zeigarnik, Bluma (University of Berlin / Vygotsky Circle)"
+  institution: "Psychological Institute, University of Berlin"
+  published_date: "1927-01-01"
+  source_url: "https://doi.org/10.1007/BF02409755"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1 Classical Psychology"
+  methodology:
+    study_type: "Experimental"
+    sample_size: 164
+    target_population: "성인 및 아동 피험자 164명"
+    relationship_type: "Causal"
+    effect_size: "미완성 과제 회상률 약 1.9배 (RU/RE = 1.9)"
+    replicated: "Conditionally Replicated (자아 관여 및 목표 몰입 조건에 따라 편차 존재)"
+    limitations: "과제 중단이 자존감 위협으로 해석될 경우 방어적 억압(역자이가르닉 효과) 발생 가능"
+
+claims_and_evidence:
+  core_claim: "인간은 완료된 과제보다 도중에 중단되거나 미완성된 과제를 약 90% 더 높은 확률로 생생하게 회상하며, 이는 과제 수행 중 형성된 심리적 준필요(quasi-need)와 내적 긴장 체계(tension system)가 목표 달성 전까지 방전되지 않고 유지되기 때문이다."
+  verbatim_quotes:
+    - original: "Unterbrochene Handlungen werden bei sonst gleichen Umständen wesentlich besser behalten als erledigte... Das Quasibedürfnis nach Erledigung der Handlung erzeugt ein Spannungsfeld, das bis zur Befriedigung bestehen bleibt."
+      translation: "다른 모든 조건이 동일하다면, 중단된 행동은 완료된 행동보다 훨씬 더 잘 기억된다... 행동 완결을 향한 준필요는 만족될 때까지 존속하는 긴장 영역(tension system)을 생성한다."
+      citation_location: "Psychologische Forschung, 9, p. 84-85"
+
+story_application:
+  application_idea: "서사 오프닝 및 씬 전환부에서 질문, 갈등, 미스터리를 완전히 종결짓지 않고 의도적으로 중단(Open Loop)시켜, 관객의 작업 기억에 자이가르닉 긴장 회로를 형성하고 후속 장면을 계속해서 시청하도록 강제함."
+  narrative_stage: "Opening Hook & Chapter / Episode Cliffhangers"
+  emotional_mechanics:
+    trigger: "진행 중이던 사건이나 질문의 돌연한 중단"
+    build_up: "닫히지 않은 긴장 체계로 인한 인지적 집착 및 회상"
+    peak: "중단된 과제의 결말 직전 클라이맥스"
+    release: "완전한 해답 및 과제 종결을 통한 긴장 방전"
+  failure_modes: "미완성 루프를 너무 오래 방치하거나 약속된 해답을 주지 않으면 관객은 인지적 피로와 배신감을 느끼고 이탈함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "관객이 사건의 해결에 대해 능동적인 인지적 관심(목표 몰입)을 형성해야 함"

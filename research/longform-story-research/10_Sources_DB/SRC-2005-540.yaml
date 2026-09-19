@@ -1,0 +1,12 @@
+id: SRC-2005-540
+author: Paul Ayres & John Sweller
+year: 2005
+title: "The Split-Attention Principle in Multimedia Learning"
+venue: "In R. E. Mayer (Ed.), The Cambridge Handbook of Multimedia Learning (pp. 135-146). Cambridge University Press"
+tier: 1
+citation_count: 1450
+url: https://doi.org/10.1017/CBO9780511816819.009
+key_contribution: "인지 부하 이론(CLT) 기반 분할 주의 원칙(Split-Attention Principle)의 정립. 물리적·시간적으로 분리되거나 상호 이질적인 시청각 정보가 주어질 때 작업 기억(Working Memory)의 인지 자원이 통합 연산에 낭비되어 고차원적 이해와 장기 기억 저장이 파괴됨을 규명."
+relevance: "화면 B-roll과 내레이션이 겉돌거나 시각적 정보와 음성 정보의 시점이 불일치할 때 발생하는 관객의 서사 이탈을 방지하는 이론적 토대."
+themes:
+  - "#55 Theme 2"

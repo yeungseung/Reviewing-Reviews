@@ -1,0 +1,26 @@
+id: SRC-1996-261
+title: "The psychology of suspense in dramatic exposition"
+authors:
+  - "Dolf Zillmann"
+year: 1996
+type: academic_primary
+tier: 1
+publication: "Lawrence Erlbaum Associates"
+volume: "Book Chapter"
+issue: "Suspense: Conceptualizations, theoretical perspectives, and empirical analyses"
+pages: "199-231"
+isbn: "978-0805819663"
+citation_count: 550
+key_findings:
+  - "극적 서스펜스의 인지적 평가 및 주관적 확률 역학 규명."
+  - "서스펜스는 좋아하는 주인공에게 닥친 위협에 대해 '두려워하는 결과가 일어날 확률'과 '원하는 결과가 일어날 확률'이 팽팽하게 맞설 때 극대화됨."
+  - "주인공의 구출이나 성공 확률이 100%이거나 0%로 확정되면 서스펜스는 즉각 소멸함. 서스펜스는 성공 확률이 대략 50~80% 사이의 불확실한 구간에 머물 때 정서적 각성(Sympathetic Arousal)이 최고점에 달함."
+core_claims:
+  - "서스펜스는 예측의 완전한 확신과 완전한 절망 사이의 주관적 확률 지대에서 번성한다."
+  - "관객의 예측 정답률을 100%로 두지 않고 적절한 실패 우려를 병행할 때 정서적 흡인력이 극대화된다."
+keywords:
+  - suspense
+  - subjective probability
+  - empathetic distress
+  - narrative tension
+  - affective disposition

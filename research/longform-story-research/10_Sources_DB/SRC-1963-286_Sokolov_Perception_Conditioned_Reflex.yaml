@@ -1,0 +1,24 @@
+id: SRC-1963-286
+title: "Perception and the Conditioned Reflex"
+authors:
+  - "Evgeny N. Sokolov"
+year: 1963
+type: academic_primary
+tier: 1
+publication: "Pergamon Press"
+pages: "1-309"
+isbn: "978-0080100418"
+citation_count: 6200
+key_findings:
+  - "인간 신경계의 정향 반응(The Orienting Response, OR / '무엇인가?' 반사) 메커니즘 규명."
+  - "뇌는 환경의 내적 신경 모델(Neuronal Model of the Stimulus)을 형성하며, 유입되는 자극이 이 모델과 불일치할 때(Novelty) 피질성 각성(Cortical Arousal), 동공 확장, 감각 수용성 증대를 동반한 즉각적 주의 리셋이 발생함."
+  - "서사에서 단순한 자극의 반복이 아니라 새로운 정보 상태(New Information State)를 제시하는 Rehook이 왜 주의 피로를 즉시 회복시키는지 신경학적 원리 제공."
+core_claims:
+  - "정향 반응은 신기성(Novelty)과 예측 불일치에 의해 유발되는 유기체의 원초적 주의 각성 반사이다."
+  - "효과적인 Rehook은 뇌의 신경 모델을 갱신하는 신기성 신호를 투입하여 주의 집중도를 재부팅한다."
+keywords:
+  - orienting response
+  - novelty detection
+  - neuronal model
+  - cortical arousal
+  - attentional renewal

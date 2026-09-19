@@ -1,0 +1,12 @@
+id: SRC-1998-504
+author: Raymond S. Nickerson
+year: 1998
+title: "Confirmation Bias: A Ubiquitous Phenomenon in Many Guises"
+venue: "Review of General Psychology, 2(2), 175-220"
+tier: 1
+citation_count: 6540
+url: https://doi.org/10.1037/1089-2680.2.2.175
+key_contribution: "확증 편향(Confirmation Bias) 및 인지적 조기 종결(Premature Cognitive Closure)의 종합적 실증 규명. 특정 가설이나 결론을 사전에 고정할 경우, 반대 증거는 과소평가되고 가설 지지 정보만을 편향 탐색·해석하는 인지적 왜곡 현상의 메커니즘을 규명."
+relevance: "서사 기획 시 엔딩 감정과 결론을 지나치게 경직되게 사전 설정했을 때 발생하는 결론 편향 위험, 캐릭터 동기 왜곡, 개연성 훼손의 핵심 심리학적 반증 근거."
+themes:
+  - "#52 Theme 2"

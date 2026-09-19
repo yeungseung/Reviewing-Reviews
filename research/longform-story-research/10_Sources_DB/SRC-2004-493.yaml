@@ -1,0 +1,12 @@
+id: SRC-2004-493
+author: Mark Beeman, Edward M. Bowden, Jason Haberman, Jennifer L. Frymiare, Stella Arambel-Liu, Richard Greenblatt, Paul J. Reber, & John Kounios
+year: 2004
+title: "Neural Activity When People Solve Problems with Insight"
+venue: "PLoS Biology, 2(4), e97"
+tier: 1
+citation_count: 1290
+url: https://doi.org/10.1371/journal.pbio.0020097
+key_contribution: "통찰(Insight / Aha! moment) 순간 뇌 신경 활성화의 fMRI 및 EEG 실증. 문제 해결 통찰 직전 우측 전상측두회(aSTG)에서 급증하는 감마파(Gamma band burst, ~40Hz) 신경 활성화와 도파민 보상 메커니즘 규명."
+relevance: "서사 결말의 통찰 보상(Insight Reward)과 관점 전환(Reframe)이 관객 뇌에 방출하는 즉각적인 신경학적 쾌락과 강렬한 서사적 만족도의 생물학적 기제."
+themes:
+  - "#51 Theme 2"

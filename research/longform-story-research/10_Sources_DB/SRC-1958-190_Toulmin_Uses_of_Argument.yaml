@@ -1,0 +1,50 @@
+source_id: SRC-1958-190
+created_at: '2026-09-17'
+verified_by: Gemini Deep Research
+bibliographic_info:
+  title: The Uses of Argument
+  authors:
+  - Toulmin, Stephen (University of Leeds / Cambridge University)
+  institution: Cambridge University Press
+  published_date: '1958-01-01'
+  source_url: https://doi.org/10.1017/CBO9780511840005
+  source_type: Foundational Philosophical Treatise / Argumentation Theory Monograph
+credibility_assessment:
+  credibility_tier: Tier 1 Epistemology & Argumentation Theory
+  methodology:
+    study_type: Philosophical & Jurisprudential Model Formulation
+    sample_size: Analysis of legal, scientific, and everyday practical reasoning structures
+    target_population: 논증 및 사실 입증 체계의 수용자
+    relationship_type: Structural Epistemic Functionalism (Data -> Warrant -> Claim)
+    effect_size: 논증을 6대 기능 요소(Data, Claim, Warrant, Backing, Rebuttal, Qualifier)로
+      분해하여 정보의 논증적 입증(Proof) 기능을 규명 (18,000+ 피인용 고전)
+    replicated: Universally Adopted (현대 논증학, 비판적 사고, 저널리즘 팩트체크의 기초 표준)
+    limitations: 형식논리학이 아닌 실천적 논증에 초점을 맞추어 서사적 감정 유발 기제는 별도 보완 필요
+claims_and_evidence:
+  core_claim: 모든 정보는 그 자체로 고립된 데이터가 아니라, 주장의 진실성을 지지하는 논증적 기능(Data -> Warrant -> Claim)을
+    수행할 때 비로소 타당성을 획득한다. 툴민 모델에서 데이터(Data/Evidence)는 수용자의 인지적 반박(Rebuttal)을 선제적으로
+    차단하고 주장(Claim)을 신뢰하게 만드는 필수적 입증(Proof) 기능을 수행한다. 입증 기능이 없는 정보는 주장을 정당화하지 못하는 무의미한
+    소음에 불과하다.
+  verbatim_quotes:
+  - original: A statement of fact or evidence, in any argument, serves to ground the
+      claim; without data and warrants that bridge them, statements remain unsupported
+      assertions vulnerable to total rejection.
+    translation: 어떤 논증에서든 사실이나 증거의 진술은 주장의 기초를 놓는 역할을 한다. 데이터와 이를 연결하는 보증(Warrant)이
+      없으면 진술은 전면 기각에 취약한 지지받지 못하는 독단적 주장에 불과하다.
+    citation_location: 'Chapter III: The Layout of Arguments, pp. 94-100'
+story_application:
+  application_idea: 롱폼 서사의 PROVE(입증) 기능 엔진. 팩트 기반 논픽션, 탐사 다큐멘터리, 법정/추리 서사에서 결정적 주장을
+    제시하기 전, 독자의 의심과 반박을 원천 봉쇄하는 구체적 물증/데이터를 배치하는 원칙. 정보는 단순 나열이 아니라 특정 의혹을 박살내는 논증적
+    쐐기로 기능해야 함.
+  narrative_stage: Investigative Narrative, Climax Proof & Epistemic Turning Points
+  emotional_mechanics:
+    trigger: 수용자의 회의적 반론 및 의구심 발생
+    build_up: 증거(Data)와 논리적 연결고리(Warrant)의 교차 제시
+    peak: 완벽한 반박 불가능의 논증적 입증(Proof) 달성
+    release: 인지적 저항 해소 및 서사적 신뢰의 완전한 확립
+  failure_modes: 증거 없는 일방적 주장 남발로 독자의 반발(Reactance)을 유발하거나, 주장과 무관한 잡다한 데이터를 늘어놓는
+    데이터 덤프의 오류
+verification_status:
+  status: Strong Support
+  confidence_level: High
+  boundary_conditions: 논증과 사실 입증이 중심이 되는 지적·탐사형 서사에서 특히 핵심적으로 작동함

@@ -1,0 +1,15 @@
+id: SRC-2012-561
+author: Sidney D'Mello & Arthur Graesser
+year: 2012
+title: Dynamics of Affective States During Complex Learning
+venue: Learning and Instruction, 22(2), pp. 145-157
+tier: 1
+citation_count: 640
+url: https://doi.org/10.1016/j.learninst.2011.10.001
+key_contribution: 복합 정보 처리 중 학습자/관객의 정서 상태 전이 동역학 모델(D'Mello-Graesser Model) 정립. 새로운
+  정보 갱신(Information Gain) 없이 정적인 시각 자료가 필요 시간 이상으로 장기 체류(Over-dwell)할 경우 몰입(Flow/Engagement)에서
+  혼란을 거쳐 급격히 지루함(Boredom)과 주의 분산(Mind Wandering) 상태로 붕괴하는 임계 시간 경계를 실증.
+relevance: 시각 자료의 과도한 체류(Over-dwell)가 초래하는 지루함 및 이탈 위험을 통제하기 위한 컷 길이 상한선(Dwell Ceiling)
+  설정의 이론적 토대.
+themes:
+- '#57 Theme 1'

@@ -1,0 +1,14 @@
+id: SRC-1998-559
+author: Keith Rayner
+year: 1998
+title: 'Eye Movements in Reading and Information Processing: 20 Years of Research'
+venue: Psychological Bulletin, 124(3), pp. 372-422
+tier: 1
+citation_count: 8900
+url: https://doi.org/10.1037/0033-2909.124.3.372
+key_contribution: '시각 텍스트 및 정보 처리에서 안구 고정(Fixation: 평균 200~250ms), 도약(Saccade: 20~30ms),
+  인지적 통합 속도를 종합 체계화. 일반 성인의 시각 읽기 속도(영어 250~300 WPM, 한국어 기준 분당 400~500음절 / 초당 7~8음절)와
+  텍스트 길이별 인지 처리 필수 시간 모델을 확립하여 화면 내 텍스트/자막/스크린샷의 절대적 최소 체류 시간 공식을 산출함.'
+relevance: 온스크린 텍스트, 자막, 인용문, 댓글 스크린샷 노출 시 글자 수 및 복잡도에 비례한 동적 컷 길이 계산의 핵심 신경생리학적 근거.
+themes:
+- '#57 Theme 1'

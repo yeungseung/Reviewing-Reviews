@@ -1,0 +1,27 @@
+id: SRC-1990-260
+title: "Flow: The Psychology of Optimal Experience"
+authors:
+  - "Mihaly Csikszentmihalyi"
+year: 1990
+type: academic_primary
+tier: 1
+publication: "Harper & Row"
+volume: "Book"
+issue: "Monograph"
+pages: "1-303"
+isbn: "978-0060162535"
+citation_count: 42000
+key_findings:
+  - "최적의 심리적 몰입 상태인 플로우(Flow)의 인지적 조건 체계화."
+  - "과제의 난이도(Challenge/도전 과제)와 개인의 역량(Skills/숙련도)이 균형을 이루는 '몰입 채널(Flow Channel)' 이론 정립."
+  - "도전 난이도(서사의 반전/추론 복잡성)가 숙련도(관객의 스키마 지식)보다 너무 낮으면 지루함(Boredom)을 느끼고, 너무 높으면 불안과 혼란(Anxiety/Confusion)에 빠짐."
+  - "숙련된 장르 마니아(High Expertise)와 대중 관객(Novice) 사이의 몰입 채널 차이를 고려한 동적 난이도 조율의 필요성 제시."
+core_claims:
+  - "몰입은 도전 난이도와 수용자 숙련도의 정밀한 균형에서 탄생한다."
+  - "서사의 예측 난이도는 타깃 관객의 전문성 수준에 맞추어 지루함과 혼란의 경계를 통제해야 한다."
+keywords:
+  - flow
+  - optimal experience
+  - challenge-skill balance
+  - boredom vs anxiety
+  - expertise differences

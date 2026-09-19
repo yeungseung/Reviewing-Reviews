@@ -1,0 +1,14 @@
+id: SRC-2004-566
+author: Mary C. Dyson
+year: 2004
+title: How Physical Text Layout Affects Reading from Screen
+venue: Behaviour & Information Technology, 23(6), pp. 377-393
+tier: 1
+citation_count: 380
+url: https://doi.org/10.1080/01449290410001715714
+key_contribution: 디지털 디스플레이 환경에서 텍스트 레이아웃(행간, 줄 길이, 글자 크기)이 읽기 속도와 이해도에 미치는 영향 규명.
+  온스크린 인용문과 SNS 댓글 스크린샷의 경우 인쇄물 대비 읽기 속도가 20~30% 지연되며, 관객이 1줄당 1.2~1.5초, 복수 줄 캡처본은
+  기본 정위 시간 1.5초에 글자당 가산 시간을 더한 최소 체류 공식이 적용되어야 온전한 독해가 이루어짐을 실증.
+relevance: 댓글 스크린샷, 텍스트 인용구, 헤드라인 자막의 실전 체류 시간 계산 공식의 핵심 실험적 근거.
+themes:
+- '#57 Theme 3'

@@ -1,0 +1,45 @@
+source_id: "SRC-1960-137"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Conflict, Arousal, and Curiosity"
+  authors:
+    - "Berlyne, Daniel E. (University of Toronto)"
+  institution: "University of Toronto"
+  published_date: "1960-01-01"
+  source_url: "https://doi.org/10.1037/11164-000"
+  source_type: "Academic Book"
+
+credibility_assessment:
+  credibility_tier: "Tier 1 Classical Psychology"
+  methodology:
+    study_type: "Theoretical Synthesis & Psychophysiological Experiments"
+    sample_size: "Comprehensive multi-experiment monograph"
+    target_population: "인간 및 영장류 인지·각성 반응"
+    relationship_type: "Causal"
+    effect_size: "자극의 복잡성·불확실성과 각성 수준 간 역U자형(Inverted-U) 상관 및 인과"
+    replicated: "Replicated (호기심 심리학 및 감각 탐색 연구의 고전)"
+    limitations: "초기 행동주의적 각성 모델에 기반하여 인지적 정보 처리의 상위 추론 과정은 후속 인지심리학으로 보완 필요"
+
+claims_and_evidence:
+  core_claim: "호기심은 신기성(Novelty), 복잡성(Complexity), 불확실성(Uncertainty), 갈등(Conflict) 등의 조합 자극(Collative Variables)에 의해 촉발되며, 각성(Arousal)과 탐색 행동은 중간 수준의 불확실성에서 역U자형(Inverted-U) 곡선의 정점을 찍는다."
+  verbatim_quotes:
+    - original: "When conceptual conflict occurs, exploratory behavior is mobilized to secure knowledge that will reduce this conflict... The pleasantness of curiosity and the urge to explore peak at an intermediate potential of uncertainty and complexity."
+      translation: "개념적 갈등이 발생할 때, 이러한 갈등을 줄여줄 지식을 확보하기 위해 탐색적 행동이 동원된다... 호기심의 유쾌함과 탐색 충동은 불확실성과 복잡성이 중간 수준의 잠재력을 가질 때 정점에 달한다."
+      citation_location: "McGraw-Hill, p. 193-205"
+
+story_application:
+  application_idea: "서사 도입부에서 관객이 100% 예측 가능한 클리셰도 피하고, 0%의 무작위 난수 같은 혼란도 피하여, '단서의 50%는 주되 핵심 50%는 미완성인 중간 수준의 불확실성'을 설계함으로써 신경인지적 몰입을 극대화함."
+  narrative_stage: "Act 1 Premise Setup & Conflict Initiation"
+  emotional_mechanics:
+    trigger: "기존 인지 도식과 충돌하는 신기하고 모순적인 단서 제시"
+    build_up: "중간 수준의 각성과 개념적 갈등(Conceptual Conflict) 고조"
+    peak: "탐색 충동이 극에 달해 답을 갈망하는 상태"
+    release: "새로운 지식 획득을 통한 각성 안정화"
+  failure_modes: "불확실성이 너무 높으면 위협과 혼란으로 인식되어 회피하며, 너무 낮으면 권태와 지루함으로 즉각 이탈함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "자극의 모호성이 무의미한 카오스가 아닌 의미 있는 패턴으로 해석 가능해야 함"

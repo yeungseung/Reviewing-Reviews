@@ -1,0 +1,12 @@
+id: SRC-1997-410
+author: Dedre Gentner & Arthur B. Markman
+year: 1997
+title: 'Structure mapping in analogy and similarity'
+venue: American Psychologist
+tier: 1
+citation_count: 2800
+url: https://doi.org/10.1037/0003-066X.52.1.45
+key_contribution: 구조 매핑을 통한 정합성 검증 연구. 표면적 유사성(Surface Similarity)만 취하고 인과적 관계 구조가 일치하지 않는 '억지 유추(Forced Analogy)'는 수용자의 인지 모델을 왜곡하고 지적 반발을 초래함을 규명.
+relevance: 낯선 소재를 설명할 때 관계 구조가 어긋난 부실한 비유나 거짓 등가(False Equivalence)를 들이댈 때 발생하는 신뢰 훼손의 인지 심리학적 근거.
+themes:
+  - '#44 Theme 3'

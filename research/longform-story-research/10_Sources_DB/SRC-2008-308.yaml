@@ -1,0 +1,13 @@
+id: SRC-2008-308
+author: Christopher A. Kurby & Jeffrey M. Zacks
+year: 2008
+title: Segmentation in the Perception and Memory of Events
+venue: Trends in Cognitive Sciences
+tier: 1
+citation_count: 890
+url: https://doi.org/10.1016/j.tics.2007.11.004
+key_contribution: 인간의 사건 분할(Event Segmentation)이 일정한 시간 간격이 아니라 서사 환경의 예측 오차(Prediction
+  Error)와 인과·목표·행위자 변화가 일어나는 경계에서 촉발됨을 뇌인지학적으로 규명.
+relevance: Rehook이 기계적 타이머가 아닌 서사의 특징 변화(Feature Shift) 지점에 트리거되어야 함을 입증.
+themes:
+- '#36 Theme 1'

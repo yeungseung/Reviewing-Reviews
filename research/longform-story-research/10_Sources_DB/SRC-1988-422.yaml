@@ -1,0 +1,12 @@
+id: SRC-1988-422
+author: John Sweller
+year: 1988
+title: 'Cognitive load during problem solving: Effects on learning'
+venue: Cognitive Science
+tier: 1
+citation_count: 15400
+url: https://doi.org/10.1207/s15516709cog1202_4
+key_contribution: 인지 부하 이론(Cognitive Load Theory)을 창시. 인간의 작업 기억(Working Memory) 용량은 극히 제한되어 있으며, 지나치게 높은 외재적·본질적 정보 처리 요구는 인지 과부하(Cognitive Overload)를 일으켜 정보의 장기기억 저장과 이해를 붕괴시킴을 실험적으로 증명.
+relevance: 서사에서 챕터당 상태 변화가 지나치게 빈번하거나 급격할 때 관객이 겪는 '인지 과포화(Change Saturation)'와 피로감 및 이탈 메커니즘을 규명하는 핵심 근거.
+themes:
+  - '#45 Theme 3'

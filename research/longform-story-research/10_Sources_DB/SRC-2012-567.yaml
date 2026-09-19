@@ -1,0 +1,14 @@
+id: SRC-2012-567
+author: Stephen Few
+year: 2012
+title: 'Show Me the Numbers: Designing Tables and Graphs to Enlighten (2nd ed.)'
+venue: Analytics Press, Burlingame, CA, pp. 53-118
+tier: 1
+citation_count: 1420
+url: https://www.stephen-few.com/smtrn.php
+key_contribution: 표(Table)와 그래프(Graph)의 인지 처리 경로 및 시간적 요구량의 구조적 규명. 표는 정밀한 개별 수치 조회(Lookup)
+  중심이므로 행·열당 최소 0.8~1.2초의 탐색 시간이 누적되어야 하며(최소 6~8초), 그래프는 전주의적 시각 속성을 활용해 형상(Shape)을
+  파악한 뒤 세부 격차를 비교하므로 4.5~7.0초의 단계별 체류 시간이 필수적임을 인지 공학적으로 정립.
+relevance: 재무제표, 통계 표, 시계열 그래프 자료의 유형별 최적 체류 시간 가이드라인 수립의 핵심 이론.
+themes:
+- '#57 Theme 3'

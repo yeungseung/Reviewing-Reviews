@@ -1,0 +1,12 @@
+id: SRC-1990-525
+author: Ziva Kunda
+year: 1990
+title: "The case for motivated reasoning"
+venue: "Psychological Bulletin, 108(3), 480-498"
+tier: 1
+citation_count: 8900
+url: https://doi.org/10.1037/0033-2909.108.3.480
+key_contribution: "동기화된 추론(Motivated Reasoning)의 포괄적 이론 정립. 인간은 객관적 진실만을 추구하는 기계가 아니라, 자신이 원하는 감정적 결론(방어/선호)에 부합하도록 기억을 선택적으로 인출하고 증거를 편향되게 평가함. 반대로 강력한 인과적 설명(Explanation)이 결합될 때만 감정적 저항을 뚫고 신념 갱신이 일어남을 증명."
+relevance: "서사에서 관객이 불편한 진실이나 새로운 정보에 직면했을 때 발생하는 감정적 저항(방어적 합리화)을 극복하고 정보를 감정적 통찰로 전환하는 데 필요한 서사 엔지니어링의 핵심 근거."
+themes:
+  - "#54 Theme 1"

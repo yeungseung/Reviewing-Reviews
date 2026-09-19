@@ -1,0 +1,42 @@
+source_id: SRC-2008-243
+created_at: '2026-09-17'
+verified_by: Gemini Deep Research
+bibliographic_info:
+  title: 'Misdirection: A new kind of visual illusion'
+  authors:
+  - Kuhn, Gustav (University of Durham)
+  - Tatler, Benjamin W. (University of Dundee)
+  - Land, Michael F. (University of Sussex)
+  institution: University of Durham & University of Sussex
+  published_date: '2008-04-01'
+  source_url: https://doi.org/10.1016/j.tics.2007.12.005
+  source_type: Peer-reviewed Journal (Trends in Cognitive Sciences, 12(4), 149-158)
+credibility_assessment:
+  credibility_tier: Tier 1 Cognitive Neuroscience & Vision Science Benchmark
+  methodology:
+    study_type: High-speed Eye-tracking & Psychophysical Attention Dissociation Experiments
+    sample_size: 다수의 마술 트릭 관람 피험자 고정밀 안구 추적 데이터 상세 분석
+    target_population: 동적 시각 자극에서 단서와 트릭을 지각하는 인간 시각-주의 인지 시스템
+    relationship_type: Exact Dissociation Mechanism (Overt vs Covert Attention: Fixation Does Not Equal Awareness)
+    effect_size: 피험자가 마술사의 손(비밀 조작 위치)을 직접 응시(Fixation)하고 있는 순간조차, 주의의 초점이 다른 곳으로 유도되면 시각 피질의 정보가 의식적 지각에 도달하지 못하는 '무주의 맹시(Inattentional Blindness)'와 '내현적 미스디렉션(Covert Misdirection)'을 실증 (p < .001, 400+ 피인용 대표 논문)
+    replicated: Universally Replicated in cognitive psychology of magic, film perception, and forensic psychology
+    limitations: 시각 마술 트릭 패러다임 기반이나 서사의 시각 연출 및 대사 미스디렉션에 직접 일반화됨
+claims_and_evidence:
+  core_claim: 미스디렉션(Misdirection)과 단순한 거짓말(Deception/Lying)은 질적으로 완전히 다르다. 기만(Deception)은 사실을 감추거나 허위 사실을 진실로 꾸며대는 비열한 속임수인 반면, 미스디렉션은 진실을 숨기지 않고 눈앞에 정직하게 보여주면서도 관객의 '주의(Attention)'를 다른 흥미로운 곳으로 정중하게 유도하는 인지 예술이다. 안구 추적 연구에 따르면, 피험자의 시선(Gaze)이 단서를 물리적으로 정확히 바라보고 있어도, 뇌의 주의 자원이 다른 강력한 정서적 사건(소셜 큐, 급격한 움직임)에 쏠려 있으면 그 단서는 뇌 안에서 무의미한 배경으로 증발한다(내현적 미스디렉션). 작가는 단서를 꽁꽁 숨길 필요가 없다. 단서를 대낮처럼 밝은 곳에 두고, 그 바로 옆에서 더 매혹적인 감정적 폭풍을 일으키기만 하면 된다.
+  verbatim_quotes:
+  - original: Misdirection is not about hiding the method; it is about manipulating attention and awareness... People can look directly at the critical event and still fail to perceive it if their attention is engaged elsewhere. This dissociation between eye fixation and conscious perception lies at the heart of misdirection.
+    translation: 미스디렉션은 방법을 숨기는 것이 아니라 주의와 의식을 조작하는 것이다... 사람들은 자신의 주의가 다른 곳에 몰입되어 있다면 결정적 사건을 똑바로 쳐다보고 있으면서도 그것을 지각하지 못할 수 있다. 시선의 고정과 의식적 지각 사이의 이러한 괴리가 미스디렉션의 핵심이다.
+    citation_location: pp. 149-151
+story_application:
+  application_idea: 롱폼 스토리의 '내현적 미스디렉션 및 정서적 차폐 공식 (Covert Misdirection & Emotional Cloaking Formula)'. 작가는 가장 중요한 단서(스모킹 건, 복선)를 노출할 때, 관객의 주의를 강타하는 '강력한 감정적 사건(인물 간의 격렬한 다툼, 눈물의 고백, 돌발적 슬랩스틱)'을 동일 씬에 동시에 발생시켜야 함. 관객의 시선은 화면을 보지만 뇌의 작업 기억은 감정적 갈등에 100% 점유되어 단서를 뇌리에 처리하지 못함. 반전 순간 그 장면을 되돌려 보여주면, 관객은 "내가 저걸 대놓고 보고 있었는데 놓쳤구나!"라며 완벽한 패배를 인정하고 경탄함.
+  narrative_stage: Clue Dropping, Misdirection Staging, Emotional Distraction & Reveal
+  emotional_mechanics:
+    trigger: 눈앞에서 펼쳐지는 강렬한 인물 간의 정서적 충돌에 온 신경이 집중됨
+    build_up: 정서적 소음(Emotional Cloak) 속에서 무심코 지나쳐버리는 결정적 단서
+    peak: 반전의 폭로와 함께 과거 장면 속의 단서가 다시 조명되는 순간
+    release: "작가가 눈앞에 보여줬는데 내가 감정에 취해 못 봤다"는 유쾌한 항복과 찬탄
+  failure_modes: 화면 밖으로 단서를 치워버리고 거짓말로 시청자를 속여 분노를 유발하는 기만적 사기극(Cheating Deception)
+verification_status:
+  status: Strong Support
+  confidence_level: High
+  boundary_conditions: 영화 연출, 드라마 카메라 앵글, 미스터리 소설의 대사 배치, 연극 무대 연출 등 모든 서사 미디어에 보편 적용

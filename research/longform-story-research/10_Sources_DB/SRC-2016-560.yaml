@@ -1,0 +1,15 @@
+id: SRC-2016-560
+author: Michelle A. Borkin, Zoya Bylinskii, Nam Wook Kim, Constance M. May, Celso
+  Gomez, Aude Oliva, & Hanspeter Pfister
+year: 2016
+title: 'Beyond Memorability: Understanding How We Read Visualizations'
+venue: IEEE Transactions on Visualization and Computer Graphics, 22(1), pp. 519-528
+tier: 1
+citation_count: 320
+url: https://doi.org/10.1109/TVCG.2015.2467732
+key_contribution: 안구 추적과 기억 회상 실험을 통해 관객이 데이터 시각화(차트, 그래프, 다이어그램)를 읽고 해석하는 시선 경로와
+  체류 시간(Dwell Time)의 인지 과정을 규명. 단순 형태 재인(1~2초)을 넘어 데이터 포인트 비교 및 서사적 결론을 도출하려면 최소 4.5초~8초
+  이상의 체류 시간이 필수적이며, 체류 시간 부족 시 왜곡/오독률이 68% 이상 급증함을 실증.
+relevance: 도표, 인포그래픽, 데이터 시각화 자료의 정보 밀도에 따른 최소 필수 체류 시간 및 컷 전환 타이밍 설계의 실증적 근거.
+themes:
+- '#57 Theme 1'

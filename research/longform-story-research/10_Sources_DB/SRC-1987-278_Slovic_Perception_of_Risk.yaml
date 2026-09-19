@@ -1,0 +1,26 @@
+id: SRC-1987-278
+title: "Perception of Risk"
+authors:
+  - "Paul Slovic"
+year: 1987
+type: academic_primary
+tier: 1
+publication: "Science"
+volume: "236"
+issue: "4799"
+pages: "280-285"
+doi: "10.1126/science.3563507"
+citation_count: 28000
+key_findings:
+  - "인간의 위험 지각에 관한 심리측정학적 패러다임(Psychometric Paradigm of Risk) 확립."
+  - "대중의 위험 평가는 단순 확률 곱하기 피해액(기댓값)이 아니라, '공포 위험(Dread Risk: 통제 불가, 파국적 잠재력, 치명성)'과 '미지의 위험(Unknown Risk: 관찰 불가, 미지성, 지연된 효과)'이라는 두 핵심 인지 차원에 의해 결정됨."
+  - "서사에서 국소적 사건이 통제 불가능한 시스템 전체의 재앙으로 뒤바뀌는 '규모 반전(Scale Reversal)'이 왜 관객에게 극심한 실존적 위협 지각(Threat Perception)을 촉발하는지 실증."
+core_claims:
+  - "위험은 객관적 통계가 아니라 통제 가능성과 파국성이라는 심리적 스펙트럼을 통해 지각된다."
+  - "규모 반전(Scale Reversal)은 공포 위험(Dread Risk) 인자를 직접 자극하여 시청자의 각성도와 경각심을 극대화한다."
+keywords:
+  - risk perception
+  - dread risk
+  - psychometric paradigm
+  - scale reversal
+  - threat perception

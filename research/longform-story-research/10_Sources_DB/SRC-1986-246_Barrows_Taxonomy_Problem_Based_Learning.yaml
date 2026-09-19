@@ -1,0 +1,26 @@
+id: SRC-1986-246
+title: "A taxonomy of problem-based learning methods"
+authors:
+  - "Howard S. Barrows"
+year: 1986
+type: academic_primary
+tier: 1
+publication: "Medical Education"
+volume: "20"
+issue: "6"
+pages: "481-486"
+doi: "10.1111/j.1365-2923.1986.tb01386.x"
+citation_count: 2400
+key_findings:
+  - "전통적인 강의식 지식 전달(Lecture-based learning)과 달리 문제를 먼저 제시하는 문제 기반 학습(PBL)의 6단계 분류체계 제시."
+  - "단서와 임상 사례를 먼저 맞닥뜨렸을 때 학습자는 사전 지식을 활성화하고 가설 연역적 추론을 주도적으로 수행함."
+  - "완성된 결론이나 이론을 먼저 주입받은 경우보다, 미완의 문제 단서를 스스로 풀어나갈 때 지식의 임상적 인출 및 실제 문제 해결 전이율이 유의미하게 상승함."
+core_claims:
+  - "문제 선제시(Problem-First)는 인지적 동기를 유발하고 지식 구조화를 촉진한다."
+  - "자기주도적 단서 추론 과정이 결론 암기보다 고차원 인지 능력을 발달시킨다."
+keywords:
+  - problem-based learning
+  - taxonomy
+  - clinical reasoning
+  - hypothesis generation
+  - self-directed learning

@@ -1,0 +1,28 @@
+id: SRC-1997-254
+title: "A neural substrate of prediction and reward"
+authors:
+  - "Wolfram Schultz"
+  - "Peter Dayan"
+  - "P. Read Montague"
+year: 1997
+type: academic_primary
+tier: 1
+publication: "Science"
+volume: "275"
+issue: "5306"
+pages: "1593-1599"
+doi: "10.1126/science.275.5306.1593"
+citation_count: 15200
+key_findings:
+  - "중뇌 도파민 신경세포의 핵심 기능이 단순 보상 수용이 아니라 '보상 예측 오차(Reward Prediction Error, RPE)'를 신호화하는 것임을 실증 규명."
+  - "기대하지 않았던 놀라운 보상(Positive Prediction Error)이 주어질 때 도파민 발화율이 급증하여 강력한 쾌락과 학습을 촉진함."
+  - "예측과 완전히 일치하는 보상이 주어지면 도파민 발화는 베이스라인을 유지하고, 예상했던 보상이 주어지지 않으면(Negative Prediction Error) 도파민 발화가 억제되어 실망과 불쾌감을 유발함."
+core_claims:
+  - "도파민 뉴런은 보상 자체가 아니라 예측과 실제 결과 간의 '오차(Error)'에 반응한다."
+  - "서사에서 관객의 예상을 뛰어넘는 신선한 보상적 반전은 강력한 도파민 폭발을 일으킨다."
+keywords:
+  - dopamine
+  - reward prediction error
+  - reinforcement learning
+  - surprise
+  - neurobiology of expectation

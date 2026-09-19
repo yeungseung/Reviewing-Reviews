@@ -1,0 +1,26 @@
+id: SRC-1975-269
+title: "Hindsight != foresight: The effect of outcome knowledge on judgment under uncertainty"
+authors:
+  - "Baruch Fischhoff"
+year: 1975
+type: academic_primary
+tier: 1
+publication: "Journal of Experimental Psychology: Human Perception and Performance"
+volume: "1"
+issue: "3"
+pages: "288-299"
+doi: "10.1037/0096-1523.1.3.288"
+citation_count: 4850
+key_findings:
+  - "결과를 알고 난 후 과거 사건이 발생할 수밖에 없었다고 과대평가하는 '사후 확신 편향(Hindsight Bias / I-knew-it-all-along effect)'의 인지심리학적 원전."
+  - "결과 지식(Outcome Knowledge)이 입력되는 순간, 인간의 뇌는 즉시 과거의 사전 확률(Prior Probability)을 사후적 필연성으로 재구성함."
+  - "서사적 반전에서 관객이 결말 직후 '알고 보니 당연했다(I should have known it)'라며 소급적 인과 필연성을 느끼는 쾌락의 인지적 기제 입증."
+core_claims:
+  - "인간은 결과 지식을 획득했을 때 과거 사건들을 불가피한 필연으로 소급 재구성하는 내재적 인지 편향을 가지고 있다."
+  - "위대한 반전은 사후 확신 편향을 촉발하여 '충격적인 놀라움'을 '압도적인 필연성'으로 1초 만에 전환시킨다."
+keywords:
+  - hindsight bias
+  - outcome knowledge
+  - retrospective inevitability
+  - probability judgment
+  - cognitive poetics

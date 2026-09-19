@@ -1,0 +1,28 @@
+id: SRC-1970-253
+title: "Novelty, complexity, and hedonic value"
+authors:
+  - "Daniel E. Berlyne"
+year: 1970
+type: academic_primary
+tier: 1
+publication: "Perception & Psychophysics"
+volume: "8"
+issue: "5"
+pages: "279-286"
+doi: "10.3758/BF03212593"
+citation_count: 1400
+key_findings:
+  - "자극의 비교 변인(Collative Variables: 참신성, 복잡성, 불확실성)과 쾌락적 가치(Hedonic Value/Pleasure) 사이의 '역U자형 함수(Inverted-U Function, Wundt-Berlyne Curve)' 실증 입증."
+  - "예측 가능성이 100%여서 참신성과 복잡성이 0에 수렴하는 자극은 각성 수준이 극도로 저하되어 '지루함(Boredom)'과 불쾌감을 유발함."
+  - "반대로 참신성과 복잡성이 과도하게 높아 전혀 예측할 수 없는 자극은 '혼란(Confusion)'과 인지적 거부 반응을 초래함."
+  - "인간이 가장 높은 심미적 쾌감과 흥미를 느끼는 지점은 '친숙한 예측 가능성(스키마)'을 기반으로 하면서도 '중간 수준의 참신한 변주(Moderate Novelty)'가 결합된 최적 각성 지대(Optimal Arousal Zone)임."
+core_claims:
+  - "지루함(Boredom)과 혼란(Confusion) 사이에 최적의 쾌락 지대가 존재한다."
+  - "서사는 100% 뻔한 전개를 피하고, 적중하는 예측 속에서 적절한 참신성을 변주해야 한다."
+keywords:
+  - collative variables
+  - novelty
+  - complexity
+  - hedonic value
+  - inverted-U curve
+  - optimal arousal

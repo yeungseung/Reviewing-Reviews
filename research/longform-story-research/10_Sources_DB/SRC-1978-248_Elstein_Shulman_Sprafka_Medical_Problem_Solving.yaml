@@ -1,0 +1,28 @@
+id: SRC-1978-248
+title: "Medical Problem Solving: An Analysis of Clinical Reasoning"
+authors:
+  - "Arthur S. Elstein"
+  - "Lee S. Shulman"
+  - "Sarah A. Sprafka"
+year: 1978
+type: academic_primary
+tier: 1
+publication: "Harvard University Press"
+volume: "Book"
+issue: "Monograph"
+pages: "1-330"
+isbn: "978-0674561250"
+citation_count: 3600
+key_findings:
+  - "의사의 진단적 문제 해결(Clinical Diagnostic Reasoning) 과정에 대한 최초이자 가장 포괄적인 인지 심리학적 실증 분석."
+  - "진단 추론은 모든 데이터를 모은 후 결론을 내리는 것이 아니라, 환자를 만난 최초 5~10분 내에 극소수의 단서(Cue Acquisition)만을 바탕으로 즉시 3~4개의 잠재적 진단 가설(Early Hypothesis Generation)을 수립하는 가설-연역적(Hypothetico-Deductive) 모델로 작동함."
+  - "이후의 모든 질문, 검사, 단서 탐색은 이 소수의 가설을 검증(Verification)하거나 기각(Falsification)하는 방향으로 선택적 주의(Selective Attention)를 기울임."
+core_claims:
+  - "인간의 뇌는 단서가 주어지는 즉시 능동적으로 원인 가설을 생성하는 '진단 기계'이다."
+  - "설명형 서사에서 증상 단서를 먼저 주면 관객은 자연스럽게 진단 의사나 탐정의 심리 상태가 되어 가설 검증에 몰입한다."
+keywords:
+  - clinical reasoning
+  - diagnostic problem solving
+  - cue acquisition
+  - early hypothesis generation
+  - hypothetico-deductive model

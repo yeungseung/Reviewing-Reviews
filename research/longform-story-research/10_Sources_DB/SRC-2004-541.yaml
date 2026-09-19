@@ -1,0 +1,12 @@
+id: SRC-2004-541
+author: Annie Lang, Paul Bolls, Robert F. Potter & Karlyn Külling
+year: 2004
+title: "The effects of audio-video incongruence on information processing and memory of television news"
+venue: "Communication Research, 31(4), 488-510"
+tier: 1
+citation_count: 380
+url: https://doi.org/10.1177/0093650204266099
+key_contribution: "영상-음향 불일치(Audio-Video Incongruence)의 미디어 심리학적 실험. 화면의 시각 이미지와 음성 내레이션이 다른 주제를 다룰 때 관객의 '시각 우위(Visual Prepotency)' 현상으로 인해 청각 정보가 거의 100% 무시되며 뉴스 사실 기억 회상률이 바닥으로 추락함을 생체 지표로 실증."
+relevance: "지식·다큐멘터리 제작 시 내레이션과 관련 없는 화려한 스톡 영상을 관행적으로 깔았을 때 정보 전달이 완전히 실패하는 치명적 메커니즘 규명."
+themes:
+  - "#55 Theme 2"

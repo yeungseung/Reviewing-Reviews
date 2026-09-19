@@ -1,0 +1,44 @@
+source_id: "SRC-1984-091"
+created_at: "2026-09-16"
+verified_by: "Antigravity Deep Research"
+
+bibliographic_info:
+  title: "Stories, scripts, and scenes: Aspects of schema theory"
+  authors:
+    - "Mandler, Jean M. (University of California, San Diego)"
+  institution: "University of California, San Diego"
+  published_date: "1984-01-01"
+  source_url: "https://psycnet.apa.org/record/1984-98447-000"
+  source_type: "Foundational Monograph / Academic Press (Lawrence Erlbaum Associates)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Cognitive Experimental Psychology & Story Grammar Schema Experiments"
+    sample_size: "Extensive developmental and adult experimental cohorts across narrative recall and comprehension tasks"
+    target_population: "Children and adults processing structural story units and narrative order"
+    relationship_type: "Causal / Cognitive Structural (Story Schema Incongruity -> Processing Difficulty or Heightened Attention)"
+    replicated: "Widely Replicated & Cited (The foundational classic in cognitive schema theory and narrative psychology, 3,200+ citations)"
+    limitations: "전통적 민담/동화 구조(Story Grammar)에 초점을 맞추어 현대 복합 장르 영화의 다층 구조 적용 시 확장 해석 필요"
+
+claims_and_evidence:
+  core_claim: "서사 스키마(Story Schema)와 장르 기대의 형성: 독자와 관객은 과거의 서사 경험을 통해 머릿속에 '서사 문법(Story Grammar)'과 장르별 인지 스키마(Cognitive Schemata)를 구축한다. 관객은 이 스키마를 바탕으로 다음 장면의 감정 순서와 전개를 지속적으로 예측(Predictive Processing)한다. 서사가 스키마를 지나치게 맹종하면 인지적 노력이 필요 없어 지루함을 느끼고, 스키마를 논리적 설명 없이 완전히 파괴하면 인지 과부하와 혼란을 초래한다."
+  verbatim_quotes:
+    - original: "A story schema is a mental representation of story structures... It guides comprehension by producing expectations about the types of events that will occur and the order in which they will appear. Inconsistencies with the schema require extra cognitive processing."
+      translation: "서사 스키마는 이야기 구조에 대한 심적 표상이다... 이는 어떤 유형의 사건이 발생할 것인지, 그리고 그것들이 어떤 순서로 나타날 것인지에 대한 기대를 생성함으로써 이해를 안내한다. 스키마와의 불일치는 추가적인 인지적 처리를 요구한다."
+      citation_location: "pp. 18-24"
+
+story_application:
+  application_idea: "스키마 기대와 지적 전복의 최적 균형(Schematic Subversion): 관객의 장르 스키마를 70% 충족시켜 안정감을 부여하되, 결정적 30%의 지점에서 스키마의 예측을 비트는 '의미 있는 전복(Subversion)'을 가해야 함. 공식을 그대로 베끼는 것은 관객의 뇌를 잠재우고, 공식의 파괴만을 위한 무리한 전복은 인지적 거부 반응(Backlash)을 일으키므로, 스키마를 깨뜨린 직후에는 반드시 더 깊은 차원의 개연성과 테마적 납득성을 제공해야 함."
+  narrative_stage: "Genre Expectation Framing & Turning Point Subversion"
+  emotional_mechanics:
+    trigger: "익숙한 장르 스키마를 활성화하여 관객의 안도감 있는 예측 유도"
+    build_up: "공식대로 흘러가는 척하다가 핵심 분기점에서 스키마를 깨뜨리는 파격 전개 투입"
+    peak: "예측 실패로 인한 급격한 인지적 각성(Heightened Arousal)과 충격"
+    release: "전복된 전개가 더 심오한 논리와 감정적 진실을 담고 있음을 깨닫는 상위 스키마의 수용(Accommodation)"
+  failure_modes: "장르 스키마를 100% 답습하여 하품을 유발하는 클리셰 복사 오류, 또는 관객을 골탕 먹이기 위해 개연성 없이 장르 약속을 깨부수는 자폭형 전복(Subversion for its own sake)"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "모든 서사 장르 및 장르 변주물, 메타픽션"

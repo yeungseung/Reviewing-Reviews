@@ -1,0 +1,45 @@
+source_id: "SRC-2002-023"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Entertainment-education and elaboration likelihood: Analyzing the processing of narrative persuasion"
+  authors:
+    - "Slater, Michael D. (Colorado State University)"
+    - "Rouner, Donna (Colorado State University)"
+  institution: "Colorado State University"
+  published_date: "2002-05-01"
+  source_url: "https://doi.org/10.1111/j.1468-2885.2002.tb00265.x"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Theoretical Framework / Meta-analysis"
+    sample_size: "N/A (Theoretical Model)"
+    target_population: "미디어 수용자 일반"
+    relationship_type: "Causal"
+    replicated: "Replicated (Highly cited foundation of Narrative Persuasion)"
+    limitations: "서사 몰입이 극도로 높을 때 메시지 인식 자체가 차단되는 뱀파이어 효과 경계 조건 존재"
+
+claims_and_evidence:
+  core_claim: "서사 몰입(Engagement/Transportation) 상태에서는 관객이 스토리 월드에 흡수되어 비판적 반론(Counterarguing)을 제기할 인지 자원이 고갈되므로, 비서사적 설득보다 강력한 태도 및 신념 변화를 유도한다."
+  verbatim_quotes:
+    - original: "In the case of narrative persuasion, engagement with the narrative and identification with characters should suppress counterarguing and facilitate acceptance of the beliefs implicit in the story."
+      translation: "서사 설득의 경우, 서사에 대한 몰입과 인물과의 동일시는 반론 제기를 억제하고 이야기 속에 내재된 신념의 수용을 촉진한다."
+      citation_location: "p.173, Abstract"
+
+story_application:
+  application_idea: "교훈이나 논제를 직접 설교하지 말고, 매력적인 인물의 고뇌와 사건 해결 과정을 통해 관객이 저항 없이 주제 의식(Meaning)을 체화하도록 설계함."
+  narrative_stage: "Act 2 Confrontation & Character Arc"
+  emotional_mechanics:
+    trigger: "인물의 절박한 딜레마"
+    build_up: "공감대 형성을 통한 비판적 거리감 해제"
+    peak: "인물의 도덕적 선택과 그 결과"
+    release: "관객의 내면적 가치관 동기화"
+  failure_modes: "서사 흐름을 끊고 작가의 목소리가 직접 튀어나와 훈계조로 돌변하면 관객의 반론 기제가 즉각 활성화됨"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "스토리와 인물이 관객에게 매력적이고 공감 가능해야 함"

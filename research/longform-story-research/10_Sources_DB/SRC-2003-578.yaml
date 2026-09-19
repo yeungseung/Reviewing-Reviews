@@ -1,0 +1,12 @@
+id: SRC-2003-578
+author: Richard Lowe
+year: 2003
+title: 'Animation and Learning: Selective Processing of Information in Dynamic Graphics'
+venue: Learning and Instruction, 13(2), pp. 157-176
+tier: 1
+citation_count: 1150
+url: https://doi.org/10.1016/S0959-4752(02)00018-X
+key_contribution: 동적 그래픽과 애니메이션에서 시각적 현저성(Visual Salience)이 주제적 관련성(Thematic Relevance)을 압도하는 주의 강탈 메커니즘 규명. 화면에 카메라 움직임이나 화려한 모션 그래픽이 난무할 때, 관객의 안구는 핵심 텍스트와 데이터가 아닌 단순히 눈에 띄는 움직임(Perceptual Salience)에 무의식적으로 포획되어 심층 이해와 사실 회상률이 50% 이상 급락함을 안구 추적 실험으로 실증.
+relevance: 텍스트 및 사료 제시 구간에서 왜 과도한 카메라 무빙이나 역동적 화면 전환을 멈추어야 하는지에 대한 인지심리학적 토대.
+themes:
+- '#58 Theme 3'

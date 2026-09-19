@@ -1,0 +1,68 @@
+# ==============================================================================
+# SOURCES DATABASE ENTRY TEMPLATE
+# ==============================================================================
+# 규칙: 출처 없는 주장, 추정, 만들어낸 인용문 절대 포함 금지.
+#      인과관계(Causal)와 상관관계(Correlational)를 엄격히 분리하여 기록.
+# ==============================================================================
+
+source_id: "SRC-YYYY-NNN"              # 고유 출처 ID (예: SRC-2026-001)
+created_at: "YYYY-MM-DD"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "원문 연구 또는 자료의 공식 명칭"
+  authors:
+    - "성, 이름 (소속기관)"
+  institution: "연구 주관 기관 또는 발행 기관"
+  published_date: "YYYY-MM-DD"        # 또는 YYYY
+  source_url: "https://doi.org/... 또는 공식 영구 링크"
+  archive_url: ""                     # 선택사항: Wayback Machine 등 영구 보존 링크
+  source_type: "Peer-reviewed Journal" 
+  # 옵션: Meta-analysis, Peer-reviewed Journal, Academic Book, Official Industry Report,
+  #      Creator Interview, Archival Document, High-quality Analysis
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  # Tier 1: 메타분석, 체계적 문헌고찰, 유수 동료평가 논문, 공식 1차 통계
+  # Tier 2: 전문 연구기관 보고서, 당사자/창작자 심층 1차 인터뷰, 공식 제작 기록
+  # Tier 3: 고품질 2차 분석, 전문가 심층 비평, 업계 전문지 검증 기사
+  # Tier 4: 대중 미디어 보도, 보조적 평론/반응 (단독 핵심 근거 불가)
+  
+  methodology:
+    study_type: "Experimental"        # Experimental, Observational, Meta-analysis, Qualitative, Case Study
+    sample_size: 0                    # 표본 수 (해당 시)
+    target_population: "예: 18-35세 성인 400명"
+    relationship_type: "Causal"       # Causal(인과), Correlational(상관), Descriptive(기술적)
+    effect_size: ""                   # 통계적 효과 크기 (Cohen's d, r, Odds Ratio 등)
+    replicated: "Replicated"          # Replicated, Contested, Single Study, Unknown
+    limitations: "표본 편향, 실험실 환경 한계 등 연구자가 밝힌 한계점"
+
+claims_and_evidence:
+  core_claim: "해당 출처가 실증적으로 증명하거나 발견한 핵심 주장 (1~2문장)"
+  
+  verbatim_quotes:
+    - original: "원어 원문 직접 인용 (임의 가공/요약 금지)"
+      translation: "정확한 한국어 직역"
+      citation_location: "p.XX 또는 타임스탬프 00:00:00"
+      context: "인용문이 위치한 맥락"
+
+story_application:
+  application_idea: "롱폼 콘텐츠 기획, 서사 배치, 씬 연출에 이 원리를 적용하는 구체적 방법"
+  narrative_stage: "Introduction / Act 1" 
+  # Introduction, Inciting Incident, Rising Action, Midpoint, Climax, Ending
+  emotional_mechanics:
+    trigger: "감정을 발생시키는 자극/정보"
+    build_up: "필요한 사전 정보 또는 기대감"
+    peak: "감정이 가장 고조되는 지점"
+    release: "해소 또는 다음 감정으로의 전이"
+  failure_modes: "이 원리를 잘못 적용하거나 과잉 사용했을 때 발생하는 역효과"
+
+verification_status:
+  status: "Strong Support"
+  # Strong Support: 인과관계 입증 및 재현 완료
+  # Conditional Support: 특정 경계 조건에서만 성립
+  # Mixed Evidence: 지지 연구와 반박 연구가 대립
+  # Contradicted: 후속 연구에 의해 반증됨
+  # Insufficient Evidence: 근거 표본 부족 또는 단순 추정
+  confidence_level: "High"             # High, Medium, Low
+  boundary_conditions: "이 주장이 참이 되기 위한 전제 조건 (예: 특정 장르, 최소 분량 등)"

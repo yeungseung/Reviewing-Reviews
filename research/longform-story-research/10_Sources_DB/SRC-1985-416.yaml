@@ -1,0 +1,12 @@
+id: SRC-1985-416
+author: Tom Trabasso & Linda L. Sperry
+year: 1985
+title: 'Causal relatedness and importance of story events'
+venue: Journal of Memory and Language
+tier: 1
+citation_count: 850
+url: https://doi.org/10.1016/0749-596X(85)90048-8
+key_contribution: 서사 인과 연결망 및 목표 상태(Goal State) 분석. 서사 사건의 중요성과 기억 파지는 등장인물의 목표 상태 전이와 인과 사슬(Causal Chain)의 연결 강도에 직결됨을 규명.
+relevance: 좋은 챕터가 반드시 목표, 위험, 선택 등 상태 변수를 변화시켜 서사를 전진시켜야 하는 인과적 필연성 입증.
+themes:
+  - '#45 Theme 1'

@@ -1,0 +1,27 @@
+id: "SRC-2004-020"
+title: "Enjoyment: At the heart of media entertainment"
+authors:
+  - "Peter Vorderer"
+  - "Christoph Klimmt"
+  - "Ute Ritterfeld"
+year: 2004
+publication: "Communication Theory, 14(4), 388-408"
+doi_or_url: "https://doi.org/10.1111/j.1468-2885.2004.tb00321.x"
+tier: "Tier 1 (Academic Landmark)"
+credibility_score: 96
+
+summary: |
+  미디어 엔터테인먼트 심리학의 포괄적 프레임워크를 제시한 랜드마크 논문.
+  미디어 향유(Enjoyment)는 단순 쾌락(Hedonic pleasure)뿐 아니라 다양한 생리적·정서적·인지적 욕구의 충족 메커니즘으로 구성됨을 규명함.
+  공포, 스릴러, 액션, 코미디 장르에서 '명시적 의미나 도덕적 교훈(Meaning)'이 부재하더라도 생리적 각성(Arousal)과 긴장 해소(Catharsis)만으로 어떻게 강력한 엔터테인먼트 경험이 성립하는지 설명함.
+
+key_findings:
+  - 서사 엔터테인먼트의 향유는 쾌락적(Hedonic) 차원과 비쾌락적/인지적 차원으로 분화됨.
+  - 서스펜스, 공포, 슬랩스틱 코미디는 고도의 의미(MEANING) 성찰 없이도 생리적 서스펜스와 긴장 이완(Tension-Release)의 정서 트랙(EMOTION)만으로 완전한 완결성을 지님.
+  - 장르 계약(Genre Contract)에 부합하는 특정 트랙의 극대화가 전체 만족도를 지배함.
+
+relevance_to_story_engine:
+  theme: "v2 #2 Theme 3 (장르별 트랙 비중과 반례)"
+  subtopics:
+    - "코미디·공포·스포츠의 차이"
+    - "명시적 의미가 없어도 성공하는 사례"

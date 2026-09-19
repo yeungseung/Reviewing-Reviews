@@ -1,0 +1,12 @@
+id: SRC-2019-511
+author: Stuart N. Soroka, Patrick Fournier, & Lilach Nir
+year: 2019
+title: "Cross-national evidence of a negativity bias in psychophysiological responses to news"
+venue: "Proceedings of the National Academy of Sciences (PNAS), 116(38), 18888-18892"
+tier: 1
+citation_count: 360
+url: https://doi.org/10.1073/pnas.1908369116
+key_contribution: "전 세계 17개국 피험자 대상 생체 생리학적(피부전도도 GSR, 심박수 변이도 HRV) 부정성 편향의 보편성 실증. 부정적 뉴스 및 영상 결말에 노출될 때 인간의 교감신경계 각성이 긍정적 콘텐츠 대비 압도적으로 급증함을 객관적 생체 데이터로 증명."
+relevance: "부정 감정 엔딩이 유발하는 자율신경계 고각성과 그에 수반되는 신체적 스트레스·피로도 누적의 생물학적 근거."
+themes:
+  - "#53 Theme 1"

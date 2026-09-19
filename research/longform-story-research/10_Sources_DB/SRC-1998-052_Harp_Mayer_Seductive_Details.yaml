@@ -1,0 +1,45 @@
+source_id: "SRC-1998-052"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "How seductive details do their damage: A theory of cognitive interest in science learning"
+  authors:
+    - "Harp, Shannon F. (University of California, Santa Barbara)"
+    - "Mayer, Richard E. (University of California, Santa Barbara)"
+  institution: "University of California, Santa Barbara (UCSB)"
+  published_date: "1998-09-01"
+  source_url: "https://doi.org/10.1037/0022-0663.90.3.414"
+  source_type: "Peer-reviewed Journal (Journal of Educational Psychology)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental Educational & Cognitive Psychology"
+    sample_size: 196
+    target_population: "College students learning scientific explanations"
+    relationship_type: "Causal"
+    replicated: "Highly Replicated (Landmark paper on the Seductive Details Effect, 1100+ citations)"
+    limitations: "과학 텍스트 독해 기반이나 멀티미디어 영상 및 지식 콘텐츠 서사 설계의 핵심 원리로 통용됨"
+
+claims_and_evidence:
+  core_claim: "과학 및 지식 설명에 흥미를 돋우기 위해 삽입된 매혹적이지만 본질과 무관한 일화나 캐릭터(Seductive Details)는 수용자에게 부적절한 스키마(Inappropriate Schema)를 활성화하여 본질적인 과학적 인과 이해와 기억을 심각하게 저해한다."
+  verbatim_quotes:
+    - original: "Seductive details damage learning by priming the activation of inappropriate schemas around which readers organize the incoming material. Adding interesting but irrelevant material hurts the retention of causally important ideas."
+      translation: "유혹적인 세부사항은 독자가 유입되는 정보를 조직화할 때 부적절한 스키마를 활성화시킴으로써 학습을 손상시킨다. 흥미롭지만 무관한 내용을 덧붙이는 것은 인과적으로 중요한 핵심 아이디어의 기억 파지를 저해한다."
+      citation_location: "pp.414-417"
+
+story_application:
+  application_idea: "지식/과학 롱폼 콘텐츠에서 흥미를 끈답시고 지어낸 가짜 주인공의 신변잡기나 선정적인 곁가지 에피소드를 삽입하지 말고, 본질적인 시스템 인과 구조 자체의 지적 긴장감으로 승부해야 함."
+  narrative_stage: "Knowledge Narrative Architecture & Extraneous Load Pruning"
+  emotional_mechanics:
+    trigger: "본질적 인과 설명에 집중된 순수 지식의 전달"
+    build_up: "불필요한 인지 부하 없이 핵심 스키마의 안정적 구축"
+    peak: "과학적/논리적 인과 사슬의 완벽한 꿰어맞춤"
+    release: "정확한 지식 습득에 따른 높은 지적 만족도"
+  failure_modes: "재미를 주겠다며 가짜 캐릭터나 엉뚱한 일화를 넣으면 관객은 곁가지만 기억하고 핵심 원리는 완전히 망각함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "과학, 기술, 경제, 학술 등 정확한 인과 이해가 목적인 모든 지식형 롱폼에 적용"

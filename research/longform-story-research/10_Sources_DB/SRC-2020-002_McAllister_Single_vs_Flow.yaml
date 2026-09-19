@@ -1,0 +1,44 @@
+source_id: "SRC-2020-002"
+created_at: "2026-09-15"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Moving from fear to hope: The persuasive impact of emotional flow in climate change narratives"
+  authors:
+    - "McAllister, Christopher"
+  institution: "University of Wisconsin-Madison"
+  published_date: "2020-05-01"
+  source_url: "https://www.proquest.com/openview/..."
+  source_type: "Academic Book / Doctoral Dissertation"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental"
+    sample_size: 480
+    target_population: "성인 일반 대중"
+    relationship_type: "Causal"
+    replicated: "Single Study"
+    limitations: "특정 환경/기후변화 이슈에 국한된 서사 자극 사용"
+
+claims_and_evidence:
+  core_claim: "감정 전환(Fear-to-Hope) 서사가 단일 감정 서사에 비해 항상 높은 몰입이나 설득을 낳는 것은 아니며, 등장인물 동일시와 특정 태도 변화에서는 단일 감정 서사가 더 효과적일 수 있음을 실증함 (반례 연구)."
+  verbatim_quotes:
+    - original: "Participants exposed to emotional flow did not necessarily report higher levels of hope or transportation than those in single-emotion conditions, with some identification measures higher for single-emotion stories."
+      translation: "정서적 흐름에 노출된 참가자들이 단일 감정 조건의 참가자들보다 반드시 더 높은 수준의 희망이나 몰입을 보고한 것은 아니었으며, 일부 동일시 척도는 단일 감정 이야기에서 더 높았다."
+      citation_location: "Dissertation Abstract & Discussion"
+
+story_application:
+  application_idea: "단순한 정보 전달이나 짧은 호흡의 경고성 콘텐츠에서는 억지로 감정을 전환하려 하지 말고, 일관된 단일 톤을 정밀하게 유지하는 것이 전달력을 높임."
+  narrative_stage: "Short-form / Analytical Message"
+  emotional_mechanics:
+    trigger: "일관된 문제 의식 제시"
+    build_up: "주제의 심각성 누적"
+    peak: "직접적 행동 촉구"
+    release: "행동 결심"
+  failure_modes: "롱폼에서 단일 감정만 너무 오래 끌면 시청자 피로도와 둔감화 발생"
+
+verification_status:
+  status: "Contradicted (일반화 가설에 대한 반증 제시)"
+  confidence_level: "High"
+  boundary_conditions: "단기 메시지 및 특정한 직접적 설득 목표 상황"

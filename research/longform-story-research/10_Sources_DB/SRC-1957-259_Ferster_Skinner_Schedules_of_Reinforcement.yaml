@@ -1,0 +1,27 @@
+id: SRC-1957-259
+title: "Schedules of Reinforcement"
+authors:
+  - "Charles B. Ferster"
+  - "B. F. Skinner"
+year: 1957
+type: academic_primary
+tier: 1
+publication: "Appleton-Century-Crofts"
+volume: "Book"
+issue: "Monograph"
+pages: "1-741"
+isbn: "978-0137922833"
+citation_count: 8500
+key_findings:
+  - "행동 분석학의 고전: 고정/변동 비율 및 간격 강화 계획(Fixed/Variable Ratio & Interval Schedules)의 포괄적 실증."
+  - "변동 비율 강화 계획(Variable Ratio, VR): 예측 불가능한 시점에 간헐적으로 보상이 주어질 때 행동 소거 저항성(Resistance to Extinction)과 반응률이 가장 높게 유지됨."
+  - "그러나 단순 슬롯머신형 무작위 보상 비유는 서사 예술에 그대로 적용할 수 없음. 서사의 예측 오차는 무작위 확률이 아니라 '사후적 인과 필연성'에 의해 정당화되어야만 중독이 아닌 미학적 카타르시스를 형성함."
+core_claims:
+  - "간헐적이고 변동적인 예측 오차는 관객의 주의를 지속시키는 강력한 행동주의적 기제이다."
+  - "서사는 단순 도박과 달리 무작위성이 아닌 인과적 정합성에 기반한 변동 보상을 설계해야 한다."
+keywords:
+  - schedules of reinforcement
+  - variable ratio
+  - behavioral psychology
+  - intermittent reward
+  - narrative causality

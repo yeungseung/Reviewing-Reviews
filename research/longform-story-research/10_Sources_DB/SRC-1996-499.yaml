@@ -1,0 +1,12 @@
+id: SRC-1996-499
+author: Donald A. Redelmeier & Daniel Kahneman
+year: 1996
+title: "Patients' memories of painful medical treatments: real-time and retrospective evaluations of two minimally invasive procedures"
+venue: "Pain, 66(1), 3-8"
+tier: 1
+citation_count: 1950
+url: https://doi.org/10.1016/0304-3959(96)03057-0
+key_contribution: "실시간 감정 경험과 사후 회상 평가(Retrospective Evaluation) 간의 체계적 괴리 규명. 최종 3분간의 감정 완화(Ending Valence 개선)가 전체 치료 경험에 대한 기억을 획기적으로 개선하고 재방문/추천 의향을 결정함을 임상 실증."
+relevance: "서사의 마지막 씬에서 최종 감정을 긍정적/카타르시스적 가치로 수렴시키는 것이 전체 콘텐츠 만족도와 추천 의향(NPS)에 미치는 결정적 영향의 실증 근거."
+themes:
+  - "#52 Theme 1"

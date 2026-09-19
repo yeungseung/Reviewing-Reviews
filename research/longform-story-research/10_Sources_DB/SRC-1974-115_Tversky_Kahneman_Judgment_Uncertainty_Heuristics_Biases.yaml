@@ -1,0 +1,45 @@
+source_id: "SRC-1974-115"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Judgment under uncertainty: Heuristics and biases"
+  authors:
+    - "Tversky, Amos (Hebrew University of Jerusalem / Stanford University)"
+    - "Kahneman, Daniel (Hebrew University of Jerusalem)"
+  institution: "Hebrew University of Jerusalem & Stanford University"
+  published_date: "1974-09-27"
+  source_url: "https://doi.org/10.1126/science.185.4157.1124"
+  source_type: "Peer-reviewed Journal (Science, 185(4157), 1124-1131)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental Cognitive Psychology & Behavioral Economics"
+    sample_size: "Extensive experimental series with diverse subject pools"
+    target_population: "Students and decision-makers in probability and numerical judgment tasks"
+    relationship_type: "Causal Cognitive Biases"
+    replicated: "Universally Replicated (50,000+ citations, foundational cornerstone of behavioral economics)"
+    limitations: "확률 및 수치 판단 실험 중심이나 인간의 정보 처리 순서, 닻내림 효과, 가용성 편향, 기저율 무시의 핵심 원리를 규명함"
+
+claims_and_evidence:
+  core_claim: "인간은 불확실한 상황에서 판단을 내릴 때 복잡한 확률 법칙 대신 세 가지 발견법(Heuristics: 대표성, 가용성, 닻내림과 조정)에 의존한다. 특히 '닻내림 효과(Anchoring)'에 의해 처음에 제시된 수치나 구체적 단서가 이후의 모든 판단의 기준점이 되어 불충분한 조정을 초래한다. 또한 생생하고 대표적인 단일 사례에 노출되면 전체 모집단의 통계적 기저율을 무시하는 '기저율 무시(Base-Rate Neglect)' 편향이 강력하게 발생한다."
+  verbatim_quotes:
+    - original: "In many situations, people make estimates by starting from an initial value that is adjusted to yield the final answer. The initial value, or starting point, may be suggested by the formulation of the problem... adjustments are typically insufficient. That is, different starting points yield different estimates, which are biased toward the initial values."
+      translation: "많은 상황에서 사람들은 초기값에서 출발하여 최종 답을 산출하기 위해 조정하는 방식으로 추정을 내린다. 초기값이나 출발점은 문제의 공식화에 의해 제시될 수 있다... 조정은 전형적으로 불충분하다. 즉, 서로 다른 출발점은 초기값 쪽으로 편향된 서로 다른 추정치를 낳는다."
+      citation_location: "p. 1128"
+
+story_application:
+  application_idea: "서사에서 처음 제시되는 단서나 수치는 관객의 인지적 기준점(Anchor)이 됨. 미시적 인물의 고통(예: 통장 잔고 3만 원)을 먼저 제시하면 이후 등장하는 거대 규모(수백억 원의 횡령)가 압도적인 파괴력으로 다가옴. 그러나 반대로 자극적인 단일 사례만 보여주고 기저율(Base-rate)을 제시하지 않으면 관객에게 비합리적인 공포나 일반화의 오류를 심을 위험이 있으므로, 에피소드 닻내림 후 통계적 기저율을 균형 있게 통합해야 함."
+  narrative_stage: "Opening Framing, Scale Anchoring & Epistemic Fairness"
+  emotional_mechanics:
+    trigger: "강력한 미시적 기준점(Anchor)의 선제적 제시"
+    build_up: "기준점과 대비되는 거시적 규모의 점진적 등장에 따른 인지적 대비(Contrast)"
+    peak: "극단적 규모 차이가 인물의 생존에 미치는 치명적 영향력 체감"
+    release: "정확한 기저율 인식을 통한 합리적이고 깊이 있는 통찰 획득"
+  failure_modes: "거시적 스케일을 먼저 던져 닻을 너무 높게 잡음으로써 이후 인물의 고통을 사소해 보이게 만들거나, 단일 사례만 보여주어 왜곡된 편향을 조장하는 오류"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "스토리의 스케일 조절, 긴장감 설계, 사회적 다큐멘터리의 공정성 유지에 보편적으로 적용"

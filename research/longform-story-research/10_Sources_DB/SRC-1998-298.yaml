@@ -1,0 +1,14 @@
+id: SRC-1998-298
+author: John Sweller, Jeroen J. G. van Merriënboer & Fred G. W. C. Paas
+year: 1998
+title: Cognitive Architecture and Instructional Design
+venue: Educational Psychology Review
+tier: 1
+citation_count: 13500
+url: https://doi.org/10.1023/A:1022193728205
+key_contribution: 인간 인지 구조에서 작업기억의 한계와 스키마 형성 메커니즘을 규명하고 본질적(Intrinsic), 외재적(Extraneous),
+  관련(Germane) 인지 부하 모델을 정립하여, 롱폼 서사에서 Rehook의 유형 전환이 불필요한 외재적 부하를 초래하지 않고 유의미한 이해를
+  증진시키는 설계 원리를 제공.
+relevance: Rehook의 잦은 포맷/유형 전환이 관객의 작업기억을 마비시키는 역효과 방지 및 최적 전환 간격 설계의 핵심 이론.
+themes:
+- '#35 Theme 2'

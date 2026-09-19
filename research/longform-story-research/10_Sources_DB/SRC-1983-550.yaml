@@ -1,0 +1,15 @@
+id: SRC-1983-550
+author: Edward R. Tufte
+year: 1983
+title: The Visual Display of Quantitative Information
+venue: Graphics Press, Cheshire, CT
+tier: 1
+citation_count: 18500
+url: https://www.edwardtufte.com/tufte/books_vdqi
+key_contribution: 데이터 시각화의 거짓 지수(Lie Factor = 그래픽에 표시된 효과 크기 / 실제 데이터 효과 크기) 공식 및
+  차트 정크(Chartjunk), 데이터-잉크 비율(Data-Ink Ratio) 개념 정립. 3D 왜곡, 축 조작, 불필요한 장식 그래픽이 시청자의
+  인지적 판단을 심각하게 오도함을 실증적으로 입증하고 정직하고 명료한 그래픽 표준 제시.
+relevance: 데이터 시각화(DATA)와 대비(CONTRAST)가 어떻게 진실을 왜곡하는 도구로 오용될 수 있는지 밝히고, 인과 이해를 왜곡하지
+  않는 클린 차트 설계 원칙 제공.
+themes:
+- '#56 Theme 2'

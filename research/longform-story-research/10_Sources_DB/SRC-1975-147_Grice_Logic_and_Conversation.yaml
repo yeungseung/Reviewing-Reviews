@@ -1,0 +1,45 @@
+source_id: "SRC-1975-147"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Logic and conversation"
+  authors:
+    - "Grice, H. Paul (University of California, Berkeley)"
+  institution: "University of California, Berkeley"
+  published_date: "1975-01-01"
+  source_url: "https://doi.org/10.1163/9789004368811_003"
+  source_type: "Academic Book Chapter (Syntax and Semantics, Vol. 3)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1 Classical Pragmatics & Philosophy of Language"
+  methodology:
+    study_type: "Philosophical Synthesis & Linguistic Pragmatic Theory"
+    sample_size: "Foundational linguistic framework"
+    target_population: "인간 언어 소통 및 대화 참여자 일반"
+    relationship_type: "Functional and Normative"
+    effect_size: "격률 위반 시 대화 함축(Implicature) 생성 또는 소통 실패 유의미"
+    replicated: "Replicated (현대 화용론, 언어철학, 인지소통학의 절대적 초석, 40,000+ 피인용)"
+    limitations: "대인 간 구어 대화 중심이나, 화자(창작자)와 청자(관객) 간의 서사적 정보 전달 규범에 완벽히 적용 가능"
+
+claims_and_evidence:
+  core_claim: "모든 성공적인 인간 소통은 '협력 원리(Cooperative Principle)'에 기반하며, 4대 대화 격률인 질(Quality: 진실성), 양(Quantity: 적절한 정보량), 관련성(Relation: 맥락적 연관성), 태도(Manner: 명료성과 순서)를 준수해야 한다. 화자가 정당한 서사적 이유 없이 양이나 질의 격률을 악의적으로 위반할 때 소통은 기만(Deception)으로 전락한다."
+  verbatim_quotes:
+    - original: "Make your conversational contribution such as is required, at the stage at which it occurs, by the accepted purpose or direction of the talk exchange... Do not say that for which you lack adequate evidence. Be relevant. Avoid obscurity of expression."
+      translation: "대화가 진행되는 단계에서 대화의 수용된 목적이나 방향에 의해 요구되는 만큼 기여하라... 적절한 증거가 결여된 것을 말하지 말라. 관련성을 지키라. 표현의 모호함을 피하라."
+      citation_location: "Syntax and Semantics, 3, p. 45-47"
+
+story_application:
+  application_idea: "서사 오프닝의 '공정한 정보 유보(Fair Withholding)'와 '사기성 은폐(Deceptive Concealment)'를 구별하는 윤리적·기술적 기준 제공. 서스펜스를 위해 핵심 답을 유보할 때는 '관련성(Relation)'과 '질(Quality)'의 격률을 유지하면서 답의 공개 시점만 미뤄야 하며, 알맹이 없는 거짓 단서를 던지는 것은 그라이스 격률의 파괴이자 소통 계약의 배신임."
+  narrative_stage: "Act 1 Hook & Information Architecture"
+  emotional_mechanics:
+    trigger: "화자와 청자 간의 상호 신뢰(협력 원리) 전제"
+    build_up: "단서의 지적 조율과 대화 함축의 음미"
+    peak: "유보되었던 정보가 협력적으로 맞춰지는 순간"
+    release: "소통의 완전성과 지적 희열"
+  failure_modes: "지나친 불투명성(Obscurity of Manner)과 가짜 정보(Violation of Quality)로 관객의 해독 의지를 꺾는 실패"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "추리/서스펜스 장르의 특수성 상 지연된 정보 제공은 허용되나, 위조된 맥락 제공은 금지됨"

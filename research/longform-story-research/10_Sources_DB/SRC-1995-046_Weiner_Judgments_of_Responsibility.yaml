@@ -1,0 +1,44 @@
+source_id: "SRC-1995-046"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Judgments of responsibility: A foundation for a theory of social conduct"
+  authors:
+    - "Weiner, Bernard (University of California, Los Angeles)"
+  institution: "University of California, Los Angeles (UCLA)"
+  published_date: "1995-01-01"
+  source_url: "https://doi.org/10.1037/e522962010-001"
+  source_type: "Academic Monograph (Guilford Press)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Social Psychological Theory & Experimental Synthesis"
+    sample_size: "Dozens of attribution and moral responsibility experiments"
+    target_population: "Human moral evaluators and perceivers"
+    relationship_type: "Causal & Evaluative"
+    replicated: "Highly Replicated (Foundational text on responsibility, blame, and social emotion, 2500+ citations)"
+    limitations: "사회심리학적 대인 평가 모델이나 서사 미디어의 인물 도덕성 및 동일시 평가의 핵심 이론으로 확립됨"
+
+claims_and_evidence:
+  core_claim: "인간의 도덕적 감정은 사건의 원인이 행위자의 주체적 '통제 가능성(Controllability)' 안에 있었는가에 따라 분기하며, 통제 가능한 선택의 실패는 비난과 분노(Anger/Blame)를, 통제 불가능한 고난은 연민과 동정(Pity/Sympathy)을 촉발한다."
+  verbatim_quotes:
+    - original: "Controllability is the essential bridge between causality and responsibility. When a negative outcome is perceived as controllable by the actor, judgments of responsibility and anger follow; when uncontrollable, sympathy and prosocial helping are elicited."
+      translation: "통제 가능성은 인과성과 책임 사이를 잇는 본질적인 다리이다. 부정적 결과가 행위자에 의해 통제 가능했던 것으로 인식될 때 책임 판단과 분노가 뒤따르며, 통제 불가능했을 때 동정과 친사회적 조력이 유발된다."
+      citation_location: "pp.14-18, Chapter 1"
+
+story_application:
+  application_idea: "주인공이 관객의 깊은 동정과 응원을 받으려면 외적 위기는 '통제 불가능한 거대한 불운'으로 설정하되, 그에 맞서는 도덕적 저항과 태도는 '주체적으로 통제 가능한 의지적 선택'으로 배치해야 함."
+  narrative_stage: "Character Setup & Moral Responsibility Alignment"
+  emotional_mechanics:
+    trigger: "통제 불가능한 가혹한 환경적 비극 닥침"
+    build_up: "주인공에 대한 관객의 절대적 연민(Sympathy) 형성"
+    peak: "자신의 통제력(Agency)으로 위기에 당당히 맞서는 의지적 선택"
+    release: "도덕적 승리와 존경(Admiration)으로의 감정 승화"
+  failure_modes: "주인공이 통제 가능한 문제를 나태함이나 이기심으로 망쳐놓으면 관객은 동정 대신 분노와 혐오를 느낌"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "인간의 행위와 도덕적 평가가 서사의 핵심 동력인 모든 극적 서사물에 적용"

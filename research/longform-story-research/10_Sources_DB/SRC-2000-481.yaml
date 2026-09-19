@@ -1,0 +1,12 @@
+id: SRC-2000-481
+author: Roy F. Baumeister, Mark Muraven, & Dianne M. Tice
+year: 2000
+title: 'Ego Depletion: A Resource Model of Volition, Self-Regulation, and Emotional Exhaustion'
+venue: Review of General Psychology / Perspectives on Psychological Science
+tier: 1
+citation_count: 8920
+url: https://doi.org/10.1037/1089-2680.4.2.131
+key_contribution: '자아 고갈(Ego Depletion) 및 정서적 탈진(Emotional Exhaustion)의 한정 자원 모델 정립. 감정 조절과 부정적 긴장 상태의 지속은 전두엽의 인지적 통제 자원을 소진시키며, 한계선에 도달하면 의지적 주의 집중이 붕괴됨을 실증. 서사 축적 구간에서 긴장과 억압이 과도하게 길어질 때 발생하는 수확 체감(Diminishing Returns)과 수용자의 인지적 탈진 및 이탈의 뇌과학적 근거 규명.'
+relevance: 축적 구간이 지나치게 길어질 때 발생하는 수확 체감과 인지 피로를 설명하고, 최적의 축적 길이 상한선을 설정하는 인지심리학적 토대.
+themes:
+  - '#50 Theme 2'

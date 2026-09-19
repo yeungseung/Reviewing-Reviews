@@ -1,0 +1,40 @@
+source_id: SRC-1990-214
+created_at: '2026-09-17'
+verified_by: Gemini Deep Research
+bibliographic_info:
+  title: 'The case for motivated reasoning'
+  authors:
+  - Kunda, Ziva (Princeton University)
+  institution: Princeton University
+  published_date: '1990-11-01'
+  source_url: https://doi.org/10.1037/0033-2909.108.3.480
+  source_type: Peer-reviewed Journal (Psychological Bulletin, 108(3), 480-498)
+credibility_assessment:
+  credibility_tier: Tier 1 Social & Cognitive Psychology Monument
+  methodology:
+    study_type: Theoretical Synthesis & Experimental Meta-Evaluation of Motivation in Cognition
+    sample_size: 수십 편의 동기화된 추론 및 신념 방어 실험 데이터 총괄 종합
+    target_population: 증거를 평가하고 판단을 형성하는 인간 인지 주체
+    relationship_type: Foundational Cognitive-Affective Mechanism (Directional Goals & Affective Desires -> Biased Evidence Access, Construction & Evaluation)
+    effect_size: 동기(Motivations)는 기억 검색, 지각적 주의, 증거의 가치 평가를 강력히 편향시키며, 자신이 선호하는 결론을 지지하는 증거는 표면적 검증만으로 통과시키고 반대 증거는 극단적으로 엄격하게 반박함 (8,500+ 피인용 기념비적 고전)
+    replicated: Universally Replicated across psychology, political science, and behavioral economics
+    limitations: 정합성 있는 증거를 구성하려는 '합리성의 착각(Illusion of Objectivity)'에 얽매이므로 증거를 완전히 무시하지는 못함
+claims_and_evidence:
+  core_claim: 인간은 결코 중립적인 컴퓨터처럼 증거를 처리하지 않는다. 사람들의 추론은 자신이 도달하고자 하는 감정적·심리적 결론(Directional Goals)에 의해 깊이 동기화된다(Motivated Reasoning). 관객이 특정 인물이나 가치에 감정적으로 이입(Emotional Attachment)하면, 그 입장을 옹호하는 증거는 열광적으로 수용(Confirmation)하고, 불리한 증거는 치열하게 결함을 찾아내어 격하(Counter-arguing)한다. 즉, 감정은 증거를 평가하는 기준선(Standard of Proof) 자체를 뒤바꾼다.
+  verbatim_quotes:
+  - original: Motivation affects reasoning through reliance on a cognitive process that is biased: People rely on biased processes for accessing, constructing, and evaluating beliefs... Motivation affects which memories, beliefs, and rules are accessed to construct a justification for the desired conclusion.
+    translation: 동기는 편향된 인지 과정에 대한 의존을 통해 추론에 영향을 미친다. 사람들은 신념에 접근하고, 신념을 구성하며, 평가하는 데 편향된 프로세스에 의존한다... 동기는 바라는 결론에 대한 정당화를 구성하기 위해 어떤 기억, 신념, 규칙에 접근할 것인가를 결정한다.
+    citation_location: pp. 480-482
+story_application:
+  application_idea: 롱폼 스토리의 '정서 선점 기반 증거 앵커링(Affective Priming for Evidence Acceptance)'. 관객에게 복잡하거나 논쟁적인 진실(증거)을 전달하기 전에, 먼저 관객의 도덕적 연민이나 호감을 주인공에게 확고히 고정시켜 '방향성 동기(Directional Goal)'를 형성함. 관객이 감정적으로 주인공의 무죄나 정의를 간절히 바라게 만든 후 증거를 제시하면, 관객은 스스로 그 증거를 채택하고 지지하는 강력한 동기화된 추론을 가동함.
+  narrative_stage: Moral Alignment, Investigation & Evidence Unveiling
+  emotional_mechanics:
+    trigger: 증거 제시 이전 인물의 진정성과 억울함에 대한 본능적 공감 형성
+    build_up: 주인공이 승리하거나 진실이 밝혀지기를 바라는 강력한 심리적 열망(동기) 장전
+    peak: 결정적 증거가 마침내 드러나는 순간 터지는 정당화의 카타르시스
+    release: '내 감정이 옳았다'는 확신과 함께 증거를 완전무결한 진실로 내면화
+  failure_modes: 감정적 라포(Rapport)가 전혀 없는 상태에서 논쟁적 데이터를 일방적으로 강요하여 관객의 적대적 반박(Skeptical Counter-arguing)을 유발하는 오류
+verification_status:
+  status: Strong Support
+  confidence_level: High
+  boundary_conditions: 법정 드라마, 탐사 르포, 정치 서사, 인물 다큐멘터리 등 증거와 판단이 충돌하는 모든 내러티브에 전면 적용

@@ -1,0 +1,44 @@
+source_id: "SRC-2002-033"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Intensified continuity: Visual style in contemporary American film"
+  authors:
+    - "Bordwell, David (University of Wisconsin–Madison)"
+  institution: "University of Wisconsin–Madison"
+  published_date: "2002-03-01"
+  source_url: "https://doi.org/10.1525/fq.2002.55.3.16"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Film Form & Quantitative Cinematographic Analysis"
+    sample_size: "Hundreds of Hollywood feature films (1960–2000)"
+    target_population: "상업 영화 관객 및 영상 미디어"
+    relationship_type: "Stylistic & Descriptive"
+    replicated: "Replicated (Standard paradigm in contemporary film theory)"
+    limitations: "실사 영화 중심 분석이나 현대 유튜브, 애니메이션, 게임 연출에 직접 계승됨"
+
+claims_and_evidence:
+  core_claim: "현대 상업 영화는 고전적 연속성 편집을 폐기한 것이 아니라, 더 빠른 편집 컷(ASL 감소), 양극단의 렌즈 길이, 끊임없이 움직이는 카메라(Free-ranging camera)를 통해 관객의 감각적·신체적 몰입을 극대화하는 '강화된 연속성'으로 진화했다."
+  verbatim_quotes:
+    - original: "Intensified continuity is traditional continuity amped up. It offers a more rapid pace of cutting, bipolar extremes of lens lengths, more close-up framings, and a continuously roving camera."
+      translation: "강화된 연속성은 전통적 연속성이 증폭된 것이다. 그것은 더 빠른 편집 페이스, 양극단의 렌즈 길이, 더 많은 클로즈업 프레이밍, 그리고 끊임없이 움직이는 카메라를 제공한다."
+      citation_location: "p.16, Introduction & Style Taxonomy"
+
+story_application:
+  application_idea: "순수 감각적 스펙터클 콘텐츠(Meaning이 결손된 엔터테인먼트)를 기획할 때, '강화된 연속성'의 4대 미학(빠른 컷, 극단적 렌즈, 무빙 카메라, 사운드 디자인)을 극대화하여 관객의 시청각 감각을 직접 타격함으로써 완전한 쾌락적 몰입(Hedonic Enjoyment)을 달성함."
+  narrative_stage: "Action Sequences & Spectacle Beats"
+  emotional_mechanics:
+    trigger: "감각 기관의 직접적 타격"
+    build_up: "편집 리듬의 점진적 가속과 역동적 카메라 무빙"
+    peak: "아드레날린과 시각적 스펙터클의 폭발"
+    release: "감각적 흥분의 점진적 이완"
+  failure_modes: "형식미(Form)의 정밀한 조율 없이 어설픈 CG와 카메라 흔들기만 남발하면 관객은 멀미와 시각적 피로를 호소하며 이탈함"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "액션, 스릴러, 비주얼 중심 시청각 미디어에 강력 적용"

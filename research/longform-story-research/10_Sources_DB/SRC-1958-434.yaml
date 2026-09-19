@@ -1,0 +1,12 @@
+id: SRC-1958-434
+author: Stephen E. Toulmin
+year: 1958
+title: 'The Uses of Argument'
+venue: Cambridge University Press
+tier: 1
+citation_count: 32500
+url: https://doi.org/10.1017/CBO9780511840005
+key_contribution: 실용 논증 모델(Toulmin Model of Argument)을 창시. 논증은 단순 연역이 아니라 주장(Claim), 자료/증거(Data/Evidence), 정당화 기전(Warrant/Meaning), 뒷받침(Backing), 반박 조건(Rebuttal)의 유기적 결합으로 완성됨을 체계화.
+relevance: 정보형·비픽션 콘텐츠에서 마이크로 스토리 블록이 [주장-증거-의미(Claim-Evidence-Meaning)]의 설득력 있는 논증 분자 단위로 변형되는 논리적·구조적 기초.
+themes:
+  - '#46 Theme 3'

@@ -1,0 +1,12 @@
+id: SRC-1971-529
+author: Daniel E. Berlyne
+year: 1971
+title: "Aesthetics and Psychobiology"
+venue: "Appleton-Century-Crofts"
+tier: 1
+citation_count: 5900
+url: https://doi.org/10.1037/10007-000
+key_contribution: "미학 심리생물학 및 각성 포텐셜 곡선(Wundt Curve) 정립. 자극의 복잡성·신기성·불확실성이 신경계 각성을 조절하는 원리 규명. 지속적인 고각성은 피로와 불쾌를, 지속적인 저각성은 지루함을 낳으므로, 각성 수준을 적정 범위 내에서 주기적으로 진동(Oscillation)시킬 때 쾌감과 몰입이 극대화됨을 실증."
+relevance: "분석 구간(저각성/고인지)과 감정 구간(고각성/저인지)의 주기적 템포 전환(Pacing Variation)이 관객의 생리적 지루함과 피로를 동시에 리셋하는 미학적·생물학적 근거."
+themes:
+  - "#54 Theme 2"

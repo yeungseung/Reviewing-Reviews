@@ -1,0 +1,12 @@
+id: SRC-2015-575
+author: Vittorio Gallese & Michele Guerra
+year: 2015
+title: 'The Feeling of Motion: Camera Movements and Motor Cortex Activation'
+venue: Screen, 56(4), pp. 418-436
+tier: 1
+citation_count: 130
+url: https://doi.org/10.1093/screen/hjv050
+key_contribution: 카메라 움직임이 관객의 뇌 신경망에 미치는 영향을 fMRI 및 뇌파(EEG)로 실증. 스테디캠을 이용한 앞으로의 전진 트래킹 샷(Tracking Shot)은 인간의 전운동 피질(Premotor Cortex)을 직접 활성화하여 '시각적 확대'가 아닌 '실제 신체적 이동'으로 뇌가 착각(Embodied Simulation of Self-Motion)하게 만들며, 정적 샷이나 광학 줌(Zoom) 대비 현저히 높은 운동 피질 탈동기화(각성)와 몰입을 유발함을 규명.
+relevance: 카메라 무빙이 시각적 각성(Arousal)과 체화된 몰입을 촉진하는 신경생리학적 메커니즘의 직접적 실증 근거.
+themes:
+- '#58 Theme 2'

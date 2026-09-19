@@ -1,0 +1,44 @@
+source_id: "SRC-1985-007"
+created_at: "2026-09-15"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "An attributional theory of achievement motivation and emotion"
+  authors:
+    - "Weiner, Bernard (University of California, Los Angeles)"
+  institution: "University of California, Los Angeles (UCLA)"
+  published_date: "1985-10-01"
+  source_url: "https://doi.org/10.1037/0033-295X.92.4.548"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Attributional Framework & Empirical Meta-Synthesis"
+    sample_size: 0
+    target_population: "인간 사회적 정서 및 동기 일반"
+    relationship_type: "Causal Mechanism"
+    replicated: "Replicated (사회심리학 및 동기 이론의 랜드마크)"
+    limitations: "의식적 귀인 평가 중심 모델로 무의식적 직관 반응 설명 보완 필요"
+
+claims_and_evidence:
+  core_claim: "사건 결과에 대한 정서는 결과 자체뿐만 아니라 '원인의 소재(Locus: 내적/외적)', '안정성(Stability)', 특히 '통제 가능성(Controllability)'에 대한 귀인 평가에 의해 분노, 죄책감, 연민, 수치심으로 결정됨."
+  verbatim_quotes:
+    - original: "Anger is experienced if another person is perceived as having control over a negative event, whereas pity is felt if the cause is uncontrollable by that person, and guilt if the cause is internal and controllable by oneself."
+      translation: "부정적 사건에 대해 타인이 통제력을 가졌다고 인식되면 분노가, 그 원인이 그 사람에게 통제 불가능한 것이면 연민이, 그 원인이 자신에게 있고 통제 가능한 것이면 죄책감이 경험된다."
+      citation_location: "p.560"
+
+story_application:
+  application_idea: "악당이나 대립 인물에 대한 관객의 감정을 '증오/분노'에서 '깊은 연민과 슬픔'으로 바꾸고 싶다면, 그 인물의 범행 동기가 '과거의 학대, 가난, 불치병 등 통제 불가능한 환경적 비극' 때문이었음을 드러내는 정보를 투입하라."
+  narrative_stage: "Antagonist Revelation & Climax"
+  emotional_mechanics:
+    trigger: "가해자의 숨겨진 과거 팩트 공개"
+    build_up: "기존의 분노와 새로운 동정 사이의 인지부조화"
+    peak: "귀인의 전면 재배치 (통제 가능 악행 → 통제 불가 비극)"
+    release: "분노에서 비극적 연민으로의 감정 전이"
+  failure_modes: "악행의 규모가 너무 극단적인데 억지 사연을 붙이면 관객이 면죄부라며 강한 심리적 반발을 보임"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "도덕적 판단이 개입되는 모든 서사"

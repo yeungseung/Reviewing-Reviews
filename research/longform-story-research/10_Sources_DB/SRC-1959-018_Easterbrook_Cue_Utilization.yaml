@@ -1,0 +1,24 @@
+id: "SRC-1959-018"
+title: "The effect of emotion on cue utilization and the organization of behavior"
+authors:
+  - "J. A. Easterbrook"
+year: 1959
+publication: "Psychological Review, 66(3), 183-201"
+doi_or_url: "https://doi.org/10.1037/h0047707"
+tier: "Tier 1 (Academic Landmark)"
+credibility_score: 96
+
+summary: |
+  정서적 각성(Arousal)과 감정 강도가 인간의 단서 활용(Cue Utilization) 및 주의 폭에 미치는 영향을 규명한 고전 랜드마크 논문 (Easterbrook Hypothesis).
+  감정적 각성이 증가하면 개인이 동시에 처리할 수 있는 정보 단서의 범위(주의 폭)가 협소화되어 주변 단서(Peripheral Cues)를 배제하고 중심 단서(Central/Focal Cues)에만 주의가 집중되는 '터널 비전(Tunnel Vision)' 현상을 규명함.
+
+key_findings:
+  - 감정의 강도와 각성이 높아지면 주의 범위가 좁아져 핵심 사건(Central Event)에는 극도로 집중하지만, 주변 배경이나 복잡한 인과적 단서는 처리되지 못하고 탈락함.
+  - 서사 수용에서 고강도 감정(공포, 긴박감, 분노 등)이 촉발되는 순간, 복잡한 플롯 단서나 다층적 복선은 무시되며, 직관적이고 즉각적인 행위 중심 단서에만 인지 자원이 할당됨.
+  - 따라서 사건 이해(STORY)와 복합적 의미(MEANING)를 관객에게 전달하려면 감정적 각성이 완화되는 '밸리(Valley/Down-regulation)' 구간이 필수적임.
+
+relevance_to_story_engine:
+  theme: "v2 #2 Theme 2 (세 트랙의 시간적 상호작용)"
+  subtopics:
+    - "감정이 정보 주의와 해석을 바꾸는 경로"
+    - "트랙 간 지연·동시성 가능성"

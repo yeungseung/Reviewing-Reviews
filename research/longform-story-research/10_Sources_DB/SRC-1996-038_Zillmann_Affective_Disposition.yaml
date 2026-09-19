@@ -1,0 +1,44 @@
+source_id: "SRC-1996-038"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "The psychology of suspense in dramatic exposition"
+  authors:
+    - "Zillmann, Dolf (University of Alabama)"
+  institution: "University of Alabama"
+  published_date: "1996-01-01"
+  source_url: "https://doi.org/10.4324/9780203812037"
+  source_type: "Academic Book Chapter (Suspense: Conceptualizations, analyses, and empirical explorations)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Theoretical & Experimental Media Psychology"
+    sample_size: "Multiple laboratory physiological experiments"
+    target_population: "Drama and film viewers"
+    relationship_type: "Causal"
+    replicated: "Highly Replicated (Foundational theory of drama suspense and affective disposition)"
+    limitations: "드라마, 스릴러 장르에 집중되었으나 광범위한 스토리텔링 감정 이론으로 적용됨"
+
+claims_and_evidence:
+  core_claim: "관객의 긴장감(Suspense)과 감정 몰입은 호의적 성향을 지닌 인물(Liked Protagonist)이 목표를 추구하는 과정에서 겪는 위협과 장애에 대해 '희망(Hope)'과 '공포(Fear)'를 교차 경험할 때 극대화된다."
+  verbatim_quotes:
+    - original: "Suspense is an acute, negative affective state that is brought about by the confrontation with imminent, highly likely threat of harm to liked protagonists, paired with the uncertainty about the outcome."
+      translation: "서스펜스는 호감을 가진 주인공에게 임박하고 가능성이 매우 높은 위해의 위협과 직면하고, 그 결과에 대한 불확실성이 결합될 때 유발되는 급성 정서 상태이다."
+      citation_location: "pp.131-135"
+
+story_application:
+  application_idea: "인물의 목표가 명확하고 관객이 그 목표에 공감할 때, 그 앞을 가로막는 장애물(Obstacle)은 단순한 지연이 아니라 관객의 생리적 각성(Arousal)과 초집중을 이끄는 서스펜스의 엔진이 됨."
+  narrative_stage: "Act 2 Escalation & Conflict Design"
+  emotional_mechanics:
+    trigger: "인물의 목표를 가로막는 치명적 장애와 적대 세력의 등장"
+    build_up: "목표 달성 실패에 대한 공포(Fear)와 극적 희망(Hope)의 진동"
+    peak: "파멸 직전의 위기 상황"
+    release: "장애 돌파 또는 대가를 치른 극적 전환"
+  failure_modes: "인물에 대한 호감과 도덕적 지지가 형성되지 않은 상태에서 장애만 부여하면 관객은 지루함이나 무관심을 보임"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "주인공에 대한 관객의 도덕적 평가와 정서적 성향 형성이 전제되어야 작동"

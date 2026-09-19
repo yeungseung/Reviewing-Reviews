@@ -1,0 +1,45 @@
+source_id: "SRC-2000-083"
+created_at: "2026-09-16"
+verified_by: "Antigravity Deep Research"
+
+bibliographic_info:
+  title: "The role of transportation in the persuasiveness of public narratives"
+  authors:
+    - "Green, Melanie C. (University of Pennsylvania)"
+    - "Brock, Timothy C. (Ohio State University)"
+  institution: "University of Pennsylvania & Ohio State University"
+  published_date: "2000-11-01"
+  source_url: "https://doi.org/10.1037/0022-3514.79.5.701"
+  source_type: "Peer-reviewed Journal (Journal of Personality and Social Psychology)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Experimental Social Psychology"
+    sample_size: 440
+    target_population: "College students and adult media audiences"
+    relationship_type: "Causal (Narrative Transportation -> Reduced Counterarguing -> Belief-Consistent Story Acceptance)"
+    replicated: "Highly Replicated (The canonical foundational paper founding Narrative Transportation Theory, 3,600+ citations)"
+    limitations: "문학 텍스트 및 단편 서사 중심이나 영상/다큐멘터리/팟캐스트 롱폼의 설득 및 정보 흡수 메커니즘에 직결"
+
+claims_and_evidence:
+  core_claim: "서사적 이동 이론(Narrative Transportation Theory): 감정적 서사에 깊이 몰입(Transported)된 수용자는 모든 주의력, 정서, 상상력을 서사 세계에 집중시키며, 이 과정에서 분석적 비판과 반론 제기(Counterarguing)를 일시적으로 중단한다. 따라서 서사적 프레임 속에서 제시되는 정보와 사실은 건조한 통계나 논리적 주장보다 훨씬 강력하게 수용자의 신념 체계로 흡수된다."
+  verbatim_quotes:
+    - original: "Transportation is a convergent process, where all mental systems and capacities become focused on events occurring in the narrative... transport into a narrative world reduces counterarguing and facilitates belief change consistent with story-implied assertions."
+      translation: "이동(Transportation)은 모든 정신 시스템과 인지 능력이 서사 속에서 일어나는 사건에 집중되는 수렴적 과정이다... 서사 세계로의 이동은 반론 제기를 감소시키고 서사가 암시하는 주장과 일치하는 신념 변화를 촉진한다."
+      citation_location: "pp. 701-705"
+
+story_application:
+  application_idea: "감정-정보 시퀀싱의 닻: 정보형 롱폼에서 복잡한 통계나 학술 데이터를 제시하기 전에, 반드시 1명의 구체적인 인물이 겪는 감정적 드라마(사건/위기)를 먼저 배치하여 관객을 서사적으로 이동(Transport)시켜야 함. 관객의 비판적 방어막이 해제된 직후에 투입되는 데이터는 저항 없이 뇌리에 직격함."
+  narrative_stage: "Hook to Analytical Core Transition"
+  emotional_mechanics:
+    trigger: "구체적 인물의 절박한 갈등 및 감정적 딜레마"
+    build_up: "감정적 동일시를 통한 서사적 이동(Transportation)과 비판적 반박 차단"
+    peak: "사태의 원인을 알고자 하는 인지적 갈망 발생"
+    release: "거시 통계와 데이터의 인과적 투입을 통한 지적 해갈"
+  failure_modes: "서사적 이동 없이 첫머리부터 차가운 숫자와 그래프만 쏟아부어 관객의 중심 경로 비판과 이탈을 초래하는 실패"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "다큐멘터리, 정보형 롱폼, 에세이, 팩추얼 드라마 전반에 보편 적용"

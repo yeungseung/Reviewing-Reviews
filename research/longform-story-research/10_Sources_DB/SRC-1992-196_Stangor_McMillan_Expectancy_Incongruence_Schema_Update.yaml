@@ -1,0 +1,41 @@
+source_id: SRC-1992-196
+created_at: '2026-09-17'
+verified_by: Gemini Deep Research
+bibliographic_info:
+  title: 'Memory for expectancy-congruent and expectancy-incongruent information: A review of the social and social developmental literatures'
+  authors:
+  - Stangor, Charles (University of Maryland)
+  - McMillan, David (University of Maryland)
+  institution: University of Maryland, College Park
+  published_date: '1992-01-01'
+  source_url: https://doi.org/10.1037/0033-2909.111.1.42
+  source_type: Peer-reviewed Meta-analysis (Psychological Bulletin, 111(1), 42-61)
+credibility_assessment:
+  credibility_tier: Tier 1 Meta-analysis / Cognitive & Social Psychology
+  methodology:
+    study_type: Comprehensive Meta-Analysis
+    sample_size: 126 Independent Studies (N > 10,000)
+    target_population: 성인 및 아동 인지 정보 처리 피험자 집단
+    relationship_type: Meta-analytic Causal & Moderator Effects (Expectancy Incongruence -> Elaborative Processing -> Schema Revision)
+    effect_size: 정확한 멘탈 모델 형성이 요구되는 조건에서 기대 불일치(Incongruent/Surprising) 정보의 자유 회상률 효과크기 d = 0.45~0.60 (통계적으로 매우 유의미한 우위)
+    replicated: Gold Standard Meta-Analysis (인지도식 및 기억 분야의 최고 권위 메타분석, 1,400+ 피인용)
+    limitations: 인지 부하가 극단적으로 높거나 동기가 없는 수동적 조건에서는 스키마 일치 편향이 발생할 수 있음
+claims_and_evidence:
+  core_claim: 기존의 스키마나 예상과 어긋나는 놀라운 정보(Expectancy-Incongruent / Surprising Information)는 수용자 뇌에서 심층적인 '정교화 추론(Elaborative Processing)'과 인과 귀인(Causal Attribution) 과정을 격발한다. 수용자는 불일치를 해소하기 위해 더 많은 인지 자원을 투자하며, 이는 기존 스키마의 갱신(Schema Update)과 장기 기억의 비약적 향상으로 이어진다. 반면 단순하고 예상 가능한 정보는 피상적으로 흘려보내진다.
+  verbatim_quotes:
+  - original: Incongruent information is better remembered than congruent information under conditions that motivate detailed causal processing. The surprising nature of incongruent items prompts extensive cognitive elaboration to reconcile the discrepancy, resulting in rich retrieval paths and schema modification.
+    translation: 불일치하는 정보는 세부적인 인과 처리를 동기부여하는 조건에서 일치하는 정보보다 더 잘 기억된다. 불일치 항목의 놀라운 특성은 그 불일치를 조정하기 위한 광범위한 인지적 정교화를 촉발하여, 풍부한 인출 경로와 스키마 수정을 낳는다.
+    citation_location: pp. 42-48
+story_application:
+  application_idea: 롱폼 스토리의 REFRAME 및 SURPRISE 인포메이션 엔진. 단순 상식이나 뻔한 데이터가 아니라, 독자의 상식적 기대를 깨뜨리는 '인과적 반전 팩트'를 투입하여 뇌의 주의 집중을 강제로 리셋하고 세계관 스키마를 업데이트시키는 연출 지침.
+  narrative_stage: Plot Twists, Paradigm Shifts & Intellectual Climax
+  emotional_mechanics:
+    trigger: 기존 상식이나 예측과 정면 충돌하는 놀라운 팩트 투입
+    build_up: 불일치를 해소하기 위한 독자의 능동적 인과 추론 개시
+    peak: 과거 사건들의 소급적 재해석 및 세계관 스키마 전면 갱신
+    release: 지적 희열(Aha) 및 깊은 인상 각인
+  failure_modes: 아무런 인과적 맥락 없이 황당무계한 팩트만 던져 독자를 어리둥절하게 만들거나, 뻔한 클리셰 정보만 나열하여 지루함을 유발하는 오류
+verification_status:
+  status: Strong Support
+  confidence_level: High
+  boundary_conditions: 독자가 이야기의 인과적 진실을 이해하려는 인지적 동기가 형성되어 있을 때 강력히 작동함

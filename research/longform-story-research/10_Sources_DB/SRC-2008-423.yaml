@@ -1,0 +1,12 @@
+id: SRC-2008-423
+author: Christopher A. Kurby & Jeffrey M. Zacks
+year: 2008
+title: 'Segmentation in the perception and memory of events'
+venue: Trends in Cognitive Sciences
+tier: 1
+citation_count: 1050
+url: https://doi.org/10.1016/j.tics.2007.11.004
+key_contribution: 사건 인식과 기억의 계층적 분할(Hierarchical Event Segmentation)을 규명. 인간은 연속적 경험을 미세 사건(Micro Events)과 거대 사건(Macro Events)이라는 다층적 위계로 처리하며, 미세 경계가 거대 경계와 동기화·정렬(Alignment)될 때 가장 안정적인 에피소드 기억 모델을 형성함을 입증.
+relevance: 서사 내 미세 상태 변화(Micro State Change)와 거대 상태 변화(Macro State Change)의 계층적 연계 구조 및 최적 챕터 길이와 템포 조절의 인지신경학적 근거.
+themes:
+  - '#45 Theme 3'

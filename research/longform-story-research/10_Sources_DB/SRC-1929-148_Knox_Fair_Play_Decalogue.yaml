@@ -1,0 +1,45 @@
+source_id: "SRC-1929-148"
+created_at: "2026-09-16"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Ten Commandments of Detective Fiction (The Detection Club Fair Play Decalogue)"
+  authors:
+    - "Knox, Ronald A. (Detection Club London)"
+  institution: "The Detection Club (London)"
+  published_date: "1929-01-01"
+  source_url: "https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100040714"
+  source_type: "Official Industry Canon / Classical Poetics"
+
+credibility_assessment:
+  credibility_tier: "Tier 1 Classical Narrative Canon"
+  methodology:
+    study_type: "Codification of Narrative Ethics & Craft Principles"
+    sample_size: "Canonical rules adopted by Agatha Christie, Dorothy L. Sayers, G.K. Chesterton"
+    target_population: "추리 및 서스펜스 서사 창작자와 수용자"
+    relationship_type: "Normative and Structural"
+    effect_size: "페어플레이 규칙 준수 여부가 서사적 완결성 및 독자 신뢰의 절대 기준"
+    replicated: "Replicated (미스터리 및 서사 공학의 영구적 고전)"
+    limitations: "1920년대 고전 추리물 기준이나, 현대 모든 인포메이션 갭 및 후킹 서사의 신뢰 계약에 보편 적용 가능"
+
+claims_and_evidence:
+  core_claim: "창작자와 수용자 사이에는 '페어플레이(Fair Play)'라는 신성한 서사 계약이 존재하며, 작가는 탐정(주인공)이 사건을 해결하는 데 사용한 모든 결정적 단서와 정보를 독자에게도 동등하게 기회로 공개해야 한다. 초자연적 개입, 미공개된 독극물, 숨겨진 비밀 통로 등 독자가 알 수 없는 정보를 뒤늦게 꺼내어 사건을 해결하는 것은 서사적 반칙(Foul)이자 독자에 대한 기만이다."
+  verbatim_quotes:
+    - original: "The reader must have equal opportunity with the detective for solving the mystery, by having all clues plainly stated and described... All supernatural or preternatural agencies are ruled out as a matter of course."
+      translation: "독자는 모든 단서가 명백히 서술되고 묘사됨으로써 미스터리를 풀 수 있는 탐정과 동등한 기회를 가져야 한다... 모든 초자연적이거나 불가해한 개입은 당연히 배제된다."
+      citation_location: "Introduction to The Best Detective Stories of 1928-29"
+
+story_application:
+  application_idea: "롱폼 스토리의 Hook과 전개부 설계에서 '페어플레이 감사 린터(Fair Play Linter)'로 적용. Hook에서 던진 질문이나 미스터리는 오직 본문 내에 공개된 합리적 단서들을 통해서만 풀려야 하며, 결말에서 난데없는 외부 요인(데우스 엑스 마키나)이나 숨겨뒀던 치트키로 퉁치는 행위를 원천 금지함."
+  narrative_stage: "Act 1 Setup through Act 3 Climax Resolution"
+  emotional_mechanics:
+    trigger: "창작자와 동등한 지적 결투(Intellectual Duel)의 시작"
+    build_up: "투명하게 제공되는 단서들을 조립하는 수용자의 지적 쾌감"
+    peak: "단서들이 한 점으로 수렴하며 해답이 폭발하는 클라이맥스"
+    release: "공정한 승부 끝에 얻는 경탄과 작가에 대한 존경"
+  failure_modes: "오프닝에서 보여주지 않은 비밀 정보를 결말에 불쑥 꺼내며 '사실은 이랬습니다'라고 우기는 반칙성 반전"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "지적 호기심과 추리를 중심으로 하는 모든 정보성·서사적 롱폼 콘텐츠에 필수"

@@ -1,0 +1,12 @@
+id: SRC-2012-582
+author: Stephan Lewandowsky, Ullrich K. H. Ecker, Colleen M. Seifert, Norbert Schwarz, & John Cook
+year: 2012
+title: 'Misinformation and Its Correction: Continued Influence and Successful Debiasing'
+venue: Psychological Science in the Public Interest, 13(3), pp. 106-131
+tier: 1
+citation_count: 2400
+url: https://doi.org/10.1177/1529100612451018
+key_contribution: 오정보의 지속적 영향 효과(Continued Influence Effect, CIE) 및 정정 메커니즘의 인지과학적 메타분석. 사실 오류가 명백히 정정된 후에도 사람들의 50% 이상이 이전의 허위 사실에 기반해 사건을 추론함. 단순 정정은 심성 모델의 공백을 메우지 못해 무력하며, 왜 그 오류가 발생했는지와 올바른 팩트의 전후 인과 사슬을 채워주는 대안적 인과 설명(Alternative Causal Explanation)이 수반되어야만 오류 지속률이 18% 이하로 감소함을 실증.
+relevance: 영상 내 사실 오류 발생 시 단순 부정이 아닌 대안적 인과 스토리를 제시해야만 신뢰가 복구된다는 CIE-P 프로토콜의 핵심 학술 토대.
+themes:
+- '#59 Theme 1'

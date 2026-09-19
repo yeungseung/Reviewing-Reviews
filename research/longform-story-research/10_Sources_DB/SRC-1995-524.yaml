@@ -1,0 +1,12 @@
+id: SRC-1995-524
+author: Joseph P. Forgas
+year: 1995
+title: "Mood and judgment: The affect infusion model (AIM)"
+venue: "Psychological Bulletin, 117(1), 39-66"
+tier: 1
+citation_count: 5100
+url: https://doi.org/10.1037/0033-2909.117.1.39
+key_contribution: "정서 침투 모델(Affect Infusion Model, AIM) 정립. 감정이 정보 처리에 개입하는 4가지 경로(직접 접근, 동기화된 처리, 휴리스틱 처리, 실질적 정교화 처리)를 규명. 서사에서 감정적 환기(Emotional Arousal)가 관객으로 하여금 복잡한 정보를 더 깊이 있고 창의적으로 분석(Substantive Processing)하도록 촉진함을 실증."
+relevance: "정보 전달 전후에 배치되는 감정적 자극이 관객의 인지적 주의를 집중시키고 복잡한 정보의 정교한 부호화와 기억 통합을 이끄는 메커니즘 제공."
+themes:
+  - "#54 Theme 1"

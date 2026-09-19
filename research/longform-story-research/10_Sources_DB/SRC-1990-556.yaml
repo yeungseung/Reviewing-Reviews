@@ -1,0 +1,15 @@
+id: SRC-1990-556
+author: Edward R. Tufte
+year: 1990
+title: Envisioning Information
+venue: Graphics Press, Cheshire, CT
+tier: 1
+citation_count: 11400
+url: https://www.edwardtufte.com/tufte/books_ei
+key_contribution: 정보 집약적 시각 설계의 2대 원리(Layering and Separation, Micro/Macro Readings)
+  체계화. 고밀도 시각 프레임에서 색채 채도, 선 굵기, 명암의 미세 차이를 활용해 정보 층위를 분리하면 시각적 혼란(Visual Clutter)
+  없이 단일 컷에서 거시 맥락(Macro)과 미시 세부(Micro)를 동시에 전달할 수 있음을 실증.
+relevance: 의미 밀도(Semantic Density)와 시각적 경제성(Visual Economy)을 극대화하면서도 과밀 프레임(Overloaded
+  Frame)을 방어하는 화면 디자인 공학 표준 제공.
+themes:
+- '#56 Theme 3'

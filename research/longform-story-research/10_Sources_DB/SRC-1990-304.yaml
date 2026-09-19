@@ -1,0 +1,15 @@
+id: SRC-1990-304
+author: Paul van den Broek
+year: 1990
+title: 'The Causal Inference Maker: The Construction of a Mental Representation During
+  Reading'
+venue: The Psychology of Learning and Motivation
+tier: 1
+citation_count: 880
+url: https://doi.org/10.1016/S0079-7421(08)60055-1
+key_contribution: 서사 이해 과정에서 독자가 선행 원인을 찾는 후방 인과 추론(Backward Causal Inference)과 결과를
+  예상하는 전방 추론(Forward Causal Inference)의 상호작용 메커니즘을 제시하여, Rehook이 이전 해답에서 새로운 질문을 도출하는
+  브릿지 원리를 정초.
+relevance: 해답 지급(Payoff)과 질문 창출(Question Generation)의 인과적 맞물림 설계.
+themes:
+- '#35 Theme 3'

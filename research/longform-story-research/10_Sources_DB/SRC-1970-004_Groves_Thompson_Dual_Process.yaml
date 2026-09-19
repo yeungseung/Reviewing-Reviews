@@ -1,0 +1,45 @@
+source_id: "SRC-1970-004"
+created_at: "2026-09-15"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Habituation: a dual-process theory"
+  authors:
+    - "Groves, Philip M."
+    - "Thompson, Richard F."
+  institution: "University of California, Irvine"
+  published_date: "1970-09-01"
+  source_url: "https://doi.org/10.1037/h0029800"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Neurophysiological Theory & Synthesis"
+    sample_size: 0
+    target_population: "신경계 일반"
+    relationship_type: "Causal Mechanism"
+    replicated: "Replicated (수천 회 이상 검증된 신경생리학 고전)"
+    limitations: "신경 세포 단위 모델로 고차원 서사 수용에서의 심리적 매개 과정 추가 고려 필요"
+
+claims_and_evidence:
+  core_claim: "자극에 대한 신경 반응은 자극-반응 경로의 둔감화(Habituation)와 유기체 전반의 각성을 지배하는 상태 시스템의 민감화(Sensitization)라는 두 가지 독립적이고 상반된 과정의 상호작용으로 결정됨."
+  verbatim_quotes:
+    - original: "Habituation and sensitization are independent processes that develop concurrently in the nervous system to determine the final behavioral response."
+      translation: "습관화와 민감화는 최종적인 행동 반응을 결정하기 위해 신경계 내에서 동시에 발달하는 독립적인 과정이다."
+      citation_location: "p.419, Abstract"
+
+story_application:
+  application_idea: "평범하거나 예측 가능한 자극은 급속도로 습관화(지루함)를 낳지만, 미지의 위협이나 불확실성이 유지되는 자극은 민감화(공포 증폭)를 낳음. 따라서 서스펜스를 유지하려면 위협의 실체를 완전히 노출하지 않고 단서만 반복 주입해야 함."
+  narrative_stage: "Rising Action & Suspense Buildup"
+  emotional_mechanics:
+    trigger: "미세한 불길한 징조의 반복 노출"
+    build_up: "확인되지 않는 위협에 대한 신경 민감화(Sensitization)"
+    peak: "사소한 자극에도 폭발하는 극단적 공포"
+    release: "위협의 정체 확인 또는 일시적 모면"
+  failure_modes: "위협의 정체를 일찍 다 보여주면 민감화가 즉시 습관화(무감각)로 전환됨"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "생존 위협 및 높은 생리적 각성 상황"

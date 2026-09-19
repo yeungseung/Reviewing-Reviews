@@ -1,0 +1,16 @@
+id: SRC-2015-565
+author: Matthew A. Bezdek, Richard J. Gerrig, William G. Wenzel, Jaemin Shin, K. Pirog
+  Revill, & Eric H. Schumacher
+year: 2015
+title: 'Neural Evidence to Support the Narrative Attentional Narrowing Hypothesis:
+  A Transport to Another World'
+venue: NeuroImage, 118, pp. 563-574
+tier: 1
+citation_count: 180
+url: https://doi.org/10.1016/j.neuroimage.2015.06.055
+key_contribution: fMRI 기능적 뇌영상 실험을 통해 서사 몰입과 주의 협착(Attentional Narrowing)의 신경학적 기제
+  규명. 서스펜스가 고조될 때 시각 피질의 중심와(Fovea) 처리 영역은 활성화되는 반면 주변 시야 영역은 억제됨. 빠른 편집 속도는 모바일 등
+  소형 화면에서 주의를 집중시키는 데 효과적이나, 대형 스크린에서는 안구 도약 거리 확대로 시각 피로를 가중시킴을 실증.
+relevance: 디바이스(모바일 vs PC/TV) 및 서사 긴장도(서스펜스 vs 설명)에 따른 최적 편집 속도 차등화의 뇌과학적 근거.
+themes:
+- '#57 Theme 2'

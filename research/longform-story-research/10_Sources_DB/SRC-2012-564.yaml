@@ -1,0 +1,15 @@
+id: SRC-2012-564
+author: Tim J. Smith
+year: 2012
+title: The Attentional Theory of Cinematic Continuity (AToCC)
+venue: 'Projections: The Journal for Movies and Mind, 6(1), pp. 1-27'
+tier: 1
+citation_count: 230
+url: https://doi.org/10.3167/proj.2012.060102
+key_contribution: 영화의 주의 연속성 이론(AToCC) 정립. 빠른 컷 전환 시 화면 간 시선 일치(Gaze Continuity /
+  Center-screen Clustering)가 확보되지 않으면 관객은 매 컷마다 200~350ms의 시선 재탐색(Visual Search Saccade)
+  비용을 지불해야 하며, 이는 인지 마찰(Cognitive Friction)을 유발해 서사 이해도를 파괴함을 안구 추적 실험으로 규명.
+relevance: 빠른 컷 속도를 유지하면서도 인지 피로를 방지하기 위한 시선 중심 정렬(Gaze Anchoring) 편집 기법의 서사학적·인지신경학적
+  토대.
+themes:
+- '#57 Theme 2'

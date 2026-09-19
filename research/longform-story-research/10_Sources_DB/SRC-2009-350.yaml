@@ -1,0 +1,15 @@
+id: SRC-2009-350
+author: Jesse Graham, Jonathan Haidt, & Brian A. Nosek
+year: 2009
+title: Liberals and conservatives rely on different sets of moral foundations
+venue: Journal of Personality and Social Psychology
+tier: 1
+citation_count: 3200
+url: https://doi.org/10.1037/a0015141
+key_contribution: 도덕적 기반 이론(Moral Foundations Theory)을 실증하여, 진보주의자는 주로 돌봄(Care/Harm)과
+  공정성(Fairness/Cheating)에 집중하는 반면, 보수주의자는 충성(In-group/Loyalty), 권위(Authority/Subversion),
+  신성(Sanctity/Degradation)을 포함한 5대 기반 전체를 균형적으로 고려함을 규명.
+relevance: 서사에서 도덕적 갈등을 다룰 때 단일 도덕 기반만을 정답으로 제시하면 타 집단 시청자의 강력한 인지적 반발(Backfire Effect)과
+  이탈을 초래한다는 이론적 근거.
+themes:
+- '#39 Theme 3'

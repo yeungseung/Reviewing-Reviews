@@ -1,0 +1,24 @@
+id: SRC-1984-271
+title: "Normal Accidents: Living with High-Risk Technologies"
+authors:
+  - "Charles Perrow"
+year: 1984
+type: academic_primary
+tier: 1
+publication: "Basic Books"
+pages: "1-464"
+isbn: "978-0465051434"
+citation_count: 11500
+key_findings:
+  - "고위험 복합 시스템(원전, 항공, 화학공장 등)에서 발생하는 대형 참사의 '정상 사고(Normal Accident)' 이론 정립."
+  - "사고의 원인을 현장 작업자나 조종사의 '개인적 과실(Operator Error)'로 돌리는 대중적 통념을 깨뜨리고, 시스템의 복잡한 상호작용(Interactive Complexity)과 긴밀한 결합(Tight Coupling)이라는 구조적 원인으로 전면 재평가."
+  - "기업, 역사, 기술 다큐멘터리 서사에서 '단순 희생양 프레임'을 깨고 '시스템적 구조 결함'으로 책임을 대역전시키는 인과 분석의 규범 제공."
+core_claims:
+  - "복합 시스템의 재난은 개인의 실수가 아니라 시스템 설계 자체의 상호작용에서 비롯되는 불가피한 결과이다."
+  - "정보형 서사에서 진정한 반전은 표면적 개인 악당을 찾는 것이 아니라 보이지 않던 구조적 시스템 결함을 폭로하는 것이다."
+keywords:
+  - normal accidents
+  - interactive complexity
+  - tight coupling
+  - systemic responsibility
+  - root cause reappraisal

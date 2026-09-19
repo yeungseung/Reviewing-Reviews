@@ -1,0 +1,44 @@
+source_id: "SRC-1993-062"
+created_at: "2026-09-16"
+verified_by: "Antigravity Deep Research"
+
+bibliographic_info:
+  title: "Framing: Toward clarification of a fractured paradigm"
+  authors:
+    - "Entman, Robert M. (Northwestern University)"
+  institution: "Northwestern University"
+  published_date: "1993-12-01"
+  source_url: "https://doi.org/10.1111/j.1460-2466.1993.tb01304.x"
+  source_type: "Peer-reviewed Journal (Journal of Communication)"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Mass Communication Theory & Epistemological Paradigm Analysis"
+    sample_size: "Extensive theoretical synthesis across media, political science, and cognitive psychology"
+    target_population: "Media audiences, political communicators, and news consumers"
+    relationship_type: "Causal (Framing Salience -> Problem Definition -> Causal Attribution -> Moral Evaluation)"
+    replicated: "Highly Replicated (The single most cited paper on framing theory in communication science, 18,000+ citations)"
+    limitations: "언론학 중심 연구이나 모든 서사 콘텐츠의 소재별 엔진 적합성 및 문제 정의 프레임에 직접 적용"
+
+claims_and_evidence:
+  core_claim: "프레이밍(Framing)이란 지각된 현실의 몇 가지 측면을 선택하여 서사 담화 안에서 두드러지게(Salient) 만듦으로써, ① 문제를 정의하고(Define problems), ② 인과적 원인을 진단하며(Diagnose causes), ③ 도덕적 평가를 내리고(Make moral judgments), ④ 치료책을 제안(Suggest remedies)하는 행위이다. 소재의 성격과 맞지 않는 억지 프레임(예: 복잡한 정책을 인물의 사적 욕망으로 프레이밍)은 인과 진단을 왜곡하고 관객의 인지적 거부감을 초래한다."
+  verbatim_quotes:
+    - original: "To frame is to select some aspects of a perceived reality and make them more salient in a communicating text, in such a way as to promote a particular problem definition, causal interpretation, moral evaluation, and treatment recommendation."
+      translation: "프레이밍이란 특정 문제 정의, 인과적 해석, 도덕적 평가, 해결책 제안을 촉진하는 방식으로 감지된 현실의 일부 측면을 선택하여 소통 텍스트에서 더 두드러지게 만드는 것이다."
+      citation_location: "p. 52"
+
+story_application:
+  application_idea: "소재별 긴장 엔진 매칭은 본질적으로 '정확한 프레이밍(Accurate Framing)'의 문제임. 과학 소재는 Question 프레임으로, 기업 사기극은 Promise/Result 프레임으로, 사회 정책은 Value 프레임으로 정확히 선택해야만 관객의 도덕적·인지적 평가 회로가 오작동 없이 작동함."
+  narrative_stage: "Subject-to-Engine Matching & Narrative Salience"
+  emotional_mechanics:
+    trigger: "소재의 본질적 인과 구조와 완벽히 공명하는 엔진 프레임의 제시"
+    build_up: "두드러진 인과 축을 따라 순조롭게 축적되는 관객의 도덕적/지적 평가"
+    peak: "프레임이 가리키는 궁극적 책임과 진실의 폭로"
+    release: "왜곡 없는 명쾌한 세계관 획득"
+  failure_modes: "소재와 불일치하는 억지 프레이밍(예: 과학 현상에 음모론 프레임 씌우기)으로 인한 관객의 냉소와 이탈"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "저널리즘, 다큐멘터리, 팩트체크, 기업 분석, 역사 해설 등 사실 기반 롱폼 전체에 적용"

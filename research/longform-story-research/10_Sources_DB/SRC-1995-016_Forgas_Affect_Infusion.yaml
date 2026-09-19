@@ -1,0 +1,25 @@
+id: "SRC-1995-016"
+title: "Mood and judgment: The affect infusion model (AIM)"
+authors:
+  - "Joseph P. Forgas"
+year: 1995
+publication: "Psychological Bulletin, 117(1), 39-66"
+doi_or_url: "https://doi.org/10.1037/0033-2909.117.1.39"
+tier: "Tier 1 (Academic Landmark)"
+credibility_score: 95
+
+summary: |
+  정서가 인지적 정보처리와 판단 과정에 스며드는 방식(Affect Infusion)을 설명한 랜드마크 이론.
+  판단 과업의 복잡성과 인지적 처리 방식(휴리스틱 vs 실질적 처리)에 따라 감정이 해석에 미치는 영향력을 체계화함.
+  서사 수용 중 관객이 강한 감정에 휩싸였을 때 모호하거나 새로운 스토리 정보(Story State)를 감정과 일치하는 방향으로 편향 해석하는 메커니즘을 설명함.
+
+key_findings:
+  - 감정은 특히 개방적이고 구성적인 정교한 정보처리(Substantive Processing) 상황에서 해석과 기억 인출에 가장 강력하게 주입됨.
+  - 정서-일치 효과(Mood-Congruency): 관객은 현재 느끼는 감정 상태와 부합하는 서사적 단서에 선택적으로 주의를 기울이고 해석을 일치시킴.
+  - 감정 트랙(EMOTION)이 활성화되면 이것이 이후 사건(STORY)의 성격 규정과 인물 동기 해석에 하향식(Top-Down) 필터로 작용함.
+
+relevance_to_story_engine:
+  theme: "v2 #2 Theme 2 (세 트랙의 시간적 상호작용)"
+  subtopics:
+    - "감정이 정보 주의와 해석을 바꾸는 경로"
+    - "의미 변화가 이후 사건 해석에 미치는 영향"

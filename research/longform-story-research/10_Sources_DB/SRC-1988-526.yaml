@@ -1,0 +1,12 @@
+id: SRC-1988-526
+author: John Sweller
+year: 1988
+title: "Cognitive load during problem solving: Effects on learning"
+venue: "Cognitive Science, 12(2), 257-285"
+tier: 1
+citation_count: 22400
+url: https://doi.org/10.1207/s15516709cog1202_4
+key_contribution: "인지 부하 이론(Cognitive Load Theory) 정립. 인간의 작업 기억(Working Memory) 용량 한계를 규명하고, 정보 처리 과정에서 발생하는 인지 부하(내재적·외재적·본질적 부하)의 역학을 체계화. 설명과 분석이 연속될 때 작업 기억 과부하로 인한 인지적 붕괴가 발생함을 실증."
+relevance: "서사에서 분석적 정보 구간을 무제한 길게 지속할 수 없는 인지신경학적 한계를 규명하고, 감정적 이완 구간을 통한 작업 기억 리셋의 필요성을 제공하는 핵심 이론."
+themes:
+  - "#54 Theme 2"

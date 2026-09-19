@@ -1,0 +1,14 @@
+id: SRC-2010-311
+author: Karl Friston
+year: 2010
+title: 'The Free-Energy Principle: A Unified Brain Theory?'
+venue: Nature Reviews Neuroscience
+tier: 1
+citation_count: 10500
+url: https://doi.org/10.1038/nrn2787
+key_contribution: 뇌가 환경의 예측 오차(Prediction Error)를 최소화하려는 예측 기계(Predictive Engine)임을
+  규명한 자유 에너지 원리를 정립하여, 서사의 전개가 너무 예측 가능해지면(High Predictability) 뇌가 정보 가치를 상실하고 주의
+  자원을 차단함을 수학적·신경학적으로 입증.
+relevance: 높은 예측 가능성(Predictability Saturation)이 시청자의 주의를 끄는 신경학적 메커니즘 설명.
+themes:
+- '#36 Theme 2'

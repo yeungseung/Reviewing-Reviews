@@ -1,0 +1,14 @@
+id: SRC-2008-315
+author: Gloria Mark, Daniela Gudith & Ulrich Klocke
+year: 2008
+title: 'The Cost of Interrupted Work: More Speed and Stress'
+venue: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+  (ACM CHI)
+tier: 1
+citation_count: 1850
+url: https://doi.org/10.1145/1357054.1357072
+key_contribution: 빈번한 외부 중단(Interruption)과 주의 파편화가 인지적 스트레스와 불필요한 보상적 노력을 유발함을 실증하여,
+  챕터의 호흡이 완성되기 전에 난입하는 조기 Rehook(Premature Rehook)이 관객의 서사적 몰입을 파괴함을 증명.
+relevance: Rehook 과잉으로 인한 주의 파편화(Attention Fragmentation)의 실증 근거.
+themes:
+- '#36 Theme 3'

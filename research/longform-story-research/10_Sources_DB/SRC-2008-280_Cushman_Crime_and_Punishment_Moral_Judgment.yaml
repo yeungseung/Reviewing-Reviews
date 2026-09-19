@@ -1,0 +1,26 @@
+id: SRC-2008-280
+title: "Crime and Punishment: Why Harm and Intent Matter for Different Aspects of Moral Judgment"
+authors:
+  - "Fiery Cushman"
+year: 2008
+type: academic_primary
+tier: 1
+publication: "Cognition"
+volume: "108"
+issue: "2"
+pages: "353-380"
+doi: "10.1016/j.cognition.2008.03.006"
+citation_count: 1600
+key_findings:
+  - "도덕 판단의 2-프로세스 모델(Two-Process Model of Moral Judgment) 규명."
+  - "행위에 대한 처벌(Punishment) 및 비난은 초래된 객관적 '피해(Harm)'에 강하게 좌우되는 반면, 행위자의 인격, 허용 가능성(Permissibility), 도덕적 본질에 대한 평가는 '내적 의도와 동기(Intent/Motive)'에 의해 전적으로 좌우됨."
+  - "서사에서 동일한 피해 결과가 유지되더라도 행위자의 숨겨진 동기가 폭로되는 '동기 반전(Motive Reversal)'이 일어나는 순간, 관객의 도덕적 판정(Moral Judgment)이 악마에서 성자로 180도 뒤집히는 인지 신경학적 원리 입증."
+core_claims:
+  - "인간의 도덕적 인격 평가는 결과가 아니라 의도(Motive)에 기반하여 신속하고 직관적으로 산출된다."
+  - "동기 반전(Motive Reversal)은 피해 사실의 변경 없이도 관객의 도덕적 규탄을 숭고한 칭송으로 뒤바꾸는 가장 강력한 서사 레버이다."
+keywords:
+  - moral judgment
+  - two-process model
+  - intent vs harm
+  - motive reversal
+  - moral character

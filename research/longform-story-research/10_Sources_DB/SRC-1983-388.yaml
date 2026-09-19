@@ -1,0 +1,12 @@
+id: SRC-1983-388
+author: Dedre Gentner
+year: 1983
+title: 'Structure-mapping: A theoretical framework for analogy'
+venue: Cognitive Science
+tier: 1
+citation_count: 7100
+url: https://doi.org/10.1207/s15516709cog0702_3
+key_contribution: 구조 매핑 이론(Structure-Mapping Theory) 정초. 유추(Analogy)의 설득력은 표면적 유사성(Surface Attributes)이 아니라 심층적인 관계 구조(Relational Structure)의 정합성에서 비롯됨을 인지과학적으로 실증.
+relevance: 억지스러운 표면적 비유나 엉뚱한 비유(Irrelevant Analogy)가 서사의 신뢰도를 붕괴시키는 기전을 밝히고, 심층 구조 매핑을 통한 자연스러운 유추 설계의 토대 제공.
+themes:
+- '#42 Theme 3'

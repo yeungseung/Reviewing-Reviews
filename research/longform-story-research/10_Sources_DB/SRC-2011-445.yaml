@@ -1,0 +1,12 @@
+id: SRC-2011-445
+author: Raymond A. Mar
+year: 2011
+title: 'The neural bases of social cognition and story comprehension'
+venue: Annual Review of Psychology
+tier: 1
+citation_count: 1860
+url: https://doi.org/10.1146/annurev-psych-120710-100439
+key_contribution: 이야기 이해와 사회적 뇌(Social Brain)의 신경 기반 메타 분석. 단순 사실/해답(Answer) 처리는 좌측 전두-두정 의미망(Semantic Network)에 머무는 반면, 그 사실이 인물의 사회적 관계, 의도, 고통에 미치는 파급 효과(Consequence)를 처리할 때 내측 전두엽(mPFC)과 측두두정접합(TPJ)을 포함한 마음 이론(Theory of Mind) 신경망이 전면 활성화됨을 입증.
+relevance: 챕터에서 Answer에 이어 Consequence를 분리하여 깊이 있게 전개해야만 뇌가 단순 인지 처리를 넘어 사회적 시뮬레이션과 심층 몰입으로 도약함을 보여주는 신경과학적 근거.
+themes:
+  - '#47 Theme 2'

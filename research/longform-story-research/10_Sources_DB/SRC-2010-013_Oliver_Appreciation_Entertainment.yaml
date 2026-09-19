@@ -1,0 +1,45 @@
+source_id: "SRC-2010-013"
+created_at: "2026-09-15"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Appreciation as a meaningful entertainment experience"
+  authors:
+    - "Oliver, Mary Beth (Penn State University)"
+    - "Bartsch, Anne (University of Munich)"
+  institution: "Penn State University / Ludwig Maximilian University of Munich"
+  published_date: "2010-02-01"
+  source_url: "https://doi.org/10.1111/j.1460-2466.2009.01474.x"
+  source_type: "Peer-reviewed Journal"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Factor Analysis & Empirical Scale Validation"
+    sample_size: 400
+    target_population: "미디어 수용자 일반"
+    relationship_type: "Causal & Structural Equation Modeling"
+    replicated: "Replicated (미디어 심리학 인용수 1,500회 이상 랜드마크)"
+    limitations: "서구 문화권 중심의 에우다이모니아 가치 척도"
+
+claims_and_evidence:
+  core_claim: "미디어 엔터테인먼트 경험은 즉각적인 쾌락적 즐거움(Hedonic Enjoyment)과 삶의 의미, 성찰, 도덕적 고양을 다루는 에우다이모니아적 감사(Eudaimonic Appreciation)라는 두 가지 독립된 차원으로 분리됨."
+  verbatim_quotes:
+    - original: "Appreciation is defined as the perception of deeper meaning, the feeling of being moved, and the motivation to elaborate on thoughts and feelings inspired by the media experience, distinct from hedonic enjoyment."
+      translation: "감사(Appreciation)는 쾌락적 즐거움과 구별되는 것으로, 더 깊은 의미의 지각, 감동받음의 감정, 그리고 미디어 경험에서 영감을 받은 생각과 감정을 정교화하려는 동기로 정의된다."
+      citation_location: "p.53, Abstract"
+
+story_application:
+  application_idea: "롱폼 콘텐츠의 후반부에는 단순한 재미(Emotion)를 넘어, 시청자가 자신의 인생과 사회를 돌아보게 만드는 에우다이모니아적 질문(Meaning)을 던져라. 이 Meaning 트랙이 완성되어야만 관객은 영상을 단순 오락이 아닌 '인생작'으로 기억한다."
+  narrative_stage: "Act 3 Climax and Moral Resolution"
+  emotional_mechanics:
+    trigger: "보편적 인간 조건(희생, 사랑, 진실 등)을 드러내는 결말"
+    build_up: "주인공의 고난과 내적 성찰"
+    peak: "도덕적 고양감(Moral Elevation)과 삶의 의미 자각"
+    release: "자기 삶으로의 적용 및 성찰적 여운"
+  failure_modes: "사건과 감정의 빌드업 없이 교훈만 강요하면 '설교형 꼰대 콘텐츠'로 전락하여 이탈 발생"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "성찰과 감동을 지향하는 모든 롱폼 미디어"

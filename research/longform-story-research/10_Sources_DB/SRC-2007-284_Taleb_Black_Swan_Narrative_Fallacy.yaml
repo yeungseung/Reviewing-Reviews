@@ -1,0 +1,24 @@
+id: SRC-2007-284
+title: "The Black Swan: The Impact of the Highly Improbable"
+authors:
+  - "Nassim Nicholas Taleb"
+year: 2007
+type: academic_primary
+tier: 1
+publication: "Random House"
+pages: "1-366"
+isbn: "978-1400063512"
+citation_count: 35000
+key_findings:
+  - "서사 오류(The Narrative Fallacy) 개념 정립: 복잡하고 무작위적이며 비선형적인 세계의 사건들을 사후에 그럴듯하고 단순한 인과 스토리로 엮어내려는 인간의 선천적 인지 취약성 규명."
+  - "원인의 극단적 단순화(Causal Oversimplification): 다차원적 복합계 참사를 단 하나의 명백한 악당이나 결정적 실수 탓으로 돌림으로써 미래의 진짜 구조적 위험을 망각하게 만듦."
+  - "서사 엔지니어링에서 자극적인 반전을 연출하기 위해 복잡한 확률적 잡음(Noise)을 필연적 음모나 영웅적 묘수로 왜곡하는 오류를 비판."
+core_claims:
+  - "인간은 원인 없는 결과를 견디지 못하여 사후에 항상 그럴듯한 서사 오류(Narrative Fallacy)를 날조한다."
+  - "반전 서사에서 인과의 과도한 단순화는 서사의 재미를 줄 수 있으나 현실의 복합계를 왜곡하는 지적 사기이다."
+keywords:
+  - narrative fallacy
+  - causal oversimplification
+  - black swan
+  - randomness
+  - retrospective distortion

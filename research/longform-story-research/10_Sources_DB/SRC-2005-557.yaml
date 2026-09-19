@@ -1,0 +1,15 @@
+id: SRC-2005-557
+author: Richard E. Mayer
+year: 2005
+title: 'The Cambridge Handbook of Multimedia Learning: Principles of Reducing Extraneous
+  Processing'
+venue: Cambridge University Press, New York, pp. 169-200
+tier: 1
+citation_count: 5900
+url: https://doi.org/10.1017/CBO9780511816819
+key_contribution: 멀티미디어 학습에서의 신호화 원칙(Signaling/Cueing Principle) 및 공간적 근접성 원칙(Spatial
+  Contiguity Principle) 정립. 복합 시각 프레임에서 시선 유도 큐(화살표, 하이라이트)와 텍스트-도표의 공간적 일체화가 주의 분할(Split-Attention)을
+  차단하여 복합 개념 이해도를 +48% 향상시킴을 메타 분석으로 입증.
+relevance: 한 컷 내 캡션·그래픽 결합 및 복수 기능 샷에서 관객의 인지 과부하를 방지하는 시각 신호화 파이프라인의 핵심 이론.
+themes:
+- '#56 Theme 3'

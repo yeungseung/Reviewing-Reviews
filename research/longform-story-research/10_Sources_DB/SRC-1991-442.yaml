@@ -1,0 +1,12 @@
+id: SRC-1991-442
+author: Marie-Laure Ryan
+year: 1991
+title: 'Possible Worlds, Artificial Intelligence, and Narrative Theory'
+venue: Indiana University Press
+tier: 1
+citation_count: 2820
+url: https://iupress.org/9780253350046/possible-worlds-artificial-intelligence-and-narrative-theory/
+key_contribution: 서사 세계의 양상 논리 모델(Modal Narrative Theory)을 정립. 사건과 진실의 획득(Answer)은 인물의 지식 세계(K-world, Epistemic World)를 갱신하지만, 서사의 실질적 전진(Narrative Progress)은 이 해답이 의무(O-world), 소망(W-world), 의도/행동 계획(I-world)을 충돌시키고 변이시키는 '파급 효과(Consequence)'를 낳을 때 비로소 발생함을 규명.
+relevance: Answer(단순 팩트 인지)와 Consequence(서사 세계 및 인물 행동 계획의 전이)의 질적 분리를 설명하는 가장 핵심적인 서사학적 근거.
+themes:
+  - '#47 Theme 2'

@@ -1,0 +1,17 @@
+id: SRC-1987-546
+author: Joel R. Levin, Gary J. Anglin, & Russell N. Carney
+year: 1987
+title: On empirically substantiating a taxonomy of learning from text-associated visuals
+venue: The Psychology of Illustration (Vol. 1, Instructional Issues), Springer-Verlag,
+  pp. 51-85
+tier: 1
+citation_count: 1450
+url: https://link.springer.com/chapter/10.1007/978-1-4612-4674-9_3
+key_contribution: 텍스트-시각 결합 5대 기능 분류 체계(Decorational, Representational, Organizational,
+  Interpretive, Transformational) 정립 및 메타 분석. 시각물이 단순 장식(Decorational)을 넘어 해석(Interpretive)
+  및 구조화(Organizational) 기능을 수행할 때 학습 이해도와 지연 회상률이 통계적으로 유의미하게 2배 이상 증가함을 인지심리학적으로
+  실증.
+relevance: 화면이 수행하는 8종 기능 중 DATA, CONTEXT, PROOF가 어떻게 단순 장식을 탈피하여 텍스트의 인지적 처리를 변환하고
+  증폭하는지 설명하는 교육공학 및 인지학적 기준선 제공.
+themes:
+- '#56 Theme 1'

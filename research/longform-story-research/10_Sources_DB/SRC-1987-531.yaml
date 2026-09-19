@@ -1,0 +1,12 @@
+id: SRC-1987-531
+author: Paul Slovic
+year: 1987
+title: "Perception of risk"
+venue: "Science, 236(4799), 280-285"
+tier: 1
+citation_count: 24500
+url: https://doi.org/10.1126/science.3563507
+key_contribution: "심리측정적 위험 패러다임(Psychometric Paradigm of Risk) 및 위험 지각 이론 정립. 인간의 위험 평가는 두려움(Dread Risk)과 미지의 정도(Unknown Risk)에 의해 왜곡되며, 고위험·전문 정보에서 과도한 감정 자극은 비합리적 공포를 유발하여 합리적 의사결정을 마비시킴을 실증."
+relevance: "의료, 금융, 법률, 소비자 제품 리뷰 등 고위험·전문 정보 영역에서 왜 감정적 신파를 극도로 배제하고 증거 우선(Evidence-first) 및 80:20의 데이터 우위 비율을 엄격히 지켜야 하는지 제공하는 핵심 근거."
+themes:
+  - "#54 Theme 3"

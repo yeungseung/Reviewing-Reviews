@@ -1,0 +1,14 @@
+id: SRC-2010-568
+author: Jakob Nielsen & Kara Pernice
+year: 2010
+title: Eyetracking Web Usability
+venue: New Riders, Berkeley, CA, pp. 15-84
+tier: 1
+citation_count: 2100
+url: https://www.nngroup.com/books/eyetracking-web-usability/
+key_contribution: 150만 개 이상의 안구 고정 데이터를 바탕으로 한 디지털 UI 및 인터페이스 시선 추적 연구. 웹페이지, 모바일
+  앱 UI, 플랫폼 화면 스크린샷을 접할 때 사용자는 F-패턴(F-shaped pattern)으로 좌상단에서 탐색을 시작하며, 버튼·메뉴·인터랙션
+  맥락을 파악하고 정보 구조를 인출하는 데 최소 4.0~6.5초가 소요됨을 실증.
+relevance: 제품 인터페이스, 웹사이트 캡처, 시스템 UI 화면 제시 시 관객의 탐색 경로에 최적화된 체류 시간 설계의 실증적 근거.
+themes:
+- '#57 Theme 3'

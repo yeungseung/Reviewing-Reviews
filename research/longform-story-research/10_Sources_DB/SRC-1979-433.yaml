@@ -1,0 +1,12 @@
+id: SRC-1979-433
+author: Raja Parasuraman
+year: 1979
+title: 'Memory load and event rate determine vigilance decrement in sustained attention'
+venue: Science
+tier: 1
+citation_count: 850
+url: https://doi.org/10.1126/science.472740
+key_contribution: 지속적 주의(Sustained Attention)의 경계 감소(Vigilance Decrement) 기전을 규명. 기억 부하가 높고 단조로운 자극이 지속될 때 인간의 주의 집중력은 급격히 감쇠하며, 새로운 사건율과 신호 변화(Cognitive Renewal)가 주기적으로 개입해야만 주의력이 재충전됨을 실험적으로 입증.
+relevance: 롱폼 서사에서 마이크로 블록마다 질문-답-변화를 반복하여 인지적 피로를 리셋(Cognitive Renewal)하고, 과도한 자극의 과포화를 방어하는 완급 조절의 과학적 근거.
+themes:
+  - '#46 Theme 2'

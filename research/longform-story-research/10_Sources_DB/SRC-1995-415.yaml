@@ -1,0 +1,12 @@
+id: SRC-1995-415
+author: Rolf A. Zwaan, Mark C. Langston, & Arthur C. Graesser
+year: 1995
+title: 'The construction of situation models in narrative comprehension: An event-indexing model'
+venue: Psychological Science
+tier: 1
+citation_count: 1600
+url: https://doi.org/10.1111/j.1467-9280.1995.tb00513.x
+key_contribution: 사건 지수화 모델(Event-Indexing Model)을 제창. 서사 수용 시 독자가 시간, 공간, 주인공, 인과, 의도(목표)의 5대 차원 상태 변화를 실시간으로 모니터링하고 인덱싱함을 실증.
+relevance: 챕터별 상태 변화(State Change)를 모니터링하는 서사 상태 벡터 시스템(NSV-8)의 인지적 토대.
+themes:
+  - '#45 Theme 1'

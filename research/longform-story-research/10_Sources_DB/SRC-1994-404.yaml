@@ -1,0 +1,12 @@
+id: SRC-1994-404
+author: George Loewenstein
+year: 1994
+title: 'The Psychology of Curiosity: A Review and Reinterpretation'
+venue: Psychological Bulletin
+tier: 1
+citation_count: 3600
+url: https://doi.org/10.1037/0033-2909.116.1.75
+key_contribution: 정보 공백 이론(Information Gap Theory)을 정립. 호기심은 '알고 있는 것'과 '알고 싶은 것'의 인지적 결핍에서 유발되며, 순수 지적 호기심만으로는 개인적 파급효과(Consequence)의 지지 없이 장기적 몰입을 유지하기 어렵다는 한계 규명.
+relevance: 낯선 소재에서 순수 호기심(Curiosity)이 진입 주의를 형성한 후, 왜 개인적 관련성(Personal Relevance)으로 신속히 전환되어야 하는지 설명하는 인지 심리학적 근거.
+themes:
+  - '#44 Theme 1'

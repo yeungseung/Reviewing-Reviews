@@ -1,0 +1,12 @@
+id: SRC-1979-463
+author: Daniel Kahneman & Amos Tversky
+year: 1979
+title: 'Prospect Theory: An Analysis of Decision under Risk'
+venue: 'Econometrica, 47(2), 263-291'
+tier: 1
+citation_count: 58900
+url: https://doi.org/10.2307/1914185
+key_contribution: 위험 하 의사결정에서의 전망 이론(Prospect Theory) 및 손실 회피(Loss Aversion) 편향 규명. 인간은 동일한 크기의 이득보다 손실에 대해 2~2.5배 더 강력한 인지적·정서적 각성을 경험하며, 서사 수용자 역시 '최대의 가치 손실 위험(Maximum Stakes)'에 직면할 때 뇌의 편도체와 전전두엽이 최고조로 활성화됨을 설명.
+relevance: 서사의 피크(Peak)가 물리적 자극의 크기가 아니라 '감당할 수 없는 손실의 위기(Highest Stakes)'에서 형성된다는 인지경제학적 실증 기반.
+themes:
+  - '#49 Theme 1'

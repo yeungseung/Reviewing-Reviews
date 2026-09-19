@@ -1,0 +1,12 @@
+id: SRC-1988-439
+author: David Klahr & Kevin Dunbar
+year: 1988
+title: 'Dual space search during scientific reasoning'
+venue: Cognitive Science
+tier: 1
+citation_count: 1650
+url: https://doi.org/10.1207/s15516709cog1201_1
+key_contribution: 과학적 추론의 이중 공간 탐색 모델(SDDS: Scientific Discovery as Dual Search)을 정립. 인간의 탐구 과정은 '가설 공간(Hypothesis Space)'에서의 설명 생성과 '실험/증거 공간(Experiment Space)'에서의 데이터 수집이 상호 피드백을 주고받으며 수렴해 나가는 체계적 인지 경로임을 실증.
+relevance: 탐구형 챕터에서 2단계(탐구 과정)와 3단계(증거 폭로)가 가설 검증의 긴장감 속에서 관객을 능동적 추론자로 끌어들이는 인지과학적 메커니즘 제공.
+themes:
+  - '#47 Theme 1'

@@ -1,0 +1,32 @@
+id: SRC-2012-249
+title: "Misinformation and Its Correction: Continued Influence and Successful Debiasing"
+authors:
+  - "Stephan Lewandowsky"
+  - "Ullrich K. H. Ecker"
+  - "Colleen M. Seifert"
+  - "Norbert Schwarz"
+  - "John Cook"
+year: 2012
+type: academic_primary
+tier: 1
+publication: "Psychological Science in the Public Interest"
+volume: "13"
+issue: "3"
+pages: "106-131"
+doi: "10.1177/1529100612451018"
+citation_count: 2200
+key_findings:
+  - "오정보의 지속 영향 효과(Continued Influence Effect, CIE) 규명: 잘못된 정보가 명시적으로 정정된 후에도 사람들의 기억과 추론에 지속적으로 영향을 미침."
+  - "불완전한 단서나 해결되지 않은 인과적 공백(Causal Gap)이 남겨질 경우, 인간의 뇌는 정합성(Coherence)을 완성하기 위해 잘못된 음모론이나 왜곡된 추론으로 공백을 메우려는 강력한 경향을 보임."
+  - "효과적인 디벙킹(Debiasing)과 안전한 정보 전달을 위해서는 단순히 오개념을 비판하는 것이 아니라, 공백을 완벽히 대체할 수 있는 '대안적 인과 모델(Alternative Causal Model)'을 명확하고 단순하게 제시해야 함."
+  - "안전 및 실용 정보에서는 수용자가 잘못된 추론을 할 여지를 주지 않도록 결론과 핵심 사실을 서두에 즉각 제시(Fact-first / Bottom-line first)하는 것이 필수적임."
+core_claims:
+  - "인간의 뇌는 인과적 공백을 참지 못하며, 올바른 대안이 없으면 거짓 단서라도 채워 넣는다."
+  - "위험·안전 정보에서 모호한 단서 선제시는 치명적인 오개념 고착(CIE)을 유발하므로 결론 우선 배치가 원칙이다."
+keywords:
+  - misinformation
+  - continued influence effect
+  - causal gaps
+  - alternative causal model
+  - debiasing
+  - fact-first communication

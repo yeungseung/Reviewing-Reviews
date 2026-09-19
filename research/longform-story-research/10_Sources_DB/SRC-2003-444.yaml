@@ -1,0 +1,12 @@
+id: SRC-2003-444
+author: Marisa Bortolussi & Peter Dixon
+year: 2003
+title: 'Psychonarratology: Foundations for the Empirical Study of Literary Response'
+venue: Cambridge University Press
+tier: 1
+citation_count: 1210
+url: https://doi.org/10.1017/CBO9780511500107
+key_contribution: 심리서사학(Psychonarratology) 실험을 통해 독자의 텍스트 처리 과정을 실증. 독자는 지적 의문의 답(Answer)을 얻는 순간 인지적 해결(Problem Solving)을 경험하지만, 그 직후 등장인물의 심리적 상태와 행동적 귀결(Consequence)을 시뮬레이션할 때 비로소 정서적 이입(Affective Empathy)과 서사적 몰입(Narrative Transportation)이 폭발함을 입증.
+relevance: Answer와 Consequence가 한 씬에 뭉개지거나 Consequence가 생략될 때 독자의 감정선과 완독 유지율이 급락하는 심리학적 메커니즘 제공.
+themes:
+  - '#47 Theme 2'

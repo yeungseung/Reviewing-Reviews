@@ -1,0 +1,44 @@
+source_id: "SRC-2001-003"
+created_at: "2026-09-15"
+verified_by: "Gemini Deep Research"
+
+bibliographic_info:
+  title: "Appraisal considered as a process of multilevel sequential checking"
+  authors:
+    - "Scherer, Klaus R. (University of Geneva)"
+  institution: "University of Geneva"
+  published_date: "2001-01-01"
+  source_url: "https://doi.org/10.1093/oso/9780195130072.003.0005"
+  source_type: "Academic Book"
+
+credibility_assessment:
+  credibility_tier: "Tier 1"
+  methodology:
+    study_type: "Theoretical Synthesis & Component Process Model"
+    sample_size: 0
+    target_population: "인간 정서 인지 일반"
+    relationship_type: "Causal Mechanism"
+    replicated: "Replicated (다수의 실증 실험으로 검증)"
+    limitations: "실시간 신경 인지 측정의 시간 해상도 한계"
+
+claims_and_evidence:
+  core_claim: "감정은 독립적인 자극이 아니라 사건(Events)의 신규성, 목표 부합성, 통제 가능성, 규범적 적합성에 대한 순차적 인지 평가(Sequential Checking)의 결과로서 발현됨."
+  verbatim_quotes:
+    - original: "Emotions are seen as dynamic, emergent processes involving coordinated changes across several subsystems in response to continuous cognitive appraisals of events."
+      translation: "감정은 사건에 대한 지속적인 인지적 평가에 반응하여 여러 하위 시스템에 걸친 조율된 변화를 수반하는 역동적이고 창발적인 과정으로 간주된다."
+      citation_location: "Chapter 5, p.92"
+
+story_application:
+  application_idea: "시청자의 감정을 바꾸고 싶다면 감정을 강요하는 연출을 할 것이 아니라, 주인공의 '목표 달성 가능성'이나 '사건의 원인(누구의 책임인가)'에 대한 새로운 정보를 제공하여 자연스러운 재평가(Re-appraisal)를 유도해야 함."
+  narrative_stage: "Midpoint Reversal / Revelation"
+  emotional_mechanics:
+    trigger: "새로운 팩트/단서의 공개"
+    build_up: "기존 믿음과의 충돌"
+    peak: "인지적 재평가 완료 시점의 정서적 폭발"
+    release: "새로운 이해 상태로의 안정화"
+  failure_modes: "새로운 정보 없이 BGM이나 과장된 연기로 감정만 바꾸려 하면 '작위적(신파)'이라는 거부 반응 유발"
+
+verification_status:
+  status: "Strong Support"
+  confidence_level: "High"
+  boundary_conditions: "사건과 맥락이 존재하는 모든 서사적 콘텐츠에 보편 적용"

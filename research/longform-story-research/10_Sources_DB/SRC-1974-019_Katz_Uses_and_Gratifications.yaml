@@ -1,0 +1,27 @@
+id: "SRC-1974-019"
+title: "Uses and gratifications research"
+authors:
+  - "Elihu Katz"
+  - "Jay G. Blumler"
+  - "Michael Gurevitch"
+year: 1974
+publication: "The Public Opinion Quarterly, 37(4), 509-523"
+doi_or_url: "https://doi.org/10.1086/268109"
+tier: "Tier 1 (Academic Landmark)"
+credibility_score: 95
+
+summary: |
+  미디어 커뮤니케이션 연구의 패러다임을 '미디어가 사람에게 무엇을 하는가'에서 '사람들이 미디어를 가지고 무엇을 하는가'로 전환시킨 랜드마크 이론(Uses & Gratifications Theory).
+  수용자는 능동적이며, 콘텐츠 장르에 따라 인지적 욕구(정보·지식), 정서적 욕구(즐거움·정서 방출), 개인적 통합(자기 가치 확인) 등 서로 다른 심리적 충족을 추구함을 실증함.
+
+key_findings:
+  - 장르별로 수용자가 기대하는 심리적 보상(Gratification)이 근본적으로 다름.
+  - 정보/실용 콘텐츠 소비자는 인지적 통달(Cognitive mastery)을 추구하므로 극적인 감정 연출보다 정보의 정확성과 유용성에 반응함.
+  - 오락/코미디 소비자는 스트레스 해소와 정서 전환(Tension release)을 추구하므로 무거운 교훈이나 복잡한 인과 없이도 만족함.
+
+relevance_to_story_engine:
+  theme: "v2 #2 Theme 3 (장르별 트랙 비중과 반례)"
+  subtopics:
+    - "정보·교육 콘텐츠의 STORY/EMOTION/MEANING 비중"
+    - "코미디·공포·스포츠의 차이"
+    - "실용 리뷰·How-to 콘텐츠의 차이"
