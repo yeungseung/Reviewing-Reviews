@@ -1,0 +1,150 @@
+[
+  {
+    "id": "LSEv2_#01_T01",
+    "item": 1,
+    "theme": 1,
+    "report": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T01_감정_변화와_몰입의_인과관계.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#01_T02",
+    "item": 1,
+    "theme": 2,
+    "report": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T02_감정_파형적응대비.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#01_T03",
+    "item": 1,
+    "theme": 3,
+    "report": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T03_Story_State가_감정을_바꾸는_방식.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#01_T04",
+    "item": 1,
+    "theme": 4,
+    "report": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T04_Emotional_Arc의_실제_패턴과_장르_차이.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#01_T05",
+    "item": 1,
+    "theme": 5,
+    "report": "20_Research_Reports/#01_v2의_가장_중요한_변화/LSEv2_#01_T05_감정_변화와_기억예측판단.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#02_T01",
+    "item": 2,
+    "theme": 1,
+    "report": "20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T01_세_트랙_모델의_이론적_타당성.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#02_T02",
+    "item": 2,
+    "theme": 2,
+    "report": "20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T02_세_트랙의_시간적_상호작용.md",
+    "sourceIds": [
+      "SRC-1995-015",
+      "SRC-1987-006",
+      "SRC-2001-003",
+      "SRC-1959-018",
+      "SRC-1995-016",
+      "SRC-1986-014",
+      "SRC-1986-017",
+      "SRC-2010-013",
+      "SRC-1993-010",
+      "SRC-2007-011"
+    ]
+  },
+  {
+    "id": "LSEv2_#02_T03",
+    "item": 2,
+    "theme": 3,
+    "report": "20_Research_Reports/#02_롱폼의_세_개의_트랙/LSEv2_#02_T03_장르별_트랙_비중과_반례.md",
+    "sourceIds": [
+      "SRC-2002-021",
+      "SRC-1974-019",
+      "SRC-2004-020",
+      "SRC-2001-003",
+      "SRC-1986-014",
+      "SRC-2010-013",
+      "SRC-1995-015"
+    ]
+  },
+  {
+    "id": "LSEv2_#03_T01",
+    "item": 3,
+    "theme": 1,
+    "report": "20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T01_트랙_통합과_몰입설득.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#03_T02",
+    "item": 3,
+    "theme": 2,
+    "report": "20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T02_불균형_콘텐츠의_성공실패_패턴.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#03_T03",
+    "item": 3,
+    "theme": 3,
+    "report": "20_Research_Reports/#03_세_트랙은_따로_움직이면_안_된다/LSEv2_#03_T03_순환_구조의_방향성과_경계.md",
+    "sourceIds": []
+  },
+  {
+    "id": "LSEv2_#04_T01",
+    "item": 4,
+    "theme": 1,
+    "report": "20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T01_목표장애선택결과_구조의_범용성.md",
+    "sourceIds": [
+      "SRC-1994-037",
+      "SRC-1996-038",
+      "SRC-1998-039",
+      "SRC-1999-040",
+      "SRC-2009-041",
+      "SRC-2014-042"
+    ]
+  },
+  {
+    "id": "LSEv2_#04_T02",
+    "item": 4,
+    "theme": 2,
+    "report": "20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T02_인과_사슬과_지속_관심.md",
+    "sourceIds": [
+      "SRC-1988-043",
+      "SRC-2015-045",
+      "SRC-2009-044",
+      "SRC-1988-028",
+      "SRC-1994-034"
+    ]
+  },
+  {
+    "id": "LSEv2_#04_T03",
+    "item": 4,
+    "theme": 3,
+    "report": "20_Research_Reports/#04_가장_기본적인_인간_몰입_구조/LSEv2_#04_T03_선택과_대가의_감정적_효과.md",
+    "sourceIds": [
+      "SRC-2009-041",
+      "SRC-1995-046",
+      "SRC-2000-047",
+      "SRC-2002-048",
+      "SRC-1996-038"
+    ]
+  },
+  {
+    "id": "LSEv2_#05_T01",
+    "item": 5,
+    "theme": 1,
+    "report": "20_Research_Reports/#05_단_모든_소재에_사람의_욕망이_있어야_하는_것은_아니다/LSEv2_#05_T01_비인물_서사의_긴장_생성.md",
+    "sourceIds": [
+      "SRC-1994-034",
+      "SRC-1960-049",
+      "SRC-1993-050",
+      "SRC-2003-051"
+    ]
+  }
+]
