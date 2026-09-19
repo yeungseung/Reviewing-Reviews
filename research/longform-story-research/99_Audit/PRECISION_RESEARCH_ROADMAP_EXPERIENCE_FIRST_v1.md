@@ -1,6 +1,6 @@
 # PRECISION RESEARCH ROADMAP — EXPERIENCE-FIRST v1
 
-> Status: APPROVED — P0 ACTIVE / E1-01 COMPLETE / E1-02 AUTHORIZED  
+> Status: APPROVED — P0 ACTIVE / E1-01 COMPLETE / E1-02 COMPLETE FOR REVIEW  
 > Purpose: redirect Precision Research from evidence-system expansion toward Story State, State Transition, and Story Decision support.  
 > Constraint: no new large Precision Research begins from this roadmap until user approval.
 
@@ -114,7 +114,7 @@ Source repair becomes a local gate inside active mechanism research.
 | Q2-01 | Active causal model construction | KEEP — P0 | Central to what audience believes happened and why |
 | Q2-02 | Event / state updating | KEEP — P0 | Directly defines State and Transition |
 | Q2-03 | Appraisal → emotion | KEEP — P0 | Central bridge from meaning/state change to experience change |
-| Q2-04 | Capacity-limited processing | KEEP — P1 | Cross-cutting constraint on what can be processed at a state |
+| Q2-04 | Capacity-limited processing | KEEP — P0 #7 | Cross-cutting constraint on what can be processed at a state |
 
 **Decision:** this becomes the new starting research wave.
 
@@ -856,4 +856,4 @@ MODEL UPDATE
 NEXT QUESTION / EXPECTATION
 ```
 
-P0 direction is approved. E1-01 is complete. E1-02 is authorized now. E1-03 and later research must not start automatically after E1-02.
+P0 direction is approved. E1-01 and E1-02 are complete for review. E1-03 and later research must not start automatically without user approval.
