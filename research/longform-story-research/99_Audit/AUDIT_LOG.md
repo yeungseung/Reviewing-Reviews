@@ -559,3 +559,64 @@ Mayer's segmenting principle is about manageable/learner-paced segments. Some ex
 Audit disposition:
 KEEP M4 Capacity-Limited Processing as an A-priority mechanism.
 DROP universal timing constants until directly tested in comparable longform/video conditions.
+
+
+### E-018 — Curiosity / Need-for-Closure family: real theory, causal/quantitative inflation
+Status: MECHANISM SUPPORTED / METADATA INFLATED
+Severity: MEDIUM/HIGH
+
+Loewenstein (1994):
+- verified as a Psychological Bulletin review/reinterpretation
+- proposes curiosity as cognitively induced deprivation arising from a perceived knowledge/understanding gap
+
+Repository inflation in `SRC-1994-034`:
+- "Comprehensive meta-analytic review" is too strong
+- relationship_type = "Causal" is not an appropriate summary of a theoretical/review paper
+- direct claim that the mechanism drives longform completion is a Story Engine transfer
+
+Kruglanski & Webster (1996):
+- verified as a theoretical framework/review of need for cognitive closure
+- distinguishes urgency ("seizing") and permanence ("freezing")
+- closure can be both trait-like and situationally evoked
+
+Repository inflation in `SRC-1996-139`:
+- "multi-study review across thousands of subjects"
+- generalized p<.001 claim
+- commercial mass audiences and fatigued modern viewers asserted to have higher closure need
+- open endings predicted to cause extreme anger/rating attacks
+
+Audit disposition:
+KEEP M5 Curiosity/Uncertainty as a strong cross-theme research target.
+Separate:
+- information-gap curiosity
+- tolerance of ambiguity
+- need for closure
+- suspense
+- narrative promise/payoff
+
+Do not assume they are one mechanism or one audience state.
+
+### E-019 — Trust / correction / source monitoring family: strong mechanism, exact percentages weak
+Status: MECHANISM SUPPORTED / QUANTIFICATION HIGH-RISK
+Severity: HIGH
+
+Lewandowsky et al. (2012):
+- verified review of misinformation, continued influence, memory updating, and correction/debiasing
+- supports the importance of alternative explanations and correction design
+
+Repository `SRC-2012-582` adds:
+- "50% 이상" continued reliance
+- "18% 이하" after alternative explanation
+These exact values are not established by the verified abstract and require source-level tracing.
+
+Johnson, Hashtroudi & Lindsay (1993):
+- verified source-monitoring framework publication
+- provides a foundational account of how people attribute memories to sources
+
+Repository `SRC-1993-584` adds:
+- "40% 이상" external-source-monitoring error from vivid reenactment/fake graphics
+This exact quantified claim is not supported by the verified bibliographic record inspected.
+
+Audit disposition:
+M9 Trust/Provenance remains a strong high-priority mechanism family.
+This strengthens the case for researching #60–#63 next with Claude under stricter evidence rules.
