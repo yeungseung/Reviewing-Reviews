@@ -1,0 +1,249 @@
+[
+  {
+    "id": "LSEv2_#11_T01",
+    "item": 11,
+    "theme": 1,
+    "report": "20_Research_Reports/#11_감정_파형/LSEv2_#11_T01_파형_구조와_정서적_경험.md",
+    "sourceIds": [
+      "SRC-2008-085",
+      "SRC-1993-010",
+      "SRC-2003-086",
+      "SRC-1974-077",
+      "SRC-2016-008",
+      "SRC-2021-009",
+      "SRC-1960-049",
+      "SRC-1998-081",
+      "SRC-1983-071",
+      "SRC-2002-033"
+    ]
+  },
+  {
+    "id": "LSEv2_#11_T02",
+    "item": 11,
+    "theme": 2,
+    "report": "20_Research_Reports/#11_감정_파형/LSEv2_#11_T02_Peak를_만들기_위한_저점의_역할.md",
+    "sourceIds": [
+      "SRC-1964-087",
+      "SRC-2003-086",
+      "SRC-1998-088",
+      "SRC-1983-071",
+      "SRC-1996-058",
+      "SRC-1996-070",
+      "SRC-2008-085",
+      "SRC-1974-077"
+    ]
+  },
+  {
+    "id": "LSEv2_#12_T01",
+    "item": 12,
+    "theme": 1,
+    "report": "20_Research_Reports/#12_소재별_감정_장르는_달라져야_한다/LSEv2_#12_T01_장르별_Emotional_Arc_비교.md",
+    "sourceIds": [
+      "SRC-1980-089",
+      "SRC-1994-034",
+      "SRC-2009-044",
+      "SRC-2002-090",
+      "SRC-2009-041",
+      "SRC-2003-051",
+      "SRC-1993-050",
+      "SRC-2000-047",
+      "SRC-1978-061",
+      "SRC-1959-018",
+      "SRC-1996-058",
+      "SRC-1991-002"
+    ]
+  },
+  {
+    "id": "LSEv2_#12_T02",
+    "item": 12,
+    "theme": 2,
+    "report": "20_Research_Reports/#12_소재별_감정_장르는_달라져야_한다/LSEv2_#12_T02_고정_감정_순서의_위험.md",
+    "sourceIds": [
+      "SRC-1984-091",
+      "SRC-1998-088",
+      "SRC-2006-092",
+      "SRC-2009-044",
+      "SRC-2003-086",
+      "SRC-1994-034"
+    ]
+  },
+  {
+    "id": "LSEv2_#13_T01",
+    "item": 13,
+    "theme": 1,
+    "report": "20_Research_Reports/#13_Human_Value/LSEv2_#13_T01_인간_가치와_정서적_Stakes.md",
+    "sourceIds": [
+      "SRC-1992-093",
+      "SRC-1978-061",
+      "SRC-2000-094",
+      "SRC-1993-010",
+      "SRC-2017-078",
+      "SRC-2017-080",
+      "SRC-1995-095",
+      "SRC-1980-089",
+      "SRC-1991-074"
+    ]
+  },
+  {
+    "id": "LSEv2_#13_T02",
+    "item": 13,
+    "theme": 2,
+    "report": "20_Research_Reports/#13_Human_Value/LSEv2_#13_T02_Stakes의_종류와_장르별_작동.md",
+    "sourceIds": [
+      "SRC-1997-096",
+      "SRC-2013-097",
+      "SRC-1978-061",
+      "SRC-1980-089",
+      "SRC-1995-095",
+      "SRC-2000-094",
+      "SRC-1966-027",
+      "SRC-1991-074",
+      "SRC-2002-090",
+      "SRC-1996-012",
+      "SRC-2000-047"
+    ]
+  },
+  {
+    "id": "LSEv2_#13_T03",
+    "item": 13,
+    "theme": 3,
+    "report": "20_Research_Reports/#13_Human_Value/LSEv2_#13_T03_Human_Value_과잉왜곡의_위험.md",
+    "sourceIds": [
+      "SRC-1966-027",
+      "SRC-1994-024",
+      "SRC-2010-098",
+      "SRC-1998-052",
+      "SRC-1980-099",
+      "SRC-2007-068",
+      "SRC-1996-031",
+      "SRC-1964-087",
+      "SRC-1999-005",
+      "SRC-1994-034",
+      "SRC-2006-060",
+      "SRC-2003-051",
+      "SRC-2006-092",
+      "SRC-1985-022",
+      "SRC-1997-096",
+      "SRC-2007-063"
+    ]
+  },
+  {
+    "id": "LSEv2_#14_T01",
+    "item": 14,
+    "theme": 1,
+    "report": "20_Research_Reports/#14_Stake_Question/LSEv2_#14_T01_Stakes_명료성과_몰입.md",
+    "sourceIds": [
+      "SRC-2000-083",
+      "SRC-1981-100",
+      "SRC-1988-101",
+      "SRC-1994-034",
+      "SRC-1988-028",
+      "SRC-1993-010",
+      "SRC-1996-070",
+      "SRC-1996-058",
+      "SRC-1996-038",
+      "SRC-2007-068",
+      "SRC-2010-098",
+      "SRC-1997-096",
+      "SRC-1985-059",
+      "SRC-2007-063",
+      "SRC-2009-044",
+      "SRC-2005-032"
+    ]
+  },
+  {
+    "id": "LSEv2_#14_T02",
+    "item": 14,
+    "theme": 2,
+    "report": "20_Research_Reports/#14_Stake_Question/LSEv2_#14_T02_Stakes의_크기보다_의미.md",
+    "sourceIds": [
+      "SRC-1981-100",
+      "SRC-1990-102",
+      "SRC-1988-103",
+      "SRC-1995-095",
+      "SRC-2010-098",
+      "SRC-2003-087",
+      "SRC-1997-096"
+    ]
+  },
+  {
+    "id": "LSEv2_#15_T01",
+    "item": 15,
+    "theme": 1,
+    "report": "20_Research_Reports/#15_Human_Scale/LSEv2_#15_T01_Human_Scale_변환의_인지_효과.md",
+    "sourceIds": [
+      "SRC-1986-067",
+      "SRC-2010-104",
+      "SRC-1983-105",
+      "SRC-2003-087",
+      "SRC-1981-100",
+      "SRC-2010-098"
+    ]
+  },
+  {
+    "id": "LSEv2_#15_T02",
+    "item": 15,
+    "theme": 2,
+    "report": "20_Research_Reports/#15_Human_Scale/LSEv2_#15_T02_Human_Scale과_감정·공감.md",
+    "sourceIds": [
+      "SRC-2003-087",
+      "SRC-2005-106",
+      "SRC-2010-098",
+      "SRC-2007-107",
+      "SRC-1980-099",
+      "SRC-1997-096"
+    ]
+  },
+  {
+    "id": "LSEv2_#15_T03",
+    "item": 15,
+    "theme": 3,
+    "report": "20_Research_Reports/#15_Human_Scale/LSEv2_#15_T03_분야별_Human_Scale_구현.md",
+    "sourceIds": [
+      "SRC-2006-108",
+      "SRC-2007-109",
+      "SRC-1983-105",
+      "SRC-2010-104"
+    ]
+  },
+  {
+    "id": "LSEv2_#16_T01",
+    "item": 16,
+    "theme": 1,
+    "report": "20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T01_구체적_디테일의_정서기억_효과.md",
+    "sourceIds": [
+      "SRC-1986-067",
+      "SRC-2009-112",
+      "SRC-2007-111",
+      "SRC-1982-110",
+      "SRC-1998-052",
+      "SRC-1980-099",
+      "SRC-1995-015"
+    ]
+  },
+  {
+    "id": "LSEv2_#16_T02",
+    "item": 16,
+    "theme": 2,
+    "report": "20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T02_Detail_before_Scale_vs_Scale_b.md",
+    "sourceIds": [
+      "SRC-2004-113",
+      "SRC-2007-107",
+      "SRC-1978-114",
+      "SRC-1974-115",
+      "SRC-2010-098",
+      "SRC-2005-106"
+    ]
+  },
+  {
+    "id": "LSEv2_#16_T03",
+    "item": 16,
+    "theme": 3,
+    "report": "20_Research_Reports/#16_감정적으로_강한_디테일/LSEv2_#16_T03_사실_기반_디테일의_신뢰_문제.md",
+    "sourceIds": [
+      "SRC-1980-116",
+      "SRC-2012-117",
+      "SRC-2001-118"
+    ]
+  }
+]
