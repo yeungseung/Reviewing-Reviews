@@ -666,3 +666,81 @@ Therefore Pattern Map v2 must score:
 2. individual source-record integrity
 
 separately.
+
+
+# 8. Prediction / State Update Split
+
+The audit no longer treats M7 "Prediction / Expectation" as one mechanism.
+
+## M7-A — Event-model prediction and boundary updating
+Core sources:
+- Zacks et al. (2007)
+- Kurby & Zacks (2008)
+- narrative event-boundary work
+
+Relationship to M2:
+This is probably **part of M2 Event/State Updating**, not a separate top-level mechanism.
+
+Candidate engine interpretation:
+> Maintain a current event model; meaningful changes that increase local prediction error can trigger event-model updating and segmentation.
+
+Do not attach fixed timing, fixed number of dimensions, or retention percentages without direct evidence.
+
+## M7-B — Narrative expectation / suspense / curiosity / surprise
+Core sources:
+- Gerrig & Bernardo (1994)
+- Hoeken & van Vliet (2000)
+- other direct narrative-processing experiments to be added in precision research
+
+This is the strongest candidate for a true **story-specific Prediction/Expectation module**.
+
+## M7-C — Mnemonic prediction error and memory updating
+Core source:
+- Sinclair et al. (2021)
+
+This is a useful bridge between narrative videos and memory updating.
+
+It should not be collapsed into pleasure/reward.
+
+## M7-D — Reward prediction error
+Core source:
+- Schultz, Dayan & Montague (1997)
+
+This is a reinforcement-learning/reward mechanism.
+Potential Story Engine transfer is plausible only when a genuine reward/value outcome is involved and requires bridge evidence.
+
+Do not equate "unexpected plot event" with "positive reward prediction error."
+
+## M7-E — Predictive processing / FEP
+Core sources:
+- Friston
+- Clark / predictive-processing theory
+
+Use as theoretical background, not direct proof of narrative retention or binge-watching.
+
+## M7-F — Counterfactual simulation
+Core source:
+- Roese (1997)
+
+Move out of Prediction Engine.
+Counterfactual thinking is primarily retrospective causal/emotional simulation and may belong under:
+- causal attribution
+- regret/responsibility
+- appraisal/emotion
+- choice/consequence
+
+## M7-G — Complexity / epistemic curiosity
+Core sources:
+- Kidd et al. (2012)
+- Kang et al. (2009)
+
+Move primarily to M5 Curiosity/Managed Uncertainty.
+
+## Research Map v2 implication
+
+Current #29–#31 likely require:
+- SPLIT
+- MERGE with M2/M5 where appropriate
+- retain a smaller story-specific Expectation/Suspense/Surprise module
+
+This is a major example of how the remaining research direction should change before all 86 original categories are completed.
