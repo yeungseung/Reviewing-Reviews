@@ -1,0 +1,290 @@
+research_id: "Q1-01"
+ledger_version: "0.1"
+status: "PROVISIONAL"
+
+sources:
+
+  - source_id: "Q1S-001"
+    title: "Chapter 14: Completing ‘Summary of findings’ tables and grading the certainty of the evidence"
+    authors_or_issuer: "Cochrane Handbook / Schünemann et al."
+    year: "2024 handbook; chapter updated 2023"
+    stable_url: "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-14"
+    source_type: "AUTHORITATIVE_METHODS_HANDBOOK"
+    lane: "research_methodology"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports multidimensional certainty assessment."
+      - "Supports separation of study type from certainty."
+      - "Provides risk of bias, inconsistency, indirectness, imprecision, publication bias domains."
+    source_family: "COCHRANE_GRADE_CH14"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-002"
+    title: "Grading a Body of Evidence on Diagnostic Tests"
+    authors_or_issuer: "AHRQ Effective Health Care Program"
+    year: 2012
+    stable_url: "https://effectivehealthcare.ahrq.gov/products/methods-guidance-tests-grading/methods"
+    source_type: "AUTHORITATIVE_METHODS_GUIDE"
+    lane: "research_methodology"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports risk of bias, directness, consistency, precision, publication bias as separate dimensions."
+      - "Supports adapting evidence assessment to the type of research question."
+    source_family: "AHRQ_METHODS_DIAGNOSTIC"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-003"
+    title: "Assessing the Applicability of Studies When Comparing Medical Interventions"
+    authors_or_issuer: "AHRQ Effective Health Care Program / Atkins et al."
+    year: 2010
+    stable_url: "https://effectivehealthcare.ahrq.gov/products/methods-guidance-applicability/methods"
+    source_type: "AUTHORITATIVE_METHODS_GUIDE"
+    lane: "research_methodology"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports separating applicability/generalizability from internal validity."
+      - "Supports explicit population, setting, intervention, outcome context."
+    source_family: "AHRQ_APPLICABILITY"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-004"
+    title: "New evidence pyramid"
+    authors_or_issuer:
+      - "M Hassan Murad"
+      - "Noor Asi"
+      - "Mouaz Alsawas"
+      - "Fares Alahdab"
+    year: 2016
+    doi: "10.1136/ebmed-2016-110401"
+    source_type: "PEER_REVIEWED_METHODS_ARTICLE"
+    lane: "research_methodology"
+    verification_status: "VERIFIED_METADATA_ABSTRACT"
+    role:
+      - "Supports critique of a simplistic evidence pyramid."
+      - "Used as contextual evidence that systematic reviews/study designs should not be treated as a context-free universal ladder."
+    source_family: "MURAD_NEW_EVIDENCE_PYRAMID"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-005"
+    title: "Chapter 21: Qualitative evidence"
+    authors_or_issuer: "Cochrane Handbook / Noyes et al."
+    year: "2024 handbook; chapter last updated 2019"
+    stable_url: "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-21"
+    source_type: "AUTHORITATIVE_METHODS_HANDBOOK"
+    lane: "qualitative_evidence"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports distinct role of qualitative evidence for context, experience, implementation, and stakeholder perspective."
+      - "Supports CERQual-style dimensions rather than forcing qualitative findings into a quantitative experiment hierarchy."
+    source_family: "COCHRANE_QUALITATIVE_CH21"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-006"
+    title: "GRADE-CERQual qualitative evidence confidence overview"
+    authors_or_issuer: "World Health Organization"
+    year: 2018
+    stable_url: "https://www.who.int/news/item/18-01-2018-new-series-published-to-support-the-use-of-qualitative-research-in-decision-making"
+    source_type: "AUTHORITATIVE_INSTITUTIONAL_SUMMARY"
+    lane: "qualitative_evidence"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports methodological limitations, coherence, adequacy, and relevance as confidence dimensions."
+      - "Supports use of qualitative evidence in decision-making."
+    source_family: "GRADE_CERQUAL_WHO"
+    independence: "RELATED_RESEARCH_PROGRAM"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-007"
+    title: "SPJ Code of Ethics"
+    authors_or_issuer: "Society of Professional Journalists"
+    year: "2014 current code at research date"
+    stable_url: "https://www.spj.org/spj-code-of-ethics/"
+    source_type: "PROFESSIONAL_STANDARD"
+    lane: "journalism"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports verification before publication, use of original sources where possible, and contextualization."
+    source_family: "SPJ_CODE"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-008"
+    title: "Reuters Journalistic Standards"
+    authors_or_issuer: "Reuters"
+    year: "current at research date"
+    stable_url: "https://reutersagency.com/about/standards-values/"
+    source_type: "PROFESSIONAL_STANDARD"
+    lane: "journalism"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports named-source preference, source-context disclosure, cross-checking, and source motive/track-record assessment."
+      - "Supports corroboration as distinct from mere source count."
+    source_family: "REUTERS_STANDARDS"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-009"
+    title: "What is a primary source?"
+    authors_or_issuer: "Library of Congress"
+    year: 2020
+    stable_url: "https://ask.loc.gov/faq/303148"
+    source_type: "AUTHORITATIVE_REFERENCE"
+    lane: "provenance"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports primary/secondary as provenance/origin distinctions."
+      - "Used with journalism standards to reject PRIMARY=TRUE."
+    source_family: "LOC_PRIMARY_SECONDARY"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-010"
+    title: "Objectivity / ICD 203 Analytic Standards"
+    authors_or_issuer: "Office of the Director of National Intelligence"
+    year: "ICD 203 revised 2023"
+    stable_url: "https://www.dni.gov/index.php/how-we-work/objectivity"
+    source_type: "AUTHORITATIVE_ANALYTIC_STANDARD"
+    lane: "analytic_reasoning"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports separate assessment of source/data/method quality, uncertainty, assumptions/judgments, and alternatives."
+    source_family: "ODNI_ICD203"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-011"
+    title: "Source Citations"
+    authors_or_issuer: "Office of the Director of National Intelligence / IC CIO"
+    year: "current specification overview"
+    stable_url: "https://www.dni.gov/index.php/ncsc-how-we-work/ncsc-know-the-risk-raise-your-shield/ncsc-awareness-materials/cyber-training-series/223-about/organization/chief-information-officer/2806-source-citations"
+    source_type: "AUTHORITATIVE_TECHNICAL_STANDARD_OVERVIEW"
+    lane: "provenance"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports traceability from collected information to analytic judgments."
+      - "Supports machine-readable source citation/provenance requirement."
+    source_family: "ODNI_SOURCE_CITATION"
+    independence: "RELATED_RESEARCH_PROGRAM"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-012"
+    title: "Expert Elicitation: Using the Classical Model to Validate Experts’ Judgments"
+    authors_or_issuer:
+      - "Abigail R. Colson"
+      - "Roger M. Cooke"
+    year: 2018
+    doi: "10.1093/reep/rex022"
+    source_type: "PEER_REVIEWED_REVIEW_METHODS_ARTICLE"
+    lane: "expert_judgment"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports expert judgment as structured uncertain evidence rather than direct fact."
+      - "Supports calibration/validation of expert judgments."
+    source_family: "COLSON_COOKE_EXPERT_ELICITATION"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+    note: "Paper contains quantitative validation results, but Q1-01 does not use those values to define Story Engine thresholds."
+
+  - source_id: "Q1S-013"
+    title: "Federal Rules of Evidence Rule 602 — Need for Personal Knowledge"
+    authors_or_issuer: "U.S. Federal Rules of Evidence / Cornell LII"
+    year: "current rule"
+    stable_url: "https://www.law.cornell.edu/rules/fre/rule_602"
+    source_type: "LEGAL_RULE_REFERENCE"
+    lane: "legal_comparative"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports distinction between personal observation and testimony outside personal knowledge."
+    source_family: "FRE_602"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-014"
+    title: "Federal Rules of Evidence Rule 702 — Testimony by Expert Witnesses"
+    authors_or_issuer: "U.S. Federal Rules of Evidence / Cornell LII"
+    year: "current rule"
+    stable_url: "https://www.law.cornell.edu/rules/fre/rule_702"
+    source_type: "LEGAL_RULE_REFERENCE"
+    lane: "legal_comparative"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports expert opinion as a distinct evidentiary role requiring relevant expertise and reliable methods."
+    source_family: "FRE_702"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+    boundary: "Legal admissibility is not imported as a universal truth standard."
+
+  - source_id: "Q1S-015"
+    title: "Direct evidence / Circumstantial evidence"
+    authors_or_issuer: "Cornell Legal Information Institute"
+    year: "current reference"
+    stable_urls:
+      - "https://www.law.cornell.edu/wex/direct_evidence"
+      - "https://www.law.cornell.edu/wex/circumstantial_evidence"
+    source_type: "LEGAL_REFERENCE"
+    lane: "legal_comparative"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports distinction between direct support and support requiring additional inference."
+    source_family: "LII_DIRECT_CIRCUMSTANTIAL"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-016"
+    title: "Online Review Solicitations Reduce Extremity Bias in Online Review Distributions and Increase Their Representativeness"
+    authors_or_issuer:
+      - "Hülya Karaman"
+    year: 2020
+    doi: "10.1287/mnsc.2020.3758"
+    source_type: "PEER_REVIEWED_EMPIRICAL_ARTICLE"
+    lane: "reviews_social_reaction"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports self-selection/extremity bias in unsolicited online reviews."
+      - "Supports separating reviewer population from customer population."
+    source_family: "KARAMAN_REVIEW_BIAS"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-017"
+    title: "The Platform Matters: Selection and Measurement Bias in Online Reviews"
+    authors_or_issuer:
+      - "Saram Han"
+      - "Christopher K. Anderson"
+    year: 2026
+    doi: "10.1177/19389655251327536"
+    source_type: "PEER_REVIEWED_EMPIRICAL_ARTICLE"
+    lane: "reviews_social_reaction"
+    verification_status: "VERIFIED_METADATA_ABSTRACT"
+    role:
+      - "Supports platform-dependent nonresponse and measurement bias."
+      - "Supports explicit representativeness metadata for review evidence."
+    source_family: "HAN_ANDERSON_PLATFORM_REVIEWS"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+  - source_id: "Q1S-018"
+    title: "NIST Research Data Framework (RDaF)"
+    authors_or_issuer: "National Institute of Standards and Technology"
+    year: "Revision 2"
+    stable_url: "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/1500-18/NIST.SP.1500-18r2.html"
+    source_type: "AUTHORITATIVE_DATA_GOVERNANCE_FRAMEWORK"
+    lane: "data_provenance"
+    verification_status: "VERIFIED"
+    role:
+      - "Supports provenance metadata as necessary for assessing data quality and reliability."
+    source_family: "NIST_RDAF"
+    independence: "INDEPENDENT"
+    quantitative_claims_used: false
+
+negative_or_boundary_findings:
+  - "No source located supports a universal one-dimensional truth score across scientific, journalistic, legal, qualitative, review, and forecast evidence."
+  - "Primary/secondary terminology is domain-dependent and should not be used alone as a strength rating."
+  - "Legal admissibility concepts are useful comparisons but are not direct scientific evidence-quality rules."
+  - "GRADE/CERQual are domain-specific confidence systems, not universal Story Engine scoring formulas."
+  - "Online reviews/comments may be valid evidence of individual experience or discourse but do not automatically support population prevalence."
